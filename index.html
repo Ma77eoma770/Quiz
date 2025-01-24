@@ -125,7 +125,6 @@
             }
         }
 
-        function loadQuestions(event) {
             window.onload = function () {
                 fetch('questions.json')
                     .then(response => response.json())
@@ -140,7 +139,6 @@
                     });
             };
 
-        }
 
         function displayQuestions() {
             quizContainer.innerHTML = "";
