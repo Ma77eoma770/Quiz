@@ -1,0 +1,123 @@
+[
+    {
+        "question": "Nella seguente rappresentazione dell’economia keynesiana (modello semplice con sola parte reale), cosa rappresenta la grandezza N?",
+        "options": [
+            "una variabile esogena",
+            "un disturbo stocastico (shock)",
+            "una variabile endogena",
+            "un parametro"
+        ],
+        "correctIndex": 0,
+        "answer": "una variabile esogena is the correct answer."
+    },
+    {
+        "question": "Perché un sistema bancario con riserva frazionaria crea mezzi di pagamento ma non ricchezza?",
+        "options": [
+            "La maggiore quantità di moneta è sempre un’attività per la banca centrale",
+            "Ai prestiti bancari concessi ai privati corrisponde un uguale ammontare di nuovi debiti",
+            "La maggiore quantità di moneta è sempre una passività per la banca centrale",
+            "Le banche non trattengono l’intera quantità di moneta che viene depositata, ma solo una frazione di essa"
+        ],
+        "correctIndex": 3,
+        "answer": "Le banche non trattengono l’intera quantità di moneta che viene depositata, ma solo una frazione di essa is the correct answer."
+    },
+    {
+        "question": "Cosa afferma la regola aurea della politica dei redditi?",
+        "options": [
+            "L’inflazione rimane costante, i salari crescono in linea con la produttività",
+            "Il policymaker potrà mantenere constante l’inflazione se garantirà una distribuzione del reddito invariata.",
+            "Il policymaker potrà ottenere un certo numero di obiettivi fissati se controlla un uguale numero di strumenti indipendenti.",
+            "Accettando una determinata distribuzione iniziale del reddito, l’inflazione rimane costante se i salari crescono con la produttività."
+        ],
+        "correctIndex": 3,
+        "answer": "Accettando una determinata distribuzione iniziale del reddito, l’inflazione rimane costante se i salari crescono con la produttività is the correct answer."
+    },
+    {
+        "question": "Cosa afferma la regola aurea della politica economica?",
+        "options": [
+            "Gli obiettivi possono essere scambiati tra loro con un rapporto che dipende dai loro livelli iniziali",
+            "Il numero degli strumenti indipendenti è almeno pari al numero degli obiettivi",
+            "Gli obiettivi possono essere scambiati tra loro con un rapporto che non dipende dai loro livelli iniziali",
+            "Quando gli obiettivi sono pari più numerosi degli strumenti, si raggiungeranno un numero minore degli obiettivi (pari agli strumenti) secondo la priorità precedentemente assegnata ai vari obiettivi"
+        ],
+        "correctIndex": 3,
+        "answer": "Quando gli obiettivi sono pari più numerosi degli strumenti, si raggiungeranno un numero minore degli obiettivi (pari agli strumenti) secondo la priorità precedentemente assegnata ai vari obiettivi is the correct answer."
+    },
+    {
+        "question": "In una economia aperta, perché la pendenza della IS è maggiore rispetto al caso di economia chiusa?",
+        "options": [
+            "Il moltiplicatore è maggiore, perché alcuni beni sono acquistati da residenti esteri (esportazioni).",
+            "Il moltiplicatore è maggiore, perché parte del reddito è utilizzata per l’acquisto dei beni esteri (importazioni).",
+            "Il moltiplicatore è minore, perché parte del reddito è utilizzata per l’acquisto dei beni esteri (importazioni)",
+            "Il moltiplicatore è minore perché alcuni beni sono acquistati da residenti esteri (esportazioni)"
+        ],
+        "correctIndex": 0,
+        "answer": "Il moltiplicatore è maggiore, perché alcuni beni sono acquistati da residenti esteri (esportazioni). is the correct answer."
+    },
+    {
+        "question": "Assumendo un surplus della BP, l’aggiustamento basato sui prezzi (cambi fissi) è descritto come:",
+        "options": [
+            "L’aumento della quantità di moneta comporterà una riduzione dei prezzi, la competitività si riduce, quindi il surplus si riduce.",
+            "L’aumento della quantità di moneta comporterà un aumento dei prezzi, la competitività si riduce, quindi il surplus si riduce.",
+            "La riduzione della quantità di moneta comporterà un aumento dei prezzi, la competitività si riduce, quindi il surplus si riduce.",
+            "La riduzione della quantità di moneta comporterà una riduzione dei prezzi, la competitività si riduce, quindi il surplus si riduce."
+        ],
+        "correctIndex": 1,
+        "answer": "L’aumento della quantità di moneta comporterà un aumento dei prezzi, la competitività si riduce, quindi il surplus si riduce. is the correct answer."
+    },
+    {
+        "question": "Assumendo un deficit della BP, l’aggiustamento basato sui prezzi (cambi fissi) è descritto come:",
+        "options": [
+            "L’aumento della quantità di moneta comporterà una riduzione dei prezzi, la competitività aumenta, quindi il deficit si riduce.",
+            "L’aumento della quantità di moneta comporterà una riduzione dei prezzi, la competitività aumento, quindi il deficit si riduce.",
+            "La riduzione della quantità di moneta comporterà una riduzione dei prezzi, la competitività aumenta, quindi il deficit si riduce.",
+            "L’aumento della quantità di moneta comporterà un aumento dei prezzi, la competitività aumenta, quindi il deficit si riduce."
+        ],
+        "correctIndex": 0,
+        "answer": "L’aumento della quantità di moneta comporterà una riduzione dei prezzi, la competitività aumenta, quindi il deficit si riduce. is the correct answer."
+    },
+    {
+        "question": "Cosa sono i beni meritori?",
+        "options": [
+            "Beni caratterizzati da rivalità e non escludibilità",
+            "Beni per i quali lo stato vuole assicurare un certo livello di consumo, al di là e al di sopra della quantità che ne viene autonomamente domandata dai vari individui",
+            "Beni per i quali a fronte di effetti positivi sul consumo di un soggetto derivanti dal consumo di un altro soggetto non viene corrisposto alcun prezzo",
+            "Beni per i quali lo stato vuole assicurare un livello di consumo almeno pari alla quantità che viene autonomamente domandata dai vari individui"
+        ],
+        "correctIndex": 1,
+        "answer": "Beni per i quali lo stato vuole assicurare un certo livello di consumo, al di là e al di sopra della quantità che ne viene autonomamente domandata dai vari individui is the correct answer."
+    },
+    {
+        "question": "Quale tra queste affermazioni può essere considerata neoclassica?",
+        "options": [
+            "Il sistema capitalistico è in grado di realizzare equilibri ottimali e stabili (pieno occupazione).",
+            "La spesa per investimenti delle imprese dipende dalle aspettative e dagli umori degli imprenditori (animal spirit).",
+            "I prezzi non sono perfettamente flessibili ma vischiosi.",
+            "Il sistema capitalistico non è in grado di assicurare stabilità e piena occupazione"
+        ],
+        "correctIndex": 0,
+        "answer": "Il sistema capitalistico è in grado di realizzare equilibri ottimali e stabili (pieno occupazione). is the correct answer."
+    },
+    {
+        "question": "Quale tra queste affermazioni può essere considerata neoclassica?",
+        "options": [
+            "I prezzi non sono perfettamente flessibili ma vischiosi.",
+            "La disoccupazione è involontaria.",
+            "La velocità di circolazione della moneta è pro ciclica (cresce nell’espansione e si riduce durante le recessioni).",
+            "La disoccupazione è volontaria."
+        ],
+        "correctIndex": 3,
+        "answer": "La disoccupazione è volontaria. is the correct answer."
+    },
+    {
+        "question": "Quale tra queste affermazioni può essere considerata neoclassica?",
+        "options": [
+            "I prezzi non sono perfettamente flessibili ma vischiosi.",
+            "La velocità di circolazione della moneta è pro ciclica (cresce nell’espansione e si riduce durante le recessioni).",
+            "La politica fiscale è scarsamente efficace (o del tutto inefficace) a causa dello spiazzamento finanziario o reale.",
+            "Le politiche monetarie fiscali servono a stabilizzare l’economia su livelli di occupazione accettabili."
+        ],
+        "correctIndex": 2,
+        "answer": "La politica fiscale è scarsamente efficace (o del tutto inefficace) a causa dello spiazzamento finanziario o reale. is the correct answer."
+    }
+]
