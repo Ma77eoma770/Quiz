@@ -127,7 +127,7 @@
         }
 
         function loadQuestionsFromFile() {
-            fetch("/data/domande.json") // Percorso del file JSON
+            fetch("domande.json") // Percorso del file JSON
                 .then((response) => {
                     if (!response.ok) {
                         throw new Error("Failed to load questions file");
