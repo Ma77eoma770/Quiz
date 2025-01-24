@@ -1,0 +1,783 @@
+[
+    {
+        "question": "A cosa è dovuto il monopolio naturale?",
+        "options": [
+            "All’andamento decrescente del costo unitario nel tratto rilevante della domanda per la forte incidenza dei costi fissi",
+            "Alla costanza del costo marginale",
+            "All’andamento crescente del costo unitario nel tratto rilevante della domanda per la forte incidenza dei costi",
+            "Al fatto che i costi marginali eccedono i costi medi a causa degli elevati costi fissi"
+        ],
+        "correctIndex": 0,
+        "answer": "All’andamento decrescente del costo unitario nel tratto rilevante della domanda per la forte incidenza dei costi fissi is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione ∆𝑤 = − 𝑎𝑢 + ∆𝑝^𝑒 nella seguente rappresentazione della dinamica dei prezzi?",
+        "options": [
+            "La curva di Phillips originaria",
+            "La curva di Phillips derivata",
+            "La legge di Okun",
+            "L’equazione della fissazione dei prezzi (costo pieno)"
+        ],
+        "correctIndex": 0,
+        "answer": "La curva di Phillips originaria is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione ∆𝑝 = ∆𝑤 − ∆π + ∆(1 + 𝑔) nella seguente rappresentazione della dinamica dei prezzi?",
+        "options": [
+            "L’equazione della fissazione dei prezzi (costo pieno)",
+            "La curva di Phillips derivata",
+            "La curva di Phillips originaria",
+            "La legge di Okun"
+        ],
+        "correctIndex": 0,
+        "answer": "L’equazione della fissazione dei prezzi (costo pieno) is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione ∆𝑝 + ∆π − ∆(1 + 𝑔) =− 𝑎𝑢 + ∆𝑝^𝑒 nella seguente rappresentazione della dinamica dei prezzi?",
+        "options": [
+            "La curva di Phillips derivata",
+            "La curva di Phillips originaria",
+            "La legge di Okun",
+            "L’equazione della fissazione dei prezzi (costo pieno)"
+        ],
+        "correctIndex": 0,
+        "answer": "La curva di Phillips derivata is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione ∆𝑦 = − φ ∙ ∆u nella seguente rappresentazione della dinamica dei prezzi?",
+        "options": [
+            "La legge di Okun",
+            "La curva di Phillips derivata",
+            "La curva di Phillips originaria",
+            "L’equazione della fissazione dei prezzi (costo pieno)"
+        ],
+        "correctIndex": 0,
+        "answer": "La legge di Okun is the correct answer."
+    },
+    {
+        "question": "Cosa evidenzia il dilemma di Triffin?",
+        "options": [
+            "Un difetto del sistema a cambio aureo: se il contenuto in oro della moneta di riserva è mantenuto costante il sistema rischia di non fornire sufficiente liquidità internazionale",
+            "le difficoltà di perseguire simultaneamente l’equilibrio della bilancia dei pagamenti e del pieno impiego",
+            "le difficoltà che si frappongono a un paese che voglia rivolgersi al fondo monetario internazionale per un prestito senza dover subire condizionamenti nella gestione della politica economica interna",
+            "I problemi di sostenibilità del debito pubblico"
+        ],
+        "correctIndex": 0,
+        "answer": "Un difetto del sistema a cambio aureo: se il contenuto in oro della moneta di riserva è mantenuto costante il sistema rischia di non fornire sufficiente liquidità internazionale is the correct answer."
+    },
+    {
+        "question": "Quando si parla di beni pubblici impuri?",
+        "options": [
+            "Quando i beni possono avere diversi gradi di non rivalità e non escludibilità",
+            "Quando la natura di bene pubblico dipende dalle condizioni dei mercati e dai livelli tecnologici raggiunti",
+            "Quando per essi lo Stato vuole assicurare un certo livello di consumo, al di là e al di sopra della quantità che ne viene autonomamente domandata dai vari individui",
+            "Quando si parla di beni associati a situazioni nelle quali l’azione di un operatore causa vantaggi o danni ad altri, senza che perciò si paghi un prezzo"
+        ],
+        "correctIndex": 0,
+        "answer": "Quando i beni possono avere diversi gradi di non rivalità e non escludibilità is the correct answer."
+    },
+    {
+        "question": "Quale tra queste affermazioni può essere considerata keynesiana?",
+        "options": [
+            "La spesa per investimenti delle imprese dipende dalle aspettative e dagli umori degli imprenditori (animal spirits)",
+            "un aumento della quantità di moneta in circolazione comporta un immediato pari aumento nel livello dei prezzi",
+            "La disoccupazione è sempre volontaria",
+            "Il sistema capitalistico è in grado di realizzare equilibri ottimali e stabili (piena occupazione)"
+        ],
+        "correctIndex": 0,
+        "answer": "La spesa per investimenti delle imprese dipende dalle aspettative e dagli umori degli imprenditori (animal spirits) is the correct answer."
+    },
+    {
+        "question": "Quale tra queste affermazioni può essere considerata keynesiana?",
+        "options": [
+            "Il sistema capitalistico non è in grado di assicurare stabilità e piena occupazione",
+            "Il sistema capitalistico è in grado di realizzare equilibri ottimali e stabili (piena occupazione)",
+            "Un aumento della quantità di moneta in circolazione comporta un immediato pari aumento nel livello dei prezzi",
+            "L'intervento pubblico è inefficace o dannoso (causa instabilità)"
+        ],
+        "correctIndex": 0,
+        "answer": "Il sistema capitalistico non è in grado di assicurare stabilità e piena occupazione is the correct answer."
+    },
+    {
+        "question": "Quale tra queste affermazioni può essere considerata keynesiana?",
+        "options": [
+            "La velocità di circolazione della moneta è pro ciclica (cresce nelle espansioni e si riduce durante le recessioni)",
+            "Variazioni dei salari nominali risolvono il problema della disoccupazione",
+            "Il sistema capitalistico è in grado di realizzare equilibri ottimali e stabili (piena occupazione)",
+            "Un aumento della quantità di moneta in circolazione comporta un pari aumento nel livello dei prezzi"
+        ],
+        "correctIndex": 0,
+        "answer": "La velocità di circolazione della moneta è pro ciclica (cresce nelle espansioni e si riduce durante le recessioni) is the correct answer."
+    },
+    {
+        "question": "I keynesiani hanno una:",
+        "options": [
+            "visione a favore dell’intervento pubblico, evidenziano i fallimenti del mercato",
+            "visione liberista contro l’intervento pubblico. evidenziano l’efficienza del mercato",
+            "visione liberista contro l’intervento pubblico, evidenziano l’efficienza del mercato e/o i fallimenti pubblici",
+            "visione a favore dell’intervento pubblico, evidenziano i fallimenti del mercato e/o i fallimenti pubblici"
+        ],
+        "correctIndex": 0,
+        "answer": "visione a favore dell’intervento pubblico, evidenziano i fallimenti del mercato is the correct answer."
+    },
+    {
+        "question": "Quale tra le seguenti può essere definita come una politica dei redditi istituzionale?",
+        "options": [
+            "Obbligo esplicito di cooperazione o almeno arbitrato finale",
+            "Contenimento delle dinamiche inflazionistiche “premiato” dal governo attraverso incentivi fiscali",
+            "Aggravi fiscali o premi fiscali in funzione delle politiche di prezzo adottate dalle imprese (tax-based income policies)",
+            "Blocco dei salari"
+        ],
+        "correctIndex": 0,
+        "answer": "Obbligo esplicito di cooperazione o almeno arbitrato finale is the correct answer."
+    },
+    {
+        "question": "Quale tra le seguenti può essere definita come una politica dei redditi istituzionale?",
+        "options": [
+            "Scambio economico (vantaggi fiscali e economici per le parti che si accordato)",
+            "Aggravi fiscali o premi fiscali in funzione delle politiche di prezzo adottate dalle imprese (tax-based income policies)",
+            "Contenimento delle dinamiche inflazionistiche “premiato” dal governo attraverso incentivi fiscali",
+            "Blocco dei salari"
+        ],
+        "correctIndex": 0,
+        "answer": "Scambio economico (vantaggi fiscali e economici per le parti che si accordato) is the correct answer."
+    },
+    {
+        "question": "Quale tra le seguenti può essere definita come una politica dei redditi istituzionale?",
+        "options": [
+            "Scambio politico (partecipazione del governo con propri impegni all’accordo: patto sociale)",
+            "Aggravi fiscali o premi fiscali in funzione delle politiche di prezzo adottate dalle imprese (tax-based income policies)",
+            "Contenimento delle dinamiche inflazionistiche “premiato” dal governo attraverso incentivi fiscali",
+            "Blocco dei salari"
+        ],
+        "correctIndex": 0,
+        "answer": "Scambio politico (partecipazione del governo con propri impegni all’accordo: patto sociale) is the correct answer."
+    },
+    {
+        "question": "Quali sono gli effetti di un dazio sul prezzo interno?",
+        "options": [
+            "I produttori esteri non troveranno più conveniente offrire il bene sul mercato interno, nel mercato interno, si creerà quindi un eccesso di domanda che spingerà il prezzo verso l’alto",
+            "I consumatori interni troveranno più conveniente domandare il bene sul mercato estero B, nel mercato interno, si creerà quindi un eccesso di offerta che spingerà il prezzo verso il basso",
+            "I produttori interni troveranno più conveniente offrire il bene sul mercato interno, nel mercato interno creerà quindi un eccesso di domanda che spingerà il prezzo verso l'alto",
+            "I consumatori esteri non troveranno più conveniente domandare il bene sul mercato interno. Nel mercato interno, si creerà quindi un eccesso di offerta che spingerà il prezzo verso il basso"
+        ],
+        "correctIndex": 0,
+        "answer": "I produttori esteri non troveranno più conveniente offrire il bene sul mercato interno, nel mercato interno, si creerà quindi un eccesso di domanda che spingerà il prezzo verso l’alto is the correct answer."
+    },
+    {
+        "question": "Su quale fondamento si basa l’idea, riconducibile a Schumpeter, secondo la quale l’innovazione sarebbe favorita in mercati caratterizzati da elevato grado di concentrazione?",
+        "options": [
+            "Le innovazioni tecnologiche richiedono investimenti ingenti in ricerca, quindi, solo in presenza di potere di mercato si potrà sfruttare il vantaggio di costo derivante dall’innovazione",
+            "diversamente dalla concorrenza, dove si considera solo il profitto addizionale, il monopolista considera l’intero profitto della nuova tecnologia, alti i profitti del monopolista sono un incentivo all’adozione di nuove tecnologie",
+            "il monopolista considera solo profitto addizionale della nuova tecnologia, alti profitti del monopolista (senza innovare) sono un disincentivo disincentivo all’adozione di nuove tecnologie",
+            "diversamente dalla concorrenza, dove si considera solo il profitto addizionale, il monopolista considera l’intero profitto della nuova tecnologia, quindi, solo in presenza di potere di mercato si potrà sfruttare il vantaggio di costo derivante dall’innovazione"
+        ],
+        "correctIndex": 0,
+        "answer": "Le innovazioni tecnologiche richiedono investimenti ingenti in ricerca, quindi, solo in presenza di potere di mercato si potrà sfruttare il vantaggio di costo derivante dall’innovazione is the correct answer."
+    },
+    {
+        "question": "Cosa afferma il criterio paretiano?",
+        "options": [
+            "Il benessere sociale in uno Stato del mondo A è maggiore di quello in uno stato B se almeno un individuo sta meglio in A che in B senza che nessun altro stia peggio",
+            "Uno stato del mondo è un ottimo paretiano se non ne esiste un altro in cui un individuo sta meglio e nessun altro stia peggio",
+            "Assumendo un insieme completo di mercati, un equilibrio concorrenziale, se esiste, è un ottimo paretiano",
+            "Assumendo un insieme completo di mercati, ogni posizione di ottimo paretiano può essere realizzata come equilibrio concorrenziale, previa un’appropriata redistribuzione delle risorse tra individui"
+        ],
+        "correctIndex": 0,
+        "answer": "Il benessere sociale in uno Stato del mondo A è maggiore di quello in uno stato B se almeno un individuo sta meglio in A che in B senza che nessun altro stia peggio is the correct answer."
+    },
+    {
+        "question": "Cosa si intende per politica monetaria accomodante?",
+        "options": [
+            "Aumentare la base monetaria in modo da assicurare l’invarianza del tasso di interesse, malgrado l’aumento di domanda di moneta indotto dalla maggiore spesa pubblica",
+            "Ridurre la base monetaria in modo da assicurare l’invariante del tasso di interesse, a seguito dell’aumento di domanda di moneta indotto dalla maggiore spesa pubblica",
+            "Ridurre la base monetaria in modo da ridurre il tasso di interesse iniziale per sostenere l’aumento del reddito indotto dalla maggiore spesa pubblica",
+            "Ridurre la base monetaria in modo da ridurre il tasso di interesse iniziale per sostenere l’aumento del reddito indotto dalla maggiore spesa pubblica"
+        ],
+        "correctIndex": 0,
+        "answer": "Aumentare la base monetaria in modo da assicurare l’invarianza del tasso di interesse, malgrado l’aumento di domanda di moneta indotto dalla maggiore spesa pubblica is the correct answer."
+    },
+    {
+        "question": "Chi sono gli intermediari finanziari? Soggetti che mettono in collegamento le unità in:",
+        "options": [
+            "surplus, che risparmiano (famiglie) con le unità in deficit (imprese), che domandano credito",
+            "deficit, che risparmiano con le unità in surplus che domandano credito",
+            "surplus, che domandano credito con le unità in deficit, che risparmiano",
+            "deficit, che domandano credito con le unità in surplus, che risparmiano"
+        ],
+        "correctIndex": 0,
+        "answer": "surplus, che risparmiano (famiglie) con le unità in deficit (imprese), che domandano credito is the correct answer."
+    },
+    {
+        "question": "Cosa si intende per aspettative razionali? Gli operatori hanno aspettative razionali:",
+        "options": [
+            "nel senso che sfruttano tutte le informazioni disponibili, che non necessariamente sono complete",
+            "Nel senso che le informazioni su cui basano le proprie scelte e formano le proprie aspettative sono complete",
+            "quando indovinano correttamente le previsioni su variabili rilevanti per i loro problemi di massimizzazione o minimizzazione",
+            "nel senso che non sbagliano mai le proprie previsioni"
+        ],
+        "correctIndex": 0,
+        "answer": "nel senso che sfruttano tutte le informazioni disponibili, che non necessariamente sono complete is the correct answer."
+    },
+    {
+        "question": "Come le politiche macroeconomiche possono influire sulle partite correnti attraverso variazioni della domanda interna?",
+        "options": [
+            "Dato un avanzo, una politica espansiva aumenta Y e quindi le importazioni riducendo l’avanzo",
+            "Dato un avanzo, solo se vale Marshall Lerner, una politica espansiva aumenta Y e quindi le importazioni e riducendo l’avanzo",
+            "Dato un avanzo, una politica espansiva aumenta Y e quindi riduce le esportazioni riducendo l’avanzo",
+            "Dato un avanzo, solo se vale Marshall Lerner, una politica espansiva aumenta Y e quindi riduce le esportazioni riducendo l’avanzo"
+        ],
+        "correctIndex": 0,
+        "answer": "Dato un avanzo, una politica espansiva aumenta Y e quindi le importazioni riducendo l’avanzo is the correct answer."
+    },
+    {
+        "question": "La crescita delle spese sociali verificatisi storicamente nella generalità dei paesi sviluppati è spiegata anche:",
+        "options": [
+            "dal fatto che la produzione di beni e servizi sociali è intrinsecamente meno idonea ad usufruire dei miglioramenti produttivi indotti dallo sviluppo tecnologico",
+            "dal fatto che la richiesta di beni e servizi sociali ha avuto una crescita proporzionale a quella del reddito pro capite",
+            "dal fatto che la richiesta di beni e servizi sociali avuto una crescita proporzionale a quella demografica",
+            "dal fatto che la produzione di beni e servizi sociali si è accompagnata allo sviluppo tecnologico che ha pervaso tutti i settori produttivi"
+        ],
+        "correctIndex": 0,
+        "answer": "dal fatto che la produzione di beni e servizi sociali è intrinsecamente meno idonea ad usufruire dei miglioramenti produttivi indotti dallo sviluppo tecnologico is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza C? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Una variabile endogena",
+            "Un parametro",
+            "Uno disturbo stocastico (shock)",
+            "Una variabile esogena"
+        ],
+        "correctIndex": 0,
+        "answer": "Una variabile endogena is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza Y? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Una variabile endogena",
+            "Un parametro",
+            "Uno disturbo stocastico (shock)",
+            "Una variabile esogena"
+        ],
+        "correctIndex": 0,
+        "answer": "Una variabile endogena is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza i? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Una variabile endogena",
+            "Un parametro",
+            "Uno disturbo stocastico (shock)",
+            "Una variabile esogena"
+        ],
+        "correctIndex": 0,
+        "answer": "Una variabile endogena is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza v? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Un parametro",
+            "Una variabile endogena",
+            "Uno disturbo stocastico (shock)",
+            "Una variabile esogena"
+        ],
+        "correctIndex": 0,
+        "answer": "Un parametro is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza p? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Un parametro",
+            "Una variabile endogena",
+            "Uno disturbo stocastico (shock)",
+            "Una variabile esogena"
+        ],
+        "correctIndex": 0,
+        "answer": "Un parametro is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza G? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Una variabile esogena",
+            "Un parametro",
+            "Una variabile endogena",
+            "Uno disturbo stocastico (shock)"
+        ],
+        "correctIndex": 0,
+        "answer": "Una variabile esogena is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza M? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Una variabile esogena",
+            "Un parametro",
+            "Una variabile endogena",
+            "Uno disturbo stocastico (shock)"
+        ],
+        "correctIndex": 0,
+        "answer": "Una variabile esogena is the correct answer."
+    },
+    {
+        "question": "Nella seguente rappresentazione del modello IS/LM, cosa indica la grandezza c? (1) Y= C + I + G (2) C= c •Y (3) I= 𝑙_0 − 𝑎∙𝑖 (4) M/p= k•Y +𝑙 _0 - v•i",
+        "options": [
+            "Un parametro",
+            "Una variabile endogena",
+            "Uno disturbo stocastico (shock)",
+            "Una variabile esogena"
+        ],
+        "correctIndex": 0,
+        "answer": "Un parametro is the correct answer."
+    },
+    {
+        "question": "Con riferimento al modello IS/LM, in che cosa consiste una politica monetaria non-accomodante?",
+        "options": [
+            "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale non reagisce con una espansione monetaria non riducendo il tasso di interesse, rendendo così la politica fiscale meno efficace",
+            "A seguito di un aumento di offerta di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale non reagisce con una restrizione monetaria non riducendo il tasso di interesse, rendendo così la politica fiscale meno efficace",
+            "A seguito di un aumento di domanda di moneta, stimolata dall’aumento della spesa pubblica, la banca centrale non reagisce con una restrizione monetaria non riducendo il tasso di interesse, rendendo così la politica fiscale meno efficace",
+            "A seguito di un aumento di offerta di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale non reagisce con un’espansione monetaria non riducendo il tasso di interesse, rendendo così la politica fiscale meno efficace"
+        ],
+        "correctIndex": 0,
+        "answer": "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale non reagisce con una espansione monetaria non riducendo il tasso di interesse, rendendo così la politica fiscale meno efficace is the correct answer."
+    },
+    {
+        "question": "Con riferimento al modello IS/LM in cosa consiste una politica monetaria accomodante?",
+        "options": [
+            "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale reagisce con una espansione monetaria che mantiene il tasso d’interesse costante incrementando il reddito in modo tale che la politica fiscale risulti il più efficace possibile",
+            "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale reagisce con una espansione monetaria incrementando il tasso d’interesse, incrementando così il reddito in modo tale che la politica fiscale risulti il più efficace possibile",
+            "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale reagisce con una restrizione monetaria che mantiene il tasso d’interesse costante incrementando il reddito in modo tale che la politica fiscale risulti il più efficace possibile",
+            "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale reagisce con una restrizione monetaria incrementando il tasso d’interesse, incrementando così il reddito, in modo tale che la politica fiscale risulti il più efficace possibile"
+        ],
+        "correctIndex": 0,
+        "answer": "A seguito di un aumento di domanda di moneta, stimolato dall’aumento della spesa pubblica, la banca centrale reagisce con una espansione monetaria che mantiene il tasso d’interesse costante incrementando il reddito in modo tale che la politica fiscale risulti il più efficace possibile is the correct answer."
+    },
+    {
+        "question": "Considerando la curva IS in un’economia aperta possiamo affermare che:",
+        "options": [
+            "Ha una pendenza maggiore rispetto al caso di economia chiusa, perché il moltiplicatore è minore",
+            "Ha la stessa pendenza rispetto al caso di economia chiusa",
+            "Ha una pendenza maggiore rispetto al caso di economia chiusa, perché il moltiplicatore è maggiore",
+            "Ha una pendenza maggiore se la mobilità dei capitali è minore"
+        ],
+        "correctIndex": 0,
+        "answer": "Ha una pendenza maggiore rispetto al caso di economia chiusa, perché il moltiplicatore è minore is the correct answer."
+    },
+    {
+        "question": "Che cos’è l’effetto J (o curva J)?",
+        "options": [
+            "Un possibile andamento del saldo dei movimenti di beni, che a seguito di una svalutazione prima peggiora e solo dopo migliora",
+            "indica le condizioni necessarie perché la spesa pubblica con bilancio in pareggio abbia un effetto espansivo sul reddito",
+            "indica le condizioni necessarie affinché una svalutazione del tasso di cambio migliori la bilancia dei pagamenti",
+            "Descrive gli effetti dell’aspettativa di apprezzamento del tasso di cambio sul saldo dei movimenti di capitale di un paese"
+        ],
+        "correctIndex": 0,
+        "answer": "Un possibile andamento del saldo dei movimenti di beni, che a seguito di una svalutazione prima peggiora e solo dopo migliora is the correct answer."
+    },
+    {
+        "question": "Qual è la sequenza logica delle fasi della scelta pubblica che porta al calcolo del tasso di rendimento atteso?",
+        "options": [
+            "1) individuazione alternative, 2) valutazione costi-benefici attesi, 3) attualizzazione costi e benefici",
+            "1) attualizzazione costi-benefici, 2) valutazione costi-benefici attesi, 3) individuazione alternative",
+            "1) individuazione alternative, 2) attualizzazione costi-benefici, 3) valutazione costi-benefici attesi",
+            "1) valutazione costi-benefici, 2) attualizzazione costi-benefici, 3) individuazione alternative"
+        ],
+        "correctIndex": 0,
+        "answer": "1) individuazione alternative, 2) valutazione costi-benefici attesi, 3) attualizzazione costi e benefici is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta, cosa suggerire al produttore se il prezzo di mercato è 7, il costo marginale 5 e quello medio è 3?",
+        "options": [
+            "Aumentare la produzione",
+            "Ridurre la produzione",
+            "Non fare nulla",
+            "Uscire dal mercato"
+        ],
+        "correctIndex": 0,
+        "answer": "Aumentare la produzione is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta, cosa suggerire al produttore se il prezzo di mercato è 21, il costo marginale è 15 e quello medio è 9?",
+        "options": [
+            "Aumentare la produzione",
+            "Ridurre la produzione",
+            "Non fare nulla",
+            "Uscire dal mercato"
+        ],
+        "correctIndex": 0,
+        "answer": "Aumentare la produzione is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta, cosa suggerire al produttore se il prezzo di mercato è 9, il costo marginale è 9 e quello medio è 15?",
+        "options": [
+            "Uscire dal mercato",
+            "Aumentare la produzione",
+            "Ridurre la produzione",
+            "Non fare nulla"
+        ],
+        "correctIndex": 0,
+        "answer": "Uscire dal mercato is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta, cosa suggerire al produttore se il prezzo di mercato è 3.5, il costo marginale è 2.5 e quello medio è 1.5?",
+        "options": [
+            "Aumentare la produzione",
+            "Ridurre la produzione",
+            "Non fare nulla",
+            "Uscire dal mercato"
+        ],
+        "correctIndex": 0,
+        "answer": "Aumentare la produzione is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta, cosa suggerire al produttore se il prezzo di mercato è 3, il costo marginale è 3 e quello medio è 5?",
+        "options": [
+            "Uscire dal mercato",
+            "Aumentare la produzione",
+            "Ridurre la produzione",
+            "Non fare nulla"
+        ],
+        "correctIndex": 0,
+        "answer": "Uscire dal mercato is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta in cui il costo marginale è pari a 5 e quello medio è pari a 3, calcolare il profitto di un’impresa che vende 30 unità di bene:",
+        "options": [
+            "60",
+            "30",
+            "150",
+            "90"
+        ],
+        "correctIndex": 0,
+        "answer": "60 is the correct answer."
+    },
+    {
+        "question": "In un regime di concorrenza perfetta in cui il costo marginale è pari a 5 e quello medio è pari a 3, calcolare il profitto di un’impresa che vende 10 unità di bene:",
+        "options": [
+            "20",
+            "50",
+            "10",
+            "30"
+        ],
+        "correctIndex": 0,
+        "answer": "20 is the correct answer."
+    },
+    {
+        "question": "Quale affermazione non è corretta?",
+        "options": [
+            "Miglioramento paretiano e ottimo paretiano sono sinonimi",
+            "Il criterio di pareto equivale a dare a ogni cittadino il diritto di veto",
+            "Il criterio di pareto equivale a una votazione all’unanimità",
+            "Ottimo paretiano e efficienza paretiana sono sinonimi"
+        ],
+        "correctIndex": 0,
+        "answer": "Miglioramento paretiano e ottimo paretiano sono sinonimi is the correct answer."
+    },
+    {
+        "question": "Quale affermazione non è corretta?",
+        "options": [
+            "l’ottimo paretiano equivale a una votazione all’unanimità",
+            "ottimo paretiano e efficienza paretiana sono sinonimi",
+            "miglioramento paretiano e ottimo paretiano sono concetti distinti",
+            "il criterio di pareto equivale a dare a ogni cittadino il diritto di veto"
+        ],
+        "correctIndex": 0,
+        "answer": "l’ottimo paretiano equivale a una votazione all’unanimità is the correct answer."
+    },
+    {
+        "question": "Quale affermazione non è corretta?",
+        "options": [
+            "L’ottimo paretiano equivale a dare a ogni cittadino il diritto di veto",
+            "Miglioramento paretiano e ottimo paretiano sono concetti distinti",
+            "Ottimo paretiano e efficienza paretiana sono sinonimi",
+            "Il criterio di pareto equivale a una votazione all’unanimità"
+        ],
+        "correctIndex": 0,
+        "answer": "L’ottimo paretiano equivale a dare a ogni cittadino il diritto di veto is the correct answer."
+    },
+    {
+        "question": "A quali problemi pratici può trovarsi di fronte il regolamentatore nel disegnare politiche per eliminare le esternalità?",
+        "options": [
+            "La difficoltà a reperire informazioni sui costi opportunità privati e sui costi e valori sociali",
+            "la non escludibilità dei beni oggetto di esternalità: se una unità del bene è offerta a un soggetto, è offerta gratis a tutti gli altri",
+            "la non rivalità dei beni oggetto di esternalità, ossia che la stessa unità del bene può essere consumata da più soggetti, senza che ciò riduca la sua utilità per i soggetti che la consumano",
+            "la presenza di diritti di proprietà individuali sulle risorse, per cui ognuno le usa non tenendo conto degli effetti sugli altri"
+        ],
+        "correctIndex": 0,
+        "answer": "La difficoltà a reperire informazioni sui costi opportunità privati e sui costi e valori sociali is the correct answer."
+    },
+    {
+        "question": "Quale argomento suggerisce che sia preferibile ricorrere all’impresa pubblica piuttosto che regolamentare le imprese private?",
+        "options": [
+            "Il regolatore potrebbe avere incentivi distorti (cattura del regolatore)",
+            "L’esistenza di incentivi per verso del management pubblico e il potenziale del clientelismo",
+            "la maggiore informazione che l’impresa privata ha sulla struttura dei costi (asimmetria informativa)",
+            "Ragioni legate alla necessità di riduzione della spesa pubblica"
+        ],
+        "correctIndex": 0,
+        "answer": "Il regolatore potrebbe avere incentivi distorti (cattura del regolatore) is the correct answer."
+    },
+    {
+        "question": "Dato un valore attuale dei benefici di un progetto pubblico pari a 16 e dei costi pari a 4, calcolare il VAN relativo del progetto:",
+        "options": [
+            "3",
+            "4",
+            "12",
+            "16"
+        ],
+        "correctIndex": 0,
+        "answer": "3 is the correct answer."
+    },
+    {
+        "question": "Dato un valore attuale dei benefici di un progetto pubblico pari a 1,6 e dei costi pari a 0.4, calcolare il VAN relativo del progetto:",
+        "options": [
+            "3",
+            "1.6",
+            "1.2",
+            "4"
+        ],
+        "correctIndex": 0,
+        "answer": "3 is the correct answer."
+    },
+    {
+        "question": "Dato un valore attuale dei benefici di un progetto pubblico pari a 2 e dei costi pari a 1, calcolare il VAN relativo del progetto:",
+        "options": [
+            "1",
+            "0.25",
+            "2",
+            "0.5"
+        ],
+        "correctIndex": 0,
+        "answer": "1 is the correct answer."
+    },
+    {
+        "question": "Dato un valore attuale dei benefici di un progetto pubblico pari a 2 e dei costi pari a 1, calcolare il VAN assoluto del progetto:",
+        "options": [
+            "1",
+            "0.25",
+            "2",
+            "0.5"
+        ],
+        "correctIndex": 0,
+        "answer": "1 is the correct answer."
+    },
+    {
+        "question": "Dato un valore attuale dei benefici di un progetto pubblico pari a 8 e dei costi pari a 2, calcolare il VAN assoluto del progetto:",
+        "options": [
+            "6",
+            "3",
+            "4",
+            "8"
+        ],
+        "correctIndex": 0,
+        "answer": "6 is the correct answer."
+    },
+    {
+        "question": "Quale tra le seguenti rientra nelle cause che possono determinare un’esigenza di coordinamento degli interventi di politica economica?",
+        "options": [
+            "Legame fra le scelte in vari periodi",
+            "Presenza di esternalità",
+            "Incoerenza temporale",
+            "Mancanza di informazioni da parte dell’operatore pubblico sui costi e benefici privati"
+        ],
+        "correctIndex": 0,
+        "answer": "Legame fra le scelte in vari periodi is the correct answer."
+    },
+    {
+        "question": "Quale tra le seguenti rientra nelle cause che possono determinare un’esigenza di coordinamento degli interventi di politica economica?",
+        "options": [
+            "Molteplicità di obiettivi",
+            "Presenza di esternalità",
+            "Incoerenza temporale",
+            "Mancanza di informazioni da parte dell’operatore pubblico sui costi e benefici privati"
+        ],
+        "correctIndex": 0,
+        "answer": "Molteplicità di obiettivi is the correct answer."
+    },
+    {
+        "question": "Quale tra le seguenti NON rientra nelle cause che possono determinare un’esigenza di coordinamento degli interventi di politica economica?",
+        "options": [
+            "incoerenza temporale",
+            "molteplicità di strumenti disponibili",
+            "molteplicità di obiettivi",
+            "legame fra le scelte in vari periodi"
+        ],
+        "correctIndex": 0,
+        "answer": "incoerenza temporale is the correct answer."
+    },
+    {
+        "question": "Quale problematica può essere associata ad una politica dei prezzi attuata con la fissazione del margine di profitto?",
+        "options": [
+            "Le imprese tenderanno a gonfiare i costi medi",
+            "Per attuarla occorre una differenza positiva tra il tasso di inflazione e il miglioramento previsto della produttività",
+            "Per attuarla occorrono molte informazioni sulle vendite dell’impresa",
+            "Le imprese tenderanno alla sovracapitalizzazione (effetto Averch-Johnson)"
+        ],
+        "correctIndex": 0,
+        "answer": "Le imprese tenderanno a gonfiare i costi medi is the correct answer."
+    },
+    {
+        "question": "Quale problematica può essere associata ad una politica dei prezzi attuata con la fissazione del tasso di rendimento sul capitale?",
+        "options": [
+            "Le imprese tenderanno alla sovracapitalizzazione (effetto Averch-Johnson)",
+            "Per attuarla occorrono informazioni molto attendibili sui costi",
+            "per attuarla occorre una differenza positiva tra il tasso di inflazione e il miglioramento previsto della produttività",
+            "Le imprese tenderanno a gonfiare i costi medi"
+        ],
+        "correctIndex": 0,
+        "answer": "Le imprese tenderanno alla sovracapitalizzazione (effetto Averch-Johnson) is the correct answer."
+    },
+    {
+        "question": "Quale problematica può essere associate ad una politica dei prezzi attuata con la fissazione di un prezzo massimo (price cap)?",
+        "options": [
+            "Per attuarla occorrono informazioni molto attendibili sui costi",
+            "Per attuarla serve una differenza positiva tra tasso di inflazione e il miglioramento previsto della produttività",
+            "Le imprese tendono a gonfiare i costi",
+            "Le imprese tenderanno alla sovracapitalizzazione (effetto Averch- johnson)"
+        ],
+        "correctIndex": 0,
+        "answer": "Per attuarla occorrono informazioni molto attendibili sui costi is the correct answer."
+    },
+    {
+        "question": "Data l’equazione quantitativa della moneta e assumendo che la velocità di circolazione sia costante e pari a 0.5. Se il reddito è fisso (lungo periodo), di quanto variano i prezzi quando la moneta aumenta di 1?",
+        "options": [
+            "0.5",
+            "1",
+            "-0.5",
+            "-1"
+        ],
+        "correctIndex": 0,
+        "answer": "0.5 is the correct answer."
+    },
+    {
+        "question": "Data l’equazione quantitativa della moneta e assumendo che la velocità di circolazione sia costante e pari a 0.5. Se i prezzi sono fissi (lungo periodo), di quanto varia il reddito quando la moneta aumenta di 2?",
+        "options": [
+            "1",
+            "-1",
+            "2",
+            "-2"
+        ],
+        "correctIndex": 0,
+        "answer": "1 is the correct answer."
+    },
+    {
+        "question": "Data l’equazione quantitativa della moneta e assumendo che la velocità di circolazione sia costante e pari a 0.5. Se i prezzi sono fissi (breve periodo), di quanto varia il reddito quando la moneta aumenta di 4?",
+        "options": [
+            "2",
+            "-2",
+            "4",
+            "-4"
+        ],
+        "correctIndex": 0,
+        "answer": "2 is the correct answer."
+    },
+    {
+        "question": "Data l’equazione quantitativa della moneta e assumendo che la velocità di circolazione sia costante e pari a 0.5. Se i prezzi sono fissi (breve periodo), di quanto varia il reddito quando la moneta si riduce di 2?",
+        "options": [
+            "-1",
+            "1",
+            "2",
+            "-2"
+        ],
+        "correctIndex": 0,
+        "answer": "-1 is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione l= bi + l0 nella seguente rappresentazione del modello IS/LM in economia aperta (Mundell-Fleming)? (1) E= C + I + NX (2) C= c (1-t) Y + C0 (3) I= - bi + I0 (4) NX= X(eR) – M(eR, Y) (5) E=Y (6) Ls/p= Ld1 + Ld2 (7) Ld1= kY (8) Ld2= L0- v (9) BP= PC(eR, Y) + MK",
+        "options": [
+            "La domanda aggregata",
+            "La funzione del consumo",
+            "L’equilibrio della bilancia dei pagamenti",
+            "Le esportazioni al netto delle importazioni"
+        ],
+        "correctIndex": 0,
+        "answer": "La domanda aggregata is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione BP= PC(eR, Y) + MK nella  seguente rappresentazione del modello IS/LM in economia aperta (Mundell-Fleming)? (1) E= C + I + NX (2) C= c (1-t) Y + C0 (3) I= - bi + I0 (4) NX= X(eR) – M(eR, Y) (5) E=Y (6) Ls/p= Ld1 + Ld2 (7) Ld1= kY (8) Ld2= L0- v (9) BP= PC(eR, Y) + MK",
+        "options": [
+            "L’equilibrio della bilancia dei pagamenti",
+            "Le esportazioni al netto delle importazioni",
+            "La domanda aggregata",
+            "La funzione del consumo"
+        ],
+        "correctIndex": 0,
+        "answer": "L’equilibrio della bilancia dei pagamenti is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione E = C+ I + G +NX nella seguente rappresentazione del modello IS/LM in economia aperta (Mundell-Fleming)?",
+        "options": [
+            "La domanda aggregata",
+            "L'equilibrio della bilancia dei pagamenti",
+            "Le esportazioni al netto delle importazioni",
+            "La funzione del consumo"
+        ],
+        "correctIndex": 0,
+        "answer": "La domanda aggregata is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione Ls/p= Ld1 + Ld2 nella seguente rappresentazione del modello IS/LM in economia aperta (Mundell-Fleming)?",
+        "options": [
+            "L’equilibrio del mercato della moneta",
+            "La domanda di moneta",
+            "L’equilibrio della bilancia dei pagamenti",
+            "Le esportazioni al netto delle importazioni"
+        ],
+        "correctIndex": 0,
+        "answer": "L’equilibrio del mercato della moneta is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione Ld2= L0- vi nella seguente rappresentazione del modello IS/LM? (1) Y= C + I + G (2) C= c Y (3) l= l0 - ai (4) Ls/p= Ld1 + Ld2 (5) Ld1= kY (6) Ld2= L0 - vi",
+        "options": [
+            "la domanda di moneta a fini speculativi",
+            "l’equilibrio del mercato della moneta",
+            "la domanda di moneta a fini transattivi",
+            "l’offerta di moneta"
+        ],
+        "correctIndex": 0,
+        "answer": "la domanda di moneta a fini speculativi is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione Y= C+I+G nella seguente rappresentazione del modello IS/LM? (1) Y= C + I + G (2) C= c Y (3) l= l0 - ai (4) Ls/p= Ld1 + Ld2 (5) Ld1= kY (6) Ld2= L0 - vi",
+        "options": [
+            "l’equilibrio del mercato beni",
+            "la domanda aggregata",
+            "la funzione di produzione",
+            "la domanda di moneta"
+        ],
+        "correctIndex": 0,
+        "answer": "l’equilibrio del mercato beni is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione Ld1=k Y nella seguente rappresentazione del modello IS/LM?",
+        "options": [
+            "la domanda di moneta a fini transattivi",
+            "l’equilibrio del mercato della moneta",
+            "l’offerta di moneta",
+            "la domanda di moneta a fini speculativi"
+        ],
+        "correctIndex": 0,
+        "answer": "la domanda di moneta a fini transattivi is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione Y= π•N nella seguente rappresentazione dell’economia keynesiana (modello semplice con sola parte reale)? (1) Y=π•N (2) E= C + I + G (3) C= c• Y (4) Y=E",
+        "options": [
+            "la funzione di produzione",
+            "la funzione di domanda di beni di consumo",
+            "l’equilibrio del mercato dei beni",
+            "la domanda aggregata"
+        ],
+        "correctIndex": 0,
+        "answer": "la funzione di produzione is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta l’equazione Y=E nella seguente rappresentazione dell’economia keynesiana (modello semplice con sola parte reale)? (1) Y=π•N (2) E= C + I + G (3) C= c• Y (4) Y=E",
+        "options": [
+            "l’equilibrio del mercato dei beni",
+            "la funzione di produzione",
+            "la funzione di domanda di beni di consumo",
+            "la domanda aggregata"
+        ],
+        "correctIndex": 0,
+        "answer": "l’equilibrio del mercato dei beni is the correct answer."
+    }
+]
