@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .question {
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .option {
+            display: block;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .correct-answer {
+            color: #155724;
+            font-weight: bold;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .selected-answer {
+            color: #721c24;
+            font-weight: bold;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #slider {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        #slider-label {
+            margin-bottom: 10px;
+        }
+
+        #restartBtn {
+            background-color: #28a745;
+        }
+
+        #restartBtn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="slider-container">
+            <label id="slider-label" for="slider">Number of questions: 10</label>
+            <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
+        </div>
+        <div id="quiz"></div>
+        <button id="submitBtn" onclick="submitQuiz()" disabled>Submit</button>
+        <button id="restartBtn" onclick="restartQuiz()">Restart</button>
+    </div>
+
+    <script>
+        let allQuestions = [];
+        let questions = [];
+        let selectedAnswers = [];
+        let numQuestions = 10;
+
+        const slider = document.getElementById("slider");
+        const sliderLabel = document.getElementById("slider-label");
+        const quizContainer = document.getElementById("quiz");
+        const submitBtn = document.getElementById("submitBtn");
+
+        function updateSliderLabelAndQuestions() {
+            numQuestions = parseInt(slider.value, 10);
+            sliderLabel.textContent = `Number of questions: ${numQuestions}`;
+            if (allQuestions.length > 0) {
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                displayQuestions();
+            }
+        }
+
+        function loadQuestionsFromFile() {
+            fetch("./data/questions.json") // Percorso del file JSON
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Failed to load questions file");
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    allQuestions = data;
+                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                    displayQuestions();
+                    submitBtn.disabled = false;
+                })
+                .catch((error) => {
+                    console.error(error);
+                    alert("Could not load questions. Please try again later.");
+                });
+        }
+
+        function displayQuestions() {
+            quizContainer.innerHTML = "";
+            selectedAnswers = Array(questions.length).fill(null);
+
+            questions.forEach((question, index) => {
+                const questionElement = document.createElement("div");
+                questionElement.classList.add("question-container");
+
+                const questionText = document.createElement("div");
+                questionText.classList.add("question");
+                questionText.textContent = question.question;
+
+                questionElement.appendChild(questionText);
+
+                question.options.forEach((option, optionIndex) => {
+                    const optionElement = document.createElement("label");
+                    optionElement.classList.add("option");
+                    optionElement.innerHTML = `
+                <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                ${option}
+            `;
+                    questionElement.appendChild(optionElement);
+                });
+
+                quizContainer.appendChild(questionElement);
+            });
+        }
+
+        function selectAnswer(questionIndex, optionIndex) {
+            selectedAnswers[questionIndex] = optionIndex;
+        }
+
+        function submitQuiz() {
+            quizContainer.innerHTML = "";
+
+            questions.forEach((question, index) => {
+                const questionElement = document.createElement("div");
+
+                if (selectedAnswers[index] === question.correctIndex) {
+                    questionElement.classList.add("correct");
+                    questionElement.textContent = `✔️ ${question.question} - Correct answer: ${question.options[question.correctIndex]}`;
+                } else {
+                    questionElement.classList.add("incorrect");
+                    questionElement.textContent = `❌ ${question.question} - Your answer: ${question.options[selectedAnswers[index]] || "No answer"}, Correct answer: ${question.options[question.correctIndex]}`;
+                }
+
+                quizContainer.appendChild(questionElement);
+            });
+
+            submitBtn.disabled = true;
+        }
+
+        function restartQuiz() {
+            if (allQuestions.length > 0) {
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                displayQuestions();
+                submitBtn.disabled = false;
+            }
+        }
+
+        // Carica le domande all'avvio
+        loadQuestionsFromFile();
+
+    </script>
+</body>
+
+</html>
