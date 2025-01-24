@@ -104,6 +104,7 @@
         <button id="restartBtn" onclick="restartQuiz()">Restart</button>
     </div>
 
+    <script src="https://gist.github.com/Ma77eoma770/5b673c9c0a50f82e74e18430ac39d862.js"></script>
     <script>
         let allQuestions = [];
         let questions = [];
@@ -125,30 +126,10 @@
         }
 
         function loadQuestionsFromFile() {
-            fetch("question.json") // Percorso del file JSON
-                .then((response) => {
-                    console.log("Response status:", response.status); // Debug: controlla lo stato della risposta
-                    if (!response.ok) {
-                        throw new Error("Failed to load questions file");
-                    }
-                    return response.json();
-                })
-                .then((data) => {
-                    console.log("Loaded questions:", data); // Debug: controlla i dati caricati
-                    allQuestions = data;
-                    if (allQuestions.length < numQuestions) {
-                        numQuestions = allQuestions.length;
-                        slider.value = numQuestions;
-                        updateSliderLabelAndQuestions();
-                    }
-                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
-                    displayQuestions();
-                    submitBtn.disabled = false;
-                })
-                .catch((error) => {
-                    console.error("Error:", error); // Debug: stampa l'errore
-                    alert("Could not load questions. Please try again later.");
-                });
+            allQuestions = window.quizData;  // `quizData` viene esposto dal Gist.
+            questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+            displayQuestions();
+            submitBtn.disabled = false;
         }
 
 
