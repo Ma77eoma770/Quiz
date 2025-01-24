@@ -112,7 +112,6 @@
         let selectedAnswers = [];
         let numQuestions = 10;
 
-        const fileInput = document.getElementById("fileInput");
         const slider = document.getElementById("slider");
         const sliderLabel = document.getElementById("slider-label");
         const quizContainer = document.getElementById("quiz");
@@ -127,22 +126,24 @@
             }
         }
 
-        function loadQuestions(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function (e) {
-                    try {
-                        allQuestions = JSON.parse(e.target.result);
-                        questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
-                        displayQuestions();
-                        submitBtn.disabled = false;
-                    } catch (error) {
-                        alert("Invalid file format. Please upload a valid JSON file.");
+        function loadQuestionsFromFile() {
+            fetch("/data/domande.json") // Percorso del file JSON
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Failed to load questions file");
                     }
-                };
-                reader.readAsText(file);
-            }
+                    return response.json();
+                })
+                .then((data) => {
+                    allQuestions = data;
+                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                    displayQuestions();
+                    submitBtn.disabled = false;
+                })
+                .catch((error) => {
+                    console.error(error);
+                    alert("Could not load questions. Please try again later.");
+                });
         }
 
         function displayQuestions() {
@@ -163,9 +164,9 @@
                     const optionElement = document.createElement("label");
                     optionElement.classList.add("option");
                     optionElement.innerHTML = `
-                        <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
-                        ${option}
-                    `;
+                <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                ${option}
+            `;
                     questionElement.appendChild(optionElement);
                 });
 
@@ -178,45 +179,24 @@
         }
 
         function submitQuiz() {
-            quizContainer.innerHTML = ""; // Svuota il contenitore del quiz.
+            quizContainer.innerHTML = "";
 
             questions.forEach((question, index) => {
                 const questionElement = document.createElement("div");
-                questionElement.classList.add("question-container");
 
-                const questionText = document.createElement("div");
-                questionText.classList.add("question");
-                questionText.textContent = question.question;
-
-                questionElement.appendChild(questionText);
-
-                question.options.forEach((option, optionIndex) => {
-                    const optionElement = document.createElement("label");
-                    optionElement.classList.add("option");
-
-                    // Determina la classe per evidenziare la risposta
-                    let additionalClass = "";
-                    if (optionIndex === question.correctIndex) {
-                        additionalClass = "correct-answer"; // Evidenzia la risposta corretta.
-                    } else if (optionIndex === selectedAnswers[index]) {
-                        additionalClass = "selected-answer"; // Evidenzia la risposta selezionata (anche se errata).
-                    }
-
-                    optionElement.innerHTML = `
-                <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""
-                        } />
-                <span class="${additionalClass}">${option}</span>
-            `;
-
-                    questionElement.appendChild(optionElement);
-                });
+                if (selectedAnswers[index] === question.correctIndex) {
+                    questionElement.classList.add("correct");
+                    questionElement.textContent = `✔️ ${question.question} - Correct answer: ${question.options[question.correctIndex]}`;
+                } else {
+                    questionElement.classList.add("incorrect");
+                    questionElement.textContent = `❌ ${question.question} - Your answer: ${question.options[selectedAnswers[index]] || "No answer"}, Correct answer: ${question.options[question.correctIndex]}`;
+                }
 
                 quizContainer.appendChild(questionElement);
             });
 
-            submitBtn.disabled = true; // Disabilita il pulsante di invio.
+            submitBtn.disabled = true;
         }
-
 
         function restartQuiz() {
             if (allQuestions.length > 0) {
@@ -225,6 +205,9 @@
                 submitBtn.disabled = false;
             }
         }
+
+        // Carica le domande all'avvio
+        loadQuestionsFromFile();
     </script>
 </body>
 
