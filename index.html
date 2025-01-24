@@ -104,7 +104,6 @@
         <button id="restartBtn" onclick="restartQuiz()">Restart</button>
     </div>
 
-    <script src="https://gist.github.com/Ma77eoma770/5b673c9c0a50f82e74e18430ac39d862.js"></script>
     <script>
         let allQuestions = [];
         let questions = [];
@@ -126,24 +125,20 @@
         }
 
         function loadQuestionsFromFile() {
-            // Verifica che `quizData` sia disponibile e sia una stringa
-            if (typeof window.quizData === "string") {
-                try {
-                    // Converti la stringa JSON in un oggetto
-                    allQuestions = JSON.parse(window.quizData);
+            // Cambia l'URL con quello del tuo file JSON su GitHub Pages
+            fetch('https://ma77eoma770.github.io/Quiz//questions.json')
+                .then(response => response.json())
+                .then(data => {
+                    allQuestions = data;
                     questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
                     displayQuestions();
                     submitBtn.disabled = false;
-                } catch (error) {
-                    console.error("Errore durante la conversione del JSON:", error);
+                })
+                .catch(error => {
+                    console.error("Errore durante il caricamento delle domande:", error);
                     alert("Impossibile caricare le domande. Riprova più tardi.");
-                }
-            } else {
-                console.error("Dati delle domande non trovati.");
-                alert("Impossibile caricare le domande. Riprova più tardi.");
-            }
+                });
         }
-
 
         function displayQuestions() {
             quizContainer.innerHTML = "";
