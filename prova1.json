@@ -7,7 +7,15 @@
         ],
         "corectIndex": 0,
         "answer": "blablabla"
+    },
+
+    {
+        "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
+        "options": [
+            "blabla",
+            "blablabla"
+        ],
+        "corectIndex": 0,
+        "answer": "blablabla"
     }
-
-
 ]
