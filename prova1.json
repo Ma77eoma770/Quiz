@@ -18,6 +18,6 @@
         ],
         "correctIndex": 0,
         "answer": "Non deve avere ne ridondanze ne update, insertion o deletion anomalies"
-    },
+    }
 
 ]
