@@ -103,7 +103,10 @@
         <button id="submitBtn" onclick="submitQuiz()" disabled>Submit</button>
         <button id="restartBtn" onclick="restartQuiz()">Restart</button>
     </div>
-
+    
+    <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
     <script>
         let allQuestions = [];
         let questions = [];
@@ -150,7 +153,9 @@
 
                 const questionText = document.createElement("div");
                 questionText.classList.add("question");
-                questionText.textContent = question.question;
+        
+                // Usa $$ ... $$ per il rendering LaTeX
+                questionText.innerHTML = `$$${question.question}$$`;
 
                 questionElement.appendChild(questionText);
 
@@ -159,14 +164,18 @@
                     optionElement.classList.add("option");
                     optionElement.innerHTML = `
                         <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
-                        ${option}
+                        $$${option}$$
                     `;
                     questionElement.appendChild(optionElement);
                 });
 
                 quizContainer.appendChild(questionElement);
             });
-        }
+
+        // Dopo aver aggiornato il contenuto, attiva MathJax per rendere le formule
+        MathJax.typeset();
+        }   
+
 
         function selectAnswer(questionIndex, optionIndex) {
             selectedAnswers[questionIndex] = optionIndex;
