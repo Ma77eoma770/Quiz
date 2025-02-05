@@ -9,15 +9,6 @@
         "answer": " "
     },
     {
-        "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
-        "options": [
-            "a",
-            "b"
-        ],
-        "correctIndex": 0,
-        "answer": "a"
-    },
-    {
         "question": "Che cosa implica un buon database?",
         "options": [
             "Non deve avere ne ridondanze ne update, insertion o deletion anomalies",
@@ -28,16 +19,5 @@
         "correctIndex": 0,
         "answer": "Non deve avere ne ridondanze ne update, insertion o deletion anomalies"
     },
-    {
-        "question": "Che cos'è una dipendenza funzionale",
-        "options": [
-            "Su R una dipendenza funzionale è una coppia ordinata di due subset non vuoti X,Y \\subseteq R",
-            "Su R una dipendenza funzionale sono due attributi",
-            "E' tutto l'insieme degli attributi di R",
-            "Nessuna delle precedenti"
-        ],
-        "correctIndex": 0,
-        "answer": "Su R una dipendenza funzionale è una coppia ordinata di due subset non vuoti X,Y \\subseteq R"
-    }
 
 ]
