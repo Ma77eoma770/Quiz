@@ -1,14 +1,5 @@
 [
     {
-        "question": " ",
-        "options": [
-            " ",
-            " "
-        ],
-        "correctIndex": 0,
-        "answer": " "
-    },
-    {
         "question": "Che cosa implica un buon database?",
         "options": [
             "Non deve avere ne ridondanze ne update, insertion o deletion anomalies",
@@ -19,5 +10,4 @@
         "correctIndex": 0,
         "answer": "Non deve avere ne ridondanze ne update, insertion o deletion anomalies"
     }
-
 ]
