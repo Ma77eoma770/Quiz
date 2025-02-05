@@ -8,6 +8,15 @@
             "un parametro"
         ],
         "correctIndex": 0,
-        "answer": "una variabile esogena is the correct answer."
+    }
+    {
+        "question": "Nella seguente rappresentazione dell’economia keynesiana (modello semplice con sola parte reale), cosa rappresenta la grandezza N?",
+        "options": [
+            "una variabile esogena",
+            "un disturbo stocastico (shock)",
+            "una variabile endogena",
+            "un parametro"
+        ],
+        "correctIndex": 0,
     }
 ]
