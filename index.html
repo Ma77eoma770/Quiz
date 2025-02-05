@@ -192,8 +192,10 @@
         
         // Funzione per controllare se una stringa contiene LaTeX
         function containsLaTeX(text) {
-            return /\\|\^|_|\{|\}/.test(text);
+            const latexPattern = /\\[a-zA-Z]+|(\^\{[^}]+\})|(_\{[^}]+\})|\\frac\{[^}]+\}\{[^}]+\}|\\sum|\\prod|\\int|\\lim|\\begin\{.*?\}|\\end\{.*?\}/;
+            return latexPattern.test(text);
         }
+
 
 
 
