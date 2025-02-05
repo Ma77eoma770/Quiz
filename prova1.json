@@ -1,0 +1,13 @@
+[
+    {
+        "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
+        "options": [
+            "a",
+            "b"
+        ],
+        "corectIndex": 0,
+        "answer": "blablabla"
+    }
+
+
+]
