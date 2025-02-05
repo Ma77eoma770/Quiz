@@ -1,13 +1,13 @@
 [
     {
-        "question": "Che cosa implica un buon database?",
+        "question": "A cosa è dovuto il monopolio naturale?",
         "options": [
-            "Non deve avere ne ridondanze ne update, insertion o deletion anomalies",
-            "Deve essere in 3NF",
-            "Non deve avere ne ridondanze ne update, insertion, deletion o adding anomalies",
-            "Nessuna delle precedenti"
+            "All’andamento decrescente del costo unitario nel tratto rilevante della domanda per la forte incidenza dei costi fissi",
+            "Alla costanza del costo marginale",
+            "All’andamento crescente del costo unitario nel tratto rilevante della domanda per la forte incidenza dei costi",
+            "Al fatto che i costi marginali eccedono i costi medi a causa degli elevati costi fissi"
         ],
         "correctIndex": 0,
-        "answer": "Non deve avere ne ridondanze ne update, insertion o deletion anomalies"
+        "answer": "All’andamento decrescente del costo unitario nel tratto rilevante della domanda per la forte incidenza dei costi fissi is the correct answer."
     }
 ]
