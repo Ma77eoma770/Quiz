@@ -2,8 +2,8 @@
     {
         "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
         "options": [
-            "a",
-            "b"
+            "blabla",
+            "blablabla"
         ],
         "corectIndex": 0,
         "answer": "blablabla"
