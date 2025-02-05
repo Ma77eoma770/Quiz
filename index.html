@@ -146,35 +146,55 @@
         function displayQuestions() {
             quizContainer.innerHTML = "";
             selectedAnswers = Array(questions.length).fill(null);
-
+        
             questions.forEach((question, index) => {
                 const questionElement = document.createElement("div");
                 questionElement.classList.add("question-container");
-
+        
                 const questionText = document.createElement("div");
                 questionText.classList.add("question");
         
-                // Usa $$ ... $$ per il rendering LaTeX
-                questionText.innerHTML = `$$${question.question}$$`;
-
+                // Controlla se la domanda contiene LaTeX
+                if (containsLaTeX(question.question)) {
+                    questionText.innerHTML = `$$${question.question}$$`;
+                } else {
+                    questionText.textContent = question.question;
+                }
+        
                 questionElement.appendChild(questionText);
-
+        
                 question.options.forEach((option, optionIndex) => {
                     const optionElement = document.createElement("label");
                     optionElement.classList.add("option");
-                    optionElement.innerHTML = `
-                        <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
-                        $$${option}$$
-                    `;
+        
+                    // Controlla se l'opzione contiene LaTeX
+                    if (containsLaTeX(option)) {
+                        optionElement.innerHTML = `
+                            <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                            $$${option}$$
+                        `;
+                    } else {
+                        optionElement.innerHTML = `
+                            <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                            ${option}
+                        `;
+                    }
+        
                     questionElement.appendChild(optionElement);
                 });
-
+        
                 quizContainer.appendChild(questionElement);
             });
+        
+            // Dopo aver aggiornato il contenuto, attiva MathJax solo se necessario
+            MathJax.typeset();
+        }
+        
+        // Funzione per controllare se una stringa contiene LaTeX
+        function containsLaTeX(text) {
+            return /\\|\^|_|\{|\}/.test(text);
+        }
 
-        // Dopo aver aggiornato il contenuto, attiva MathJax per rendere le formule
-        MathJax.typeset();
-        }   
 
 
         function selectAnswer(questionIndex, optionIndex) {
