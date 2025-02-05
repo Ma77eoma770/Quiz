@@ -95,6 +95,13 @@
 <body>
     <div class="container">
         <h1>Quiz App</h1>
+        <div id="dataset-selection-container">
+            <label for="dataset-select">Select a dataset:</label>
+            <select id="dataset-select" onchange="changeDataset()">
+                <option value="https://ma77eoma770.github.io/Quiz/question.json">Economia Politica</option>
+                <option value="https://ma77eoma770.github.io/Quiz/question2.json">Prove latex</option>
+            </select>
+        </div>
         <div id="slider-container">
             <label id="slider-label" for="slider">Number of questions: 10</label>
             <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
@@ -127,9 +134,8 @@
             }
         }
 
-        function loadQuestionsFromFile() {
-            // Cambia l'URL con quello del tuo file JSON su GitHub Pages
-            fetch('https://ma77eoma770.github.io/Quiz//question.json')
+        function loadQuestionsFromFile(datasetUrl) {
+            fetch(datasetUrl)
                 .then(response => response.json())
                 .then(data => {
                     allQuestions = data;
@@ -142,6 +148,7 @@
                     alert("Impossibile caricare le domande. Riprova più tardi.");
                 });
         }
+
 
         function displayQuestions() {
             quizContainer.innerHTML = "";
@@ -195,9 +202,11 @@
             const latexPattern = /\\[a-zA-Z]+|(\^\{[^}]+\})|(_\{[^}]+\})|\\frac\{[^}]+\}\{[^}]+\}|\\sum|\\prod|\\int|\\lim|\\begin\{.*?\}|\\end\{.*?\}/;
             return latexPattern.test(text);
         }
-
-
-
+        
+        function changeDataset() {
+            const selectedDatasetUrl = document.getElementById('dataset-select').value;
+            loadQuestionsFromFile(selectedDatasetUrl);
+        }
 
         function selectAnswer(questionIndex, optionIndex) {
             selectedAnswers[questionIndex] = optionIndex;
@@ -251,7 +260,7 @@
                 submitBtn.disabled = false;
             }
         }
-        loadQuestionsFromFile();
+        loadQuestionsFromFile('https://ma77eoma770.github.io/Quiz/question.json');;
     </script>
 </body>
 
