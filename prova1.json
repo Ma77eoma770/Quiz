@@ -14,7 +14,7 @@
             "a",
             "b"
         ],
-        "corectIndex": 0,
+        "correctIndex": 0,
         "answer": "a"
     },
     {
@@ -25,7 +25,7 @@
             "Non deve avere ne ridondanze ne update, insertion, deletion o adding anomalies",
             "Nessuna delle precedenti"
         ],
-        "corectIndex": 0,
+        "correctIndex": 0,
         "answer": "Non deve avere ne ridondanze ne update, insertion o deletion anomalies"
     },
     {
@@ -36,7 +36,7 @@
             "E' tutto l'insieme degli attributi di R",
             "Nessuna delle precedenti"
         ],
-        "corectIndex": 0,
+        "correctIndex": 0,
         "answer": "Su R una dipendenza funzionale è una coppia ordinata di due subset non vuoti X,Y \\subseteq R"
     }
 
