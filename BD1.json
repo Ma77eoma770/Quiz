@@ -1,6 +1,6 @@
 [
     {
-        "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
+        "question": "forall (X to A) in F^+, r models (X to A)",
         "options": [
             "Romana",
             "Firenze",
@@ -8,5 +8,15 @@
             "Parigi"
         ],
         "correctIndex": 0
+    },
+    {
+    "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
+    "options": [
+        "Romana",
+        "Firenze",
+        "Campobasso",
+        "Parigi"
+    ],
+    "correctIndex": 0
     }
 ]
