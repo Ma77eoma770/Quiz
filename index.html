@@ -14,10 +14,6 @@
             margin: 0;
             padding: 20px;
             background-color: #f0f0f0;
-            justify-content: center;
-            /* Centra verticalmente il contenuto */
-            height: 100vh;
-            /* Occupa tutta la altezza dello schermo */
         }
 
         .container {
@@ -27,20 +23,11 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .question-container {
-            margin-bottom: 20px;
-            /* Spazio tra le domande */
         }
 
         .question {
             margin: 20px 0;
             font-weight: bold;
-            font-size: 1.2em;
         }
 
         .option {
@@ -265,7 +252,6 @@
 
         function submitQuiz() {
             quizContainer.innerHTML = ""; // Svuota il contenitore del quiz.
-            quizContainer.classList.add("quiz-container"); // Aggiungi la classe per centrare il contenuto
 
             let correctAnswersCount = 0; // Contatore per le risposte corrette.
 
@@ -291,9 +277,9 @@
                     }
 
                     optionElement.innerHTML = `
-                <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""} />
-                <span class="${additionalClass}">${option}</span>
-            `;
+                        <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""} />
+                        <span class="${additionalClass}">${option}</span>
+                    `;
 
                     questionElement.appendChild(optionElement);
                 });
@@ -304,6 +290,7 @@
                 if (selectedAnswers[index] === question.correctIndex) {
                     correctAnswersCount++; // Incrementa il contatore delle risposte corrette.
                 }
+
             });
 
             submitBtn.disabled = true; // Disabilita il pulsante di invio.
