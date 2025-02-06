@@ -34,69 +34,178 @@
             display: block;
             margin: 10px 0;
         }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .correct-answer {
+            color: #155724;
+            font-weight: bold;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .selected-answer {
+            color: #721c24;
+            font-weight: bold;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #slider {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        #slider-label {
+            margin-bottom: 10px;
+        }
+
+        #restartBtn {
+            background-color: #28a745;
+        }
+
+        #restartBtn:hover {
+            background-color: #218838;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <h1>Quiz App</h1>
+        <div id="dataset-selection-container">
+            <label for="dataset-select">Select a dataset:</label>
+            <select id="dataset-select" onchange="changeDataset()">
+                <option value="https://ma77eoma770.github.io/Quiz/question.json">Economia Politica</option>
+                <option value="https://ma77eoma770.github.io/Quiz/BD1.json">Basi di Dati1</option>
+            </select>
+        </div>
+        <div id="slider-container">
+            <label id="slider-label" for="slider">Number of questions: 10</label>
+            <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
+        </div>
         <div id="quiz"></div>
         <button id="submitBtn" onclick="submitQuiz()" disabled>Submit</button>
         <button id="restartBtn" onclick="restartQuiz()">Restart</button>
     </div>
     
+    <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
     <script>
         let allQuestions = [];
         let questions = [];
         let selectedAnswers = [];
+        let numQuestions = 10;
 
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
+        const slider = document.getElementById("slider");
+        const sliderLabel = document.getElementById("slider-label");
+        const quizContainer = document.getElementById("quiz");
+        const submitBtn = document.getElementById("submitBtn");
+
+        function updateSliderLabelAndQuestions() {
+            numQuestions = parseInt(slider.value, 10);
+            sliderLabel.textContent = `Number of questions: ${numQuestions}`;
+            if (allQuestions.length > 0) {
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                displayQuestions();
             }
         }
 
-        function loadQuestionsFromFile() {
-            fetch('https://ma77eoma770.github.io/Quiz/question.json')
+        function loadQuestionsFromFile(datasetUrl) {
+            fetch(datasetUrl)
                 .then(response => response.json())
                 .then(data => {
                     allQuestions = data;
-                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
                     displayQuestions();
-                    document.getElementById("submitBtn").disabled = false;
+                    submitBtn.disabled = false;
                 })
-                .catch(error => console.error("Errore durante il caricamento delle domande:", error));
+                .catch(error => {
+                    console.error("Errore durante il caricamento delle domande:", error);
+                    alert("Impossibile caricare le domande. Riprova più tardi.");
+                });
         }
 
+
         function displayQuestions() {
-            const quizContainer = document.getElementById("quiz");
             quizContainer.innerHTML = "";
             selectedAnswers = Array(questions.length).fill(null);
-
+        
             questions.forEach((question, index) => {
                 const questionElement = document.createElement("div");
                 questionElement.classList.add("question-container");
-                
+        
                 const questionText = document.createElement("div");
                 questionText.classList.add("question");
-                questionText.textContent = question.question;
+        
+                // Controlla se la domanda contiene LaTeX
+                if (containsLaTeX(question.question)) {
+                    questionText.innerHTML = `$$${question.question}$$`;
+                } else {
+                    questionText.textContent = question.question;
+                }
+        
                 questionElement.appendChild(questionText);
-
-                let optionsWithIndex = question.options.map((option, idx) => ({ option, idx }));
-                shuffleArray(optionsWithIndex);
-                
-                optionsWithIndex.forEach(({ option, idx }) => {
+        
+                question.options.forEach((option, optionIndex) => {
                     const optionElement = document.createElement("label");
                     optionElement.classList.add("option");
-                    optionElement.innerHTML = `
-                        <input type="radio" name="question${index}" value="${idx}" onchange="selectAnswer(${index}, ${idx})" />
-                        ${option}
-                    `;
+        
+                    // Controlla se l'opzione contiene LaTeX
+                    if (containsLaTeX(option)) {
+                        optionElement.innerHTML = `
+                            <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                            $$${option}$$
+                        `;
+                    } else {
+                        optionElement.innerHTML = `
+                            <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                            ${option}
+                        `;
+                    }
+        
                     questionElement.appendChild(optionElement);
                 });
+        
                 quizContainer.appendChild(questionElement);
             });
+        
+            // Dopo aver aggiornato il contenuto, attiva MathJax solo se necessario
+            MathJax.typeset();
+        }
+        
+        // Funzione per controllare se una stringa contiene LaTeX
+        function containsLaTeX(text) {
+            const latexPattern = /\\[a-zA-Z]+|(\^\{[^}]+\})|(_\{[^}]+\})|\\frac\{[^}]+\}\{[^}]+\}|\\sum|\\prod|\\int|\\lim|\\begin\{.*?\}|\\end\{.*?\}/;
+            return latexPattern.test(text);
+        }
+        
+        function changeDataset() {
+            const selectedDatasetUrl = document.getElementById('dataset-select').value;
+            loadQuestionsFromFile(selectedDatasetUrl);
         }
 
         function selectAnswer(questionIndex, optionIndex) {
@@ -104,18 +213,56 @@
         }
 
         function submitQuiz() {
-            document.getElementById("submitBtn").disabled = true;
+            quizContainer.innerHTML = ""; // Svuota il contenitore del quiz.
+
+            questions.forEach((question, index) => {
+                const questionElement = document.createElement("div");
+                questionElement.classList.add("question-container");
+
+                const questionText = document.createElement("div");
+                questionText.classList.add("question");
+                questionText.textContent = question.question;
+
+                questionElement.appendChild(questionText);
+
+                question.options.forEach((option, optionIndex) => {
+                    const optionElement = document.createElement("label");
+                    optionElement.classList.add("option");
+
+                    // Determina la classe per evidenziare la risposta
+                    let additionalClass = "";
+                    if (optionIndex === question.correctIndex) {
+                        additionalClass = "correct-answer"; // Evidenzia la risposta corretta.
+                    } else if (optionIndex === selectedAnswers[index]) {
+                        additionalClass = "selected-answer"; // Evidenzia la risposta selezionata (anche se errata).
+                    }
+
+                    optionElement.innerHTML = `
+                <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""
+                        } />
+                <span class="${additionalClass}">${option}</span>
+            `;
+
+                    questionElement.appendChild(optionElement);
+                });
+
+                quizContainer.appendChild(questionElement);
+            });
+
+            submitBtn.disabled = true; // Disabilita il pulsante di invio.
         }
+
 
         function restartQuiz() {
             if (allQuestions.length > 0) {
-                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
                 displayQuestions();
-                document.getElementById("submitBtn").disabled = false;
+                submitBtn.disabled = false;
             }
         }
-
-        loadQuestionsFromFile();
+        loadQuestionsFromFile('https://ma77eoma770.github.io/Quiz/question.json');;
     </script>
 </body>
+
 </html>
+Voglio che questo codice modifichi anche l'ordine delle risposte possibili
