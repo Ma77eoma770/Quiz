@@ -98,8 +98,8 @@
         <div id="dataset-selection-container">
             <label for="dataset-select">Select a dataset:</label>
             <select id="dataset-select" onchange="changeDataset()">
-                <option value="https://ma77eoma770.github.io/Quiz/question.json">Economia Politica</option>
-                <option value="https://ma77eoma770.github.io/Quiz/BD1.json">Basi di Dati1</option>
+                <option value="https://ma77eoma770.github.io/Quiz/dataset/question.json">Economia Politica</option>
+                <option value="https://ma77eoma770.github.io/Quiz/dataset/BD1.json">Basi di Dati1</option>
             </select>
         </div>
         <div id="slider-container">
@@ -276,15 +276,13 @@
             // Mostra la gif in base al punteggio.
             const gifElement = document.createElement("img");
             if (percentage === 100) {
-                gifElement.src = "path/to/100_percent.gif"; // Inserisci il percorso per la gif con 100% corretto.
+                gifElement.src = "src/cat-cat-jumping.gif"; // Inserisci il percorso per la gif con 100% corretto.
             } else if (percentage >= 75) {
-                gifElement.src = "path/to/75_percent.gif"; // Inserisci il percorso per la gif con 75% corretto.
+                gifElement.src = "src/happy-cat-funny-smiling-grin-2cxp5723g93tahsv.gif"; // Inserisci il percorso per la gif con 75% corretto.
             } else if (percentage >= 50) {
-                gifElement.src = "path/to/50_percent.gif"; // Inserisci il percorso per la gif con 50% corretto.
+                gifElement.src = "src/shocked-surprised.gif"; // Inserisci il percorso per la gif con 50% corretto.
             } else if (percentage >= 25) {
-                gifElement.src = "path/to/25_percent.gif"; // Inserisci il percorso per la gif con 25% corretto.
-            } else {
-                gifElement.src = "path/to/0_percent.gif"; // Inserisci il percorso per la gif con 0% corretto.
+                gifElement.src = "src/cat-depressed.gif"; // Inserisci il percorso per la gif con 25% corretto.
             }
             quizContainer.appendChild(gifElement);
         }
