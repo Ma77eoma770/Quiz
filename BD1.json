@@ -1,15 +1,5 @@
 [
     {
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            "Nessuna delle precedenti"
-        ],
-        "correctIndex": 0
-    },
-    {
         "question": "Cosa implica un buon database?",
         "options": [
             "Niente ridondanze update, insertion o deletion anaomalies",
@@ -62,20 +52,100 @@
     {
         "question": "Dato uno schema R e uno schema di dipendenze F abbiamo:",
         "options": [
-            "(X \\to Y \\in F^+) \\Leftrightarrow \\forallA \\in Y,X \\to A \\in F^+",
-            "(X \\to Y \\in F) \\Leftrightarrow \\forallA \\in Y,X \\to A \\in F^+",
-            "(X \\to Y \\in F^+) \\Leftrightarrow \\forallA \\in Y,X \\to A \\in F",
-            "(X \\to Y \\in F) \\Leftrightarrow \\forallA \\in Y,X \\to A \\in F"
+            "(X \\to Y \\in F^+) \\Leftrightarrow \\forall A \\in Y,X \\to A \\in F^+",
+            "(X \\to Y \\in F) \\Leftrightarrow \\forall A \\in Y,X \\to A \\in F^+",
+            "(X \\to Y \\in F^+) \\Leftrightarrow \\forall A \\in Y,X \\to A \\in F",
+            "(X \\to Y \\in F) \\Leftrightarrow \\forall A \\in Y,X \\to A \\in F"
         ],
         "correctIndex": 0
     },
     {
-        "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
+        "question": "L'assioma di riflessivita recita:",
         "options": [
-            "Romana",
-            "Firenze",
-            "Campobasso",
-            "Parigi"
+            "(Y \\subsetq X \\in R) \\to (X \\to Y \\in F^A)",
+            "(Y \\subsetq X \\in R) \\to (X \\to Y \\in F+)",
+            "(Y \\subsetq X \\in R) \\to (X \\to Y \\in F)",
+            "Nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L'assioma dell'aumento recita:",
+        "options": [
+            "X \\to Y \\in F^A, \\forall Z \\subsetq R, XZ \\to YZ \\in F^A",
+            "X \\to Y \\in F^A, \\exists Z \\subsetq R, XZ \\to YZ \\in F^A",
+            "X \\to Y \\in F, \\exists Z \\subsetq R, XZ \\to YZ \\in F^A",
+            "X \\to Y \\in F, \\forall Z \\subsetq R, XZ \\to YZ \\in F^A"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L'assioma della transitivita recita:",
+        "options": [
+            "(X \\to Y \\in F^A \\land Y \\to Z \\in F^A) \\ to (X \\to Z \\in F^A)",
+            "(X \\to Y \\in F^A \\land Y \\to Z \\in F^A) \\ to (X \\to Z \\in F^+)",
+            "(X \\to Y \\in F \\land Y \\to Z \\in F) \\ to (X \\to Z \\in F^+)",
+            "(X \\to Y \\in F \\land Y \\to Z \\in F) \\ to (X \\to Z \\in F^A)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La regola dell'unione recita:",
+        "options": [
+            "(X \\to Y \\in F^A \\land X \\to Z \\in F^A) \\to (X \\to YZ \\in F^A",
+            "(X \\to Y \\in F^A \\land X \\to Z \\in F^A) \\to (X \\to YZ \\in F^+",
+            "(X \\to Y \\in F \\land X \\to Z \\in F^A) \\to (X \\to YZ \\in F^A",
+            "(X \\to Y \\in F \\land X \\to Z \\in F^A) \\to (X \\to YZ \\in F^+"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La regola della decomposizione recita:",
+        "options": [
+            "(X \\to Y \\in F^A \\land X \\subsetq Y) \\to (X \\to Z \\in F^A)",
+            "(X \\to Y \\in F^+ \\land X \\subsetq Y) \\to (X \\to Z \\in F^A)",
+            "(X \\to Y \\in F^A \\land X \\subsetq Y) \\to (X \\to Z \\in F^+)",
+            "(X \\to Y \\in F^+ \\land X \\subsetq Y) \\to (X \\to Z \\in F^+)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La regola della pseudotransivita recita:",
+        "options": [
+            "(X \\to Y \\in F^A \\land WY \\to Z \\in F^A) \\to (WX \\to Z \\in F^A)",
+            "(X \\to Y \\in F^A \\land WY \\to Z \\in F^A) \\to (WX \\to Z \\in F^+)",
+            "(X \\to Y \\in F^+ \\land WY \\to Z \\in F^A) \\to (WX \\to Z \\in F^+)",
+            "(X \\to Y \\in F^+ \\land WY \\to Z \\in F^A) \\to (WX \\to Z \\in F^A)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La chiusura di X:",
+        "options": [
+            "{A \\in R | X \\to A \\in F^A}",
+            "{A \\in R | X \\to A \\in F^+}",
+            "{A \\in R | X \\to A \\in F}",
+            "Nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Dato {A \\in R | X \\to A \\in F^A}",
+        "options": [
+            "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subsetq X^+)",
+            "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subsetq X)",
+            "(X \\to Y \\in F^A) \\to Y \\subsetq X^+)",
+            "(X \\to Y \\in F^A) \\to Y \\subsetq X)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La definizione di chiave:",
+        "options": [
+            "K \\to R \\in F^+, \\nexists K' \\subsetq K | K' \\to R",
+            "K \\to R \\in F^A, \\nexists K' \\subsetq K | K' \\to R",
+            "K \\to R \\in F, \\nexists K' \\subsetq K | K' \\to R",
+            "Nessuna delle precedenti"
         ],
         "correctIndex": 0
     }
