@@ -5,124 +5,300 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
         body {
-            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 0;
             padding: 20px;
+            background-color: #f0f0f0;
         }
 
         .container {
             max-width: 600px;
+            width: 100%;
             background-color: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
         }
 
         .question {
+            margin: 20px 0;
             font-weight: bold;
         }
 
+        .option {
+            display: block;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
         .correct-answer {
-            background-color: #d4edda;
+            color: #155724;
             font-weight: bold;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
             padding: 5px;
             border-radius: 5px;
         }
 
         .selected-answer {
-            background-color: #f8d7da;
+            color: #721c24;
             font-weight: bold;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
             padding: 5px;
             border-radius: 5px;
         }
 
-        #result-container {
-            margin-top: 20px;
+        #slider {
+            width: 100%;
+            margin: 20px 0;
         }
 
-        .result-img {
-            width: 100%;
-            max-width: 300px;
-            margin-top: 10px;
+        #slider-label {
+            margin-bottom: 10px;
+        }
+
+        #restartBtn {
+            background-color: #28a745;
+        }
+
+        #restartBtn:hover {
+            background-color: #218838;
         }
     </style>
 </head>
 
 <body>
-    <div class="container animate__animated animate__fadeIn">
-        <h1 class="mb-3">Quiz App</h1>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div id="dataset-selection-container">
+            <label for="dataset-select">Select a dataset:</label>
+            <select id="dataset-select" onchange="changeDataset()">
+                <option value="https://ma77eoma770.github.io/Quiz/question.json">Economia Politica</option>
+                <option value="https://ma77eoma770.github.io/Quiz/BD1.json">Basi di Dati1</option>
+            </select>
+        </div>
+        <div id="slider-container">
+            <label id="slider-label" for="slider">Number of questions: 10</label>
+            <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
+        </div>
         <div id="quiz"></div>
-        <button id="submitBtn" class="btn btn-primary mt-3" onclick="submitQuiz()" disabled>Submit</button>
-        <button id="restartBtn" class="btn btn-success mt-2" onclick="restartQuiz()">Restart</button>
-        <div id="result-container"></div>
+        <button id="submitBtn" onclick="submitQuiz()" disabled>Submit</button>
+        <button id="restartBtn" onclick="restartQuiz()">Restart</button>
     </div>
 
-    <script>
-        let questions = [
-            {
-                question: "What is 2 + 2?",
-                options: ["3", "4", "5", "6"],
-                correctIndex: 1
-            },
-            {
-                question: "What is the capital of France?",
-                options: ["Berlin", "Madrid", "Paris", "Rome"],
-                correctIndex: 2
-            }
-        ];
-        let selectedAnswers = [];
+    <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-        function displayQuestions() {
-            const quizContainer = document.getElementById("quiz");
-            quizContainer.innerHTML = "";
-            selectedAnswers = Array(questions.length).fill(null);
-            questions.forEach((q, index) => {
-                let questionHTML = `<div class='question mt-3'>${q.question}</div>`;
-                q.options.forEach((opt, i) => {
-                    questionHTML += `
-                        <div>
-                            <input type='radio' name='q${index}' value='${i}' onchange='selectAnswer(${index}, ${i})'>
-                            ${opt}
-                        </div>
-                    `;
-                });
-                quizContainer.innerHTML += questionHTML;
-            });
-            document.getElementById("submitBtn").disabled = false;
+    <script>
+        let allQuestions = [];
+        let questions = [];
+        let selectedAnswers = [];
+        let numQuestions = 10;
+
+        const slider = document.getElementById("slider");
+        const sliderLabel = document.getElementById("slider-label");
+        const quizContainer = document.getElementById("quiz");
+        const submitBtn = document.getElementById("submitBtn");
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
         }
 
-        function selectAnswer(qIndex, optIndex) {
-            selectedAnswers[qIndex] = optIndex;
+        function updateSliderLabelAndQuestions() {
+            numQuestions = parseInt(slider.value, 10);
+            sliderLabel.textContent = `Number of questions: ${numQuestions}`;
+            if (allQuestions.length > 0) {
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                displayQuestions();
+            }
+        }
+
+        function loadQuestionsFromFile(datasetUrl) {
+            fetch(datasetUrl)
+                .then(response => response.json())
+                .then(data => {
+                    allQuestions = data;
+                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                    displayQuestions();
+                    submitBtn.disabled = false;
+                })
+                .catch(error => {
+                    console.error("Errore durante il caricamento delle domande:", error);
+                    alert("Impossibile caricare le domande. Riprova più tardi.");
+                });
+        }
+
+        function displayQuestions() {
+            quizContainer.innerHTML = "";
+            selectedAnswers = Array(questions.length).fill(null);
+
+            questions.forEach((question, index) => {
+                const questionElement = document.createElement("div");
+                questionElement.classList.add("question-container");
+
+                const questionText = document.createElement("div");
+                questionText.classList.add("question");
+
+                if (containsLaTeX(question.question)) {
+                    questionText.innerHTML = `$$${question.question}$$`;
+                } else {
+                    questionText.textContent = question.question;
+                }
+
+                questionElement.appendChild(questionText);
+
+                // Creiamo un array che mantiene l'indice originale della risposta
+                let shuffledOptions = question.options.map((option, i) => ({
+                    text: option,
+                    originalIndex: i
+                }));
+
+                shuffleArray(shuffledOptions); // Mescoliamo le opzioni
+
+                shuffledOptions.forEach((option, optionIndex) => {
+                    const optionElement = document.createElement("label");
+                    optionElement.classList.add("option");
+
+                    if (containsLaTeX(option.text)) {
+                        optionElement.innerHTML = `
+                    <input type="radio" name="question${index}" value="${option.originalIndex}" onchange="selectAnswer(${index}, ${option.originalIndex})" />
+                    $$${option.text}$$
+                `;
+                    } else {
+                        optionElement.innerHTML = `
+                    <input type="radio" name="question${index}" value="${option.originalIndex}" onchange="selectAnswer(${index}, ${option.originalIndex})" />
+                    ${option.text}
+                `;
+                    }
+
+                    questionElement.appendChild(optionElement);
+                });
+
+                quizContainer.appendChild(questionElement);
+            });
+
+            MathJax.typeset();
+        }
+
+        // Funzione per controllare se una stringa contiene LaTeX
+        function containsLaTeX(text) {
+            const latexPattern = /\\[a-zA-Z]+|(\^\{[^}]+\})|(_\{[^}]+\})|\\frac\{[^}]+\}\{[^}]+\}|\\sum|\\prod|\\int|\\lim|\\begin\{.*?\}|\\end\{.*?\}/;
+            return latexPattern.test(text);
+        }
+
+        function changeDataset() {
+            const selectedDatasetUrl = document.getElementById('dataset-select').value;
+            loadQuestionsFromFile(selectedDatasetUrl);
+        }
+
+        function selectAnswer(questionIndex, optionIndex) {
+            selectedAnswers[questionIndex] = optionIndex;
         }
 
         function submitQuiz() {
-            let score = 0;
-            let resultHTML = "<h2>Results</h2>";
-            questions.forEach((q, i) => {
-                const isCorrect = selectedAnswers[i] === q.correctIndex;
-                if (isCorrect) score++;
-                resultHTML += `<p class='${isCorrect ? "correct-answer" : "selected-answer"}'>${q.question} - Your answer: ${q.options[selectedAnswers[i]] || "None"}</p>`;
+            quizContainer.innerHTML = ""; // Svuota il contenitore del quiz.
+        
+            let correctAnswersCount = 0; // Contatore per le risposte corrette.
+        
+            questions.forEach((question, index) => {
+                const questionElement = document.createElement("div");
+                questionElement.classList.add("question-container");
+        
+                const questionText = document.createElement("div");
+                questionText.classList.add("question");
+                questionText.textContent = question.question;
+        
+                questionElement.appendChild(questionText);
+        
+                question.options.forEach((option, optionIndex) => {
+                    const optionElement = document.createElement("label");
+                    optionElement.classList.add("option");
+        
+                    let additionalClass = "";
+                    if (optionIndex === question.correctIndex) {
+                        additionalClass = "correct-answer"; // Evidenzia la risposta corretta.
+                        correctAnswersCount++; // Incrementa il contatore delle risposte corrette.
+                    } else if (optionIndex === selectedAnswers[index]) {
+                        additionalClass = "selected-answer"; // Evidenzia la risposta selezionata (anche se errata).
+                    }
+        
+                    optionElement.innerHTML = `
+                        <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""} />
+                        <span class="${additionalClass}">${option}</span>
+                    `;
+        
+                    questionElement.appendChild(optionElement);
+                });
+        
+                quizContainer.appendChild(questionElement);
             });
-            resultHTML += `<h3>Your score: ${score} / ${questions.length}</h3>`;
-            let resultImg = score === questions.length ? "https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif" : "https://media.giphy.com/media/d10dMmzqCYqQ0/giphy.gif";
-            resultHTML += `<img class='result-img' src='${resultImg}' alt='Result'>`;
-            document.getElementById("result-container").innerHTML = resultHTML;
-            document.getElementById("submitBtn").disabled = true;
+        
+            submitBtn.disabled = true; // Disabilita il pulsante di invio.
+        
+            // Calcola il punteggio in percentuale.
+            const totalQuestions = questions.length;
+            const percentage = (correctAnswersCount / totalQuestions) * 100;
+        
+            // Mostra il punteggio.
+            const scoreElement = document.createElement("div");
+            scoreElement.classList.add("score");
+            scoreElement.textContent = `Punteggio: ${correctAnswersCount} / ${totalQuestions} (${Math.round(percentage)}%)`;
+            quizContainer.appendChild(scoreElement);
+        
+            // Mostra la gif in base al punteggio.
+            const gifElement = document.createElement("img");
+            if (percentage === 100) {
+                gifElement.src = "path/to/100_percent.gif"; // Inserisci il percorso per la gif con 100% corretto.
+            } else if (percentage >= 75) {
+                gifElement.src = "path/to/75_percent.gif"; // Inserisci il percorso per la gif con 75% corretto.
+            } else if (percentage >= 50) {
+                gifElement.src = "path/to/50_percent.gif"; // Inserisci il percorso per la gif con 50% corretto.
+            } else if (percentage >= 25) {
+                gifElement.src = "path/to/25_percent.gif"; // Inserisci il percorso per la gif con 25% corretto.
+            } else {
+                gifElement.src = "path/to/0_percent.gif"; // Inserisci il percorso per la gif con 0% corretto.
+            }
+            quizContainer.appendChild(gifElement);
         }
+        
 
         function restartQuiz() {
-            displayQuestions();
-            document.getElementById("result-container").innerHTML = "";
+            if (allQuestions.length > 0) {
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                displayQuestions();
+                submitBtn.disabled = false;
+            }
         }
-
-        displayQuestions();
+        loadQuestionsFromFile('https://ma77eoma770.github.io/Quiz/question.json');;
     </script>
 </body>
+
 </html>
