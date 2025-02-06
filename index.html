@@ -14,6 +14,10 @@
             margin: 0;
             padding: 20px;
             background-color: #f0f0f0;
+            justify-content: center;
+            /* Centra verticalmente il contenuto */
+            height: 100vh;
+            /* Occupa tutta la altezza dello schermo */
         }
 
         .container {
@@ -23,11 +27,20 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .question-container {
+            margin-bottom: 20px;
+            /* Spazio tra le domande */
         }
 
         .question {
             margin: 20px 0;
             font-weight: bold;
+            font-size: 1.2em;
         }
 
         .option {
@@ -88,6 +101,33 @@
 
         #restartBtn:hover {
             background-color: #218838;
+        }
+
+        .score {
+            font-size: 2em;
+            /* Aumenta la dimensione del punteggio */
+            font-weight: bold;
+            /* In grassetto */
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            /* Centra le immagini orizzontalmente */
+            width: 150px;
+            /* Imposta una dimensione fissa per le immagini */
+            height: auto;
+        }
+
+        /* Aggiunta di una nuova classe per centrare verticalmente il contenuto della pagina */
+        .quiz-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -225,59 +265,59 @@
 
         function submitQuiz() {
             quizContainer.innerHTML = ""; // Svuota il contenitore del quiz.
-        
+            quizContainer.classList.add("quiz-container"); // Aggiungi la classe per centrare il contenuto
+
             let correctAnswersCount = 0; // Contatore per le risposte corrette.
-        
+
             questions.forEach((question, index) => {
                 const questionElement = document.createElement("div");
                 questionElement.classList.add("question-container");
-        
+
                 const questionText = document.createElement("div");
                 questionText.classList.add("question");
                 questionText.textContent = question.question;
-        
+
                 questionElement.appendChild(questionText);
-        
+
                 question.options.forEach((option, optionIndex) => {
                     const optionElement = document.createElement("label");
                     optionElement.classList.add("option");
-        
+
                     let additionalClass = "";
                     if (optionIndex === question.correctIndex) {
                         additionalClass = "correct-answer"; // Evidenzia la risposta corretta.
                     } else if (optionIndex === selectedAnswers[index]) {
                         additionalClass = "selected-answer"; // Evidenzia la risposta selezionata (anche se errata).
                     }
-        
+
                     optionElement.innerHTML = `
-                        <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""} />
-                        <span class="${additionalClass}">${option}</span>
-                    `;
-        
+                <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""} />
+                <span class="${additionalClass}">${option}</span>
+            `;
+
                     questionElement.appendChild(optionElement);
                 });
-        
+
                 quizContainer.appendChild(questionElement);
-                
+
                 // Verifica se la risposta selezionata è corretta.
                 if (selectedAnswers[index] === question.correctIndex) {
                     correctAnswersCount++; // Incrementa il contatore delle risposte corrette.
                 }
-
             });
-        
+
             submitBtn.disabled = true; // Disabilita il pulsante di invio.
-        
+
             // Calcola il punteggio in percentuale.
             const totalQuestions = questions.length;
             const percentage = (correctAnswersCount / totalQuestions) * 100;
-        
+
             // Mostra il punteggio.
             const scoreElement = document.createElement("div");
             scoreElement.classList.add("score");
             scoreElement.textContent = `Punteggio: ${correctAnswersCount} / ${totalQuestions} (${Math.round(percentage)}%)`;
             quizContainer.appendChild(scoreElement);
-        
+
             // Mostra la gif in base al punteggio.
             const gifElement = document.createElement("img");
             if (percentage === 100) {
@@ -291,7 +331,7 @@
             }
             quizContainer.appendChild(gifElement);
         }
-        
+
 
         function restartQuiz() {
             if (allQuestions.length > 0) {
