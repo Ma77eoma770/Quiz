@@ -62,9 +62,9 @@
     {
         "question": "L'assioma di riflessivita recita:",
         "options": [
-            "(Y \\subsetq X \\in R) \\to (X \\to Y \\in F^A)",
-            "(Y \\subsetq X \\in R) \\to (X \\to Y \\in F+)",
-            "(Y \\subsetq X \\in R) \\to (X \\to Y \\in F)",
+            "(Y \\subseteq X \\in R) \\to (X \\to Y \\in F^A)",
+            "(Y \\subseteq X \\in R) \\to (X \\to Y \\in F+)",
+            "(Y \\subseteq X \\in R) \\to (X \\to Y \\in F)",
             "Nessuna delle precedenti"
         ],
         "correctIndex": 0
@@ -72,10 +72,10 @@
     {
         "question": "L'assioma dell'aumento recita:",
         "options": [
-            "X \\to Y \\in F^A, \\forall Z \\subsetq R, XZ \\to YZ \\in F^A",
-            "X \\to Y \\in F^A, \\exists Z \\subsetq R, XZ \\to YZ \\in F^A",
-            "X \\to Y \\in F, \\exists Z \\subsetq R, XZ \\to YZ \\in F^A",
-            "X \\to Y \\in F, \\forall Z \\subsetq R, XZ \\to YZ \\in F^A"
+            "X \\to Y \\in F^A, \\forall Z \\subseteq R, XZ \\to YZ \\in F^A",
+            "X \\to Y \\in F^A, \\exists Z \\subseteq R, XZ \\to YZ \\in F^A",
+            "X \\to Y \\in F, \\exists Z \\subseteq R, XZ \\to YZ \\in F^A",
+            "X \\to Y \\in F, \\forall Z \\subseteq R, XZ \\to YZ \\in F^A"
         ],
         "correctIndex": 0
     },
@@ -102,10 +102,10 @@
     {
         "question": "La regola della decomposizione recita:",
         "options": [
-            "(X \\to Y \\in F^A \\land X \\subsetq Y) \\to (X \\to Z \\in F^A)",
-            "(X \\to Y \\in F^+ \\land X \\subsetq Y) \\to (X \\to Z \\in F^A)",
-            "(X \\to Y \\in F^A \\land X \\subsetq Y) \\to (X \\to Z \\in F^+)",
-            "(X \\to Y \\in F^+ \\land X \\subsetq Y) \\to (X \\to Z \\in F^+)"
+            "(X \\to Y \\in F^A \\land X \\subseteq Y) \\to (X \\to Z \\in F^A)",
+            "(X \\to Y \\in F^+ \\land X \\subseteq Y) \\to (X \\to Z \\in F^A)",
+            "(X \\to Y \\in F^A \\land X \\subseteq Y) \\to (X \\to Z \\in F^+)",
+            "(X \\to Y \\in F^+ \\land X \\subseteq Y) \\to (X \\to Z \\in F^+)"
         ],
         "correctIndex": 0
     },
