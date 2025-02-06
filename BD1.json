@@ -1,6 +1,6 @@
 [
     {
-        "question": "Quale e la capitale dell'italia?",
+        "question": "\\forall (X \\to A) \\in F^+, r \\models (X \\to A)",
         "options": [
             "Roma",
             "Firenze",
