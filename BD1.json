@@ -132,19 +132,19 @@
     {
         "question": "Dato {A \\in R | X \\to A \\in F^A}",
         "options": [
-            "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subsetq X^+)",
-            "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subsetq X)",
-            "(X \\to Y \\in F^A) \\to Y \\subsetq X^+)",
-            "(X \\to Y \\in F^A) \\to Y \\subsetq X)"
+            "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subseteq X^+)",
+            "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subseteq X)",
+            "(X \\to Y \\in F^A) \\to Y \\subseteq X^+)",
+            "(X \\to Y \\in F^A) \\to Y \\subseteq X)"
         ],
         "correctIndex": 0
     },
     {
         "question": "La definizione di chiave:",
         "options": [
-            "K \\to R \\in F^+, \\nexists K' \\subsetq K | K' \\to R",
-            "K \\to R \\in F^A, \\nexists K' \\subsetq K | K' \\to R",
-            "K \\to R \\in F, \\nexists K' \\subsetq K | K' \\to R",
+            "K \\to R \\in F^+, \\nexists K' \\subseteq K | K' \\to R",
+            "K \\to R \\in F^A, \\nexists K' \\subseteq K | K' \\to R",
+            "K \\to R \\in F, \\nexists K' \\subseteq K | K' \\to R",
             "Nessuna delle precedenti"
         ],
         "correctIndex": 0
