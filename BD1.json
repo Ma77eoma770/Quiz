@@ -130,7 +130,7 @@
         "correctIndex": 0
     },
     {
-        "question": "Dato {A \\in R | X \\to A \\in F^A}",
+        "question": "\\text{Dato } {A \\in R | X \\to A \\in F^A}",
         "options": [
             "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subseteq X^+)",
             "(X \\to Y \\in F^A) \\Leftrightarrow Y \\subseteq X)",
