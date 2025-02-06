@@ -177,19 +177,23 @@
         
                 questionElement.appendChild(questionText);
         
-                question.options.forEach((option, optionIndex) => {
+                // Mescola l'ordine delle opzioni di risposta
+                let shuffledOptions = [...question.options];  // Crea una copia delle opzioni
+                shuffleArray(shuffledOptions);               // Mescola le opzioni
+        
+                shuffledOptions.forEach((option, optionIndex) => {
                     const optionElement = document.createElement("label");
                     optionElement.classList.add("option");
         
                     // Controlla se l'opzione contiene LaTeX
                     if (containsLaTeX(option)) {
                         optionElement.innerHTML = `
-                            <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                            <input type="radio" name="question${index}" value="${option}" onchange="selectAnswer(${index}, '${option}')" />
                             $$${option}$$
                         `;
                     } else {
                         optionElement.innerHTML = `
-                            <input type="radio" name="question${index}" value="${optionIndex}" onchange="selectAnswer(${index}, ${optionIndex})" />
+                            <input type="radio" name="question${index}" value="${option}" onchange="selectAnswer(${index}, '${option}')" />
                             ${option}
                         `;
                     }
@@ -199,11 +203,10 @@
         
                 quizContainer.appendChild(questionElement);
             });
-            
-            // Dopo aver aggiornato il contenuto, attiva MathJax solo se necessario
+        
             MathJax.typeset();
         }
-        
+
         // Funzione per controllare se una stringa contiene LaTeX
         function containsLaTeX(text) {
             const latexPattern = /\\[a-zA-Z]+|(\^\{[^}]+\})|(_\{[^}]+\})|\\frac\{[^}]+\}\{[^}]+\}|\\sum|\\prod|\\int|\\lim|\\begin\{.*?\}|\\end\{.*?\}/;
