@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Quale e la capitale dell'italia?",
+        "options": [
+            "Roma",
+            "Firenze",
+            "Campobasso",
+            "Parigi"
+        ],
+        "correctIndex": 0
+    }
+]
