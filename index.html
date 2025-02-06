@@ -245,7 +245,6 @@
                     let additionalClass = "";
                     if (optionIndex === question.correctIndex) {
                         additionalClass = "correct-answer"; // Evidenzia la risposta corretta.
-                        correctAnswersCount++; // Incrementa il contatore delle risposte corrette.
                     } else if (optionIndex === selectedAnswers[index]) {
                         additionalClass = "selected-answer"; // Evidenzia la risposta selezionata (anche se errata).
                     }
@@ -259,6 +258,12 @@
                 });
         
                 quizContainer.appendChild(questionElement);
+                
+                // Verifica se la risposta selezionata è corretta.
+                if (selectedAnswers[index] === question.correctIndex) {
+                    correctAnswersCount++; // Incrementa il contatore delle risposte corrette.
+                }
+
             });
         
             submitBtn.disabled = true; // Disabilita il pulsante di invio.
