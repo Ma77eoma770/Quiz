@@ -205,7 +205,7 @@
             "F = G",
             "F^+ = G^+",
             "F \\subseteq G^+ \\to F^+ \\subseteq G^+",
-            "G = \bigcup_{i=1}^{k} \\Pi_Ri (F)"
+            "G = \\bigcup_{i=1}^{k} \\Pi_Ri (F)"
         ],
         "correctIndex": 0
     },
