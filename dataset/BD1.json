@@ -140,6 +140,116 @@
         "correctIndex": 0
     },
     {
+        "question": "La definizione di 3NF:",
+        "options": [
+            "\\forall X \\to A \\in F^+, A \\notin X",
+            "\\forall X \\to A \\in F^A, A \\notin X",
+            "\\exists X \\to A \\in F^+, A \\notin X",
+            "\\exists X \\to A \\in F^A, A \\notin X"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "\\text{Per la definizione di 3NF: } (X \\to A)",
+        "options": [
+            "A primo o x superchiave",
+            "A superchiave o x primo",
+            "A primo e x superchiave",
+            "A superchiave e x primo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Definizone di A dipende parzialmente da K:",
+        "options": [
+            "\\exists X \\subseteq R | X \\to A \\in F^+, A \\notin X \\land X \\subseteq K \\land A \\notin keys",
+            "\\forall X \\subseteq R | X \\to A \\in F^A, A \\notin X \\land X \\subseteq K \\land A \\notin keys",
+            "\\exists X \\subseteq R | X \\to A \\in F^A, A \\notin X \\land X \\subseteq K \\land A \\notin keys",
+            "\\forall X \\subseteq R | X \\to A \\in F^+, A \\notin X \\land X \\subseteq K \\land A \\notin keys"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Definizone di A dipende transitivamente da K:",
+        "options": [
+            "\\exists X \\subseteq R | K \\to X \\in F^+, A \\notin X \\land X \\to A \\in F^+ \\land \\text{ X non chiave ed A non parte di una chiave}",
+            "\\exists X \\subseteq R | K \\to X \\in F^A, A \\notin X \\land X \\to A \\in F^+ \\land \\text{ X non chiave ed A non parte di una chiave}",
+            "\\forall X \\subseteq R | K \\to X \\in F^A, A \\notin X \\land X \\to A \\in F^+ \\land \\text{ X non chiave ed A non parte di una chiave}",
+            "\\forall X \\subseteq R | K \\to X \\in F^+, A \\notin X \\land X \\to A \\in F^+ \\land \\text{ X non chiave ed A non parte di una chiave}"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Cosa ha di particolare la Boyce-Cood Normal Form?",
+        "options": [
+            "Ogni determinante e superchiave",
+            "Ogni determinato e superchiave",
+            "Ogni determinato e attributo",
+            "Nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quale affermazione e corretta sulla BCNF:",
+        "options": [
+            "BCNF \\Leftrightarrow 3NF",
+            "BCNF \\to 3NF",
+            "3NF \\to BCNF",
+            "Nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Dire quale affermazione e errata",
+        "options": [
+            "F = G",
+            "F^+ = G^+",
+            "F \\subseteq G^+ \\to F^+ \\subseteq G^+",
+            "G = \bigcup_{i=1}^{k} \\Pi_Ri (F)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "A cosa equivale il pi greco Ri nella formula di G?",
+        "options": [
+            "X \\to Y \\in F^+ | XY \\subseteq Ri",
+            "X \\to Y \\in F^A | XY \\in Ri",
+            "X \\to Y \\in F^+ | XY \\in Ri",
+            "X \\to Y \\in F^A | XY \\subseteq Ri"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Dire quali de queste affermazioni e corretta",
+        "options": [
+            "A \\in X^+ \\Leftrightarrow X \\to A \\in F^+",
+            "A \\in X^+ \\to X \\to A \\in F^+",
+            "A \\in X^+ \\Leftrightarrow X \\to A \\in F^A",
+            "A \\in X^+ \\to X \\to A \\in F^A"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Data una decomposizione p e r = mp(p) dire quale di queste affermazioni e errata:",
+        "options": [
+            "r \\subseteq mp(p)",
+            "r \\subseteq mp(r)",
+            "\\Pi_Ri (mp(r)) = \\Pi_Ri(r)",
+            "mp(mp(r)) = mp(r)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quale di queste non fa parte della defiunizione di copertura minimale",
+        "options": [
+            "\\forall X \\to Y \\in G \\exists X' \\subseteq X | G - {X \\to Y} = G \\cup {X' \\to Y}",
+            "\\forall X \\to Y \\in G, Y \\text{ singleton}",
+            "\\forall X \\to Y \\in G, G - {X \\to Y} \\neq G",
+            "\\forall X \\to Y \\in G, \\nexists X' \\subset X | G - {X \\to Y} \\cup {X' \\to Y} = G"
+        ],
+        "correctIndex": 0
+    },
+    {
         "question": "La definizione di chiave:",
         "options": [
             "K \\to R \\in F^+, \\nexists K' \\subseteq K | K' \\to R",
