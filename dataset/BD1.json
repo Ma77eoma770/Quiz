@@ -82,10 +82,10 @@
     {
         "question": "L'assioma della transitivita recita:",
         "options": [
-            "(X \\to Y \\in F^A \\land Y \\to Z \\in F^A) \\ to (X \\to Z \\in F^A)",
-            "(X \\to Y \\in F^A \\land Y \\to Z \\in F^A) \\ to (X \\to Z \\in F^+)",
-            "(X \\to Y \\in F \\land Y \\to Z \\in F) \\ to (X \\to Z \\in F^+)",
-            "(X \\to Y \\in F \\land Y \\to Z \\in F) \\ to (X \\to Z \\in F^A)"
+            "(X \\to Y \\in F^A \\land Y \\to Z \\in F^A) \\to (X \\to Z \\in F^A)",
+            "(X \\to Y \\in F^A \\land Y \\to Z \\in F^A) \\to (X \\to Z \\in F^+)",
+            "(X \\to Y \\in F \\land Y \\to Z \\in F) \\to (X \\to Z \\in F^+)",
+            "(X \\to Y \\in F \\land Y \\to Z \\in F) \\to (X \\to Z \\in F^A)"
         ],
         "correctIndex": 0
     },
