@@ -770,4 +770,335 @@
         "correctIndex": 1,
         "answer": "Dare l'impressione che l'app sia veloce a caricare (dovrebbe essere identico alla prima schermata ma vuoto) [cite: 665]"
     }
+    ,
+    {
+        "question": "Nel contesto del Needfinding, cosa si intende per 'Process Mapping'?",
+        "options": [
+            "Mappare i processi della CPU",
+            "Chiedere all'utente di descrivere tutto il processo di un'attività",
+            "Disegnare una mappa geografica",
+            "Analizzare i log del server"
+        ],
+        "correctIndex": 1,
+        "answer": "Chiedere all'utente di descrivere tutto il processo di un'attività[cite: 116]."
+    },
+    {
+        "question": "Quale tipo di scala di misurazione ha un 'zero assoluto' (es. durata, età)?",
+        "options": [
+            "Nominale",
+            "Ordinata",
+            "Intervalli",
+            "Ratio"
+        ],
+        "correctIndex": 3,
+        "answer": "Ratio[cite: 157]."
+    },
+    {
+        "question": "Qual è lo svantaggio principale dell'osservazione 'Naturalistica'?",
+        "options": [
+            "È facile da replicare",
+            "È difficile avere un campione rappresentativo e manipolare le variabili esterne",
+            "Non è realistica",
+            "Richiede un laboratorio costoso"
+        ],
+        "correctIndex": 1,
+        "answer": "È difficile avere un campione rappresentativo e manipolare le variabili esterne[cite: 84, 86]."
+    },
+    {
+        "question": "Cosa differenzia un 'Inchiesta contestuale' da una semplice osservazione?",
+        "options": [
+            "L'utente non sa di essere osservato",
+            "L'utente e il ricercatore collaborano; l'utente spiega cosa fa mentre lo fa (Master-Apprentice)",
+            "Si usa solo il video",
+            "Si fa al telefono"
+        ],
+        "correctIndex": 1,
+        "answer": "L'utente e il ricercatore collaborano; l'utente spiega cosa fa mentre lo fa (Master-Apprentice)[cite: 166, 168]."
+    },
+    {
+        "question": "Nel Prototyping, cos'è l'approccio 'Evolutivo'?",
+        "options": [
+            "Il prototipo viene buttato via dopo il test",
+            "Un prototipo serve come base per il successivo, che lo migliora fino al prodotto finale",
+            "Si sviluppa tutto alla fine",
+            "Si usa solo carta"
+        ],
+        "correctIndex": 1,
+        "answer": "Un prototipo serve come base per il successivo, che lo migliora fino al prodotto finale[cite: 226]."
+    },
+    {
+        "question": "Qual è un rischio della tecnica 'Mago di Oz'?",
+        "options": [
+            "Essere troppo pessimisti sul sistema",
+            "Essere troppo ottimisti rispetto alle capacità reali del sistema (che non sbaglia mai nella simulazione)",
+            "Richiedere troppo codice",
+            "Essere troppo lenti"
+        ],
+        "correctIndex": 1,
+        "answer": "Essere troppo ottimisti rispetto alle capacità reali del sistema (che non sbaglia mai nella simulazione)[cite: 258]."
+    },
+    {
+        "question": "Cosa misura il modello GOMS?",
+        "options": [
+            "La soddisfazione dell'utente",
+            "Le performance dell'utente con un'interfaccia (Goals, Operators, Methods, Selections)",
+            "I colori dello schermo",
+            "La stabilità del server"
+        ],
+        "correctIndex": 1,
+        "answer": "Le performance dell'utente con un'interfaccia (Goals, Operators, Methods, Selections)[cite: 367]."
+    },
+    {
+        "question": "Quale euristica di Nielsen suggerisce di 'Riconoscere piuttosto che ricordare'?",
+        "options": [
+            "Euristica 1",
+            "Euristica 6",
+            "Euristica 10",
+            "Euristica 3"
+        ],
+        "correctIndex": 1,
+        "answer": "Euristica 6[cite: 361]."
+    },
+    {
+        "question": "Cosa si intende per 'Pair Design Programming' nel metodo Agile?",
+        "options": [
+            "Lavorare da soli a casa",
+            "Due persone lavorano insieme alternandosi per identificare e correggere errori",
+            "Usare due monitor",
+            "Programmare due app contemporaneamente"
+        ],
+        "correctIndex": 1,
+        "answer": "Due persone lavorano insieme alternandosi per identificare e correggere errori[cite: 394]."
+    },
+    {
+        "question": "Quanto dura tipicamente il 'Ciclo 1' nel Metodo Agile UCD?",
+        "options": [
+            "1 giorno",
+            "Da 2 a 4 settimane",
+            "6 mesi",
+            "1 anno"
+        ],
+        "correctIndex": 1,
+        "answer": "Da 2 a 4 settimane[cite: 404]."
+    },
+    {
+        "question": "Cosa è un 'Quasi-modo'?",
+        "options": [
+            "Un modo che cambia casualmente",
+            "Un modo ottenuto mantenendo fisicamente un controllo (es. tasto Shift)",
+            "Un modo permanente",
+            "Un errore di sistema"
+        ],
+        "correctIndex": 1,
+        "answer": "Un modo ottenuto mantenendo fisicamente un controllo (es. tasto Shift)[cite: 445]."
+    },
+    {
+        "question": "Perché l'interazione 'Noun-Verb' (Oggetto-Azione) è preferibile?",
+        "options": [
+            "Sposta il luogo dell'attenzione una sola volta e non crea modi",
+            "È più facile da programmare",
+            "Richiede meno click",
+            "È l'unica supportata da iOS"
+        ],
+        "correctIndex": 0,
+        "answer": "Sposta il luogo dell'attenzione una sola volta e non crea modi[cite: 433]."
+    },
+    {
+        "question": "Cosa sono le 'Interfacce Organiche'?",
+        "options": [
+            "Computer fatti di materiale biologico",
+            "Computer in ogni modo e forma (flessibili, adattabili)",
+            "Interfacce solo vocali",
+            "Interfacce per la medicina"
+        ],
+        "correctIndex": 1,
+        "answer": "Computer in ogni modo e forma (flessibili, adattabili)[cite: 46]."
+    },
+    {
+        "question": "Qual è la caratteristica principale delle 'Immersive Application'?",
+        "options": [
+            "Poca interazione, molto testo",
+            "Ambienti ricchi, a tutto schermo, focalizzati sull'esperienza del contenuto (es. giochi, mappe)",
+            "Liste gerarchiche",
+            "Utility veloci"
+        ],
+        "correctIndex": 1,
+        "answer": "Ambienti ricchi, a tutto schermo, focalizzati sull'esperienza del contenuto (es. giochi, mappe)[cite: 524, 525]."
+    },
+    {
+        "question": "Cosa è un 'Accordion Menu'?",
+        "options": [
+            "Un menu musicale",
+            "Un menu che si apre scorrendo da destra verso sinistra",
+            "Un menu che scende dall'alto",
+            "Un menu circolare"
+        ],
+        "correctIndex": 1,
+        "answer": "Un menu che si apre scorrendo da destra verso sinistra[cite: 532]."
+    },
+    {
+        "question": "Quale Design Pattern è descritto come 'Infinite Scrolling'?",
+        "options": [
+            "Caricare continuamente nuovo contenuto dal basso quando si scrolla",
+            "Una pagina che non finisce mai di caricare per errore",
+            "Scorrere le foto orizzontalmente",
+            "Il refresh della pagina"
+        ],
+        "correctIndex": 0,
+        "answer": "Caricare continuamente nuovo contenuto dal basso quando si scrolla[cite: 559]."
+    },
+    {
+        "question": "Nel Material Design 3, cosa definisce il 'Color Role'?",
+        "options": [
+            "Il codice esadecimale del colore",
+            "L'uso dell'elemento (es. Primary, Surface) a cui poi viene assegnato un colore dinamicamente",
+            "La luminosità dello schermo",
+            "Il brand dell'azienda"
+        ],
+        "correctIndex": 1,
+        "answer": "L'uso dell'elemento (es. Primary, Surface) a cui poi viene assegnato un colore dinamicamente[cite: 586]."
+    },
+    {
+        "question": "In Android, cosa sono le 'Cards'?",
+        "options": [
+            "Giochi di carte",
+            "Contenitori che racchiudono informazioni correlate e fungono da entrata per un maggior livello di dettaglio",
+            "Solo immagini decorative",
+            "Notifiche di sistema"
+        ],
+        "correctIndex": 1,
+        "answer": "Contenitori che racchiudono informazioni correlate e fungono da entrata per un maggior livello di dettaglio[cite: 620]."
+    },
+    {
+        "question": "Qual è la differenza tra 'Bottom Sheet Standard' e 'Modale' in Android?",
+        "options": [
+            "Standard coesiste con il contenuto principale, Modale blocca l'interazione con il resto (scurendo lo sfondo)",
+            "Non c'è differenza",
+            "Standard è rosso, Modale è blu",
+            "Modale non si può chiudere"
+        ],
+        "correctIndex": 0,
+        "answer": "Standard coesiste con il contenuto principale, Modale blocca l'interazione con il resto (scurendo lo sfondo)[cite: 627, 628]."
+    },
+    {
+        "question": "Cosa deve contenere la 'Top App Bar' in Android?",
+        "options": [
+            "Il titolo della schermata e azioni relative ad essa (e opzionalmente navigazione)",
+            "Pubblicità",
+            "Solo l'orologio",
+            "I controlli musicali"
+        ],
+        "correctIndex": 0,
+        "answer": "Il titolo della schermata e azioni relative ad essa (e opzionalmente navigazione)[cite: 639]."
+    },
+    {
+        "question": "In iOS, cosa è il 'Haptic Touch'?",
+        "options": [
+            "Un tocco leggero",
+            "Gesto di premere prolungatamente con un feedback tattile",
+            "Un tocco con due dita",
+            "Uno swipe veloce"
+        ],
+        "correctIndex": 1,
+        "answer": "Gesto di premere prolungatamente con un feedback tattile[cite: 667]."
+    },
+    {
+        "question": "Qual è la regola per il 'Branding' nelle interfacce iOS?",
+        "options": [
+            "Mettere il logo ovunque",
+            "Deve essere non invasivo, incorporato nella grafica e NON nella navigation bar",
+            "Deve coprire il 50% dello schermo",
+            "Deve lampeggiare"
+        ],
+        "correctIndex": 1,
+        "answer": "Deve essere non invasivo, incorporato nella grafica e NON nella navigation bar[cite: 664]."
+    },
+    {
+        "question": "Cosa sono le 'Collezioni' in iOS?",
+        "options": [
+            "Insiemi di elementi ordinati rappresentati in layout personalizzabili (es. griglia di foto)",
+            "Cartelle di file",
+            "Elenchi telefonici",
+            "Impostazioni di sistema"
+        ],
+        "correctIndex": 0,
+        "answer": "Insiemi di elementi ordinati rappresentati in layout personalizzabili (es. griglia di foto)[cite: 706]."
+    },
+    {
+        "question": "Qual è il limite consigliato di azioni in una Toolbar iOS?",
+        "options": [
+            "10",
+            "Massimo 5 icone o 3 testi",
+            "Solo 1",
+            "Nessun limite"
+        ],
+        "correctIndex": 1,
+        "answer": "Massimo 5 icone o 3 testi[cite: 689]."
+    },
+    {
+        "question": "Cosa caratterizza le 'Interfacce Tangibili'?",
+        "options": [
+            "Danno forma fisica ad informazioni digitali",
+            "Sono invisibili",
+            "Usano la realtà virtuale",
+            "Sono basate sui gesti a mezz'aria"
+        ],
+        "correctIndex": 0,
+        "answer": "Danno forma fisica ad informazioni digitali[cite: 43]."
+    },
+    {
+        "question": "Qual è un problema dei 'Questionari' rispetto alle interviste?",
+        "options": [
+            "Sono troppo lenti",
+            "Non permettono di fare analisi approfondite (domande di specificazione)",
+            "Costano troppo",
+            "Non si possono fare online"
+        ],
+        "correctIndex": 1,
+        "answer": "Non permettono di fare analisi approfondite (domande di specificazione)[cite: 141]."
+    },
+    {
+        "question": "Cos'è la 'Protocol Analysis'?",
+        "options": [
+            "Analisi dei protocolli di rete",
+            "Registrare l'utente che esegue il task per analizzare poi i risultati (video, audio, log)",
+            "Scrivere un protocollo di intesa",
+            "Analizzare il codice sorgente"
+        ],
+        "correctIndex": 1,
+        "answer": "Registrare l'utente che esegue il task per analizzare poi i risultati (video, audio, log)[cite: 284]."
+    },
+    {
+        "question": "In un esperimento 'Within Subject', cosa si intende per 'Mitigazione' del trasferimento dell'apprendimento?",
+        "options": [
+            "Non far fare l'esperimento a nessuno",
+            "Far svolgere a metà campione prima la condizione A e all'altra prima la B",
+            "Cancellare la memoria degli utenti",
+            "Usare solo esperti"
+        ],
+        "correctIndex": 1,
+        "answer": "Far svolgere a metà campione prima la condizione A e all'altra prima la B[cite: 326]."
+    },
+    {
+        "question": "Cosa è un 'Action Sheet' in iOS?",
+        "options": [
+            "Un foglio di calcolo",
+            "Un elemento sollecitato dall'utente che contiene info sull'azione corrente e un bottone per annullare",
+            "Un avviso di errore critico",
+            "Un menu principale"
+        ],
+        "correctIndex": 1,
+        "answer": "Un elemento sollecitato dall'utente che contiene info sull'azione corrente e un bottone per annullare[cite: 700]."
+    },
+    {
+        "question": "Perché le 'Productivity Application' usano spesso una vista di default (radice dell'albero)?",
+        "options": [
+            "Per risparmiare memoria",
+            "Per dare rapidità, semplicità d'uso e limitare gli errori",
+            "Perché è obbligatorio",
+            "Per mostrare il logo"
+        ],
+        "correctIndex": 1,
+        "answer": "Per dare rapidità, semplicità d'uso e limitare gli errori[cite: 509]."
+    }
 ]
