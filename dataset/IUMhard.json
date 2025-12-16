@@ -1,0 +1,1444 @@
+[
+  {
+    "question": "Qual è lo scopo principale di un'interfaccia utente (UI) in IUM?",
+    "options": [
+      "Migliorare l’estetica del sistema informatico",
+      "Separare completamente l’utente dal funzionamento interno",
+      "Consentire all’utente di controllare il sistema e ricevere feedback adeguati",
+      "Ottimizzare l’uso delle risorse hardware"
+    ],
+    "correctIndex": 2,
+    "answer": "Consentire all’utente di controllare il sistema e ricevere feedback adeguati"
+  },
+  {
+    "question": "Chi ha ideato il 'Memex', un sistema proto-hypertext?",
+    "options": [
+      "Uno dei ricercatori coinvolti nello sviluppo del mouse",
+      "Lo scienziato che propose un sistema di archiviazione associativa negli anni ’40",
+      "Il fondatore del PARC di Xerox",
+      "Il matematico che formalizzò la macchina universale"
+    ],
+    "correctIndex": 1,
+    "answer": "Lo scienziato che propose un sistema di archiviazione associativa negli anni ’40"
+  },
+  {
+    "question": "Quale tecnologia è considerata il primo esempio di Graphical User Interface (GUI)?",
+    "options": [
+      "Un sistema teorico di navigazione dell’informazione",
+      "Un programma che introdusse l’interazione grafica diretta con oggetti sullo schermo",
+      "Un computer commerciale con icone e finestre",
+      "Un sistema operativo multiutente"
+    ],
+    "correctIndex": 1,
+    "answer": "Un programma che introdusse l’interazione grafica diretta con oggetti sullo schermo"
+  },
+  {
+    "question": "Qual è la differenza tra touch screen resistivo e capacitivo?",
+    "options": [
+      "Il capacitivo rileva la pressione, il resistivo il calore",
+      "Il capacitivo funziona solo con pennini dedicati",
+      "Il resistivo risponde alla pressione fisica, il capacitivo sfrutta la conduttività del corpo",
+      "Non esistono differenze rilevanti per l’utente"
+    ],
+    "correctIndex": 2,
+    "answer": "Il resistivo risponde alla pressione fisica, il capacitivo sfrutta la conduttività del corpo"
+  },
+  {
+    "question": "Cosa si intende per 'Effetto Hawthorne' durante l'osservazione?",
+    "options": [
+      "Un miglioramento dovuto all’esperienza accumulata",
+      "Una modifica del comportamento causata dal fatto di essere osservati",
+      "Un errore sistematico del valutatore",
+      "Una distorsione statistica dei dati"
+    ],
+    "correctIndex": 1,
+    "answer": "Una modifica del comportamento causata dal fatto di essere osservati"
+  },
+  {
+    "question": "Qual è la differenza tra 'Processo' e 'Pratica' nel contesto del needfinding?",
+    "options": [
+      "Il Processo descrive ciò che avviene realmente, la Pratica la teoria",
+      "Il Processo è la descrizione ideale, la Pratica è ciò che accade realmente",
+      "Sono due termini intercambiabili",
+      "La Pratica riguarda solo strumenti digitali"
+    ],
+    "correctIndex": 1,
+    "answer": "Il Processo è la descrizione ideale, la Pratica è ciò che accade realmente"
+  },
+  {
+    "question": "Chi sono i 'Lead user'?",
+    "options": [
+      "Utenti esperti selezionati dall’azienda",
+      "Utenti che anticipano bisogni futuri e spesso creano soluzioni proprie",
+      "Utenti che rappresentano il comportamento medio",
+      "Utenti che utilizzano il sistema in modo scorretto"
+    ],
+    "correctIndex": 1,
+    "answer": "Utenti che anticipano bisogni futuri e spesso creano soluzioni proprie"
+  },
+  {
+    "question": "In un questionario, quale scala di risposta prevede un insieme predefinito di risposte disgiunte senza ordine?",
+    "options": [
+      "Una scala basata su intervalli numerici",
+      "Una scala che classifica senza gerarchia",
+      "Una scala con zero assoluto",
+      "Una scala comparativa"
+    ],
+    "correctIndex": 1,
+    "answer": "Una scala che classifica senza gerarchia"
+  },
+  {
+    "question": "Cosa rappresenta uno 'Storyboard'?",
+    "options": [
+      "Una descrizione testuale del sistema",
+      "Una sequenza visiva che illustra l’esecuzione di un task",
+      "Un prototipo completamente funzionante",
+      "Un diagramma dei flussi informativi"
+    ],
+    "correctIndex": 1,
+    "answer": "Una sequenza visiva che illustra l’esecuzione di un task"
+  },
+  {
+    "question": "A cosa servono le 'Personas'?",
+    "options": [
+      "A sostituire completamente il coinvolgimento degli utenti",
+      "A rappresentare modelli di utenti per guidare le decisioni progettuali",
+      "A definire l’architettura tecnica del sistema",
+      "A misurare le prestazioni dell’interfaccia"
+    ],
+    "correctIndex": 1,
+    "answer": "A rappresentare modelli di utenti per guidare le decisioni progettuali"
+  },
+  {
+    "question": "Qual è una caratteristica dei 'Low Fidelity Prototypes'?",
+    "options": [
+      "Riproducono fedelmente la grafica finale",
+      "Sono rapidi da creare e facili da modificare",
+      "Richiedono strumenti di sviluppo avanzati",
+      "Vengono usati solo nelle fasi finali"
+    ],
+    "correctIndex": 1,
+    "answer": "Sono rapidi da creare e facili da modificare"
+  },
+  {
+    "question": "In cosa consiste la tecnica del 'Mago di Oz'?",
+    "options": [
+      "Un algoritmo che simula l’intelligenza artificiale",
+      "Una simulazione in cui una persona interpreta il comportamento del sistema",
+      "Un test automatico senza utenti",
+      "Una tecnica di animazione delle interfacce"
+    ],
+    "correctIndex": 1,
+    "answer": "Una simulazione in cui una persona interpreta il comportamento del sistema"
+  },
+  {
+    "question": "Quale metodo di osservazione prevede che l'utente verbalizzi ciò che sta facendo?",
+    "options": [
+      "Protocol analysis",
+      "Think aloud",
+      "Post-task walkthrough",
+      "Heuristic evaluation"
+    ],
+    "correctIndex": 1,
+    "answer": "Think aloud"
+  },
+  {
+    "question": "In un esperimento, cos'è una Variabile Indipendente (VI)?",
+    "options": [
+      "La misura raccolta durante l’esperimento",
+      "Il fattore manipolato per creare condizioni diverse",
+      "Una variabile che resta costante",
+      "Il risultato finale dell’esperimento"
+    ],
+    "correctIndex": 1,
+    "answer": "Il fattore manipolato per creare condizioni diverse"
+  },
+  {
+    "question": "Qual è il vantaggio di un esperimento 'Within subject'?",
+    "options": [
+      "Elimina completamente l’effetto di apprendimento",
+      "Ogni partecipante prova tutte le condizioni",
+      "Riduce l’influenza delle differenze individuali",
+      "Richiede un numero maggiore di utenti"
+    ],
+    "correctIndex": 2,
+    "answer": "Riduce l’influenza delle differenze individuali"
+  },
+  {
+    "question": "Su quante euristiche si basa l'Heuristic Evaluation di Nielsen e Molich?",
+    "options": [
+      "Otto principi fondamentali",
+      "Dieci regole di usabilità",
+      "Dodici criteri di design",
+      "Cinque linee guida principali"
+    ],
+    "correctIndex": 1,
+    "answer": "Dieci regole di usabilità"
+  },
+  {
+    "question": "Qual è una caratteristica principale del metodo Agile rispetto al Waterfall?",
+    "options": [
+      "Segue fasi rigide e sequenziali",
+      "Riduce il coinvolgimento dell’utente",
+      "È iterativo e adattabile nel tempo",
+      "Prevede test solo alla fine"
+    ],
+    "correctIndex": 2,
+    "answer": "È iterativo e adattabile nel tempo"
+  },
+  {
+    "question": "Cosa si intende per interazione 'Noun-Verb'?",
+    "options": [
+      "Prima si sceglie l’azione poi l’oggetto",
+      "Prima si seleziona l’oggetto poi l’azione",
+      "Si utilizzano solo comandi testuali",
+      "L’azione viene eseguita automaticamente"
+    ],
+    "correctIndex": 1,
+    "answer": "Prima si seleziona l’oggetto poi l’azione"
+  },
+  {
+    "question": "Perché le interazioni Verb-Noun generano spesso errori di modo?",
+    "options": [
+      "Richiedono troppi passaggi",
+      "L’utente può perdere consapevolezza dello stato del sistema",
+      "Sono troppo lente",
+      "Non supportano scorciatoie"
+    ],
+    "correctIndex": 1,
+    "answer": "L’utente può perdere consapevolezza dello stato del sistema"
+  },
+  {
+    "question": "Cosa sono i 'Quasi-modi'?",
+    "options": [
+      "Modi permanenti del sistema",
+      "Modi mantenuti tramite un’azione fisica continua",
+      "Modi che cambiano automaticamente",
+      "Errori di interazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Modi mantenuti tramite un’azione fisica continua"
+  },
+  {
+    "question": "Cos'è un 'Affordance'?",
+    "options": [
+      "Un’indicazione grafica esplicita",
+      "La possibilità d’uso suggerita dalle proprietà di un oggetto",
+      "Un comando di sistema",
+      "Un tipo di feedback"
+    ],
+    "correctIndex": 1,
+    "answer": "La possibilità d’uso suggerita dalle proprietà di un oggetto"
+  },
+  {
+    "question": "Quale stile di applicazione mobile è caratterizzato da struttura gerarchica e focus sul task?",
+    "options": [
+      "Utility application",
+      "Immersive application",
+      "Productivity application",
+      "Game application"
+    ],
+    "correctIndex": 2,
+    "answer": "Productivity application"
+  },
+  {
+    "question": "Cosa sono i 'Dark Pattern'?",
+    "options": [
+      "Scelte grafiche per la modalità scura",
+      "Strategie di design che manipolano il comportamento dell’utente",
+      "Bug grafici non intenzionali",
+      "Pattern per l’accessibilità"
+    ],
+    "correctIndex": 1,
+    "answer": "Strategie di design che manipolano il comportamento dell’utente"
+  },
+  {
+    "question": "Nel Material Design 3, come vengono generati i colori?",
+    "options": [
+      "Sono scelti manualmente dal designer",
+      "Derivano da un colore base tramite algoritmi",
+      "Sono sempre predefiniti dal sistema",
+      "Dipendono solo dal tema chiaro o scuro"
+    ],
+    "correctIndex": 1,
+    "answer": "Derivano da un colore base tramite algoritmi"
+  },
+  {
+    "question": "Qual è la funzione del Floating Action Button (FAB) in Android?",
+    "options": [
+      "Aprire le impostazioni globali",
+      "Evidenziare l’azione primaria della schermata",
+      "Mostrare notifiche persistenti",
+      "Chiudere l’applicazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Evidenziare l’azione primaria della schermata"
+  },
+  {
+    "question": "Quale elemento di interfaccia Android è un menu che appare dal basso?",
+    "options": [
+      "Top App Bar",
+      "Bottom Sheet",
+      "Navigation Drawer",
+      "Snackbar"
+    ],
+    "correctIndex": 1,
+    "answer": "Bottom Sheet"
+  },
+  {
+    "question": "Qual è un principio fondamentale per l'autenticazione nelle interfacce iOS?",
+    "options": [
+      "Forzare il login all’avvio",
+      "Posticipare il sign-in e ridurre l’inserimento di dati",
+      "Usare password complesse obbligatorie",
+      "Disabilitare il salvataggio credenziali"
+    ],
+    "correctIndex": 1,
+    "answer": "Posticipare il sign-in e ridurre l’inserimento di dati"
+  },
+  {
+    "question": "In iOS, cosa sono i 'Segmented Controls'?",
+    "options": [
+      "Indicatori di avanzamento",
+      "Controlli per selezionare tra poche opzioni alternative",
+      "Menu contestuali",
+      "Bottoni di conferma"
+    ],
+    "correctIndex": 1,
+    "answer": "Controlli per selezionare tra poche opzioni alternative"
+  },
+  {
+    "question": "Qual è la differenza tra un Alert e un Action Sheet in iOS?",
+    "options": [
+      "L’Alert è centrale e critico, l’Action Sheet parte dal basso",
+      "L’Alert è informativo, l’Action Sheet decorativo",
+      "L’Action Sheet non richiede interazione",
+      "Non vi è differenza funzionale"
+    ],
+    "correctIndex": 0,
+    "answer": "L’Alert è centrale e critico, l’Action Sheet parte dal basso"
+  },
+  {
+    "question": "Cosa caratterizza le 'Immersive application'?",
+    "options": [
+      "Interazioni minime e testo abbondante",
+      "Esperienze a tutto schermo focalizzate sul contenuto",
+      "Strutture gerarchiche profonde",
+      "Uso prevalente di liste"
+    ],
+    "correctIndex": 1,
+    "answer": "Esperienze a tutto schermo focalizzate sul contenuto"
+  },
+  {
+    "question": "Quali sono i tre ruoli necessari per testare un 'Paper Prototype'?",
+    "options": [
+      "Designer, sviluppatore, cliente",
+      "Computer, facilitatore, osservatore",
+      "Utente, grafico, manager",
+      "Valutatore, programmatore, tester"
+    ],
+    "correctIndex": 1,
+    "answer": "Computer, facilitatore, osservatore"
+  }
+  ,
+{
+    "question": "Nel contesto dell'Interazione Uomo-Macchina (IUM), quale definizione descrive meglio la funzione critica dell'interfaccia utente (UI)?",
+    "options": [
+        "Implementare protocolli rigidi affinché la macchina guidi le decisioni operative dell'utente",
+        "Fornire uno strato esclusivamente grafico per mascherare la complessità del codice sottostante",
+        "Gestire il flusso bidirezionale di informazioni e controllo tra l'utente e il sistema per massimizzare l'efficienza",
+        "Virtualizzare completamente l'hardware per rimuovere la necessità di periferiche fisiche"
+    ],
+    "correctIndex": 2,
+    "answer": "Gestire il flusso bidirezionale di informazioni e controllo tra l'utente e il sistema per massimizzare l'efficienza"
+},
+{
+    "question": "Nel saggio 'As We May Think', quale autore teorizzò il 'Memex', un dispositivo concettuale basato sull'associazione di idee precursore dell'ipertesto?",
+    "options": [
+        "Ivan Sutherland, creatore di Sketchpad",
+        "Vannevar Bush, consigliere scientifico",
+        "Alan Turing, matematico e logico",
+        "Douglas Engelbart, inventore del mouse"
+    ],
+    "correctIndex": 1,
+    "answer": "Vannevar Bush, consigliere scientifico"
+},
+{
+    "question": "Quale sistema è storicamente riconosciuto come la prima implementazione concreta di una Graphical User Interface (GUI) e manipolazione diretta?",
+    "options": [
+        "Il sistema 'Memex' teorizzato da Bush",
+        "Il software 'Sketchpad' di Ivan Sutherland",
+        "La workstation 'Xerox Star' 8010",
+        "Il computer 'Apple Macintosh' 128K"
+    ],
+    "correctIndex": 1,
+    "answer": "Il software 'Sketchpad' di Ivan Sutherland"
+},
+{
+    "question": "Dal punto di vista tecnico e di usabilità, qual è la distinzione fondamentale tra touchscreen resistivi e capacitivi?",
+    "options": [
+        "I resistivi usano griglie a infrarossi, mentre i capacitivi rilevano la pressione meccanica",
+        "I resistivi sfruttano la conduttività elettrica della pelle, i capacitivi la deformazione fisica",
+        "I resistivi richiedono pressione fisica per chiudere un circuito, i capacitivi rilevano la perturbazione di un campo elettrostatico",
+        "Non vi è differenza nel principio di funzionamento, ma solo nella risoluzione dello schermo"
+    ],
+    "correctIndex": 2,
+    "answer": "I resistivi richiedono pressione fisica per chiudere un circuito, i capacitivi rilevano la perturbazione di un campo elettrostatico"
+},
+{
+    "question": "Nell'ambito della ricerca utente, cosa implica l'Effetto Hawthorne per la validità dei dati raccolti?",
+    "options": [
+        "L'usabilità del sistema percepita aumenta proporzionalmente alla qualità estetica dell'interfaccia",
+        "Il comportamento dei soggetti osservati viene alterato dalla consapevolezza di essere sotto esame",
+        "L'osservatore tende a ignorare i dati che contraddicono le proprie ipotesi iniziali",
+        "Gli utenti dimenticano rapidamente le istruzioni fornite all'inizio del test"
+    ],
+    "correctIndex": 1,
+    "answer": "Il comportamento dei soggetti osservati viene alterato dalla consapevolezza di essere sotto esame"
+},
+{
+    "question": "Durante la fase di Needfinding, quale distinzione critica intercorre tra 'Processo' e 'Pratica'?",
+    "options": [
+        "Il Processo è l'attività osservata empiricamente, la Pratica è il modello teorico astratto",
+        "Il Processo è la procedura formale o ideale, la Pratica è l'esecuzione reale comprensiva di variazioni e abitudini",
+        "I termini sono intercambiabili e si riferiscono entrambi al flusso di lavoro standardizzato",
+        "La Pratica è definita dai requisiti di sistema, il Processo è definito dall'esperienza utente"
+    ],
+    "correctIndex": 1,
+    "answer": "Il Processo è la procedura formale o ideale, la Pratica è l'esecuzione reale comprensiva di variazioni e abitudini"
+},
+{
+    "question": "Secondo la teoria dell'innovazione, quale caratteristica definisce i 'Lead Users'?",
+    "options": [
+        "Utenti che sperimentano bisogni futuri in anticipo rispetto al mercato e spesso sviluppano soluzioni proprie",
+        "Utenti inesperti che incontrano le maggiori difficoltà, evidenziando le carenze di usabilità del sistema",
+        "Utenti esperti incaricati ufficialmente di testare le versioni beta del software per trovare bug",
+        "Un campione statistico perfettamente rappresentativo dell'utente medio della popolazione target"
+    ],
+    "correctIndex": 0,
+    "answer": "Utenti che sperimentano bisogni futuri in anticipo rispetto al mercato e spesso sviluppano soluzioni proprie"
+},
+{
+    "question": "In statistica descrittiva per IUM, quale proprietà definisce una scala di misurazione 'Nominale'?",
+    "options": [
+        "Classifica gli elementi in categorie qualitative discrete senza alcun ordine implicito",
+        "Ordina gli elementi in una sequenza gerarchica ma senza intervalli costanti",
+        "Misura quantità con intervalli uguali ma prive di uno zero assoluto reale",
+        "Possiede tutte le proprietà di ordine e intervallo, includendo uno zero assoluto"
+    ],
+    "correctIndex": 0,
+    "answer": "Classifica gli elementi in categorie qualitative discrete senza alcun ordine implicito"
+},
+{
+    "question": "Nello UX Design, qual è la funzione primaria di uno 'Storyboard'?",
+    "options": [
+        "Fornire una specifica tecnica dettagliata per l'architettura del database",
+        "Mappare il flusso logico dei dati tra i vari componenti del sistema software",
+        "Visualizzare la sequenza narrativa di interazione dell'utente con il sistema in un contesto specifico",
+        "Presentare un prototipo interattivo ad alta fedeltà per il testing finale"
+    ],
+    "correctIndex": 2,
+    "answer": "Visualizzare la sequenza narrativa di interazione dell'utente con il sistema in un contesto specifico"
+},
+{
+    "question": "Per quale motivo l'uso delle 'Personas' è considerato essenziale nel design centrato sull'utente?",
+    "options": [
+        "Permettono di eliminare la necessità di reclutare utenti reali per le fasi di test",
+        "Forniscono archetipi basati su dati reali per guidare le decisioni di design ed evocare empatia",
+        "Servono a definire i privilegi di accesso e i ruoli di sicurezza all'interno del software",
+        "Sono utilizzate principalmente per calcolare le stime di costo basate sui profili di mercato"
+    ],
+    "correctIndex": 1,
+    "answer": "Forniscono archetipi basati su dati reali per guidare le decisioni di design ed evocare empatia"
+},
+{
+    "question": "Qual è il vantaggio strategico nell'utilizzare 'Low Fidelity Prototypes' (es. paper prototypes) nelle fasi iniziali?",
+    "options": [
+        "Permettono di testare le performance tecniche e i tempi di risposta del backend",
+        "Richiedono strumenti costosi ma garantiscono un risultato esteticamente perfetto",
+        "Massimizzano la velocità di iterazione e modifica, focalizzandosi su concetti e flussi",
+        "Simulano l'interazione finale in modo indistinguibile dal prodotto reale"
+    ],
+    "correctIndex": 2,
+    "answer": "Massimizzano la velocità di iterazione e modifica, focalizzandosi su concetti e flussi"
+},
+{
+    "question": "In cosa consiste specificamente la tecnica di prototipazione 'Wizard of Oz'?",
+    "options": [
+        "L'utilizzo di algoritmi predittivi per anticipare le azioni dell'utente",
+        "La simulazione manuale delle risposte del sistema da parte di un operatore umano nascosto",
+        "L'impiego di interfacce vocali avanzate per guidare l'utente nel compito",
+        "Un metodo di colorazione automatica per migliorare l'estetica delle bozze"
+    ],
+    "correctIndex": 1,
+    "answer": "La simulazione manuale delle risposte del sistema da parte di un operatore umano nascosto"
+},
+{
+    "question": "Quale metodo di valutazione qualitativa richiede all'utente di verbalizzare costantemente i propri pensieri durante l'esecuzione di un task?",
+    "options": [
+        "Analisi dei Protocolli Log",
+        "Think Aloud Protocol",
+        "Post-Task Walkthrough",
+        "Test A/B Comparativo"
+    ],
+    "correctIndex": 1,
+    "answer": "Think Aloud Protocol"
+},
+{
+    "question": "Nel disegno sperimentale, come viene definita la Variabile Indipendente (VI)?",
+    "options": [
+        "La metrica di prestazione (es. tempo o errori) che viene osservata e misurata",
+        "Il fattore o condizione che viene manipolato intenzionalmente dallo sperimentatore",
+        "Una variabile di disturbo che deve essere eliminata per non invalidare il test",
+        "L'ipotesi di base che prevede l'assenza di effetti significativi"
+    ],
+    "correctIndex": 1,
+    "answer": "Il fattore o condizione che viene manipolato intenzionalmente dallo sperimentatore"
+},
+{
+    "question": "Perché si potrebbe preferire un disegno sperimentale 'Within-Subjects' rispetto a uno 'Between-Subjects'?",
+    "options": [
+        "Per eliminare completamente l'effetto di apprendimento tra le prove",
+        "Per ridurre la durata complessiva dell'esperimento per ogni singolo partecipante",
+        "Per ridurre la varianza dell'errore dovuta alle differenze individuali tra i partecipanti",
+        "Per evitare la necessità di controbilanciare l'ordine delle condizioni"
+    ],
+    "correctIndex": 2,
+    "answer": "Per ridurre la varianza dell'errore dovuta alle differenze individuali tra i partecipanti"
+},
+{
+    "question": "Quante sono le euristiche di usabilità standard definite da Jakob Nielsen e Rolf Molich?",
+    "options": [
+        "5 principi fondamentali",
+        "8 regole d'oro (Shneiderman)",
+        "10 euristiche generali",
+        "12 linee guida specifiche"
+    ],
+    "correctIndex": 2,
+    "answer": "10 euristiche generali"
+},
+{
+    "question": "Quale caratteristica distingue fondamentalmente lo sviluppo Agile rispetto al modello Waterfall nel contesto UCD?",
+    "options": [
+        "Segue un processo rigidamente lineare senza possibilità di ritorno alle fasi precedenti",
+        "Posticipa qualsiasi forma di testing o verifica alla conclusione dell'intero sviluppo",
+        "Adotta un approccio iterativo e incrementale con valutazioni frequenti e adattabilità",
+        "Privilegia la documentazione esaustiva dei processi rispetto alla risposta al cambiamento"
+    ],
+    "correctIndex": 2,
+    "answer": "Adotta un approccio iterativo e incrementale con valutazioni frequenti e adattabilità"
+},
+{
+    "question": "Cosa indica il paradigma di interazione 'Noun-Verb' (Oggetto-Azione)?",
+    "options": [
+        "L'utente seleziona prima il comando e successivamente l'oggetto su cui applicarlo",
+        "L'utente seleziona prima l'oggetto di interesse e successivamente l'operazione da eseguire",
+        "L'utente deve digitare comandi testuali complessi in linguaggio naturale",
+        "L'interazione è basata esclusivamente su comandi vocali imperativi"
+    ],
+    "correctIndex": 1,
+    "answer": "L'utente seleziona prima l'oggetto di interesse e successivamente l'operazione da eseguire"
+},
+{
+    "question": "Per quale ragione cognitiva le interazioni 'Verb-Noun' (Azione-Oggetto) sono considerate più soggette a errori di modo?",
+    "options": [
+        "Perché i verbi sono semanticamente più ambigui degli oggetti visivi",
+        "Perché creano uno stato temporaneo (modo) che l'utente deve ricordare mentre seleziona il target",
+        "Perché l'esecuzione dell'azione è troppo rapida per permettere correzioni",
+        "Perché questo paradigma non supporta l'uso di icone o metafore visive"
+    ],
+    "correctIndex": 1,
+    "answer": "Perché creano uno stato temporaneo (modo) che l'utente deve ricordare mentre seleziona il target"
+},
+{
+    "question": "Quale definizione descrive accuratamente i 'Quasi-modi' nell'interazione (es. tasto Shift)?",
+    "options": [
+        "Stati del sistema che non funzionano correttamente a causa di bug software",
+        "Modi attivi solo fintanto che l'utente mantiene attivamente uno sforzo fisico (cinestetico)",
+        "Modalità attivate esclusivamente tramite riconoscimento vocale o gesture aeree",
+        "Stati che cambiano in modo casuale senza input diretto dell'utente"
+    ],
+    "correctIndex": 1,
+    "answer": "Modi attivi solo fintanto che l'utente mantiene attivamente uno sforzo fisico (cinestetico)"
+},
+{
+    "question": "Secondo la definizione formale in 'The Design of Everyday Things', cos'è un 'Affordance'?",
+    "options": [
+        "Qualsiasi etichetta testuale o icona che spiega la funzione di un oggetto",
+        "La relazione tra le proprietà fisiche di un oggetto e le capacità dell'agente che determina come l'oggetto può essere usato",
+        "Il costo computazionale o economico associato all'implementazione di una funzionalità",
+        "Un menu a comparsa che offre opzioni aggiuntive all'utente"
+    ],
+    "correctIndex": 1,
+    "answer": "La relazione tra le proprietà fisiche di un oggetto e le capacità dell'agente che determina come l'oggetto può essere usato"
+},
+{
+    "question": "Nelle linee guida per il design mobile, quale categoria di app è tipicamente strutturata gerarchicamente e focalizzata sull'efficienza del task (es. Email)?",
+    "options": [
+        "Utility Application",
+        "Immersive Application",
+        "Productivity Application",
+        "Entertainment Application"
+    ],
+    "correctIndex": 2,
+    "answer": "Productivity Application"
+},
+{
+    "question": "Cosa identifica il termine 'Dark Pattern' nel design delle interfacce?",
+    "options": [
+        "Schemi di colori scuri ottimizzati per il risparmio energetico e la lettura notturna",
+        "Elementi di design ingannevoli creati intenzionalmente per manipolare l'utente contro il suo interesse",
+        "Errori di programmazione backend che non sono visibili nell'interfaccia utente",
+        "Interfacce accessibili progettate specificamente per utenti ipovedenti"
+    ],
+    "correctIndex": 1,
+    "answer": "Elementi di design ingannevoli creati intenzionalmente per manipolare l'utente contro il suo interesse"
+},
+{
+    "question": "Quale meccanismo utilizza Material Design 3 per determinare la palette colori di un'applicazione?",
+    "options": [
+        "I colori devono essere selezionati manualmente dal designer per ogni singolo componente",
+        "Un algoritmo estrae una tonalità 'seed' (es. dallo sfondo) e genera dinamicamente palette tonali coordinate",
+        "Il sistema impone esclusivamente l'uso di scale di grigio per garantire l'accessibilità",
+        "I colori vengono scaricati da un server remoto ad ogni avvio dell'applicazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Un algoritmo estrae una tonalità 'seed' (es. dallo sfondo) e genera dinamicamente palette tonali coordinate"
+},
+{
+    "question": "Nelle linee guida Android, qual è lo scopo specifico del Floating Action Button (FAB)?",
+    "options": [
+        "Fornire un metodo rapido per chiudere l'applicazione o tornare alla home",
+        "Accedere al menu delle impostazioni globali dell'applicazione",
+        "Rappresentare l'azione primaria e frequente della schermata, rimanendo visibile sopra il contenuto",
+        "Visualizzare le notifiche push non lette in un badge circolare"
+    ],
+    "correctIndex": 2,
+    "answer": "Rappresentare l'azione primaria e frequente della schermata, rimanendo visibile sopra il contenuto"
+},
+{
+    "question": "Quale componente Android permette di visualizzare un pannello che scorre dal basso verso l'alto offrendo azioni supplementari?",
+    "options": [
+        "Top App Bar",
+        "Bottom Sheet",
+        "Material Card",
+        "Tab Layout"
+    ],
+    "correctIndex": 1,
+    "answer": "Bottom Sheet"
+},
+{
+    "question": "Quale principio guida le Human Interface Guidelines (HIG) di iOS riguardo l'autenticazione utente?",
+    "options": [
+        "Richiedere sempre il login immediato al primo avvio per garantire la sicurezza",
+        "Ritardare il login il più possibile e minimizzare l'inserimento dati per ridurre l'abbandono",
+        "Imporre l'uso di password alfanumeriche complesse senza supporto per la biometria",
+        "Vietare il salvataggio delle credenziali nel Keychain per motivi di privacy"
+    ],
+    "correctIndex": 1,
+    "answer": "Ritardare il login il più possibile e minimizzare l'inserimento dati per ridurre l'abbandono"
+},
+{
+    "question": "In iOS, qual è la funzione dei 'Segmented Controls'?",
+    "options": [
+        "Regolare livelli continui come il volume o la luminosità",
+        "Presentare un set di 2-5 opzioni mutuamente esclusive per cambiare vista o ambito",
+        "Permettere lo scorrimento infinito di liste di dati complessi",
+        "Fornire un pulsante di uscita rapida dall'applicazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Presentare un set di 2-5 opzioni mutuamente esclusive per cambiare vista o ambito"
+},
+{
+    "question": "Qual è la differenza semantica e funzionale tra un Alert e un Action Sheet in iOS?",
+    "options": [
+        "L'Alert comunica situazioni critiche al centro schermo; l'Action Sheet risponde a un'azione utente offrendo scelte dal basso",
+        "L'Alert utilizza colori verdi per conferma; l'Action Sheet utilizza il rosso per pericolo",
+        "L'Alert non è modale e permette l'interazione; l'Action Sheet blocca totalmente l'interfaccia",
+        "Non esiste differenza funzionale, la scelta è puramente stilistica"
+    ],
+    "correctIndex": 0,
+    "answer": "L'Alert comunica situazioni critiche al centro schermo; l'Action Sheet risponde a un'azione utente offrendo scelte dal basso"
+},
+{
+    "question": "Quali caratteristiche definiscono un'applicazione 'Immersive' (es. Giochi, Realtà Aumentata)?",
+    "options": [
+        "Struttura rigida a lista, navigazione standard e prevalenza di testo",
+        "Utilizzo dell'intero schermo, focus assoluto sul contenuto e controlli personalizzati non standard",
+        "Visualizzazione di dati tabellari semplici con minima interattività",
+        "Focalizzazione su task di produttività, inserimento dati e gestione file"
+    ],
+    "correctIndex": 1,
+    "answer": "Utilizzo dell'intero schermo, focus assoluto sul contenuto e controlli personalizzati non standard"
+},
+{
+    "question": "Quali sono i tre ruoli distinti necessari per condurre efficacemente un test su 'Paper Prototype'?",
+    "options": [
+        "Graphic Designer, Sviluppatore Backend, Product Owner",
+        "Computer (simulatore), Facilitatore (interfaccia vocale), Osservatore (verbalizzatore)",
+        "Utente finale, Project Manager, Esperto di Marketing",
+        "Mago (operatore), Utente (test subject), Giornalista (intervistatore)"
+    ],
+    "correctIndex": 1,
+    "answer": "Computer (simulatore), Facilitatore (interfaccia vocale), Osservatore (verbalizzatore)"
+},
+{
+    "question": "In cosa consiste la tecnica di ispezione dell'usabilità nota come 'Cognitive Walkthrough'?",
+    "options": [
+        "Un'ispezione fisica del luogo di lavoro dell'utente per valutare l'ergonomia ambientale",
+        "Una simulazione passo-passo di un task da parte di esperti che valutano la comprensibilità di ogni azione per l'utente",
+        "Un test di memoria a breve termine somministrato agli utenti finali",
+        "L'analisi automatizzata dei log del server per identificare i percorsi di navigazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Una simulazione passo-passo di un task da parte di esperti che valutano la comprensibilità di ogni azione per l'utente"
+},
+{
+    "question": "Quale modello predittivo assegna tempi standardizzati a operazioni fisiche di basso livello (es. keystroke, puntamento)?",
+    "options": [
+        "Analisi GOMS ad alto livello",
+        "Heuristic Evaluation",
+        "KLM (Keystroke-Level Model)",
+        "Modello a Cascata (Waterfall)"
+    ],
+    "correctIndex": 2,
+    "answer": "KLM (Keystroke-Level Model)"
+},
+{
+    "question": "Qual è l'obiettivo principale del 'Ciclo 0' nella metodologia Agile UCD?",
+    "options": [
+        "Scrittura del codice sorgente definitivo per il rilascio",
+        "Beta testing del software con un vasto pubblico",
+        "Attività di ricerca e analisi iniziale: definizione obiettivi, contesti d'uso e creazione di Personas",
+        "Finalizzazione degli asset grafici e delle icone ad alta risoluzione"
+    ],
+    "correctIndex": 2,
+    "answer": "Attività di ricerca e analisi iniziale: definizione obiettivi, contesti d'uso e creazione di Personas"
+},
+{
+    "question": "Qual è il limite metodologico principale dell'osservazione condotta in ambiente controllato (laboratorio)?",
+    "options": [
+        "L'impossibilità di replicare l'esperimento con altri partecipanti",
+        "La difficoltà nel manipolare le variabili indipendenti",
+        "La perdita di validità ecologica e del contesto naturale (rischio di Effetto Hawthorne)",
+        "L'eccessiva durata richiesta per raccogliere dati significativi"
+    ],
+    "correctIndex": 2,
+    "answer": "La perdita di validità ecologica e del contesto naturale (rischio di Effetto Hawthorne)"
+},
+{
+    "question": "Nel design dell'interazione, cosa definisce il concetto di 'Locus of Attention'?",
+    "options": [
+        "La posizione fisica dell'utente all'interno della stanza durante l'uso del dispositivo",
+        "L'oggetto, l'idea o l'elemento specifico su cui l'utente sta focalizzando attivamente le risorse cognitive",
+        "Le coordinate X e Y del cursore del mouse sullo schermo",
+        "L'area dello schermo dedicata alle notifiche di sistema urgenti"
+    ],
+    "correctIndex": 1,
+    "answer": "L'oggetto, l'idea o l'elemento specifico su cui l'utente sta focalizzando attivamente le risorse cognitive"
+},
+{
+    "question": "Secondo la distinzione di Norman, qual è la differenza tra 'Affordance' e 'Signifier'?",
+    "options": [
+        "L'Affordance è un indizio puramente visivo, il Signifier è una proprietà fisica materiale",
+        "L'Affordance è la possibilità d'azione intrinseca, il Signifier è l'indizio percettivo che comunica dove e come agire",
+        "I termini sono sinonimi e descrivono entrambi la bellezza estetica dell'oggetto",
+        "I Signifiers riguardano solo feedback uditivi, le Affordances riguardano feedback visivi"
+    ],
+    "correctIndex": 1,
+    "answer": "L'Affordance è la possibilità d'azione intrinseca, il Signifier è l'indizio percettivo che comunica dove e come agire"
+},
+{
+    "question": "Quale meccanismo psicologico rende il pattern 'Pull-to-refresh' simile al funzionamento di una slot machine?",
+    "options": [
+        "La paura irrazionale di perdere i dati salvati",
+        "Il rinforzo intermittente dato dalle ricompense variabili (Variable Rewards)",
+        "La pressione sociale derivante dalla condivisione dei risultati",
+        "La riduzione dello sforzo cognitivo dovuta all'automazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Il rinforzo intermittente dato dalle ricompense variabili (Variable Rewards)"
+},
+{
+    "question": "Cosa caratterizza le 'Interfacce Naturali' (NUI) rispetto alle GUI tradizionali?",
+    "options": [
+        "L'uso esclusivo di materiali biodegradabili come il legno",
+        "L'invisibilità dell'interfaccia che diventa un'estensione fluida delle capacità umane attraverso gesti appresi o naturali",
+        "La dipendenza totale dai comandi vocali senza alcun feedback visivo",
+        "L'applicazione specifica nel settore dell'agricoltura di precisione"
+    ],
+    "correctIndex": 1,
+    "answer": "L'invisibilità dell'interfaccia che diventa un'estensione fluida delle capacità umane attraverso gesti appresi o naturali"
+},
+{
+    "question": "Negli esperimenti Within-Subjects, quale problema è causato dal 'Learning Effect' (effetto apprendimento)?",
+    "options": [
+        "L'utente dimentica le istruzioni iniziali durante il test",
+        "L'utente apprende osservando altri partecipanti, invalidando l'isolamento",
+        "La prestazione nella seconda condizione migliora solo perché l'utente ha fatto pratica con la prima, falsando il confronto",
+        "L'utente fornisce suggerimenti al valutatore su come migliorare il sistema"
+    ],
+    "correctIndex": 2,
+    "answer": "La prestazione nella seconda condizione migliora solo perché l'utente ha fatto pratica con la prima, falsando il confronto"
+},
+{
+    "question": "In cosa consiste la pratica del 'Pair Design' o 'Pair Programming'?",
+    "options": [
+        "Assegnare compiti identici a due team separati che non comunicano",
+        "Due professionisti lavorano alla stessa postazione alternandosi e controllandosi a vicenda per migliorare la qualità",
+        "Utilizzare due monitor per aumentare lo spazio di lavoro disponibile",
+        "Sviluppare due versioni diverse del software contemporaneamente per un A/B test"
+    ],
+    "correctIndex": 1,
+    "answer": "Due professionisti lavorano alla stessa postazione alternandosi e controllandosi a vicenda per migliorare la qualità"
+},
+{
+    "question": "Quale euristica di Nielsen raccomanda il 'Match between system and the real world'?",
+    "options": [
+        "Visibilità dello stato del sistema in ogni momento",
+        "Utilizzo di linguaggio, concetti e metafore familiari all'utente piuttosto che termini orientati al sistema",
+        "Prevenzione degli errori tramite vincoli di design",
+        "Design minimalista ed estetico che rimuove informazioni irrilevanti"
+    ],
+    "correctIndex": 1,
+    "answer": "Utilizzo di linguaggio, concetti e metafore familiari all'utente piuttosto che termini orientati al sistema"
+},
+{
+    "question": "Cosa distingue metodologicamente la 'Contextual Inquiry' da un'intervista tradizionale?",
+    "options": [
+        "Viene condotta telefonicamente per risparmiare tempo",
+        "Adotta il modello 'Maestro-Apprendista': l'osservatore guarda l'utente lavorare nel suo ambiente reale e pone domande puntuali",
+        "Si basa su un questionario scritto a risposta chiusa",
+        "Ha una durata molto breve, focalizzata solo sui problemi critici"
+    ],
+    "correctIndex": 1,
+    "answer": "Adotta il modello 'Maestro-Apprendista': l'osservatore guarda l'utente lavorare nel suo ambiente reale e pone domande puntuali"
+},
+{
+    "question": "Qual è lo scopo funzionale della 'Bottom Navigation Bar' nelle linee guida Android?",
+    "options": [
+        "Fornire accesso a impostazioni di sistema avanzate e poco frequenti",
+        "Permettere la navigazione rapida tra 3-5 destinazioni di alto livello nella gerarchia dell'app",
+        "Visualizzare messaggi di errore critici o avvisi di sicurezza",
+        "Mostrare lo stato della batteria e la connessione di rete"
+    ],
+    "correctIndex": 1,
+    "answer": "Permettere la navigazione rapida tra 3-5 destinazioni di alto livello nella gerarchia dell'app"
+},
+{
+    "question": "Nel sistema colori di Material Design, cosa indica il ruolo semantico 'On-Primary'?",
+    "options": [
+        "Il colore di riempimento del pulsante principale",
+        "Il colore degli elementi (testo, icone) che devono essere leggibili quando posizionati sopra il colore Primary",
+        "Il colore di sfondo generale della schermata",
+        "Il colore utilizzato per indicare stati di errore"
+    ],
+    "correctIndex": 1,
+    "answer": "Il colore degli elementi (testo, icone) che devono essere leggibili quando posizionati sopra il colore Primary"
+},
+{
+    "question": "Secondo le linee guida iOS, qual è il numero massimo raccomandato di tab in una Tab Bar?",
+    "options": [
+        "Massimo 3",
+        "Massimo 5",
+        "Massimo 7",
+        "Nessun limite, purché siano scrollabili"
+    ],
+    "correctIndex": 1,
+    "answer": "Massimo 5"
+},
+{
+    "question": "Quali sono le caratteristiche distintive di una 'Utility Application' mobile?",
+    "options": [
+        "Struttura gerarchica profonda e complessa navigazione a breadcrumb",
+        "Esperienza ludica immersiva con grafica 3D",
+        "Focus su task specifici e rapidi, visualizzazione dati semplice, bassa gerarchia (es. Meteo, Calcolatrice)",
+        "Progettazione orientata alla creazione di documenti lunghi e formattati"
+    ],
+    "correctIndex": 2,
+    "answer": "Focus su task specifici e rapidi, visualizzazione dati semplice, bassa gerarchia (es. Meteo, Calcolatrice)"
+},
+{
+    "question": "Cosa si indaga attraverso le 'Interviste Storiche' (Historical Interviews)?",
+    "options": [
+        "Le opinioni dell'utente sulle versioni precedenti del software",
+        "La ricostruzione della sequenza di eventi passati che hanno portato alle pratiche o ai problemi attuali",
+        "Interviste condotte esclusivamente con utenti demograficamente anziani",
+        "La conoscenza dell'utente riguardo la storia dell'informatica"
+    ],
+    "correctIndex": 1,
+    "answer": "La ricostruzione della sequenza di eventi passati che hanno portato alle pratiche o ai problemi attuali"
+},
+{
+    "question": "Dal punto di vista statistico, come viene classificata una Scala Likert (es. accordo da 1 a 5)?",
+    "options": [
+        "Scala Nominale",
+        "Scala Ordinale (Ordinata)",
+        "Scala a Rapporti (Ratio)",
+        "Scala Assoluta"
+    ],
+    "correctIndex": 1,
+    "answer": "Scala Ordinale (Ordinata)"
+},
+{
+    "question": "Quale vantaggio offrono i prototipi 'Medium Fidelity' (es. wireframe interattivi) rispetto ai Low Fidelity?",
+    "options": [
+        "Sono pronti per la distribuzione finale sugli store",
+        "Permettono di validare la navigazione, il flusso tra schermate e l'architettura informativa con input simulati",
+        "Possono essere realizzati interamente a mano libera senza software",
+        "Non richiedono l'uso di computer per essere testati"
+    ],
+    "correctIndex": 1,
+    "answer": "Permettono di validare la navigazione, il flusso tra schermate e l'architettura informativa con input simulati"
+},
+{
+    "question": "In cosa differisce la 'Cooperative Evaluation' dal semplice Think Aloud?",
+    "options": [
+        "Coinvolge due sviluppatori che scrivono codice insieme",
+        "Trasforma il test in una conversazione collaborativa dove utente e valutatore possono farsi domande a vicenda",
+        "Richiede che un gruppo di utenti esegua il test contemporaneamente",
+        "La valutazione viene effettuata solo dai manager senza utenti"
+    ],
+    "correctIndex": 1,
+    "answer": "Trasforma il test in una conversazione collaborativa dove utente e valutatore possono farsi domande a vicenda"
+},
+{
+    "question": "Qual è la condizione necessaria per applicare test statistici 'parametrici' (es. t-test) ai dati raccolti?",
+    "options": [
+        "I dati possono avere qualsiasi distribuzione",
+        "I dati non devono seguire una distribuzione normale",
+        "I dati devono approssimare una distribuzione normale (Gaussiana) e avere varianza omogenea",
+        "I dati devono essere esclusivamente di natura qualitativa"
+    ],
+    "correctIndex": 2,
+    "answer": "I dati devono approssimare una distribuzione normale (Gaussiana) e avere varianza omogenea"
+},
+{
+    "question": "A quale tipologia di 'Dark Pattern' appartiene il 'Roach Motel'?",
+    "options": [
+        "Scorrimento infinito dei contenuti per causare dipendenza",
+        "Riproduzione automatica di video non richiesti",
+        "Situazione in cui è facile entrare (es. iscriversi) ma deliberatamente difficile uscire (es. cancellare l'account)",
+        "Suggerimenti di contenuti basati su piaceri colpevoli (Guilty-Pleasure)"
+    ],
+    "correctIndex": 3,
+    "answer": "Situazione in cui è facile entrare (es. iscriversi) ma deliberatamente difficile uscire (es. cancellare l'account)"
+},
+{
+    "question": "Quale elemento UI è universalmente riconosciuto tramite l'icona a tre linee orizzontali parallele?",
+    "options": [
+        "Kebab Menu (opzioni aggiuntive)",
+        "Hamburger Menu (navigazione laterale)",
+        "Meatball Menu (azioni contestuali)",
+        "Bento Menu (griglia di app)"
+    ],
+    "correctIndex": 1,
+    "answer": "Hamburger Menu (navigazione laterale)"
+},
+{
+    "question": "Qual è la funzione dei 'Breadcrumbs' (briciole di pane) nella navigazione web/desktop?",
+    "options": [
+        "Lasciare tracce visive casuali sullo schermo",
+        "Mostrare la gerarchia del percorso corrente per permettere all'utente di risalire ai livelli superiori",
+        "Visualizzare icone di notifica temporanee",
+        "Evidenziare gli errori di compilazione nel codice"
+    ],
+    "correctIndex": 1,
+    "answer": "Mostrare la gerarchia del percorso corrente per permettere all'utente di risalire ai livelli superiori"
+},
+{
+    "question": "In Material Design, qual è l'uso corretto di un 'Side Sheet'?",
+    "options": [
+        "Visualizzare contenuti ausiliari o filtri che supportano il contenuto principale, ancorati al lato schermo",
+        "Fornire un comando per chiudere forzatamente l'app",
+        "Gestire la navigazione primaria tra le sezioni dell'app",
+        "Raccogliere tutte le notifiche push in arrivo"
+    ],
+    "correctIndex": 0,
+    "answer": "Visualizzare contenuti ausiliari o filtri che supportano il contenuto principale, ancorati al lato schermo"
+},
+{
+    "question": "Quali elementi sono essenziali in una 'Navigation Bar' standard di iOS?",
+    "options": [
+        "Pulsante Back (se necessario), Titolo della vista corrente e opzionalmente un pulsante di azione (es. Edit)",
+        "Banner pubblicitari o promozionali",
+        "Esclusivamente il logo del brand centrato",
+        "Una barra di ricerca persistente di Google"
+    ],
+    "correctIndex": 0,
+    "answer": "Pulsante Back (se necessario), Titolo della vista corrente e opzionalmente un pulsante di azione (es. Edit)"
+},
+{
+    "question": "Come funziona il modello di interazione 'Action-Object' (Verb-Noun)?",
+    "options": [
+        "Si seleziona prima l'oggetto target, poi il comando da eseguire",
+        "Si seleziona prima lo strumento/comando (es. secchiello) e poi si applica all'oggetto target",
+        "L'azione viene eseguita in automatico dal sistema senza input",
+        "È un modello obsoleto non più utilizzato nelle interfacce moderne"
+    ],
+    "correctIndex": 1,
+    "answer": "Si seleziona prima lo strumento/comando (es. secchiello) e poi si applica all'oggetto target"
+},
+{
+    "question": "Qual è uno dei principali vantaggi economici della 'Expert Based Evaluation' (es. ispezione euristica)?",
+    "options": [
+        "Garantisce il coinvolgimento diretto degli utenti finali",
+        "È estremamente costosa ma fornisce dati quantitativi inconfutabili",
+        "È relativamente economica, rapida e applicabile in qualsiasi fase del ciclo di sviluppo",
+        "Sostituisce completamente la necessità di effettuare test con utenti reali"
+    ],
+    "correctIndex": 2,
+    "answer": "È relativamente economica, rapida e applicabile in qualsiasi fase del ciclo di sviluppo"
+},
+{
+    "question": "Cosa accade durante un 'Post-Task Walkthrough'?",
+    "options": [
+        "L'utente abbandona il test immediatamente dopo aver finito il compito",
+        "Ricercatore e utente riguardano insieme la registrazione del test appena concluso per discutere le azioni compiute",
+        "Il designer mostra all'utente come avrebbe dovuto svolgere il compito correttamente",
+        "Viene inviato un questionario di soddisfazione via email giorni dopo il test"
+    ],
+    "correctIndex": 1,
+    "answer": "Ricercatore e utente riguardano insieme la registrazione del test appena concluso per discutere le azioni compiute"
+},
+{
+    "question": "Nella Task Analysis, come viene formalmente definito un 'Task'?",
+    "options": [
+        "Un malfunzionamento del sistema che impedisce l'avanzamento",
+        "Un obiettivo (Goal) raggiunto attraverso una sequenza ordinata di azioni o operazioni",
+        "Una singola riga di codice esecutivo",
+        "Un desiderio astratto non ancora tradotto in funzionalità"
+    ],
+    "correctIndex": 1,
+    "answer": "Un obiettivo (Goal) raggiunto attraverso una sequenza ordinata di azioni o operazioni"
+},
+{
+    "question": "Qual è la tecnica chiave utilizzata nelle interviste 'Laddering'?",
+    "options": [
+        "Far salire fisicamente l'utente su una scala per testare l'equilibrio",
+        "Chiedere ripetutamente 'Perché?' per risalire dalle caratteristiche del prodotto ai valori profondi dell'utente",
+        "Chiedere all'utente di ordinare le funzionalità per importanza su una scala graduata",
+        "Intervistare i dipendenti dell'azienda in ordine gerarchico"
+    ],
+    "correctIndex": 1,
+    "answer": "Chiedere ripetutamente 'Perché?' per risalire dalle caratteristiche del prodotto ai valori profondi dell'utente"
+},
+{
+    "question": "In un esperimento controllato, cos'è la Variabile Dipendente (VD)?",
+    "options": [
+        "La variabile manipolata dallo sperimentatore (es. tipo di interfaccia)",
+        "La grandezza misurata per valutare l'effetto della manipolazione (es. tempo di completamento)",
+        "Un fattore costante che non cambia durante l'esperimento",
+        "Il partecipante stesso che esegue il test"
+    ],
+    "correctIndex": 1,
+    "answer": "La grandezza misurata per valutare l'effetto della manipolazione (es. tempo di completamento)"
+},
+{
+    "question": "Cosa afferma l'Ipotesi Nulla (H0) in un test statistico?",
+    "options": [
+        "Che la modifica introdotta (VI) causerà un cambiamento significativo nei risultati",
+        "Che non esiste alcuna differenza significativa tra le condizioni testate (la VI non ha effetto sulla VD)",
+        "Che l'esperimento è fallito a causa di errori procedurali",
+        "Che l'utente non sarà in grado di comprendere l'interfaccia"
+    ],
+    "correctIndex": 1,
+    "answer": "Che non esiste alcuna differenza significativa tra le condizioni testate (la VI non ha effetto sulla VD)"
+},
+{
+    "question": "Qual è un limite intrinseco dei questionari rispetto alle interviste dirette?",
+    "options": [
+        "Hanno costi di distribuzione troppo elevati",
+        "La rigidità strutturale impedisce di porre domande di approfondimento (follow-up) immediate su risposte interessanti",
+        "Raggiungono un numero eccessivo di persone rendendo difficile l'analisi",
+        "I dati quantitativi raccolti sono difficili da rappresentare graficamente"
+    ],
+    "correctIndex": 1,
+    "answer": "La rigidità strutturale impedisce di porre domande di approfondimento (follow-up) immediate su risposte interessanti"
+},
+{
+    "question": "Quale design pattern mobile corrisponde a un menu che si espande verticalmente (o lateralmente) rivelando sotto-opzioni, simile a uno strumento musicale?",
+    "options": [
+        "Dropdown Menu",
+        "Accordion Menu",
+        "Hamburger Menu",
+        "Card View"
+    ],
+    "correctIndex": 1,
+    "answer": "Accordion Menu"
+},
+{
+    "question": "Qual è la caratteristica definente delle 'Tangible User Interfaces' (TUI)?",
+    "options": [
+        "Sono costituite esclusivamente da pixel su schermi ad alta risoluzione",
+        "Utilizzano oggetti fisici per rappresentare e manipolare informazioni digitali",
+        "Si basano esclusivamente sull'interazione touch screen",
+        "Sono controllate unicamente tramite comandi vocali"
+    ],
+    "correctIndex": 1,
+    "answer": "Utilizzano oggetti fisici per rappresentare e manipolare informazioni digitali"
+},
+{
+    "question": "Perché la domanda 'Ti piace questa funzionalità?' è sconsigliata durante un user test?",
+    "options": [
+        "È troppo complessa da comprendere per l'utente medio",
+        "È una domanda 'biased' (tendenziosa) che cerca conferma e spinge l'utente a compiacere l'intervistatore",
+        "Gli utenti tendono a dire che piace tutto indiscriminatamente",
+        "Viola le leggi sulla privacy dei dati"
+    ],
+    "correctIndex": 1,
+    "answer": "È una domanda 'biased' (tendenziosa) che cerca conferma e spinge l'utente a compiacere l'intervistatore"
+},
+{
+    "question": "In un classico A/B Test, qual è la configurazione tipica delle variabili?",
+    "options": [
+        "Nessuna variabile indipendente, solo osservazione",
+        "Una singola variabile indipendente con due livelli (Versione A vs Versione B)",
+        "Almeno 5 variabili indipendenti manipolate contemporaneamente",
+        "Variabile dipendente dal numero di utenti connessi"
+    ],
+    "correctIndex": 1,
+    "answer": "Una singola variabile indipendente con due livelli (Versione A vs Versione B)"
+},
+{
+    "question": "Qual è lo scopo psicologico e funzionale del 'Launch Screen' in iOS?",
+    "options": [
+        "Mostrare il branding aziendale per un tempo prolungato",
+        "Migliorare la percezione di reattività mostrando immediatamente uno scheletro vuoto dell'interfaccia mentre l'app carica",
+        "Visualizzare annunci pubblicitari all'avvio",
+        "Fornire un tutorial rapido sull'utilizzo dell'app"
+    ],
+    "correctIndex": 1,
+    "answer": "Migliorare la percezione di reattività mostrando immediatamente uno scheletro vuoto dell'interfaccia mentre l'app carica"
+},
+{
+    "question": "Nel contesto del Needfinding, cosa si intende per 'Process Mapping'?",
+    "options": [
+        "La mappatura tecnica dei processi della CPU",
+        "La richiesta all'utente di descrivere o disegnare l'intero flusso di passaggi di un'attività specifica",
+        "Il disegno di una mappa geografica degli utenti",
+        "L'analisi dei log del server per tracciare gli errori"
+    ],
+    "correctIndex": 1,
+    "answer": "La richiesta all'utente di descrivere o disegnare l'intero flusso di passaggi di un'attività specifica"
+},
+{
+    "question": "Quale tipo di scala di misurazione possiede tutte le proprietà delle altre scale più un 'zero assoluto' reale (es. Tempo, Distanza)?",
+    "options": [
+        "Scala Nominale",
+        "Scala Ordinale",
+        "Scala a Intervalli",
+        "Scala a Rapporti (Ratio)"
+    ],
+    "correctIndex": 3,
+    "answer": "Scala a Rapporti (Ratio)"
+},
+{
+    "question": "Qual è il principale svantaggio dell'Osservazione Naturalistica rispetto a quella in Laboratorio?",
+    "options": [
+        "È troppo semplice da replicare e banalizza la ricerca",
+        "È difficile controllare le variabili esterne, garantire la rappresentatività del campione e replicare le condizioni",
+        "Non fornisce dati realistici sul comportamento",
+        "Richiede strumentazione più costosa di quella da laboratorio"
+    ],
+    "correctIndex": 1,
+    "answer": "È difficile controllare le variabili esterne, garantire la rappresentatività del campione e replicare le condizioni"
+},
+{
+    "question": "Qual è l'elemento distintivo dell'Inchiesta Contestuale (Contextual Inquiry) rispetto all'osservazione passiva?",
+    "options": [
+        "L'utente viene osservato di nascosto tramite specchi unidirezionali",
+        "Si instaura una relazione di partnership (Master-Apprentice) dove l'utente spiega il proprio lavoro mentre lo svolge",
+        "Viene utilizzato solo il video senza audio",
+        "L'indagine viene svolta interamente al telefono"
+    ],
+    "correctIndex": 1,
+    "answer": "Si instaura una relazione di partnership (Master-Apprentice) dove l'utente spiega il proprio lavoro mentre lo svolge"
+},
+{
+    "question": "Nel Prototyping, cosa definisce l'approccio 'Evolutivo'?",
+    "options": [
+        "Il prototipo viene scartato dopo ogni fase di test (Throw-away)",
+        "Il prototipo iniziale viene raffinato iterativamente fino a diventare il prodotto finale rilasciato",
+        "Tutto il codice viene scritto in una sola fase finale",
+        "Si utilizzano esclusivamente prototipi cartacei"
+    ],
+    "correctIndex": 1,
+    "answer": "Il prototipo iniziale viene raffinato iterativamente fino a diventare il prodotto finale rilasciato"
+},
+{
+    "question": "Quale rischio comporta l'uso eccessivo della tecnica 'Wizard of Oz'?",
+    "options": [
+        "Sottostimare le capacità del sistema finale",
+        "Creare aspettative irrealistiche nell'utente simulando un'intelligenza o affidabilità che il sistema reale non potrà garantire",
+        "Scrivere una quantità eccessiva di codice inutile",
+        "Rallentare troppo la fase di test"
+    ],
+    "correctIndex": 1,
+    "answer": "Creare aspettative irrealistiche nell'utente simulando un'intelligenza o affidabilità che il sistema reale non potrà garantire"
+},
+{
+    "question": "Cosa quantifica esattamente il modello GOMS (Goals, Operators, Methods, Selection rules)?",
+    "options": [
+        "Il livello soggettivo di soddisfazione dell'utente",
+        "La performance procedurale di un utente esperto nell'eseguire task di routine senza errori",
+        "La fedeltà cromatica dello schermo",
+        "La robustezza del codice backend"
+    ],
+    "correctIndex": 1,
+    "answer": "La performance procedurale di un utente esperto nell'eseguire task di routine senza errori"
+},
+{
+    "question": "Quale principio cognitivo è alla base dell'euristica di Nielsen 'Recognition rather than recall'?",
+    "options": [
+        "Euristica 1: Visibilità dello stato",
+        "Euristica 6: Minimizzare il carico di memoria rendendo visibili oggetti e azioni, invece di chiedere all'utente di ricordare comandi",
+        "Euristica 10: Aiuto e documentazione",
+        "Euristica 3: Controllo e libertà"
+    ],
+    "correctIndex": 1,
+    "answer": "Euristica 6: Minimizzare il carico di memoria rendendo visibili oggetti e azioni, invece di chiedere all'utente di ricordare comandi"
+},
+{
+    "question": "Qual è la dinamica operativa del 'Pair Programming' in Agile?",
+    "options": [
+        "Ogni programmatore lavora da casa propria",
+        "Due programmatori condividono una workstation: uno scrive (driver) e l'altro revisiona in tempo reale (navigator)",
+        "Si usano due monitor per ogni persona",
+        "Si sviluppano due app concorrenti"
+    ],
+    "correctIndex": 1,
+    "answer": "Due programmatori condividono una workstation: uno scrive (driver) e l'altro revisiona in tempo reale (navigator)"
+},
+{
+    "question": "Qual è la durata tipica di un 'Ciclo 1' (sviluppo iterativo) nel metodo Agile UCD?",
+    "options": [
+        "1 singola giornata lavorativa",
+        "Sprint di 2-4 settimane",
+        "Un periodo di 6 mesi",
+        "Un anno solare"
+    ],
+    "correctIndex": 1,
+    "answer": "Sprint di 2-4 settimane"
+},
+{
+    "question": "Come si definisce un 'Quasi-modo' nell'interazione utente?",
+    "options": [
+        "Un modo che appare casualmente",
+        "Uno stato modale mantenuto attivo solo attraverso un'azione fisica continua (es. pressione tasto Maiusc)",
+        "Un cambiamento di stato permanente",
+        "Un errore del sistema operativo"
+    ],
+    "correctIndex": 1,
+    "answer": "Uno stato modale mantenuto attivo solo attraverso un'azione fisica continua (es. pressione tasto Maiusc)"
+},
+{
+    "question": "Perché il modello di selezione 'Noun-Verb' è generalmente preferito nelle interfacce grafiche?",
+    "options": [
+        "Perché applica l'azione immediatamente senza permettere ripensamenti",
+        "Perché permette di modificare la selezione prima di agire e riduce gli errori di modo (nessun modo 'comando' attivo)",
+        "Perché richiede meno click in assoluto",
+        "Perché è l'unico supportato nativamente da Windows"
+    ],
+    "correctIndex": 0,
+    "answer": "Perché permette di modificare la selezione prima di agire e riduce gli errori di modo (nessun modo 'comando' attivo)"
+},
+{
+    "question": "Cosa si intende con il termine 'Organic User Interfaces' (OUI)?",
+    "options": [
+        "Computer costruiti con biopolimeri",
+        "Interfacce con display non piatti o flessibili che possono cambiare forma, adattandosi attivamente o passivamente",
+        "Interfacce basate esclusivamente sul riconoscimento vocale",
+        "Software gestionali per aziende agricole"
+    ],
+    "correctIndex": 1,
+    "answer": "Interfacce con display non piatti o flessibili che possono cambiare forma, adattandosi attivamente o passivamente"
+},
+{
+    "question": "Qual è il focus primario di design per una 'Immersive Application'?",
+    "options": [
+        "Massimizzare la velocità di data entry",
+        "Creare un ambiente a tutto schermo focalizzato sull'esperienza del contenuto, riducendo al minimo la 'chrome' (cornice) dell'interfaccia",
+        "Organizzare dati in liste gerarchiche rigorose",
+        "Fornire utility rapide per task brevi"
+    ],
+    "correctIndex": 1,
+    "answer": "Creare un ambiente a tutto schermo focalizzato sull'esperienza del contenuto, riducendo al minimo la 'chrome' (cornice) dell'interfaccia"
+},
+{
+    "question": "In termini di UI Design, cos'è un 'Accordion'?",
+    "options": [
+        "Un widget audio",
+        "Una lista di header impilati verticalmente che possono essere espansi o collassati per mostrare/nascondere il contenuto associato",
+        "Un menu che scende dall'alto (dropdown)",
+        "Un selettore circolare"
+    ],
+    "correctIndex": 1,
+    "answer": "Una lista di header impilati verticalmente che possono essere espansi o collassati per mostrare/nascondere il contenuto associato"
+},
+{
+    "question": "Come funziona tecnicamente il pattern 'Infinite Scrolling'?",
+    "options": [
+        "Carica nuovi contenuti in modo asincrono e li appende in fondo alla lista man mano che l'utente scorre verso il basso",
+        "Ricarica continuamente l'intera pagina a intervalli fissi",
+        "Fa scorrere le immagini orizzontalmente in loop",
+        "Aggiorna i contenuti solo quando l'utente preme un pulsante specifico"
+    ],
+    "correctIndex": 0,
+    "answer": "Carica nuovi contenuti in modo asincrono e li appende in fondo alla lista man mano che l'utente scorre verso il basso"
+},
+{
+    "question": "Cosa rappresenta il concetto di 'Color Role' nel Material Design 3?",
+    "options": [
+        "Il codice esadecimale statico del colore",
+        "L'astrazione semantica (es. 'Surface', 'Primary') che mappa un elemento UI a un colore generato dinamicamente",
+        "La luminosità fisica del display",
+        "Il logo aziendale"
+    ],
+    "correctIndex": 1,
+    "answer": "L'astrazione semantica (es. 'Surface', 'Primary') che mappa un elemento UI a un colore generato dinamicamente"
+},
+{
+    "question": "Qual è la definizione corretta di 'Card' nel contesto UI Android?",
+    "options": [
+        "Un gioco di carte digitale preinstallato",
+        "Un contenitore con bordi definiti che raggruppa informazioni correlate ed eterogenee, fungendo spesso da entry point",
+        "Una semplice immagine decorativa senza interazione",
+        "Un pop-up di notifica sistema"
+    ],
+    "correctIndex": 1,
+    "answer": "Un contenitore con bordi definiti che raggruppa informazioni correlate ed eterogenee, fungendo spesso da entry point"
+},
+{
+    "question": "Qual è la differenza operativa tra un 'Standard Bottom Sheet' e un 'Modal Bottom Sheet'?",
+    "options": [
+        "Lo Standard permette l'interazione simultanea con il resto dello schermo; il Modal blocca il resto dell'interfaccia (spesso oscurandola)",
+        "Non c'è alcuna differenza funzionale",
+        "Lo Standard è rosso, il Modal è blu",
+        "Il Modal non può essere chiuso dall'utente"
+    ],
+    "correctIndex": 0,
+    "answer": "Lo Standard permette l'interazione simultanea con il resto dello schermo; il Modal blocca il resto dell'interfaccia (spesso oscurandola)"
+},
+{
+    "question": "Quali elementi costituiscono la struttura standard di una 'Top App Bar' in Android?",
+    "options": [
+        "Titolo della schermata, eventuale icona di navigazione (es. hamburger/back) e azioni contestuali principali",
+        "Banner pubblicitari rotativi",
+        "Solo l'orologio e lo stato della batteria",
+        "I controlli del player musicale"
+    ],
+    "correctIndex": 0,
+    "answer": "Titolo della schermata, eventuale icona di navigazione (es. hamburger/back) e azioni contestuali principali"
+},
+{
+    "question": "Cos'è l'Haptic Touch in ambiente iOS?",
+    "options": [
+        "Un tocco leggero e veloce",
+        "Un gesto di pressione prolungata (Long Press) accompagnato da un feedback tattile (vibrazione) del Taptic Engine",
+        "Un tocco simultaneo con due dita",
+        "Uno swipe molto veloce"
+    ],
+    "correctIndex": 1,
+    "answer": "Un gesto di pressione prolungata (Long Press) accompagnato da un feedback tattile (vibrazione) del Taptic Engine"
+},
+{
+    "question": "Qual è la direttiva delle Human Interface Guidelines iOS riguardo al 'Branding'?",
+    "options": [
+        "Il logo deve essere presente in ogni schermata",
+        "Il branding deve essere sottile e deferente, integrato nei colori e font, evitando di occupare spazio nella Navigation Bar",
+        "Il logo deve coprire almeno il 50% della Home",
+        "Il brand deve lampeggiare per attirare l'attenzione"
+    ],
+    "correctIndex": 1,
+    "answer": "Il branding deve essere sottile e deferente, integrato nei colori e font, evitando di occupare spazio nella Navigation Bar"
+},
+{
+    "question": "Cosa sono le 'Collections' nel framework UI di iOS?",
+    "options": [
+        "Insiemi di elementi ordinati presentati in layout flessibili e personalizzabili (spesso a griglia), diversi dalle semplici tabelle",
+        "Cartelle contenenti file di sistema",
+        "Elenchi telefonici statici",
+        "Raggruppamenti di impostazioni privacy"
+    ],
+    "correctIndex": 0,
+    "answer": "Insiemi di elementi ordinati presentati in layout flessibili e personalizzabili (spesso a griglia), diversi dalle semplici tabelle"
+},
+{
+    "question": "Qual è il limite di densità raccomandato per una Toolbar in iOS?",
+    "options": [
+        "Massimo 10 icone",
+        "Fornire accesso a non più di 5 comandi iconici (o 3 testuali) per evitare il disordine e garantire la 'hit area'",
+        "Un solo pulsante centrale",
+        "Nessun limite se lo schermo è grande"
+    ],
+    "correctIndex": 1,
+    "answer": "Fornire accesso a non più di 5 comandi iconici (o 3 testuali) per evitare il disordine e garantire la 'hit area'"
+},
+{
+    "question": "Qual è il concetto centrale delle 'Tangible User Interfaces'?",
+    "options": [
+        "Ancorare l'informazione digitale a oggetti fisici manipolabili, colmando il divario tra cyberspazio e mondo reale",
+        "Rendere le interfacce invisibili",
+        "Utilizzare la realtà virtuale immersiva",
+        "Basare l'interazione sui gesti a mezz'aria (mid-air gestures)"
+    ],
+    "correctIndex": 0,
+    "answer": "Ancorare l'informazione digitale a oggetti fisici manipolabili, colmando il divario tra cyberspazio e mondo reale"
+},
+{
+    "question": "Perché i questionari sono spesso considerati meno flessibili delle interviste?",
+    "options": [
+        "Perché richiedono troppo tempo per essere compilati",
+        "Perché la natura asincrona e strutturata impedisce al ricercatore di chiedere chiarimenti immediati su risposte ambigue",
+        "Perché costano troppo in termini di stampa",
+        "Perché non possono essere somministrati online"
+    ],
+    "correctIndex": 1,
+    "answer": "Perché la natura asincrona e strutturata impedisce al ricercatore di chiedere chiarimenti immediati su risposte ambigue"
+},
+{
+    "question": "In cosa consiste la 'Protocol Analysis' nella valutazione dell'usabilità?",
+    "options": [
+        "Analisi dei protocolli di rete TCP/IP",
+        "Registrazione sistematica (video/audio/log) dell'utente durante il task e successiva codifica e analisi delle azioni/commenti",
+        "Stesura di un protocollo di intesa legale",
+        "Revisione del codice sorgente dell'interfaccia"
+    ],
+    "correctIndex": 1,
+    "answer": "Registrazione sistematica (video/audio/log) dell'utente durante il task e successiva codifica e analisi delle azioni/commenti"
+},
+{
+    "question": "Come si mitiga l'effetto di trasferimento dell'apprendimento (learning effect) in un disegno 'Within-Subjects'?",
+    "options": [
+        "Eliminando tutti i partecipanti che hanno già usato computer",
+        "Utilizzando il 'Controbilanciamento' (es. metà campione fa A poi B, l'altra metà B poi A)",
+        "Cancellando la memoria degli utenti tra i test",
+        "Facendo testare il sistema solo a esperti"
+    ],
+    "correctIndex": 1,
+    "answer": "Utilizzando il 'Controbilanciamento' (es. metà campione fa A poi B, l'altra metà B poi A)"
+},
+{
+    "question": "Qual è la funzione specifica di un 'Action Sheet' in iOS rispetto a un Alert?",
+    "options": [
+        "È un foglio di calcolo integrato",
+        "Appare in risposta a un'azione utente (non a un evento di sistema) e offre due o più scelte relative a quel contesto",
+        "È un avviso di errore critico che blocca tutto",
+        "È il menu principale dell'applicazione"
+    ],
+    "correctIndex": 1,
+    "answer": "Appare in risposta a un'azione utente (non a un evento di sistema) e offre due o più scelte relative a quel contesto"
+},
+{
+    "question": "Perché le 'Productivity Apps' tendono ad aprirsi su una vista 'Radice' (Root) o di default?",
+    "options": [
+        "Per risparmiare memoria RAM all'avvio",
+        "Per orientare immediatamente l'utente fornendo una panoramica chiara e riducendo il tempo necessario per iniziare un task",
+        "Per obbligo imposto dagli store",
+        "Per mostrare il logo dell'app il più possibile"
+    ],
+    "correctIndex": 1,
+    "answer": "Per orientare immediatamente l'utente fornendo una panoramica chiara e riducendo il tempo necessario per iniziare un task"
+}
+]
