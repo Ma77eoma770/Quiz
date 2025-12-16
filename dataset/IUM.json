@@ -329,4 +329,445 @@
         "correctIndex": 1,
         "answer": "Ambienti ricchi, a tutto schermo, focalizzati sul contenuto e con controlli spesso personalizzati is the correct answer."
     }
+    ,
+    {
+        "question": "Quali sono i tre ruoli necessari per testare un 'Paper Prototype'?",
+        "options": [
+            "Designer, Sviluppatore, Cliente",
+            "Computer, Facilitator, Osservatore",
+            "Utente, Manager, Grafico",
+            "Mago, Utente, Intervistatore"
+        ],
+        "correctIndex": 1,
+        "answer": "Computer, Facilitator, Osservatore [cite: 235, 236, 240, 241]"
+    },
+    {
+        "question": "Nella valutazione tramite esperti, cos'è il 'Cognitive Walkthrough'?",
+        "options": [
+            "Una passeggiata fisica nel luogo di lavoro dell'utente",
+            "Un metodo in cui esperti di psicologia cognitiva eseguono passo passo un task chiedendosi se l'utente capirà le azioni",
+            "Un test di memoria per l'utente",
+            "Un'analisi dei log del server"
+        ],
+        "correctIndex": 1,
+        "answer": "Un metodo in cui esperti di psicologia cognitiva eseguono passo passo un task chiedendosi se l'utente capirà le azioni [cite: 349, 350]"
+    },
+    {
+        "question": "Quale modello di valutazione prevede i tempi necessari per compiti fisici di basso livello (es. uso tastiera)?",
+        "options": [
+            "GOMS",
+            "Heuristic Evaluation",
+            "KLM (Keystroke-Level Model)",
+            "Waterfall"
+        ],
+        "correctIndex": 2,
+        "answer": "KLM (Keystroke-Level Model) [cite: 368]"
+    },
+    {
+        "question": "Cosa avviene nel 'Ciclo 0' del Metodo Agile UCD?",
+        "options": [
+            "Si scrive il codice finale",
+            "Si rilasciano i software agli utenti",
+            "Ricerca e analisi: si definiscono obiettivi, si fanno ricerche contestuali e si creano personas",
+            "Si definisce il design grafico finale"
+        ],
+        "correctIndex": 2,
+        "answer": "Ricerca e analisi: si definiscono obiettivi, si fanno ricerche contestuali e si creano personas [cite: 402]"
+    },
+    {
+        "question": "Qual è il rischio principale dell'osservazione 'Controllata' (in laboratorio)?",
+        "options": [
+            "Non è replicabile",
+            "È difficile manipolare le variabili",
+            "Manca il contesto naturale (Effetto Hawthorne)",
+            "Richiede troppo tempo"
+        ],
+        "correctIndex": 2,
+        "answer": "Manca il contesto naturale (Effetto Hawthorne) [cite: 75, 80]"
+    },
+    {
+        "question": "Cosa si intende per 'Luogo dell'attenzione'?",
+        "options": [
+            "Il luogo fisico dove si trova l'utente",
+            "L'oggetto o idea alla quale l'utente sta pensando attivamente (unico in un dato momento)",
+            "Il punto dello schermo dove c'è il cursore",
+            "La barra delle notifiche"
+        ],
+        "correctIndex": 1,
+        "answer": "L'oggetto o idea alla quale l'utente sta pensando attivamente (unico in un dato momento) [cite: 422]"
+    },
+    {
+        "question": "Qual è la differenza tra 'Affordance' e 'Signifier'?",
+        "options": [
+            "L'Affordance è un indizio visivo (es. freccia), il Signifier è una proprietà fisica",
+            "L'Affordance è la possibilità d'uso data dall'oggetto, il Signifier è un indizio che aiuta a capire cosa fare (es. etichetta)",
+            "Sono sinonimi",
+            "I Signifiers sono solo suoni, le Affordances sono solo visive"
+        ],
+        "correctIndex": 1,
+        "answer": "L'Affordance è la possibilità d'uso data dall'oggetto, il Signifier è un indizio che aiuta a capire cosa fare (es. etichetta) [cite: 454, 460]"
+    },
+    {
+        "question": "Quale vulnerabilità psicologica sfruttano i pattern 'Casino pull-to-refresh'?",
+        "options": [
+            "La paura di perdere dati",
+            "Le ricompense variabili (Variable Rewards)",
+            "L'influenza sociale",
+            "La pigrizia cognitiva"
+        ],
+        "correctIndex": 1,
+        "answer": "Le ricompense variabili (Variable Rewards) [cite: 557, 552]"
+    },
+    {
+        "question": "Cosa sono le 'Interfacce Naturali'?",
+        "options": [
+            "Interfacce fatte di legno",
+            "Interfacce invisibili o che lo diventano quando l'utente impara ad usarle, risultando naturali",
+            "Interfacce che usano solo la voce",
+            "Interfacce per l'agricoltura"
+        ],
+        "correctIndex": 1,
+        "answer": "Interfacce invisibili o che lo diventano quando l'utente impara ad usarle, risultando naturali [cite: 44, 45]"
+    },
+    {
+        "question": "Nel design sperimentale, cosa comporta il 'trasferimento dell'apprendimento' (learning effect)?",
+        "options": [
+            "L'utente dimentica come usare il sistema",
+            "L'utente impara guardando altri utenti",
+            "Se l'utente esegue prima il test A, farà meno errori nel test B perché ha imparato, falsando i risultati",
+            "L'utente insegna al valutatore come migliorare il sistema"
+        ],
+        "correctIndex": 2,
+        "answer": "Se l'utente esegue prima il test A, farà meno errori nel test B perché ha imparato, falsando i risultati [cite: 325]"
+    },
+    {
+        "question": "Come si chiama il metodo di sviluppo in cui due persone lavorano insieme alternandosi al computer?",
+        "options": [
+            "Waterfall",
+            "Pair Design Programming",
+            "Cooperative Evaluation",
+            "Wizard of Oz"
+        ],
+        "correctIndex": 1,
+        "answer": "Pair Design Programming [cite: 394]"
+    },
+    {
+        "question": "Quale euristica di Nielsen suggerisce che il sistema debba parlare il linguaggio dell'utente?",
+        "options": [
+            "Visibilità dello stato del sistema",
+            "Corrispondenza tra il sistema e il mondo reale",
+            "Prevenzione degli errori",
+            "Design minimalista"
+        ],
+        "correctIndex": 1,
+        "answer": "Corrispondenza tra il sistema e il mondo reale [cite: 357]"
+    },
+    {
+        "question": "Cosa distingue un'intervista 'Contextual Inquiry' da una classica?",
+        "options": [
+            "Si svolge al telefono",
+            "L'utente viene osservato nel suo ambiente naturale mentre spiega cosa fa (Master-Apprentice model)",
+            "È un questionario scritto",
+            "Dura meno di 5 minuti"
+        ],
+        "correctIndex": 1,
+        "answer": "L'utente viene osservato nel suo ambiente naturale mentre spiega cosa fa (Master-Apprentice model) [cite: 166]"
+    },
+    {
+        "question": "In un'interfaccia mobile, cos'è un 'Bottom Navigation Bar' (Android)?",
+        "options": [
+            "Un menu per le impostazioni avanzate",
+            "Una barra che contiene 3-5 destinazioni principali di pari importanza",
+            "Una notifica di errore",
+            "La barra di stato del telefono"
+        ],
+        "correctIndex": 1,
+        "answer": "Una barra che contiene 3-5 destinazioni principali di pari importanza [cite: 643]"
+    },
+    {
+        "question": "Cosa indica il ruolo colore 'On-Primary' nel Material Design?",
+        "options": [
+            "Il colore del pulsante principale",
+            "Il colore del testo o icona che sta SOPRA a un elemento di colore Primary",
+            "Il colore dello sfondo",
+            "Il colore degli errori"
+        ],
+        "correctIndex": 1,
+        "answer": "Il colore del testo o icona che sta SOPRA a un elemento di colore Primary [cite: 599]"
+    },
+    {
+        "question": "Qual è il numero massimo di tab consigliato in una Tab Bar iOS?",
+        "options": [
+            "3",
+            "5",
+            "7",
+            "Infiniti"
+        ],
+        "correctIndex": 1,
+        "answer": "5 [cite: 690]"
+    },
+    {
+        "question": "Cosa caratterizza le 'Utility Application' su mobile?",
+        "options": [
+            "Struttura gerarchica profonda",
+            "Ambiente immersivo e ludico",
+            "Task semplici, liste non gerarchiche, molte informazioni e poca interazione (es. Meteo)",
+            "Focus sulla creazione di documenti complessi"
+        ],
+        "correctIndex": 2,
+        "answer": "Task semplici, liste non gerarchiche, molte informazioni e poca interazione (es. Meteo) [cite: 514, 516]"
+    },
+    {
+        "question": "Cosa sono le 'Interviste Storiche'?",
+        "options": [
+            "Interviste fatte nel passato",
+            "Interviste per comprendere la sequenza di eventi che spiegano il comportamento degli utenti",
+            "Interviste fatte solo a persone anziane",
+            "Interviste sulla storia del computer"
+        ],
+        "correctIndex": 1,
+        "answer": "Interviste per comprendere la sequenza di eventi che spiegano il comportamento degli utenti [cite: 115]"
+    },
+    {
+        "question": "Che tipo di scala è la 'Scala Likert' (es. da 1 a 5)?",
+        "options": [
+            "Nominale",
+            "Ordinata",
+            "Ratio",
+            "Assoluta"
+        ],
+        "correctIndex": 1,
+        "answer": "Ordinata [cite: 151, 153]"
+    },
+    {
+        "question": "Qual è il vantaggio principale dei 'Medium Fidelity Prototypes' rispetto ai Low Fidelity?",
+        "options": [
+            "Sono app complete pronte per il rilascio",
+            "Aiutano a capire se la UI è navigabile e l'andamento delle schermate accettando input (switch pagine)",
+            "Si possono disegnare a mano libera",
+            "Non richiedono computer"
+        ],
+        "correctIndex": 1,
+        "answer": "Aiutano a capire se la UI è navigabile e l'andamento delle schermate accettando input (switch pagine) [cite: 244, 246]"
+    },
+    {
+        "question": "Cosa si intende per 'Cooperative evaluation'?",
+        "options": [
+            "Due sviluppatori che programmano insieme",
+            "Una variazione del Think Aloud in cui utente e valutatore collaborano e si fanno domande a vicenda",
+            "Un test fatto da un gruppo di utenti contemporaneamente",
+            "Valutazione fatta solo dai manager"
+        ],
+        "correctIndex": 1,
+        "answer": "Una variazione del Think Aloud in cui utente e valutatore collaborano e si fanno domande a vicenda [cite: 283]"
+    },
+    {
+        "question": "In statistica per IUM, quando si usano test 'parametrici'?",
+        "options": [
+            "Sempre",
+            "Quando i dati non seguono una distribuzione normale",
+            "Quando i dati soddisfano la distribuzione normale (Gaussiana)",
+            "Solo per dati qualitativi"
+        ],
+        "correctIndex": 2,
+        "answer": "Quando i dati soddisfano la distribuzione normale (Gaussiana) [cite: 327]"
+    },
+    {
+        "question": "Qual è un esempio di 'Dark Pattern' chiamato 'Roach Motel' (o simile, descritto come difficile da lasciare)?",
+        "options": [
+            "Infinite scrolling",
+            "Neverending autoplay",
+            "Difficoltà a cancellare l'account o disiscriversi (non esplicitamente nominato ma concetto affine agli ACDP che riducono autonomia)",
+            "Guilty-Pleasure recommendations"
+        ],
+        "correctIndex": 3,
+        "answer": "Guilty-Pleasure recommendations (Nota: il testo cita specificamente ACDP come Guilty-Pleasure che trattengono l'utente) [cite: 553]"
+    },
+    {
+        "question": "Quale pattern UI mobile è descritto come 'tre linee orizzontali parallele'?",
+        "options": [
+            "Kebab menu",
+            "Hamburger menu",
+            "Meatball menu",
+            "Bento menu"
+        ],
+        "correctIndex": 1,
+        "answer": "Hamburger menu [cite: 536]"
+    },
+    {
+        "question": "Cosa sono i 'Breadcrumbs'?",
+        "options": [
+            "Briciole di pane lasciate sullo schermo",
+            "Una serie di menu ordinati sequenzialmente che indicano dove si trova l'utente e il percorso fatto",
+            "Piccole icone di notifica",
+            "Errori del codice"
+        ],
+        "correctIndex": 1,
+        "answer": "Una serie di menu ordinati sequenzialmente che indicano dove si trova l'utente e il percorso fatto [cite: 535]"
+    },
+    {
+        "question": "Qual è la funzione del 'Side Sheet' in Android?",
+        "options": [
+            "Mostrare un contenuto secondario attaccato al lato dello schermo (es. filtri)",
+            "Chiudere l'app",
+            "Navigare tra le pagine principali",
+            "Mostrare le notifiche push"
+        ],
+        "correctIndex": 0,
+        "answer": "Mostrare un contenuto secondario attaccato al lato dello schermo (es. filtri) [cite: 629]"
+    },
+    {
+        "question": "In iOS, cosa deve contenere una 'Navigation Bar'?",
+        "options": [
+            "Tasto back, titolo, e opzionalmente controlli segmentati o action button",
+            "Pubblicità",
+            "Solo il logo dell'app",
+            "Una barra di ricerca google"
+        ],
+        "correctIndex": 0,
+        "answer": "Tasto back, titolo, e opzionalmente controlli segmentati o action button [cite: 684]"
+    },
+    {
+        "question": "Cosa si intende per 'Action-Object' (Verb-Noun)?",
+        "options": [
+            "Si seleziona l'oggetto poi l'azione",
+            "Si seleziona l'azione e poi l'oggetto su cui eseguirla (es. strumento secchiello -> area da colorare)",
+            "L'azione avviene automaticamente",
+            "Non è un modello di interazione valido"
+        ],
+        "correctIndex": 1,
+        "answer": "Si seleziona l'azione e poi l'oggetto su cui eseguirla (es. strumento secchiello -> area da colorare) [cite: 434]"
+    },
+    {
+        "question": "Qual è un vantaggio dell'uso di 'Expert based evaluation'?",
+        "options": [
+            "Coinvolge utenti reali",
+            "È costosa ma precisa",
+            "È poco costosa e utilizzabile in ogni fase dello sviluppo",
+            "Sostituisce completamente i test utente"
+        ],
+        "correctIndex": 2,
+        "answer": "È poco costosa e utilizzabile in ogni fase dello sviluppo [cite: 343]"
+    },
+    {
+        "question": "Cosa è un 'Post-Task walkthrough'?",
+        "options": [
+            "L'utente se ne va dopo il task",
+            "Si registra l'utente e poi si riguarda il video con lui per far commentare le azioni",
+            "Il designer spiega il task all'utente",
+            "Un sondaggio inviato via email dopo un mese"
+        ],
+        "correctIndex": 1,
+        "answer": "Si registra l'utente e poi si riguarda il video con lui per far commentare le azioni [cite: 292]"
+    },
+    {
+        "question": "Qual è la definizione di 'Task' nella Task Analysis?",
+        "options": [
+            "Un errore del sistema",
+            "Un goal soddisfatto tramite un insieme ordinato di azioni",
+            "Una riga di codice",
+            "Un desiderio astratto dell'utente"
+        ],
+        "correctIndex": 1,
+        "answer": "Un goal soddisfatto tramite un insieme ordinato di azioni [cite: 183]"
+    },
+    {
+        "question": "Qual è lo scopo delle 'Interviste Laddering'?",
+        "options": [
+            "Chiedere all'utente di salire su una scala",
+            "Continuare a chiedere 'perché?' per scendere in profondità nelle motivazioni",
+            "Chiedere all'utente di classificare le funzionalità",
+            "Intervistare gli utenti in ordine gerarchico aziendale"
+        ],
+        "correctIndex": 1,
+        "answer": "Continuare a chiedere 'perché?' per scendere in profondità nelle motivazioni [cite: 117]"
+    },
+    {
+        "question": "Cos'è una variabile 'Dipendente' (VD)?",
+        "options": [
+            "Quella che viene manipolata dal ricercatore",
+            "La caratteristica misurata nell'esperimento (es. numero di errori)",
+            "La costante dell'esperimento",
+            "Il soggetto dell'esperimento"
+        ],
+        "correctIndex": 1,
+        "answer": "La caratteristica misurata nell'esperimento (es. numero di errori) [cite: 307]"
+    },
+    {
+        "question": "Cosa dice l'Ipotesi Nulla in un esperimento?",
+        "options": [
+            "Che la variazione della variabile indipendente causerà un grande cambiamento",
+            "Che non ci sarà nessun cambiamento nelle variabili dipendenti (nessuna differenza tra A e B)",
+            "Che l'esperimento è fallito",
+            "Che l'utente non capirà l'interfaccia"
+        ],
+        "correctIndex": 1,
+        "answer": "Che non ci sarà nessun cambiamento nelle variabili dipendenti (nessuna differenza tra A e B) [cite: 310]"
+    },
+    {
+        "question": "Qual è un problema dei 'Questionari' rispetto alle interviste?",
+        "options": [
+            "Sono troppo costosi",
+            "Non permettono analisi approfondite o domande di specificazione (follow-up)",
+            "Raggiungono troppe persone",
+            "I dati sono difficili da graficare"
+        ],
+        "correctIndex": 1,
+        "answer": "Non permettono analisi approfondite o domande di specificazione (follow-up) [cite: 141]"
+    },
+    {
+        "question": "Quale design pattern mobile si apre scorrendo da destra verso sinistra?",
+        "options": [
+            "Dropdown Menu",
+            "Accordion Menu",
+            "Hamburger Menu",
+            "Card"
+        ],
+        "correctIndex": 1,
+        "answer": "Accordion Menu [cite: 532]"
+    },
+    {
+        "question": "Cosa fanno le 'Interfacce Tangibili'?",
+        "options": [
+            "Sono fatte di pixel",
+            "Danno forma fisica ad informazioni digitali",
+            "Usano solo il touch screen",
+            "Sono basate sulla voce"
+        ],
+        "correctIndex": 1,
+        "answer": "Danno forma fisica ad informazioni digitali [cite: 43]"
+    },
+    {
+        "question": "Perché si dovrebbe evitare di chiedere 'Ti piace questa funzionalità?' in un'intervista?",
+        "options": [
+            "È una domanda troppo difficile",
+            "È una domanda 'indirizzata' (biased) che presuppone che debba piacere",
+            "All'utente piace tutto",
+            "È una domanda illegale"
+        ],
+        "correctIndex": 1,
+        "answer": "È una domanda 'indirizzata' (biased) che presuppone che debba piacere [cite: 127, 132]"
+    },
+    {
+        "question": "In un 'A/B Test', quante variabili indipendenti ci sono solitamente?",
+        "options": [
+            "Nessuna",
+            "Una sola con due valori (A o B)",
+            "Almeno 5",
+            "Dipende dal numero di utenti"
+        ],
+        "correctIndex": 1,
+        "answer": "Una sola con due valori (A o B) [cite: 330]"
+    },
+    {
+        "question": "Qual è lo scopo principale del 'Launch Screen' in iOS?",
+        "options": [
+            "Mostrare il logo dell'azienda per 10 secondi",
+            "Dare l'impressione che l'app sia veloce a caricare (dovrebbe essere identico alla prima schermata ma vuoto)",
+            "Mostrare pubblicità",
+            "Spiegare come usare l'app"
+        ],
+        "correctIndex": 1,
+        "answer": "Dare l'impressione che l'app sia veloce a caricare (dovrebbe essere identico alla prima schermata ma vuoto) [cite: 665]"
+    }
 ]
