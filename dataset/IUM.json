@@ -1,0 +1,332 @@
+[
+    {
+        "question": "Qual è lo scopo principale di un'interfaccia utente (UI) in IUM?",
+        "options": [
+            "Permettere alla macchina di controllare l'uomo",
+            "Creare uno spazio puramente estetico per l'interazione",
+            "Permettere un efficiente controllo della macchina da parte dell'uomo e ricevere informazioni dalla macchina",
+            "Eliminare la necessità di componenti hardware"
+        ],
+        "correctIndex": 2,
+        "answer": "Permettere un efficiente controllo della macchina da parte dell'uomo e ricevere informazioni dalla macchina is the correct answer."
+    },
+    {
+        "question": "Chi ha ideato il 'Memex', un sistema proto-hypertext?",
+        "options": [
+            "Ivan Sutherland",
+            "Vannevar Bush",
+            "Alan Turing",
+            "Douglas Engelbart"
+        ],
+        "correctIndex": 1,
+        "answer": "Vannevar Bush is the correct answer."
+    },
+    {
+        "question": "Quale tecnologia è considerata il primo esempio di Graphical User Interface (GUI)?",
+        "options": [
+            "Memex",
+            "Sketchpad",
+            "Xerox Star",
+            "Macintosh"
+        ],
+        "correctIndex": 1,
+        "answer": "Sketchpad is the correct answer."
+    },
+    {
+        "question": "Qual è la differenza tra touch screen resistivo e capacitivo?",
+        "options": [
+            "Il resistivo usa raggi infrarossi, il capacitivo usa la pressione",
+            "Il resistivo sfrutta il corpo umano come conduttore, il capacitivo la pressione fisica",
+            "Il resistivo risponde alla pressione ed è resistente ai liquidi, il capacitivo sfrutta la conduttività del corpo umano",
+            "Non c'è alcuna differenza pratica"
+        ],
+        "correctIndex": 2,
+        "answer": "Il resistivo risponde alla pressione ed è resistente ai liquidi, il capacitivo sfrutta la conduttività del corpo umano is the correct answer."
+    },
+    {
+        "question": "Cosa si intende per 'Effetto Hawthorne' durante l'osservazione?",
+        "options": [
+            "L'utente migliora le prestazioni perché usa un'interfaccia migliore",
+            "L'essere osservati potrebbe cambiare il modo in cui l'utente esegue l'azione",
+            "L'utente si dimentica di essere osservato",
+            "L'osservatore interpreta male i dati raccolti"
+        ],
+        "correctIndex": 1,
+        "answer": "L'essere osservati potrebbe cambiare il modo in cui l'utente esegue l'azione is the correct answer."
+    },
+    {
+        "question": "Qual è la differenza tra 'Processo' e 'Pratica' nel contesto del needfinding?",
+        "options": [
+            "Processo è ciò che accade realmente, Pratica è la teoria",
+            "Processo è come le cose andrebbero svolte teoricamente, Pratica è ciò che si fa realmente (trick, abitudini)",
+            "Sono sinonimi",
+            "La Pratica viene definita dai manager, il Processo dagli utenti"
+        ],
+        "correctIndex": 1,
+        "answer": "Processo è come le cose andrebbero svolte teoricamente, Pratica è ciò che si fa realmente (trick, abitudini) is the correct answer."
+    },
+    {
+        "question": "Chi sono i 'Lead user'?",
+        "options": [
+            "Utenti che hanno need nuovi prima degli altri e trovano da soli le soluzioni",
+            "Utenti che non sanno usare il sistema",
+            "Utenti che spingono il sistema al massimo trovando bug",
+            "Utenti rappresentativi della media della popolazione"
+        ],
+        "correctIndex": 0,
+        "answer": "Utenti che hanno need nuovi prima degli altri e trovano da soli le soluzioni is the correct answer."
+    },
+    {
+        "question": "In un questionario, quale scala di risposta prevede un insieme predefinito di risposte disgiunte senza ordine (es. colore preferito)?",
+        "options": [
+            "Nominale",
+            "Ordinata",
+            "A intervalli",
+            "Ratio"
+        ],
+        "correctIndex": 0,
+        "answer": "Nominale is the correct answer."
+    },
+    {
+        "question": "Cosa rappresenta uno 'Storyboard'?",
+        "options": [
+            "Il codice sorgente dell'interfaccia",
+            "Un diagramma di flusso dei dati",
+            "Una rappresentazione grafica dell'esecuzione di un task tramite una sequenza di sketch",
+            "Un prototipo ad alta fedeltà"
+        ],
+        "correctIndex": 2,
+        "answer": "Una rappresentazione grafica dell'esecuzione di un task tramite una sequenza di sketch is the correct answer."
+    },
+    {
+        "question": "A cosa servono le 'Personas'?",
+        "options": [
+            "A sostituire completamente i test con utenti reali",
+            "A creare empatia e guidare le decisioni di progettazione rappresentando modelli astratti di utenti reali",
+            "A definire l'architettura database del sistema",
+            "A calcolare i costi di sviluppo"
+        ],
+        "correctIndex": 1,
+        "answer": "A creare empatia e guidare le decisioni di progettazione rappresentando modelli astratti di utenti reali is the correct answer."
+    },
+    {
+        "question": "Qual è una caratteristica dei 'Low Fidelity Prototypes' (es. paper prototype)?",
+        "options": [
+            "Richiedono avanzate skill di programmazione",
+            "Sono costosi e lenti da realizzare",
+            "Sono facili da realizzare e modificare durante i test, focalizzandosi sul concetto",
+            "Simulano perfettamente la grafica finale"
+        ],
+        "correctIndex": 2,
+        "answer": "Sono facili da realizzare e modificare durante i test, focalizzandosi sul concetto is the correct answer."
+    },
+    {
+        "question": "In cosa consiste la tecnica del 'Mago di Oz'?",
+        "options": [
+            "Un algoritmo magico che risolve i problemi di usabilità",
+            "Un test in cui un essere umano simula le risposte della macchina senza che l'utente lo sappia",
+            "L'uso di assistenti vocali per guidare l'utente",
+            "Un metodo per colorare le interfacce"
+        ],
+        "correctIndex": 1,
+        "answer": "Un test in cui un essere umano simula le risposte della macchina senza che l'utente lo sappia is the correct answer."
+    },
+    {
+        "question": "Quale metodo di osservazione prevede che l'utente spieghi ad alta voce cosa sta facendo e perché?",
+        "options": [
+            "Protocol analysis",
+            "Think aloud",
+            "Post-task walkthrough",
+            "A/B testing"
+        ],
+        "correctIndex": 1,
+        "answer": "Think aloud is the correct answer."
+    },
+    {
+        "question": "In un esperimento, cos'è una Variabile Indipendente (VI)?",
+        "options": [
+            "La caratteristica misurata (es. tempo richiesto)",
+            "La caratteristica che viene cambiata per produrre condizioni differenti (es. stile interfaccia)",
+            "Una variabile che non cambia mai",
+            "L'ipotesi nulla"
+        ],
+        "correctIndex": 1,
+        "answer": "La caratteristica che viene cambiata per produrre condizioni differenti (es. stile interfaccia) is the correct answer."
+    },
+    {
+        "question": "Qual è il vantaggio di un esperimento 'Within subject'?",
+        "options": [
+            "Elimina l'effetto dell'apprendimento",
+            "Ogni utente vede una sola condizione",
+            "Le differenze individuali tra utenti influenzano meno il risultato",
+            "Richiede un numero doppio di partecipanti"
+        ],
+        "correctIndex": 2,
+        "answer": "Le differenze individuali tra utenti influenzano meno il risultato is the correct answer."
+    },
+    {
+        "question": "Su quante euristiche si basa l'Heuristic Evaluation di Nielsen e Molich?",
+        "options": [
+            "5",
+            "8",
+            "10",
+            "12"
+        ],
+        "correctIndex": 2,
+        "answer": "10 is the correct answer."
+    },
+    {
+        "question": "Qual è una caratteristica principale del metodo Agile rispetto al Waterfall?",
+        "options": [
+            "È rigidamente sequenziale",
+            "Non prevede test fino alla fine",
+            "È adattivo, iterativo e prevede ispezioni frequenti",
+            "Si concentra più sul processo che sull'utente"
+        ],
+        "correctIndex": 2,
+        "answer": "È adattivo, iterativo e prevede ispezioni frequenti is the correct answer."
+    },
+    {
+        "question": "Cosa si intende per interazione 'Noun-Verb'?",
+        "options": [
+            "Selezionare prima l'azione e poi l'oggetto",
+            "Selezionare prima l'oggetto e poi l'azione",
+            "Scrivere comandi testuali",
+            "Usare solo la voce"
+        ],
+        "correctIndex": 1,
+        "answer": "Selezionare prima l'oggetto e poi l'azione is the correct answer."
+    },
+    {
+        "question": "Perché le interazioni Verb-Noun generano spesso errori di modo?",
+        "options": [
+            "Perché il sistema non capisce i verbi",
+            "Perché spostano l'attenzione due volte e l'utente può dimenticare in che stato si trova",
+            "Perché sono troppo veloci",
+            "Perché non usano icone"
+        ],
+        "correctIndex": 1,
+        "answer": "Perché spostano l'attenzione due volte e l'utente può dimenticare in che stato si trova is the correct answer."
+    },
+    {
+        "question": "Cosa sono i 'Quasi-modi'?",
+        "options": [
+            "Modi che non funzionano",
+            "Modi mantenuti fisicamente tramite un'azione continua (es. tenere premuto Shift)",
+            "Modi attivati dalla voce",
+            "Modi casuali del sistema"
+        ],
+        "correctIndex": 1,
+        "answer": "Modi mantenuti fisicamente tramite un'azione continua (es. tenere premuto Shift) is the correct answer."
+    },
+    {
+        "question": "Cos'è un 'Affordance'?",
+        "options": [
+            "Un'etichetta scritta su un pulsante",
+            "La relazione tra le proprietà di un oggetto e la capacità dell'utente di capire come usarlo",
+            "Il costo di un'interfaccia",
+            "Un tipo di menu a tendina"
+        ],
+        "correctIndex": 1,
+        "answer": "La relazione tra le proprietà di un oggetto e la capacità dell'utente di capire come usarlo is the correct answer."
+    },
+    {
+        "question": "Quale stile di applicazione mobile è caratterizzato da una struttura gerarchica e focalizzazione sul task (es. Email)?",
+        "options": [
+            "Utility application",
+            "Immersive application",
+            "Productivity application",
+            "Game application"
+        ],
+        "correctIndex": 2,
+        "answer": "Productivity application is the correct answer."
+    },
+    {
+        "question": "Cosa sono i 'Dark Pattern'?",
+        "options": [
+            "Pattern di design per la modalità scura (Dark Mode)",
+            "Design volutamente usati per ingannare l'utente o sfruttare le sue debolezze (es. infinite scrolling)",
+            "Errori di programmazione non visibili",
+            "Interfacce per non vedenti"
+        ],
+        "correctIndex": 1,
+        "answer": "Design volutamente usati per ingannare l'utente o sfruttare le sue debolezze (es. infinite scrolling) is the correct answer."
+    },
+    {
+        "question": "Nel Material Design 3, come vengono generati i colori?",
+        "options": [
+            "Vengono scelti manualmente uno per uno",
+            "Vengono generati algoritmicamente partendo da un colore di riferimento (seed color)",
+            "Sono sempre solo bianco e nero",
+            "Vengono scaricati da internet ogni volta"
+        ],
+        "correctIndex": 1,
+        "answer": "Vengono generati algoritmicamente partendo da un colore di riferimento (seed color) is the correct answer."
+    },
+    {
+        "question": "Qual è la funzione del Floating Action Button (FAB) in Android?",
+        "options": [
+            "Chiudere l'applicazione",
+            "Aprire il menu delle impostazioni",
+            "Contenere l'azione più importante dello schermo e persistere durante lo scorrimento",
+            "Mostrare le notifiche"
+        ],
+        "correctIndex": 2,
+        "answer": "Contenere l'azione più importante dello schermo e persistere durante lo scorrimento is the correct answer."
+    },
+    {
+        "question": "Quale elemento di interfaccia Android è un menu che appare dal basso con un insieme di azioni?",
+        "options": [
+            "Top App Bar",
+            "Bottom Sheet",
+            "Card",
+            "Tabs"
+        ],
+        "correctIndex": 1,
+        "answer": "Bottom Sheet is the correct answer."
+    },
+    {
+        "question": "Qual è un principio fondamentale per l'autenticazione nelle interfacce iOS?",
+        "options": [
+            "Richiedere il login immediato all'apertura dell'app",
+            "Posticipare il sign-in il più possibile e minimizzare il data entry",
+            "Usare sempre e solo password complesse",
+            "Non permettere mai il salvataggio delle credenziali"
+        ],
+        "correctIndex": 1,
+        "answer": "Posticipare il sign-in il più possibile e minimizzare il data entry is the correct answer."
+    },
+    {
+        "question": "In iOS, cosa sono i 'Segmented Controls'?",
+        "options": [
+            "Controlli per il volume",
+            "Elementi che contengono un numero limitato di opzioni (2-5) per alternare viste o modalità",
+            "Barre di scorrimento infinite",
+            "Bottoni per chiudere l'app"
+        ],
+        "correctIndex": 1,
+        "answer": "Elementi che contengono un numero limitato di opzioni (2-5) per alternare viste o modalità is the correct answer."
+    },
+    {
+        "question": "Qual è la differenza tra un Alert e un Action Sheet in iOS?",
+        "options": [
+            "L'Alert è per decisioni critiche e appare al centro, l'Action Sheet è sollecitato dall'utente e appare dal basso",
+            "L'Alert è verde, l'Action Sheet è rosso",
+            "L'Alert non interrompe l'utente, l'Action Sheet sì",
+            "Non c'è differenza"
+        ],
+        "correctIndex": 0,
+        "answer": "L'Alert è per decisioni critiche e appare al centro, l'Action Sheet è sollecitato dall'utente e appare dal basso is the correct answer."
+    },
+    {
+        "question": "Cosa caratterizza le 'Immersive application'?",
+        "options": [
+            "Struttura gerarchica rigida e molto testo",
+            "Ambienti ricchi, a tutto schermo, focalizzati sul contenuto e con controlli spesso personalizzati",
+            "Liste semplici di dati",
+            "Focus sulla produttività e organizzazione"
+        ],
+        "correctIndex": 1,
+        "answer": "Ambienti ricchi, a tutto schermo, focalizzati sul contenuto e con controlli spesso personalizzati is the correct answer."
+    }
+]
