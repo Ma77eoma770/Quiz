@@ -1,0 +1,622 @@
+[
+    {
+        "question": "Quale delle seguenti affermazioni descrive correttamente la struttura di una cifratura di Feistel?",
+        "options": [
+            "Il blocco di dati è diviso in due metà (L e R); la metà R viene elaborata da una funzione F con una sottochiave, il cui risultato è combinato tramite XOR con la metà L, prima di scambiare le due parti.",
+            "Entrambe le metà del blocco vengono cifrate in parallelo con chiavi asimmetriche diverse e infine concatenate tramite un'operazione di hashing.",
+            "Il blocco intero viene moltiplicato per una matrice di cifratura e poi diviso in blocchi più piccoli elaborati indipendentemente in modalità stream.",
+            "La metà sinistra (L) viene cifrata con algoritmo AES mentre la metà destra (R) viene lasciata in chiaro per fungere da vettore di inizializzazione (IV)."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la principale debolezza della modalità di cifratura ECB (Electronic Codebook) nei cifrari a blocchi?",
+        "options": [
+            "Blocchi di testo in chiaro identici generano blocchi di testo cifrato identici, rivelando pattern strutturali del testo originale.",
+            "Richiede chiavi asimmetriche estremamente lunghe, riducendo drasticamente le performance di cifratura.",
+            "Non consente l'elaborazione parallela dei blocchi, rallentando la cifratura rispetto ad altre modalità.",
+            "Utilizza una funzione hash unidirezionale non reversibile al posto delle chiavi simmetriche."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le principali tipologie di firewall comunemente utilizzate per la sicurezza di rete?",
+        "options": [
+            "Packet filtering, stateful inspection, application-layer e next-generation firewall.",
+            "Symmetric, asymmetric, hybrid ed envelope firewall.",
+            "Blind, error-based, out-of-band e classic firewall.",
+            "Polymorphic, metamorphic, Trojan e logic bomb firewall."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In cosa consiste un attacco di tipo Denial of Service (DoS) basato su Flooding?",
+        "options": [
+            "Nel sovraccaricare un server o servizio con una mole enorme di richieste (es. TCP SYN, UDP o ICMP flood) al fine di esaurire le risorse di sistema.",
+            "Nel modificare i file di configurazione del server tramite iniezione di codice SQL per bloccarne l'avvio.",
+            "Nel decifrare la chiave privata del server monitorando passivamente il traffico di rete.",
+            "Nell'intercettare le credenziali dell'amministratore tramite tecniche di spoofing del DNS."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza fondamentale tra un virus informatico e un worm?",
+        "options": [
+            "Il virus necessita di attaccarsi a un file o programma esistente e dell'interazione dell'utente per attivarsi, mentre il worm è autonomo e si propaga automaticamente sfruttando le vulnerabilità di rete.",
+            "Il virus infetta solo le reti locali (LAN), mentre il worm è progettato per agire esclusivamente sui database SQL.",
+            "Il virus altera l'hardware del computer tramite micro-istruzioni, mentre il worm modifica esclusivamente il sistema operativo UNIX.",
+            "Il virus cifra i file chiedendo un riscatto (ransomware), mentre il worm si limita ad osservare passivamente il traffico web (sniffing)."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Attraverso quali canali principali può propagarsi un worm informatico?",
+        "options": [
+            "Tramite e-mail, reti, exploit di sistema e dispositivi di memoria rimovibili.",
+            "Esclusivamente tramite query SQL parametrizzate e modifiche alle tabelle del database.",
+            "Solo tramite la manomissione fisica delle schede di rete e dei router aziendali.",
+            "Attraverso il reverse engineering del codice sorgente di applicazioni protette da crittografia asimmetrica."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la distinzione fondamentale tra attacchi di rete attivi e passivi?",
+        "options": [
+            "Gli attacchi passivi si limitano a osservare e intercettare il traffico (sniffing) senza modificarlo, mentre quelli attivi alterano o interrompono i dati e le comunicazioni.",
+            "Gli attacchi attivi sono condotti da malware interni al sistema, mentre i passivi sono avviati dall'esterno tramite firewall.",
+            "Gli attacchi passivi sfruttano esclusivamente vulnerabilità hardware, mentre gli attivi colpiscono solo le applicazioni web.",
+            "Gli attacchi passivi richiedono sempre l'interazione dell'utente, mentre quelli attivi sfruttano solo query SQL malformate."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come funziona il meccanismo di firma digitale per garantire la paternità di un messaggio?",
+        "options": [
+            "Il mittente cifra l'hash del messaggio con la propria chiave privata; il destinatario verifica la firma decifrandola con la chiave pubblica del mittente.",
+            "Il mittente cifra l'intero messaggio con la chiave pubblica del destinatario e inserisce un sale crittografico (salt) per renderlo non ripudiabile.",
+            "Il mittente invia il messaggio in chiaro insieme a una chiave simmetrica scambiata precedentemente tramite protocollo Diffie-Hellman.",
+            "Il mittente genera un Message Authentication Code (MAC) basato su una password condivisa cifrata con algoritmo AES-CBC."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali proprietà fondamentali deve possedere una funzione hash per essere considerata crittograficamente sicura?",
+        "options": [
+            "Resistenza alla pre-immagine (pre-image resistance), resistenza alla seconda pre-immagine (second pre-image resistance) e resistenza alle collisioni (collision resistance).",
+            "Bassa velocità di calcolo, dipendenza da una chiave simmetrica segreta e output di lunghezza variabile.",
+            "Reversibilità dell'algoritmo, compatibilità con la modalità ECB e dipendenza dal salting UNIX.",
+            "Resistenza ad attacchi SQL injection, supporto alla crittografia omomorfa e conformità allo standard X.509."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In sicurezza informatica, come si può garantire il principio di non ripudiabilità in una comunicazione?",
+        "options": [
+            "Utilizzando firme digitali associate a servizi di marcatura temporale (timestamping).",
+            "Configurando firewall di tipo packet filtering ad alte prestazioni e sistemi di bilanciamento del carico.",
+            "Implementando la crittografia simmetrica 3DES con uno schema di cifratura-decifratura-cifratura.",
+            "Impiegando database protetti da Transparent Data Encryption (TDE) a livello di file system."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è una SQL Injection (SQLi)?",
+        "options": [
+            "Un attacco in cui vengono inseriti comandi SQL malevoli nei campi di input dell'utente per manipolare il database sottostante.",
+            "Un'iniezione di pacchetti TCP corrotti all'interno di una sessione di rete protetta da crittografia asimmetrica.",
+            "Un attacco DoS che mira a saturare la memoria del server di database inviando richieste di connessione simultanee.",
+            "Una tecnica di spoofing in cui un server di database malevolo si spaccia per un server di autenticazione attendibile."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le principali tipologie di SQL Injection note in letteratura?",
+        "options": [
+            "Classic (In-band), Blind (Inferential), Error-based e Out-of-band.",
+            "Active, Passive, Polymorphic e Metamorphic.",
+            "Symmetric, Asymmetric, Hybrid ed Envelope.",
+            "SYN flood, UDP flood, ICMP flood e Reflection."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quale delle seguenti query rappresenta un classico esempio di SQL Injection basata su tautologia?",
+        "options": [
+            "SELECT * FROM utenti WHERE nome='a' OR '1'='1'",
+            "SELECT * FROM utenti; DROP TABLE utenti;",
+            "SELECT * FROM utenti WHERE nome = ?",
+            "INSERT INTO utenti VALUES ('admin', 'password')"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In una SQL Injection, che cosa si intende per attacco tramite query 'piggybacked'?",
+        "options": [
+            "L'inserimento di una query aggiuntiva dopo la query originale, separata da un punto e virgola (es. '; DROP TABLE utenti;').",
+            "L'uso di una query nidificata che esegue un attacco di tipo blind sfruttando la latenza del server.",
+            "La falsificazione del mittente della richiesta per far sembrare che la query provenga dall'amministratore locale.",
+            "La cifratura dei parametri di ricerca per impedire ai firewall WAF di rilevare l'attacco."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le contromisure più efficaci per difendere un'applicazione dalle SQL Injection?",
+        "options": [
+            "L'uso di query parametrizzate (prepared statements), la validazione e l'escaping degli input, l'implementazione di un WAF e il principio del privilegio minimo.",
+            "L'adozione di firme digitali, l'uso esclusivo della cifratura simmetrica ECB e il cambio periodico delle chiavi di cifratura.",
+            "La frammentazione dei pacchetti IP, l'utilizzo di proxy gateway a livello applicativo e l'uso di firewall di tipo circuit-level.",
+            "La memorizzazione delle password nel file /etc/shadow tramite salting e l'uso di algoritmi di hashing asimmetrici."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Su quale principio matematico si basa il protocollo di scambio chiavi Diffie-Hellman?",
+        "options": [
+            "Sulla difficoltà del calcolo del logaritmo discreto su canali di comunicazione non sicuri.",
+            "Sulla complessità della fattorizzazione in fattori primi di numeri interi estremamente grandi.",
+            "Sulla proprietà XOR applicata a vettori di inizializzazione incrementali.",
+            "Sull'indipendenza probabilistica delle collisioni in funzioni hash unidirezionali."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è un HMAC (Hash-based Message Authentication Code) e cosa garantisce?",
+        "options": [
+            "Un codice di autenticazione dei messaggi basato su funzioni hash crittografiche e una chiave segreta condivisa; garantisce l'integrità e l'autenticità dei dati.",
+            "Un algoritmo di cifratura asimmetrica che permette di scambiare chiavi segrete in modo sicuro.",
+            "Una contromisura specifica per bloccare gli attacchi di tipo buffer overflow tramite stack canary.",
+            "Un protocollo di firma digitale non ripudiabile che utilizza certificati emessi da una Certification Authority."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In generale, qual è lo scopo principale di un Message Authentication Code (MAC)?",
+        "options": [
+            "Verificare l'integrità dei dati e l'autenticità del mittente di un messaggio utilizzando una chiave simmetrica segreta.",
+            "Cifrare i dati in modalità end-to-end per impedirne la lettura da parte di terzi non autorizzati.",
+            "Prevenire gli attacchi Denial of Service limitando la frequenza delle richieste in ingresso.",
+            "Associare in modo univoco l'identità di un utente a una chiave pubblica certificata."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nell'ambito della sicurezza informatica, quali sono le fasi tipiche di un processo di intrusione (cyber kill chain)?",
+        "options": [
+            "Ricognizione, scanning ed enumerazione, accesso (gaining access), mantenimento dell'accesso (backdoor), cancellazione delle tracce, escalation dei privilegi ed eventuale esfiltrazione o sabotaggio.",
+            "Cifratura simmetrica, hashing, firma digitale, timestamping, verifica dei certificati e decifratura.",
+            "Infezione da virus, propagazione automatica, iniezione SQL, hijacking della sessione e arresto del sistema.",
+            "Packet filtering, stateful inspection, proxying, intrusion detection ed eliminazione dei log."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cosa stabilisce il principio di sicurezza chiamato 'Fail-safe defaults'?",
+        "options": [
+            "In caso di errore, fallimento o mancanza di una regola o decisione esplicita, l'accesso a una risorsa deve essere negato per default.",
+            "In caso di crash del server, tutti i backup devono essere decifrati automaticamente per garantire la continuità operativa.",
+            "I firewall devono consentire il passaggio di tutto il traffico sconosciuto se i filtri principali smettono di rispondere.",
+            "Le password degli utenti devono essere ripristinate a valori predefiniti semplici in caso di blocco dell'account."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Su cosa si basa il modello di controllo degli accessi RBAC (Role-Based Access Control)?",
+        "options": [
+            "Sui ruoli aziendali o funzionali assegnati agli utenti, ai quali sono associate le specifiche autorizzazioni di accesso.",
+            "Sui permessi fisici definiti a livello di proprietario, gruppo e altri (es. chmod in UNIX).",
+            "Sulle chiavi pubbliche certificate da una Certification Authority esterna al sistema.",
+            "Su regole dinamiche basate sulla geolocalizzazione dell'utente e sull'orario della richiesta."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come viene gestito tradizionalmente il controllo degli accessi ai file nei sistemi operativi UNIX?",
+        "options": [
+            "Tramite la definizione di permessi di lettura, scrittura ed esecuzione per tre categorie: proprietario (owner), gruppo (group) e altri (others).",
+            "Tramite la configurazione di una matrice degli accessi centralizzata gestita interamente tramite query SQL.",
+            "Cifrando individualmente ciascun file con chiavi simmetriche legate al ruolo dell'utente (RBAC).",
+            "Utilizzando file di controllo chiamati /etc/passwd e /etc/shadow per monitorare ogni operazione di I/O."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per quale motivo la cifratura Triple DES (3DES) adotta la sequenza Cifratura-Decifratura-Cifratura (EDE)?",
+        "options": [
+            "Per consentire la retrocompatibilità con il DES singolo (impostando le tre sottochiavi uguali) ed evitare attacchi 'meet-in-the-middle'.",
+            "Per dimezzare la lunghezza totale della chiave segreta richiesta per l'algoritmo.",
+            "Perché permette l'elaborazione parallela dei blocchi in modalità stream cipher.",
+            "Per eliminare la necessità di un vettore di inizializzazione (IV) durante la cifratura a blocchi."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza concettuale tra qualità/affidabilità di un software e la sua sicurezza?",
+        "options": [
+            "La qualità e l'affidabilità riguardano il funzionamento corretto del software in condizioni normali, mentre la sicurezza riguarda la sua capacità di resistere ad attacchi intenzionali.",
+            "La qualità si misura in base alla velocità di calcolo degli algoritmi di hashing, la sicurezza in base alla lunghezza delle chiavi RSA.",
+            "Non vi è alcuna differenza: un software di alta qualità è intrinsecamente immune da vulnerabilità di sicurezza.",
+            "L'affidabilità si applica solo all'hardware del server, mentre la sicurezza riguarda esclusivamente il codice sorgente."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In cosa consiste una vulnerabilità di tipo Cross-Site Scripting (XSS)?",
+        "options": [
+            "Nell'inserimento di script malevoli (es. JavaScript) all'interno di pagine web legittime, che vengono poi eseguiti nel browser di altri utenti ignari.",
+            "Nell'intercettare le credenziali memorizzate sul server tramite attacchi di tipo Man-in-the-Middle.",
+            "Nell'eseguire comandi SQL diretti sul database tramite input non validati nei moduli web.",
+            "Nel sovraccaricare il server web con richieste HTTP ripetute fino a provocarne il crash."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza nel filtraggio dei dati tra un firewall circuit-level e uno a livello applicativo (application-layer)?",
+        "options": [
+            "Il circuit-level opera a livello di sessione verificando l'handshake dei protocolli, mentre l'application-layer ispeziona il contenuto specifico dei dati applicativi.",
+            "Il circuit-level analizza solo le query SQL, mentre l'application-layer filtra unicamente gli indirizzi IP dei pacchetti.",
+            "Il circuit-level richiede hardware dedicato, mentre l'application-layer si basa su software integrato nel sistema operativo.",
+            "Il circuit-level cifra le comunicazioni in modalità asimmetrica, mentre l'application-layer usa firme digitali."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nei sistemi operativi UNIX, come vengono memorizzate in modo sicuro le password degli utenti?",
+        "options": [
+            "Le password vengono cifrate con funzioni hash sicure e salvate (spesso nel file protetto /etc/shadow) associando a ciascuna di esse un valore casuale (salt) per prevenire attacchi a dizionario.",
+            "Le password vengono salvate in chiaro all'interno del file ad accesso pubblico /etc/passwd per consentire il login rapido.",
+            "Vengono cifrate tramite algoritmo asimmetrico RSA e memorizzate su un server DNS esterno.",
+            "Le password non vengono memorizzate sul file system ma generate dinamicamente ad ogni avvio tramite un token OTP fisicamente connesso."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come può essere decomposta una matrice degli accessi per essere implementata in un sistema operativo?",
+        "options": [
+            "Per righe (creando liste di capacità o Capability Lists per ciascun soggetto) o per colonne (creando liste di controllo degli accessi o ACL per ciascun oggetto).",
+            "In chiavi pubbliche e chiavi private distribuite tramite un protocollo asimmetrico.",
+            "In regole di packet filtering e regole di stateful inspection all'interno del firewall.",
+            "In modalità ECB e modalità CBC a seconda che i dati siano memorizzati in locale o trasmessi in rete."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza principale tra le modalità di cifratura ECB (Electronic Codebook) e CBC (Cipher Block Chaining)?",
+        "options": [
+            "L'ECB cifra ogni blocco in modo indipendente, mentre il CBC esegue un'operazione di XOR tra il blocco di testo in chiaro corrente e il blocco cifrato precedente, rendendo i blocchi cifrati dipendenti l'uno dall'altro.",
+            "L'ECB è un algoritmo a chiave asimmetrica, mentre il CBC si basa interamente su chiavi simmetriche e funzioni di hashing.",
+            "L'ECB è progettato per la cifratura di file di grandi dimensioni, mentre il CBC è ottimizzato esclusivamente per database SQL.",
+            "La modalità ECB è immune da attacchi basati sull'analisi dei pattern di testo, al contrario del CBC."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali metodi si utilizzano comunemente per cifrare i dati all'interno di un database?",
+        "options": [
+            "Transparent Data Encryption (TDE) a livello di file system, cifratura a livello di colonna/campo o cifratura dell'intero file di database.",
+            "Implementazione del protocollo Diffie-Hellman sui record e hashing di tutte le chiavi primarie.",
+            "Configurazione di un firewall WAF a protezione delle tabelle e hashing SHA-512 delle relazioni.",
+            "Uso di tecniche di buffer overflow controllate ed esecuzione di query piggybacked."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali contromisure sono efficaci per mitigare gli attacchi Denial of Service (DoS)?",
+        "options": [
+            "Rate limiting, firewall configurati adeguatamente, sistemi di bilanciamento del carico (load balancer) e sistemi di rilevamento delle intrusioni (IDS).",
+            "Utilizzo di query parametrizzate, validazione degli input XSS e crittografia asimmetrica dei file.",
+            "Uso del salting delle password, compilazione del codice con stack canary e disabilitazione di UNIX /etc/shadow.",
+            "Sostituzione di tutti gli algoritmi simmetrici con firme digitali e timestamping."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In cosa consiste un attacco DoS di tipo 'amplificato' (Amplified DoS)?",
+        "options": [
+            "Nel costringere un server intermediario a inviare alla vittima risposte di dimensioni molto superiori rispetto alle richieste inviate dall'attaccante, che falsifica l'IP del mittente (es. DNS amplification).",
+            "Nell'incrementare manualmente la frequenza dei pacchetti TCP inviati direttamente dalla macchina dell'attaccante.",
+            "Nell'infettare un file host con un virus metamorfico che aumenta di dimensioni ad ogni ciclo di esecuzione.",
+            "Nell'infiltrare codice SQL ricorsivo all'interno di tabelle di grandi dimensioni per saturare il disco del database."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le caratteristiche principali del cifrario RC4?",
+        "options": [
+            "È un cifrario a flusso (stream cipher) molto veloce, ma ormai ritenuto insicuro e non più raccomandato, noto per il suo uso storico nel protocollo WEP.",
+            "È un cifrario a blocchi asimmetrico basato sulla fattorizzazione e ampiamente integrato nei moderni database SQL.",
+            "È una variante del Triple DES che esegue 4 operazioni di cifratura e decifratura consecutive.",
+            "È un algoritmo di hashing a 512 bit specifico per la generazione di firme digitali."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è SHA-512?",
+        "options": [
+            "Una funzione hash crittografica appartenente alla famiglia SHA-2 che produce un output fisso a 512 bit, utilizzata principalmente per verificare l'integrità dei dati.",
+            "Un protocollo di cifratura simmetrica a blocchi che sostituisce l'algoritmo AES nei sistemi ad alta sicurezza.",
+            "Un meccanismo di autenticazione a due fattori basato su biometria e certificati digitali.",
+            "Un'estensione del protocollo Diffie-Hellman che garantisce la non ripudiabilità delle firme digitali."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza fondamentale tra un malware polimorfico e uno metamorfico?",
+        "options": [
+            "Il malware polimorfico cambia la propria chiave di cifratura o il modulo di decodifica mantenendo lo stesso codice interno, mentre quello metamorfico si riscrive interamente ad ogni infezione per alterare la propria firma logica.",
+            "Il polimorfico infetta solo dispositivi mobili, mentre il metamorfico agisce esclusivamente su server di database SQL.",
+            "Il polimorfico necessita del file /etc/shadow per propagarsi, mentre il metamorfico sfrutta attacchi di tipo buffer overflow.",
+            "Il polimorfico è una tipologia di worm autonomo, mentre il metamorfico è un virus che richiede l'interazione costante dell'utente."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le fasi principali del ciclo di vita di un malware generico?",
+        "options": [
+            "Infezione, latenza (opzionale), attivazione, propagazione ed esecuzione del payload.",
+            "Ricognizione, port scanning, iniezione SQL, decifratura dei dati ed esfiltrazione.",
+            "Cifratura dei blocchi, generazione dell'IV, XOR, scambio delle metà e round finali.",
+            "Generazione del certificato, firma del mittente, timestamping, invio del pacchetto e verifica della firma."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cosa si intende per 'payload' di un malware e quali possono essere degli esempi?",
+        "options": [
+            "La parte del codice del malware che esegue l'azione dannosa effettiva, come la cancellazione di dati, l'apertura di backdoor, il furto di credenziali o la propaganda.",
+            "La routine di cifratura che nasconde la firma del virus ai sistemi di rilevamento basati su signature.",
+            "Il protocollo di comunicazione utilizzato dal worm per scansionare le porte aperte di un host vittima.",
+            "Il valore casuale (salt) inserito nel codice sorgente del malware per alterarne l'hash."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In sicurezza informatica, che cosa indica il termine 'Spoofing'?",
+        "options": [
+            "Una tecnica di attacco che consiste nel mascherare o falsificare l'identità dell'attaccante presentandosi come un'entità fidata (es. IP spoofing, email spoofing).",
+            "L'uso di una stringa SQL malformata per bypassare l'autenticazione in un'applicazione web.",
+            "L'esaurimento intenzionale delle risorse di memoria di un server tramite richieste TCP incomplete.",
+            "Un metodo per cifrare contemporaneamente i blocchi di testo in chiaro in modalità ECB."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Cosa si intende per funzione hash unidirezionale (One-Way) e quali sono alcuni esempi storici e moderni?",
+        "options": [
+            "Una funzione matematica che mappa dati di lunghezza variabile in un output di lunghezza fissa, facile da calcolare ma computazionalmente impossibile da invertire (es. MD5, SHA-1, SHA-2, SHA-3).",
+            "Una funzione di cifratura simmetrica in cui la stessa chiave viene usata sia in fase di cifratura che di decifratura (es. AES, DES).",
+            "Un protocollo di scambio chiavi basato sulla complessità del calcolo delle radici primitive di numeri primi.",
+            "Un algoritmo di controllo degli accessi a file UNIX basato su permessi owner/group/others."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le caratteristiche principali del funzionamento della modalità CTR (Counter Mode) nei cifrari a blocchi?",
+        "options": [
+            "Cifra i blocchi combinando l'output di un algoritmo di cifratura applicato ad un contatore incrementale con il testo in chiaro tramite XOR.",
+            "Collega i blocchi di testo cifrato in modo ricorsivo, rendendo impossibile l'elaborazione parallela.",
+            "Mappa direttamente blocchi uguali di testo chiaro in blocchi uguali di testo cifrato, preservando i pattern.",
+            "Utilizza una coppia di chiavi asimmetriche in cui la chiave privata agisce come contatore di firme digitali."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cosa si intende per 'Busta Digitale' (Digital Envelope)?",
+        "options": [
+            "Un metodo ibrido che cifra il messaggio con una chiave simmetrica (per efficienza) e cifra la chiave simmetrica stessa con la chiave pubblica del destinatario (per sicurezza).",
+            "Un'intestazione crittografata aggiunta ai pacchetti IP per implementare firewall a livello di circuito.",
+            "Un file speciale del sistema UNIX contenente l'elenco di tutte le impronte digitali delle password degli utenti.",
+            "Un archivio compresso contenente un virus polimorfico protetto da una password casuale generata da un honeypot."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le caratteristiche principali del sistema crittografico RSA?",
+        "options": [
+            "È un algoritmo asimmetrico a chiave pubblica/privata la cui sicurezza si basa sulla difficoltà matematica di fattorizzare grandi numeri interi.",
+            "È uno stream cipher a chiave simmetrica molto veloce utilizzato principalmente nei protocolli legacy come WEP.",
+            "È un algoritmo di hashing unidirezionale che garantisce la non ripudiabilità delle transazioni.",
+            "È un sistema di controllo degli accessi che organizza i permessi in base ai ruoli utente (RBAC)."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è un Honeypot?",
+        "options": [
+            "Un sistema informativo o risorsa di rete esposta intenzionalmente come esca per attirare gli attaccanti, studiarne le tecniche e proteggere i sistemi reali.",
+            "Una contromisura hardware contro gli attacchi di tipo buffer overflow a livello di stack.",
+            "Un database cifrato contenente password fittizie utilizzato per testare le funzioni hash UNIX.",
+            "Un firewall a livello applicativo progettato per bloccare esclusivamente gli attacchi di tipo SQL Injection."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le principali tecniche di scansione e monitoraggio impiegate dai sistemi di rilevamento delle intrusioni (IDS)?",
+        "options": [
+            "Port scanning, scansione delle vulnerabilità e mappatura della rete per rilevare firme di attacchi noti o anomalie nel traffico.",
+            "Transparent Data Encryption, hashing SHA-512 e salting delle tabelle del database.",
+            "Cifratura dei record tramite RSA e scambio chiavi Diffie-Hellman sui canali di controllo.",
+            "Iniezione di tautologie SQL e query piggybacked per verificare la consistenza delle risposte."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come funziona la modalità di cifratura CFB (Cipher Feedback)?",
+        "options": [
+            "Trasforma un cifrario a blocchi in un cifrario a flusso (stream cipher) utilizzando il blocco di testo cifrato precedente come input per la cifratura.",
+            "Cifra ogni blocco indipendentemente senza alcun feedback, preservando i pattern del testo chiaro.",
+            "Usa un contatore incrementale XORato direttamente con la chiave asimmetrica del mittente.",
+            "Richiede due passaggi completi di hashing unidirezionale per garantire l'integrità dei dati."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come avviene un attacco DoS di tipo 'Reflection'?",
+        "options": [
+            "L'attaccante invia richieste a server di terze parti falsificando l'IP del mittente con quello della vittima, spingendo questi server a inviare le proprie risposte direttamente alla vittima, saturandone la banda.",
+            "Il codice del malware si riflette sui file di log del server per eludere i sistemi di tracciamento degli IDS.",
+            "L'attacco viene riflesso all'indietro verso la macchina dell'attaccante tramite un firewall configurato con politica default-discard.",
+            "Si sfrutta una query SQL nidificata che specchia il contenuto di un database cifrato su un server pubblico."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Cosa definisce il principio di sicurezza del 'Least Privilege' (privilegio minimo)?",
+        "options": [
+            "Stabilisce che a ogni utente, processo o applicazione devono essere concessi solo i privilegi minimi necessari per svolgere le attività richieste.",
+            "Stabilisce che le query del database devono essere eseguite solo da amministratori di sistema locali.",
+            "Impone che le password salvate in /etc/shadow contengano meno caratteri possibili per velocizzare l'hashing.",
+            "Stabilisce che i firewall a livello di circuito devono avere priorità superiore rispetto a quelli a livello applicativo."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza tra un IDS basato su firme (signature-based) e uno basato su anomalie (anomaly-based)?",
+        "options": [
+            "Il signature-based confronta il traffico con pattern di attacco noti, mentre l'anomaly-based rileva deviazioni rispetto al comportamento normale del sistema precedentemente appreso.",
+            "Il signature-based richiede firme digitali asimmetriche su ogni pacchetto, mentre l'anomaly-based analizza solo i database SQL.",
+            "Il signature-based è posizionato all'interno della DMZ, mentre l'anomaly-based può risiedere solo nei router esterni.",
+            "Il signature-based analizza i comportamenti degli utenti UNIX, mentre l'anomaly-based intercetta attacchi buffer overflow."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è un macro virus e quale rappresenta un esempio storico famoso?",
+        "options": [
+            "Un tipo di virus informatico scritto nel linguaggio macro di un'applicazione (es. Microsoft Word) che infetta i documenti; un esempio celebre è il virus Melissa.",
+            "Un malware autonomo di rete che esegue query SQL ricorsive; un esempio celebre è il virus Diffie-Hellman.",
+            "Un attacco di flooding che colpisce i server DNS; un esempio celebre è il Trojan RC4.",
+            "Un virus hardware che altera il firmware delle memorie RAM; un esempio celebre è la backdoor HMAC."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali tecniche principali utilizzano i virus informatici per nascondersi e rendere difficile il rilevamento da parte degli antivirus?",
+        "options": [
+            "Offuscamento del codice, cifratura del corpo del virus, tecniche polimorfiche e metamorfismo.",
+            "Chiamate a query parametrizzate, utilizzo di TDE ed esecuzione di query piggybacked.",
+            "Configurazione di honeypot locali, uso di firewall circuit-level e salting delle password.",
+            "Utilizzo di funzioni hash asimmetriche e scambio chiavi Diffie-Hellman."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono i metodi di autenticazione più comuni per verificare l'identità di un utente?",
+        "options": [
+            "Password, One-Time Password (OTP), certificati digitali, biometria e autenticazione a più fattori (MFA).",
+            "Port scanning, vulnerability scanning, network mapping e rate limiting.",
+            "Cifratura simmetrica, cifratura asimmetrica, hashing e digital envelope.",
+            "Least privilege, fail-safe defaults, RBAC e UNIX permissions."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come funziona una SQL Injection di tipo inferenziale (o Blind SQLi)?",
+        "options": [
+            "L'attaccante deduce informazioni sul contenuto del database ponendo domande vero/falso e analizzando le differenze nei tempi di risposta del server o nei messaggi di errore restituiti.",
+            "L'attaccante inietta uno script JavaScript per rubare i cookie di sessione della vittima.",
+            "L'attaccante inserisce una seconda query separata da un punto e virgola per cancellare l'intera tabella utenti.",
+            "L'attaccante intercetta la chiave di cifratura simmetrica scambiata in chiaro tra client e server."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è la programmazione difensiva (defensive programming)?",
+        "options": [
+            "Un approccio alla scrittura del software mirato a renderlo resiliente ad input imprevisti o malevoli tramite validazione rigida degli input, asserzioni e test approfonditi.",
+            "La cifratura preventiva di tutti i file sorgente per impedire il reverse engineering.",
+            "L'inserimento di backdoor protette da crittografia asimmetrica per scopi di manutenzione remota.",
+            "L'uso esclusivo di database NoSQL per evitare gli attacchi SQL injection basati su tautologia."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In che modo si possono eseguire query ad intervallo (range query) su dati cifrati all'interno di un database?",
+        "options": [
+            "Utilizzando tecniche crittografiche specifiche come l'Order-Preserving Encryption (OPE) o la crittografia parzialmente omomorfa.",
+            "Inviando le chiavi di decifratura in chiaro insieme a ciascuna query di selezione.",
+            "Eseguendo preventivamente un attacco di tipo blind SQLi per estrarre gli indici delle rispoke.",
+            "Utilizzando un firewall a livello applicativo per decifrare temporaneamente i pacchetti TCP."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è il ruolo principale di una Certification Authority (CA)?",
+        "options": [
+            "Essere un ente terzo fidato che emette e garantisce certificati digitali che associano l'identità di un soggetto a una specifica chiave pubblica.",
+            "Rilevare tentativi di intrusione all'interno delle reti aziendali mediante l'uso di honeypot.",
+            "Cifrare i messaggi trasmessi tramite canali insicuri utilizzando l'algoritmo simmetrico Triple DES.",
+            "Fornire servizi di marcatura temporale per garantire la non ripudiabilità delle transazioni."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è un certificato a chiave pubblica (Public Key Certificate)?",
+        "options": [
+            "Un documento digitale, firmato da una CA, che associa una chiave pubblica all'identità del proprietario del certificato.",
+            "Una chiave simmetrica cifrata con l'algoritmo di cifratura asimmetrica RSA.",
+            "Un hash unidirezionale calcolato sul contenuto del file di configurazione /etc/passwd.",
+            "Un record di database che tiene traccia dei permessi UNIX (owner, group, others) associati a un utente."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali sono le tecniche principali utilizzate per difendere i sistemi dagli attacchi di tipo Buffer Overflow?",
+        "options": [
+            "Controllo dei limiti degli array (bounds checking), utilizzo di stack canary, attivazione di DEP/NX (prevenzione dell'esecuzione di codice dallo stack), ASLR (randomizzazione dello spazio di indirizzamento) e uso di linguaggi di programmazione sicuri.",
+            "Cifratura TDE dei database, query parametrizzate, validazione degli input XSS e installazione di WAF.",
+            "Autenticazione a più fattori, firme digitali con marcatura temporale e scambio chiavi Diffie-Hellman.",
+            "Configurazione di proxy gateway e firewall circuit-level per il filtraggio dei pacchetti."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Dove dovrebbero essere idealmente posizionati i sensori di un Intrusion Detection System (IDS) all'interno di una rete aziendale?",
+        "options": [
+            "Nei pressi dei punti di ingresso e uscita della rete, all'interno della DMZ (Demilitarized Zone) e nei segmenti critici della rete interna.",
+            "Esclusivamente sui server DNS esterni per mitigare gli attacchi di tipo DNS Amplification.",
+            "All'interno del file system protetto /etc/shadow per monitorare l'hashing delle password.",
+            "Nel blocco di dati destro (R) di uno schema di cifratura di Feistel."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In che modo un attacco di tipo DNS Amplification riesce a sovraccaricare la vittima?",
+        "options": [
+            "L'attaccante invia piccole richieste di query DNS a resolver aperti falsificando l'IP del mittente (spoofing) con quello della vittima, inducendo i resolver a inviare risposte DNS molto grandi alla vittima.",
+            "L'attaccante inietta script JavaScript malevoli in server DNS pubblici per raccogliere i dati di sessione della vittima.",
+            "L'attaccante esegue query ricorsive 'piggybacked' che estraggono massivamente i record del server DNS.",
+            "L'attaccante infetta i server DNS con virus metamorfici che bloccano l'accesso a internet."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Come funziona un attacco DoS di tipo TCP SYN Flooding?",
+        "options": [
+            "L'attaccante invia una raffica di richieste di connessione (SYN) con indirizzi IP falsificati senza completare l'handshake a tre vie (three-way handshake), esaurendo le risorse del server destinate a gestire le connessioni aperte a metà.",
+            "L'attaccante inietta pacchetti TCP contenenti iniezioni SQL basate su tautologia.",
+            "L'attaccante intercetta i pacchetti di sessione protetti da firma digitale per alterarne l'hash.",
+            "L'attaccante inietta script malevoli nelle risposte TCP per eseguirli sui client connessi."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Qual è la differenza principale tra un tradizionale firewall di filtraggio pacchetti e un gateway proxy applicativo?",
+        "options": [
+            "Il firewall filtra i singoli pacchetti a livello di rete e trasporto, mentre il proxy gateway agisce da intermediario completo a livello applicativo, stabilendo connessioni separate e ispezionando i dati.",
+            "Il firewall si basa su chiavi asimmetriche, mentre il proxy gateway usa esclusivamente crittografia simmetrica.",
+            "Il firewall previene attacchi buffer overflow, mentre il proxy gateway protegge solo da SQL Injection.",
+            "Il firewall rileva le anomalie tramite scansione IDS, mentre il proxy gateway si limita a bloccare le porte aperte."
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Che cos'è un Buffer Overflow?",
+        "options": [
+            "Una vulnerabilità che si verifica quando un programma scrive più dati in un buffer di memoria di quanti ne possa contenere, sovrascrivendo le aree di memoria adiacenti e potendo alterare il flusso di esecuzione o eseguire codice arbitrario.",
+            "Un attacco DoS mirato a sovraccaricare la larghezza di banda del server tramite richieste DNS amplificate.",
+            "L'inserimento di comandi SQL non autorizzati tramite moduli di inserimento dati non validati.",
+            "Un virus polimorfico che si attacca a documenti di testo per alterarne la formattazione."
+        ],
+        "correctIndex": 0
+    }
+]
