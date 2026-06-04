@@ -255,6 +255,95 @@
             gap: 16px;
         }
 
+        /* Sezione Impostazioni / Toggles */
+        .settings-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding: 16px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .setting-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .setting-label {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .setting-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .setting-description {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* Toggle Switch */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #dadce0;
+            transition: .2s ease-in-out;
+            border-radius: 24px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .2s ease-in-out;
+            border-radius: 50%;
+            box-shadow: 0 1px 3px rgba(60,64,67,0.3);
+        }
+
+        input:checked + .toggle-slider {
+            background-color: var(--primary-color);
+        }
+
+        input:checked + .toggle-slider:before {
+            transform: translateX(20px);
+        }
+
+        /* Disabilita hover e cambia cursore quando l'input è disabilitato (post-submit o instant feedback) */
+        .option-label:has(input:disabled) {
+            cursor: default;
+            pointer-events: none;
+        }
+
         .selected-dataset-info {
             display: flex;
             align-items: center;
@@ -564,6 +653,40 @@
                 <span id="selected-badge" class="category-tag tag-capitoli">Capitoli</span>
                 <h3 id="selected-title">Caricamento in corso...</h3>
             </div>
+
+            <!-- Area Toggles/Impostazioni -->
+            <div class="settings-container">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span class="setting-title">Mischia domande</span>
+                        <span class="setting-description">Mescola l'ordine delle domande del quiz</span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-shuffle-questions" onchange="saveSettings()">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span class="setting-title">Mischia risposte</span>
+                        <span class="setting-description">Mescola l'ordine delle risposte di ogni domanda</span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-shuffle-answers" onchange="saveSettings()">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span class="setting-title">Correzione istantanea</span>
+                        <span class="setting-description">Mostra subito se la risposta è corretta/errata appena rispondi</span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-instant-feedback" onchange="saveSettings()">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+            </div>
             
             <!-- Modalità standard con slider -->
             <div class="slider-wrapper" id="slider-wrapper">
@@ -778,8 +901,7 @@
             numQuestions = parseInt(slider.value, 10);
             sliderLabel.textContent = `Numero di domande: ${numQuestions}`;
             if (allQuestions.length > 0) {
-                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
-                displayQuestions();
+                setupQuestionsToShow();
             }
         }
 
@@ -817,23 +939,63 @@
                 });
         }
 
-        // Imposta le domande da visualizzare in base alla modalità selezionata
-        function setupQuestionsToShow() {
-            if (currentDataset.mode === "complete") {
-                // Carica tutte le domande in ordine casuale
-                questions = [...allQuestions].sort(() => Math.random() - 0.5);
-            } else {
-                // Carica solo la fetta selezionata dallo slider
-                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+        // Salva le impostazioni dell'utente in localStorage e rigenera il quiz
+        function saveSettings() {
+            const shuffleQuestions = document.getElementById("toggle-shuffle-questions").checked;
+            const shuffleAnswers = document.getElementById("toggle-shuffle-answers").checked;
+            const instantFeedback = document.getElementById("toggle-instant-feedback").checked;
+
+            localStorage.setItem("quiz_shuffle_questions", shuffleQuestions);
+            localStorage.setItem("quiz_shuffle_answers", shuffleAnswers);
+            localStorage.setItem("quiz_instant_feedback", instantFeedback);
+
+            if (allQuestions.length > 0) {
+                setupQuestionsToShow();
             }
+        }
+
+        // Carica le impostazioni dell'utente da localStorage
+        function loadSettings() {
+            const shuffleQuestions = localStorage.getItem("quiz_shuffle_questions") !== "false"; // default: true
+            const shuffleAnswers = localStorage.getItem("quiz_shuffle_answers") !== "false"; // default: true
+            const instantFeedback = localStorage.getItem("quiz_instant_feedback") === "true"; // default: false
+
+            document.getElementById("toggle-shuffle-questions").checked = shuffleQuestions;
+            document.getElementById("toggle-shuffle-answers").checked = shuffleAnswers;
+            document.getElementById("toggle-instant-feedback").checked = instantFeedback;
+        }
+
+        // Imposta le domande da visualizzare in base alla modalità selezionata e ai toggle di ordinamento
+        function setupQuestionsToShow() {
+            const shuffleQuestions = document.getElementById("toggle-shuffle-questions").checked;
+            
+            // Creiamo una copia per non sporcare allQuestions in cache
+            let tempQuestions = [...allQuestions];
+            
+            if (shuffleQuestions) {
+                shuffleArray(tempQuestions);
+            }
+            
+            if (currentDataset.mode === "complete") {
+                questions = tempQuestions;
+            } else {
+                questions = tempQuestions.slice(0, numQuestions);
+            }
+            
             displayQuestions();
             submitBtn.disabled = false;
+
+            // Rimuovi la card dei risultati se presente
+            const scoreCard = document.getElementById("score-card-result");
+            if (scoreCard) scoreCard.remove();
         }
 
         // Mostra le domande nel contenitore del quiz
         function displayQuestions() {
             quizContainer.innerHTML = "";
             selectedAnswers = Array(questions.length).fill(null);
+
+            const shuffleAnswers = document.getElementById("toggle-shuffle-answers").checked;
 
             questions.forEach((question, index) => {
                 const questionCard = document.createElement("div");
@@ -859,7 +1021,9 @@
                     originalIndex: i
                 }));
 
-                shuffleArray(shuffledOptions); // Mescoliamo le opzioni
+                if (shuffleAnswers) {
+                    shuffleArray(shuffledOptions); // Mescoliamo le opzioni se attivo
+                }
 
                 shuffledOptions.forEach((option, optionIndex) => {
                     const optionLabel = document.createElement("label");
@@ -905,16 +1069,43 @@
         function selectAnswer(questionIndex, optionIndex) {
             selectedAnswers[questionIndex] = optionIndex;
             
-            // Rimuovi classe selezionata da tutte le etichette della domanda
-            document.querySelectorAll(`input[name="question${questionIndex}"]`).forEach(input => {
-                const label = input.closest(".option-label");
-                if (label) label.classList.remove("selected");
-            });
-            
-            // Aggiungi la classe selezionata alla risposta cliccata
-            const selectedLabel = document.getElementById(`label-${questionIndex}-${optionIndex}`);
-            if (selectedLabel) {
-                selectedLabel.classList.add("selected");
+            const instantFeedback = document.getElementById("toggle-instant-feedback").checked;
+
+            if (instantFeedback) {
+                const question = questions[questionIndex];
+
+                // Disabilita tutti gli input per questa domanda per "bloccare" la risposta
+                document.querySelectorAll(`input[name="question${questionIndex}"]`).forEach(input => {
+                    input.disabled = true;
+                    const label = input.closest(".option-label");
+                    if (label) label.classList.remove("selected");
+                });
+
+                // Applica colore verde alla risposta corretta
+                const correctLabel = document.getElementById(`label-${questionIndex}-${question.correctIndex}`);
+                if (correctLabel) {
+                    correctLabel.classList.add("correct");
+                }
+
+                // Se l'utente ha sbagliato, applica colore rosso a quella selezionata
+                if (optionIndex !== question.correctIndex) {
+                    const incorrectLabel = document.getElementById(`label-${questionIndex}-${optionIndex}`);
+                    if (incorrectLabel) {
+                        incorrectLabel.classList.add("incorrect");
+                    }
+                }
+            } else {
+                // Rimuovi classe selezionata da tutte le etichette della domanda
+                document.querySelectorAll(`input[name="question${questionIndex}"]`).forEach(input => {
+                    const label = input.closest(".option-label");
+                    if (label) label.classList.remove("selected");
+                });
+                
+                // Aggiungi la classe selezionata alla risposta cliccata
+                const selectedLabel = document.getElementById(`label-${questionIndex}-${optionIndex}`);
+                if (selectedLabel) {
+                    selectedLabel.classList.add("selected");
+                }
             }
         }
 
@@ -1017,6 +1208,7 @@
 
         // Avvio all'avvio della pagina
         window.onload = () => {
+            loadSettings(); // Carica le impostazioni utente memorizzate
             filterCategory("capitoli"); // Seleziona la modalità Capitoli di default
         };
     </script>
