@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Il baricentro strategico:",
+        "options": [
+            "coincide con la missione, che fissa il contesto all’interno del quale le strategie devono essere formulate",
+            "è l’insieme di fattori che ispirano e guidano l’esistenza, le dinamiche evolutive e l’approccio al mercato dell’impresa",
+            "è costituito dalle risultanze dell’analisi esterna e dell’analisi interna, sintetizzate nell’analisi SWOT"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un'impresa \"brick and mortar\":",
+        "options": [
+            "è focalizzata sul mercato fisico e utilizza le piattaforme digitali in misura marginale e in chiave tattica",
+            "nasce nel mercato fisico e successivamente affianca al business tradizionale quello online, coniugando le due dimensioni",
+            "è un'impresa che opera seguendo una strategia omnicanale, con una forte integrazione delle attività online e offline"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strategia di innovazione del valore:",
+        "options": [
+            "mira a sviluppare il grado di differenziazione dell'offerta in un mercato altamente competitivo",
+            "punta a modificare il set di attributi della product offering in modo originale, proponendo un'offerta di valore nuova",
+            "consiste in una innovazione di prodotto finalizzata a incrementare la sua \"premiumness\""
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'analisi dell'ambiente competitivo concerne:",
+        "options": [
+            "mercato, clienti, sistema d'offerta, concorrenza",
+            "i fattori politici, economici, sociali, tecnologici, legali, ecologici",
+            "analisi esterna (a livello macro e micro) e analisi interna"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’analisi dell’ambiente esogeno rilevante:",
+        "options": [
+            "viene svolta utilizzando il modello SWOT",
+            "viene svolta analizzando il mercato, i consumatori, la concorrenza",
+            "viene svolta utilizzando il modello PESTLE"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L’analisi di portafoglio:",
+        "options": [
+            "è finalizzata a valutare la corretta corrispondenza tra portafoglio di investimenti e coperture finanziarie",
+            "intende valutare l’adeguatezza del portafoglio di risorse finanziarie dell’impresa nel business di riferimento",
+            "ha lo scopo di valutare la struttura e il posizionamento competitivo di un gruppo di aree di business"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La strategia di concentrazione può essere realizzata attraverso le seguenti modalità:",
+        "options": [
+            "innovazione di prodotto e branding",
+            "coopetizione con i concorrenti e fidellizzazione della clientela",
+            "ampliamento della domanda, incremento della quota di mercato, acquisizione di mercato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il caso Disney è emblematico di un'impresa che ha perseguito la sua crescita prevalentemente attraverso una strategia di:",
+        "options": [
+            "integrazione verticale",
+            "concentrazione",
+            "diversificazione correlata"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il termine core competencies si riferisce a:",
+        "options": [
+            "competenze aventi rilevanza strategica",
+            "insieme delle risorse e competenze detenute dall'impresa",
+            "asset intangibili (brevetti, marchi registrati e segreti industriali)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strutturazione del mercato, secondo il modello di Abell, prevede la scelta dei prodotti mercati, considerando le seguenti variabili",
+        "options": [
+            "clienti, bisogni, tecnologie",
+            "aree di business, mercati geografici, segmenti",
+            "concorrenti diretti, concorrenti indiretti, prodotti sostitutivi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le strategie di sviluppo, secondo la matrice di Ansoff, sono:",
+        "options": [
+            "concentrazione, integrazione verticale, svilupo del mercato, sviluppo del prodotto, diversificazione",
+            "espansione internazionale, innovazione di prodotto e/o di processo, digital transformation",
+            "integrazione verticale, alleanze strategiche, acquisizioni, joint ventures"
+        ],
+        "correctIndex": 0
+    }
+]

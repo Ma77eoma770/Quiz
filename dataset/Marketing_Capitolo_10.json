@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Il portafoglio brand è:",
+        "options": [
+            "un insieme dei brand di cui un’impresa è proprietaria",
+            "il brand sotto la quale si addensano delle altre marche",
+            "il numero di brand lanciati da un’impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il termine M&A si riferisce a:",
+        "options": [
+            "operazioni di trasferimento del controllo di un’attività mediante acquisto di proprietà o fusione",
+            "creazione di sinergie fra diversi brand, per presidiare al meglio i canali",
+            "gestione da parte della stessa azienda di tutti i canali online e ofline"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali di questi NON è un esempio di funzione di produzione del tangibile:",
+        "options": [
+            "product packaging",
+            "estetica del product design",
+            "passaparola del brand"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'area della specificazione del processo di scelta dello shopper NON rientra:",
+        "options": [
+            "valutazione delle alternative",
+            "percezione del bisogno",
+            "scelta del prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel modello di acquisto brand-gain oriented la variabile driver è:",
+        "options": [
+            "il prezzo strumentale ribassato e il brand system",
+            "il concept di prodotto",
+            "il punto vendita"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le tessere proprietarie NON rientra:",
+        "options": [
+            "brand name",
+            "brand logo",
+            "brand testimonial"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le tessere cognitive servono a stimolare:",
+        "options": [
+            "conoscenza e ricordo del brand",
+            "valori del brand",
+            "identità grafica del brand"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le funzioni di produzione del tangibile non è presente:",
+        "options": [
+            "screening delle idee",
+            "sviluppo progettuale",
+            "gestione ordinaria"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "“L’insieme di elementi espressivi utilizzati dall’azienda per veicolare le credenziali di una marca” viene definito come:",
+        "options": [
+            "immagine del brand o brand image",
+            "identità del brand o brand identity",
+            "posizionamento"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Secondo lo schema organizzativo di Aaker e Joachimstaller per branded house si intedono:",
+        "options": [
+            "più prodotti organizzati intorno a un brand principale",
+            "più marche esplicitamente garantite da un medesimo brand principale",
+            "più marche linearmente connesse ad un brand principale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Fra gli scopi della progettazione della brand identity rientra:",
+        "options": [
+            "fissare la posizione del brand system nella ideale mappa di categoria presente nella mente del target",
+            "verificare l’assonanza fra il brand system e il livello di forza di un brand",
+            "misurare la fiducia nella capacità di promessa della marca"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Secondo il modello di Aaker, il livello massimo di awareness si raggiunge quando:",
+        "options": [
+            "un brand diviene top of mind",
+            "un brand è presente sul mercato da diversi anni",
+            "un brand ha una quota di mercato rilevante"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nel modello di acquisto preference oriented tra le varibili driver di scelta sono presenti:",
+        "options": [
+            "concept di prodotto e brand system",
+            "prezzo e punto vendita",
+            "arbitraggio sul tempo e sul punto vendita"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Con il termine family brand si identificano",
+        "options": [
+            "più prodotti organizzati intorno a un brand principale",
+            "più marche esplicitamente garantite da un medesimo brand principale",
+            "più marche linearmente connesse a un brand principale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’attore George Clooney nelle pubblicità di Nespresso può essere identificato",
+        "options": [
+            "brand testimonial",
+            "brand character",
+            "brand supporter"
+        ],
+        "correctIndex": 0
+    }
+]

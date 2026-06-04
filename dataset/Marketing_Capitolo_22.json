@@ -1,0 +1,101 @@
+[
+    {
+        "question": "L’attività distributiva va a colmare i gap tra produttori e consumatori negli aspetti:",
+        "options": [
+            "temporale, spaziale, quantitativo, qualitativo",
+            "produttivo, logistico, di servizio",
+            "stoccaggio, assortimento e consegna"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il servizio di prossimità:",
+        "options": [
+            "concerne tutte le attività di customer care che rispondono in modo tempestivo ed efficace ai bisogni di sevizio, funzionali e simbolici del cliente",
+            "riguarda l’offerta di un assortimento profondo, con molte alternative di scelta nella categoria",
+            "consente al consumatore di minimizzare il tempo e gli oneri necessari per raggiungere il punto vendita"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Una formula distributiva è costituita da:",
+        "options": [
+            "le strategie e politiche distributive adottate da un produttore in uno specifico mercato",
+            "l’insieme di soggetti che operano all’interno del canale distributivo",
+            "un mix di servizi commerciali configurato in modo organico in un punto vendita"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il merchandising nel retail:",
+        "options": [
+            "è l’insieme di gadget che vengono utilizzati per rappresentare il brand in occasione di eventi di comunicazione",
+            "è il marketing del punto vendita, basato anzitutto sulle gestione dello spazio espositivo",
+            "consiste nelle scelte di allocazione dello spazio ai singoli prodotti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un punto vendita specializzato è caratterizzato da un assortimento:",
+        "options": [
+            "molto ampio e poco profondo",
+            "poco ampio e molto profondo",
+            "poco ampio e poco profondo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L’Every Day Low Price (EDLP):",
+        "options": [
+            "prevede un intensivo ricorso a iniziative promozionali, tale da garantire un incisivo posizionamento basato sulla convenienza",
+            "prevede l'adozione di un prezzo ribassato continuativo, risparmiando sui costi di pianificazione e gestione delle promozioni",
+            "prevede una politica di approvvigionamento fortemente basata sulla convenienza di prezzo, a discapito della componente di servizio della fornitura"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le tecniche del merchandising per la gestione dello spazio espositivo:",
+        "options": [
+            "hanno una rilevanza fondamentale nei punti vendita a libero servizio (self service)",
+            "sono di ausilio per definire la struttura dell’offerta, in particolare nei punti vendita con assortimenti eterogenei",
+            "consentono di massimizzare la produttività del personale di vendita"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In linea generale il posizionamento di un ipermercato è basato su:",
+        "options": [
+            "il servizio e la vendita personale",
+            "il servizio assortimentale e l’immagine di convenienza",
+            "il servizio promozionale e i primi prezzi"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La marca commerciale:",
+        "options": [
+            "è una marca esclusiva del distributore",
+            "è una marca che si posiziona su una fascia di mercato molto accessibile",
+            "è una marca che in virtù della sua elevata notorietà trova un facile accesso ai canali distributivi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per ampiezza dell'assortimento si intende:",
+        "options": [
+            "numero di categorie merceologiche trattate",
+            "numero di marche trattate",
+            "numero di reparti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strategia di sviluppo delle marche commerciali è di fondamentale importanza per i retailer in quanto impatta su:",
+        "options": [
+            "Servizio, Price positioning, format distributivo",
+            "differenziazione dell’insegna, marginalità, rapporti con i produttori",
+            "controllo del processo di marketing, competitività, reputazione"
+        ],
+        "correctIndex": 1
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "question": "Il trade marketing è:",
+        "options": [
+            "un insieme di tecniche commerciali finalizzate a favorire l’internazionalizzazione dell’impresa",
+            "il marketing sviluppato dalle imprese commerciali, ovvero dal trade",
+            "il marketing che le imprese industriali rivolgono ai clienti commerciali, ovvero ai distributori"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nei rapporti di canale, la strategia \"push\":",
+        "options": [
+            "utilizza in modo massiccio lo strumento promozionale",
+            "privilegia gli investimenti di marketing rivolti ai conumatori finali",
+            "prevede l'allocazione prioritaria degli investimenti di marketing al trade"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le supercentrali d'acquisto:",
+        "options": [
+            "sono delle alleanze tra distributori attuate a livelli superiori rispetto ai gruppi d'acquisto",
+            "sono dei gruppi di consumatori che si aggregano per svolgere delle attività d'acquisto in comune",
+            "sono delle alleanze tra produttori, che in una logica di co-opetition negoziano in comune le d'acquisto di materie prime e componenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le leve del trade marketing troviamo:",
+        "options": [
+            "marca commerciale, display, category management, DGG",
+            "prezzi e condizioni di vendita, attività promozionale, lancio nuovi prodotti, merchandising industriale",
+            "merchandising, utilizzo delle condizioni di vendita, comunicazione, assortimento"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I gruppi d'acquisto:",
+        "options": [
+            "sono dei gruppi di imprese che collaborano nei processi negoziali di acquisizione delle risorse materiali, umane e finanziarie",
+            "nell'impresa, sono dei centri di servizio interfunzionali che stipulano i contratti di fornitura e organizzano la logistica",
+            "sono associazioni di dettaglianti volte a ottenere delle sinergie gestionali negli acquisti e nel marketing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel franchising:",
+        "options": [
+            "il franchisor mette a disposizione del franchisee la propria formula commerciale",
+            "il franchisee svolge per conto del franchisor l'attività di vendita",
+            "il franchisor e franchisee collaborano nella definizione delle strategie di marketing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La rivoluzione commerciale è:",
+        "options": [
+            "il processo di modernizzazione e di concentrazione tecnica del sistema distributivo",
+            "il cambiamento strutturale del commercio dovuto all'ibridazione dei formati",
+            "la profonda modificazione della domanda di servizi commerciali dovuta all’evoluzione del ruolo del consumatore"
+        ],
+        "correctIndex": 0
+    }
+]

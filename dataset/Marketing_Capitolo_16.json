@@ -1,0 +1,92 @@
+[
+    {
+        "question": "La strategia di penetrazione risulta efficace quando:",
+        "options": [
+            "la domanda è poco sensibile al prezzo e quando i costi unitari di produzione e di commercializzazione diminuiscono all'aumentare del volume di attività",
+            "la domanda è molto sensibile al prezzo e quando i costi unitari di produzione e di commercializzazione diminuiscono all'aumentare del volume di attività",
+            "la domanda è molto sensibile al prezzo e quando i costi unitari di produzione e di commercializzazione aumentano al diminuire del volume di attività"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le promozioni di prezzo (value-increasing):",
+        "options": [
+            "vengono realizzate per perseguire differenti obiettivi: stimolo alla prova, engagement, fidelizzazione, posizionamento",
+            "vengono utilizzate allo scopo di incrementare le vendite nel breve periodo",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La stretegia di scrematura:",
+        "options": [
+            "riguarda product offering innovative che vengono indirizzate inizialmente ai segmenti dei pionieri e/o degli innovatori, disposti a pagare un prezzo elevato per accedere a tale proposta",
+            "è finalizzata ad ampliare rapidamente la base clienti, sviluppare il mercato, occupare una quota di mercato elevata",
+            "punta alla massimizzazione del rendimento, ovvero del margine complessivo a valore"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le principali modalità operative delle promozioni di prezzo sono:",
+        "options": [
+            "offerta speciale, buoni sconto, N x M, formati speciali, cash back e premi",
+            "offerta speciale, buoni sconto, N x M, formati speciali, concorsi e vendite straordinarie",
+            "offerta speciale, buoni sconto, N x M, formati speciali, cash back e vendite straordinarie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il dynamic pricing:",
+        "options": [
+            "mette in competizione gli acquirenti, consentendo al venditore di cogliere l’offerta d’acquisto corrispondente al più elevato livello di disponibilità a pagare",
+            "si pone l’obiettivo di massimizzare il rendimento di una determinata capacità produttiva",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L’aumento del prezzo può essere dovuto:",
+        "options": [
+            "all'incremento del costo di produzione",
+            "alla riduzione dei margini di redditività",
+            "a un calo della domanda"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Lo yield management",
+        "options": [
+            "ha l’obiettivo di massimizzare le vendite",
+            "è un sistema per la determinazione del prezzo automatizzato",
+            "riguarda product offering innovative"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La definizione del price point viene fatta considerando anzitutto:",
+        "options": [
+            "domanda, offerta, concorrenza",
+            "domanda, costi, offerta",
+            "domanda, costi, concorrenza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il prezzo consigliato dal produttore e definito dal distributore:",
+        "options": [
+            "si riscontra nei canali non integrati quando il produttore ha un potere di mercato elevato, trovandosi in una posizione di leadership e/o avendo una marca forte",
+            "si riscontra nei sistemi verticali integrati, dove la collaborazione tra produttori e distributori è piena",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le aste possono assumere differenti configurazioni a seconda:",
+        "options": [
+            "della numerosità di venditori e di acquirenti",
+            "della varietà di venditori e di acquirenti",
+            "della relazione tra venditori e acquirenti"
+        ],
+        "correctIndex": 0
+    }
+]

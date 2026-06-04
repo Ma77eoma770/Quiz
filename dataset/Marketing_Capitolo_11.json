@@ -1,0 +1,92 @@
+[
+    {
+        "question": "La concorrenza verticale nella definizione dei prezzi:",
+        "options": [
+            "è un elemento esogeno",
+            "è un elemento competitivo",
+            "rientra nella sfera decisionale dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Dal punto di vista del venditore il sell in price:",
+        "options": [
+            "regola le relazioni di scambio tra lo shopper e il venditore",
+            "rappresenta una voce di costo di approvvigionamento da parte del retailer",
+            "regola le relazioni di scambio tra produttore e distributore"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Quando il prezzo sorge dal gioco di domanda e offerta senza che l’impresa abbia margine di libertà nel definirlo si ha in un regime concorrenziale di:",
+        "options": [
+            "monopolio",
+            "concorrenza perfetta",
+            "oligopolio indifferenziato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell’oligopolio differenziato:",
+        "options": [
+            "l’impresa ha ampi margini di libertà nel fissare il prezzo",
+            "il prezzo può determinare lo spostamento di domanda fra brand concorrenti",
+            "la competizione si sposta dal versante prezzo a quello della differenziazione percepita"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda anelastica si ha:",
+        "options": [
+            "quando la variazione percentuale della domanda in relazione a un incremento del prezzo è debole",
+            "quando la variazione percentuale della quantità domandata è pari a quella del prezzo",
+            "quando la variazione percentuale della domanda in risposta a un incremento di prezzo è forte"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I prodotti nella fascia mainstram:",
+        "options": [
+            "promettono la massima convenienza al prezzo più basso di mercato",
+            "costituiscono la fascia più importante in termini di volumi di venduto",
+            "sono una sorta di spartiacque tra la fascia value e la fascia premium"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il prezzo di penetrazione:",
+        "options": [
+            "prevede l’abbattimento ricorsivo dei prezzi da parte di tutti i contendenti",
+            "punta a selezionare i clienti creando una barriera alla quota maggiore di clienti potenziali",
+            "ha il fine di ottenere alti volumi di vendita"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il prezzo dispari:",
+        "options": [
+            "sfrutta la natura fotografica della mente umana, che prevale su quella matematica",
+            "fonda la sua efficacia sulla propensione al risparmio di energie che porta l’acquirente ad evitare di fare i conti",
+            "fa leva sulla disponibilità economico-finanziaria individuale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella strategia di cost-innovation:",
+        "options": [
+            "il prezzo viene fissato in modo omogeneo ai concorrenti di riferimento a fronte di un beneficio maggiore",
+            "prezzo e beneficio sono sostanzialmente gli stessi proposti dal concorrente di più diretto riferimento",
+            "si combinano prezzi più bassi della concorrenza e product offering innovative"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il marketer che non vuole rompere gli equilibri raggiunti con i competitor persegue:",
+        "options": [
+            "obiettivi di redditività",
+            "obiettivi di confronto competitivo",
+            "obiettivi di volume"
+        ],
+        "correctIndex": 1
+    }
+]

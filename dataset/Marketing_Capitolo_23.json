@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Il modello CAGE per l'ingresso nei mercati internazionali:",
+        "options": [
+            "esamina variabili di tipo strategico e operativo",
+            "esamina variabili di tipo culturale, amministrativo, geografico, economico",
+            "esamina variabili di tipo politico, economico, sociale, territoriale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le imprese multinazionali:",
+        "options": [
+            "utilizzano criteri di segmentazione che consentono di individuare segmenti omogenei a livello internazionale",
+            "tendono a rivolgersi a segmenti di clienti esteri simili al target al quale si rivolgono nel contesto nazionale",
+            "adottano un approccio policentrico che considera ogni paese come una realtà a sé stante, generalmente lasciano che la segmentazione venga fatta paese per paese, anche utilizzando criteri diversi"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nelle strategie di marketing internazionale la fissazione del prezzo:",
+        "options": [
+            "è basata sul potere d’acquisto del mercato locale al netto dei differenziali di inflazione",
+            "è differenziata per ciascun canale di importazione",
+            "è influenzata dagli incoterms"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella vendita all’estero è importante considerare:",
+        "options": [
+            "le leggi e i regolamenti locali, gli attributi tangibili del prodotto, il packaging, il made in, i servizi",
+            "le leggi e i regolamenti locali, il posizionamento, la domanda potenziale, il made in, i servizi",
+            "le leggi e i regolamenti locali, i concorrenti , le risorse disponibili, il made in, i servizi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I fattori che influenzano la fissazione del prezzo nei mercati esteri sono:",
+        "options": [
+            "concorrenza, consumatore, potere d'acquisto, canali di distribuzione",
+            "concorrenza, offerta, know-how, canali di distribuzione",
+            "concorrenza, consumatore, fornitori, canali di distribuzione"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le modalità di entrata su un mercato estero prevedono:",
+        "options": [
+            "l’utilizzo di intermediari dotati di infrastrutture logistiche all’interno del mercato obiettivo",
+            "l’impiego di modalità esportative, collaborative o di investimenti diretti",
+            "l’impiego di canali mass market o di canali specializzati"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'importazione parallela:",
+        "options": [
+            "si ha quando l’azienda sviluppa le attività di importazione assieme a un partner estero indipendente",
+            "si attua quando un importatore acquista un prodotto da un distributore estero per immetterlo con un prezzo più alto in canali non autorizzati nel mercato nazionale",
+            "ha l’obiettivo di acquisire rapidamente quote di mercato significative"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il dumping si ha quando:",
+        "options": [
+            "un prodotto è venduto nel paese estero a un prezzo inferiore a quello definito per il mercato domestico",
+            "un prodotto è venduto nel paese estero a un prezzo superiore a quello definito per il mercato domestico",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le scelte distributive nei mercati esteri sono condizionate da:",
+        "options": [
+            "modalità d'entrata, strategia distributiva e complessità del prodotto",
+            "caratteristiche del sistema distributivo e le abitudini di acquisto, leggi e regolamenti, ciclo di vita del prodotto, dimensione e struttura del mercato target",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nelle strategie di marketing internazionale, la comunicazione:",
+        "options": [
+            "è la leva la cui gestione viene generalmente accentrata a livello di headquarter",
+            "è la leva che generalmente presenta il maggior grado di adattamento",
+            "è la leva che generalmente presenta il minor grado di adattamento"
+        ],
+        "correctIndex": 1
+    }
+]

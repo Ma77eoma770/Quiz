@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Il generico output di un processo di trasformazione è detto:",
+        "options": [
+            "product offering",
+            "product category",
+            "brand system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un prodotto è spesso prevenduto rispetto alla sua realizzazione nella:",
+        "options": [
+            "produzione a progetto",
+            "produzione su modello",
+            "produzione continua"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La produzione intermittente su grandi lotti è caratterizzata da:",
+        "options": [
+            "basso grado di standardizzazione di prodotto e bassa ampiezza di gamma",
+            "elevato grado di differenziazione e bassa standardizzazione dei prodotti",
+            "elevato grado di differenziazione e standardizzazione dei prodotti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il ruolo delle economie di scala è cruciale nella:",
+        "options": [
+            "produzione a progetto",
+            "produzione continua",
+            "produzione su modello"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un elevato grado di copertura del mercato:",
+        "options": [
+            "è tipico nei business model a volumi",
+            "è tipico nei business model a valori",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Grandi volumi di produzione, standardizzati o poco differenziati si ritrovano nel:",
+        "options": [
+            "segmented market",
+            "one to one market",
+            "mass market"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'approccio di mercato one to one:",
+        "options": [
+            "riguarda la personalizzazione del prodotto",
+            "si realizza quando l'impresa ha un solo cliente",
+            "si basa su produzioni sperimentali su piccoli lotti realizzati con impianti specifici"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per gerarchia di prodotto si intende:",
+        "options": [
+            "l'insieme delle product offerings offerte da un'impresa",
+            "il complesso delle varianti di prodotto che una tecnologia consente di realizzare",
+            "l'insieme delle varianti di prodotto messe in ordine d'importanza"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le varianti di primo livello di una product category è detta:",
+        "options": [
+            "product form",
+            "product class",
+            "variations of class"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per ampiezza di categoria si intende:",
+        "options": [
+            "il numero di varianti di primo livello nelle quali una categoria si articola",
+            "il numero di livelli nei quali una categoria si declina",
+            "la dimensione verticale della product category"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il wrap up:",
+        "options": [
+            "è l'immagine a computer del prodotto",
+            "è un riassunto che rafforza la promessa",
+            "accresce la funzionalità del prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La riformulazione di prodotti esistenti finalizzata ad accrescerne la performance:",
+        "options": [
+            "è anche definita breakthrough",
+            "è una line extension",
+            "è un'innovazione new improved"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il breakthrough è caratterizzato da:",
+        "options": [
+            "un basso grado di innovazione sia per l'impresa che per il mercato",
+            "un elevato grado di innovazione sia per l'impresa che per il mercato",
+            "un elevato grado di innovazione per l'impresa ma non per il mercato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In quale fase del ciclo di vita del prodotto la curva assume un andamento a plateau?",
+        "options": [
+            "declino",
+            "crescita",
+            "maturità"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In quale fase del ciclo di vita del prodotto la costruzione dei canali è una priorità per il marketing?",
+        "options": [
+            "introduzione",
+            "declino",
+            "maturità"
+        ],
+        "correctIndex": 0
+    }
+]

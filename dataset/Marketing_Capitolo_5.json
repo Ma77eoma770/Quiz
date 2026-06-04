@@ -1,0 +1,137 @@
+[
+    {
+        "question": "La domanda aggregata è la somma delle spese effettuate nell'anno per:",
+        "options": [
+            "consumi finali, spesa pubblica, investimenti pubblici, export",
+            "consumi finali, spesa pubblica, investimenti privati, saldo import-export",
+            "consumi intermedi, investimenti finali, spesa pubblica, import"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I metodi qualitativi per la stima della domanda potenziale si basano su:",
+        "options": [
+            "dati sperimentali, opinioni della forza di vendita, simulazione",
+            "intenzioni di acquisto, opinioni della forza di vendita, stime degli esperti indipendenti",
+            "stime degli esperti indipendenti, simulazione, dati sperimentali"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda effettivamente espressa per una categoria di prodotto è:",
+        "options": [
+            "la domanda potenziale",
+            "la domanda secondaria",
+            "la domanda primaria"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il compratore consumer è definito:",
+        "options": [
+            "user",
+            "shopper",
+            "influencer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il modello generale di acquisto si articola nelle seguenti fasi:",
+        "options": [
+            "percezione del bisogno, valutazione delle alternative, consideration set, acquisto, post acquisto",
+            "percezione del bisogno, ricerca delle alternative, valutazione delle alternative, acquisto, post",
+            "percezione del bisogno, ricerca delle alternative, valutazione delle alternative, acquisto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'insieme delle marche tra cui il consumatore effettua la sua scelta di acquisto rappresenta:",
+        "options": [
+            "il brand switching",
+            "il benchmark",
+            "il consideration set"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel modello di acquisto ROPO:",
+        "options": [
+            "il consumatore ricerca informazioni sul prodotto nel negozio fisico e lo acquista online",
+            "il consumatore ricerca informazioni sul prodotto online e lo acquista in un negozio fisico",
+            "il consumatore acquista il prodotto online e lo ritira in un negozio fisico"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel modello di acquisto \"try and buy\":",
+        "options": [
+            "il prodotto viene acquistato online e si procede al ritiro nello store fisico",
+            "la prova del prodotto avviene nel negozio fisico e l'acquisto online",
+            "la prova del prodotto avviene virtualmente online e l acquisto si perfeziona tramite e-commerce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel processo di acquisto di beni e servizi da parte del consumatore assumono rilevanza:",
+        "options": [
+            "l'unità fisica del prodotto, la frequenza di consumo e l'influenza",
+            "il rischio percepito, la frequenza di consumo e di riacquisto, la familiarità e l'unità del bene",
+            "il rischio percepito, la frequenza di acquisto e di consumo, la familiarità e il valore unitario"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Negli acquisti di beni e servizi in ambito B2B assumono rilevanza:",
+        "options": [
+            "il rischio percepito, la dimensione funzionale del bisogno, la familiarita e il portafoglio clienti",
+            "la dimensione funzionale del bisogno, la frequenza di consumo, il portafoglio clienti e la natura della domanda",
+            "la dimensione funzionale del bisogno, la presenza di ruoli decisionali, il portafoglio clienti e la natura della domanda"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il gatekeeper è:",
+        "options": [
+            "il soggetto che dà inizio al processo di acquisto del bene o servizio",
+            "il soggetto che interviene nel processo di identificazione e di scelta del bene o del servizio",
+            "il soggetto che effettivamente utilizzarà il bene o servizio acquistato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La propensione al rischio dipende da:",
+        "options": [
+            "tipo di prodotto, natura del bisogno, fascia di valore e condizioni di servizio accessorie",
+            "esclusivamente da familiarità con il prodotto e condizioni di servizio accessorie",
+            "prezzo, tipologia di prodotto, notorietà della marca, condizioni di servizio acccessorie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La domanda derivata esprime:",
+        "options": [
+            "una domanda tipica dei mercati B2C",
+            "una domanda che dipende dall'andamento della domanda finale di beni a cui si riferisce",
+            "una domanda che dipende dall'andamento dei settori a monte a cui si riferisce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'acquisto d'impulso è:",
+        "options": [
+            "un acquisto pianificato dal soggetto che si manifesta in presenza di uno stimolo esterno",
+            "un acquisto che corrisponde ad una attività programmata del soggetto in risposta ad un bisogno",
+            "un acquisto non pianificato dal soggetto e che si manifesta in presenza di un oggetto - stimolo"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La brand loyalty rappresenta:",
+        "options": [
+            "la ripetizione durevole di acquisto dello stesso prodotto",
+            "la condivisione durevole dei contenuti della marca",
+            "la ripetizione duratura dell'acquisto della stessa marca"
+        ],
+        "correctIndex": 2
+    }
+]

@@ -1,201 +1,728 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Epilogue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Quiz App - Google Forms Style</title>
+    
+    <!-- Google Fonts: Inter per il testo, Montserrat per i titoli -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
-        
         :root {
-            --primary-color: #070600;
-            --secondary-color: #E9E3E6;
-            --background-color: #F8F1F1;
-            --text-color: #111816;
-            --button-color: #FE5F55;
-            --button-hover: #d84c43;
+            --primary-color: #673ab7; /* Google Forms Purple */
+            --primary-hover: #512da8;
+            --primary-light: #f2eefb;
+            --background-color: #f0ebf8;
+            --card-background: #ffffff;
+            --text-color: #202124;
+            --text-secondary: #5f6368;
+            --border-color: #dadce0;
+            --shadow-color: rgba(60, 64, 67, 0.15);
+            --correct-color: #137333;
+            --correct-bg: #e6f4ea;
+            --correct-border: #c3e6cb;
+            --incorrect-color: #c5221f;
+            --incorrect-bg: #fce8e6;
+            --incorrect-border: #f5c6cb;
+            --accent-green: #28a745;
+            --accent-green-hover: #218838;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
-            font-family: "Delius", serif;
+            font-family: "Inter", sans-serif;
+            margin: 0;
+            padding: 20px 10px;
+            background-color: var(--background-color);
+            color: var(--text-color);
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 0;
-            padding: 20px;
-            background-color: var(--background-color);
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 600px;
+            max-width: 770px;
             width: 100%;
-            background-color: white;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        h1 {
-            color: var(--primary-color);
-            font-size: 2rem;
-        }
-
-        .question {
-            margin: 20px 0;
-            font-weight: bold;
-            color: var(--text-color);
-        }
-
-        .option {
-            display: block;
-            margin: 10px 0;
-            background: var(--secondary-color);
-            padding: 10px;
-            border-radius: 10px;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-
-        .option:hover {
-            background: var(--button-hover);
-        }
-
-        button {
-            padding: 12px 24px;
-            border: none;
-            border-radius: 10px;
-            background-color: var(--button-color);
-            color: white;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background-color 0.3s;
-        }
-
-        button:hover {
-            background-color: var(--button-hover);
-        }
-
-        .score {
-            font-size: 2em;
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            color: var(--text-color);
-        }
-
-        img {
-            display: block;
-            margin: 20px auto;
-            width: 150px;
-            height: auto;
-        }
-
-        button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
-
-        .correct-answer {
-            color: #155724;
-            font-weight: bold;
-            background-color: #d4edda;
-            border: 1px solid #c3e6cb;
-            padding: 5px;
-            border-radius: 5px;
-        }
-
-        .selected-answer {
-            color: #721c24;
-            font-weight: bold;
-            background-color: #f8d7da;
-            border: 1px solid #f5c6cb;
-            padding: 5px;
-            border-radius: 5px;
-        }
-
-        #slider {
-            width: 100%;
-            margin: 20px 0;
-        }
-
-        #slider-label {
-            margin-bottom: 10px;
-        }
-
-        #restartBtn {
-            background-color: #28a745;
-        }
-
-        #restartBtn:hover {
-            background-color: #218838;
-        }
-
-        .score {
-            font-size: 2em;
-            /* Aumenta la dimensione del punteggio */
-            font-weight: bold;
-            /* In grassetto */
-            text-align: center;
-            margin: 20px 0;
-            color: #333;
-        }
-
-        img {
-            display: block;
-            margin: 20px auto;
-            /* Centra le immagini orizzontalmente */
-            width: 150px;
-            /* Imposta una dimensione fissa per le immagini */
-            height: auto;
-        }
-
-        /* Aggiunta di una nuova classe per centrare verticalmente il contenuto della pagina */
-        .quiz-container {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            gap: 16px;
+        }
+
+        /* Card base in stile Google Forms */
+        .section-card {
+            background-color: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            position: relative;
+            box-shadow: 0 1px 2px 0 rgba(60,64,67,0.1), 0 2px 6px 2px rgba(60,64,67,0.05);
+            transition: box-shadow 0.3s ease;
+        }
+
+        /* Card del titolo principale con decorazione viola in alto */
+        .title-card {
+            overflow: hidden;
+            border-top: 10px solid var(--primary-color);
+        }
+
+        .title-card h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+            color: var(--text-color);
+        }
+
+        .title-card p.subtitle {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: var(--text-color);
+        }
+
+        /* Sezione controlli e filtri dataset */
+        .filter-tabs {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .filter-btn {
+            font-family: "Inter", sans-serif;
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            background-color: #f1f3f4;
+            color: var(--text-color);
+        }
+
+        .filter-btn.active {
+            background-color: var(--primary-light);
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        /* Barra di ricerca */
+        .search-container {
+            position: relative;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px 16px 12px 42px;
+            font-size: 0.95rem;
+            font-family: "Inter", sans-serif;
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            outline: none;
+            transition: all 0.2s ease;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .search-container input:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(103, 58, 183, 0.15);
+        }
+
+        .search-container .search-icon {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary);
+            pointer-events: none;
+            font-size: 1rem;
+        }
+
+        /* Griglia delle tessere (Dataset Cards) */
+        .dataset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+            max-height: 380px;
+            overflow-y: auto;
+            padding: 4px;
+            border: 1px solid transparent;
+        }
+
+        /* Personalizzazione barra di scorrimento */
+        .dataset-grid::-webkit-scrollbar {
+            width: 8px;
+        }
+        .dataset-grid::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+        .dataset-grid::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 4px;
+        }
+        .dataset-grid::-webkit-scrollbar-thumb:hover {
+            background: #a8a8a8;
+        }
+
+        .dataset-card {
+            background-color: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 12px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .dataset-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(103, 58, 183, 0.1);
+        }
+
+        .dataset-card.selected {
+            background-color: var(--primary-light);
+            border-color: var(--primary-color);
+            box-shadow: 0 4px 12px rgba(103, 58, 183, 0.15);
+        }
+
+        .dataset-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .category-tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .tag-economia { background-color: #e8f0fe; color: #1a73e8; }
+        .tag-informatica { background-color: #e6f4ea; color: #137333; }
+        .tag-marketing { background-color: #fce8e6; color: #c5221f; }
+
+        .dataset-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin: 0;
+            color: var(--text-color);
+            line-height: 1.3;
+        }
+
+        .dataset-info {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
             align-items: center;
+            gap: 4px;
+        }
+
+        /* Configurazione ed elementi di controllo */
+        .config-card {
+            border-left: 5px solid var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .selected-dataset-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .selected-dataset-info h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .slider-label-container {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .slider-container input[type="range"] {
+            width: 100%;
+            height: 6px;
+            background: #ddd;
+            border-radius: 3px;
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+            accent-color: var(--primary-color);
+        }
+
+        /* Singola card domanda nel quiz */
+        .question-card {
+            background-color: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .question-card:focus-within {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 19px; /* Mantiene allineamento complessivo compensando i 5px del bordo */
+        }
+
+        .question-text {
+            font-size: 1.05rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 18px;
+            color: var(--text-color);
+        }
+
+        /* Opzioni di risposta */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .option-label {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            line-height: 1.3;
+            transition: all 0.15s ease;
+            position: relative;
+        }
+
+        .option-label:hover {
+            background-color: #f8f9fa;
+            border-color: #c1c1c1;
+        }
+
+        .option-label.selected {
+            background-color: var(--primary-light);
+            border-color: var(--primary-color);
+        }
+
+        /* Radio button personalizzati */
+        .option-label input[type="radio"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--text-secondary);
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.15s ease;
+        }
+
+        .option-label input[type="radio"]:checked {
+            border-color: var(--primary-color);
+        }
+
+        .option-label input[type="radio"]::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            transform: scale(0);
+            transition: transform 0.15s ease;
+        }
+
+        .option-label input[type="radio"]:checked::before {
+            transform: scale(1);
+        }
+
+        /* Stili per la visualizzazione delle risposte corrette ed errate post-submit */
+        .option-label.correct {
+            background-color: var(--correct-bg) !important;
+            border-color: var(--correct-border) !important;
+            color: var(--correct-color) !important;
+        }
+
+        .option-label.correct input[type="radio"] {
+            border-color: var(--correct-color) !important;
+        }
+        .option-label.correct input[type="radio"]::before {
+            background-color: var(--correct-color) !important;
+        }
+
+        .option-label.incorrect {
+            background-color: var(--incorrect-bg) !important;
+            border-color: var(--incorrect-border) !important;
+            color: var(--incorrect-color) !important;
+        }
+
+        .option-label.incorrect input[type="radio"] {
+            border-color: var(--incorrect-color) !important;
+        }
+        .option-label.incorrect input[type="radio"]::before {
+            background-color: var(--incorrect-color) !important;
+        }
+
+        /* Pulsanti d'azione */
+        .action-bar {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+            justify-content: flex-end;
+        }
+
+        button.btn {
+            font-family: "Inter", sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            padding: 10px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        button.btn:active {
+            transform: scale(0.98);
+        }
+
+        button.btn:disabled {
+            background-color: #ccc !important;
+            color: #666 !important;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background-color: var(--primary-hover);
+            box-shadow: 0 4px 8px rgba(103, 58, 183, 0.2);
+        }
+
+        .btn-secondary {
+            background-color: var(--accent-green);
+            color: white;
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background-color: var(--accent-green-hover);
+            box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+        }
+
+        /* Card dei Risultati */
+        .score-card {
+            text-align: center;
+            border-top: 8px solid var(--primary-color);
+        }
+
+        .score-card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+
+        .score-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 6px solid var(--primary-color);
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 16px 0;
+        }
+
+        .score-val {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .score-pct {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .score-card img.reaction-gif {
+            display: block;
+            margin: 20px auto 0 auto;
+            max-width: 180px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Layout del Quiz Container */
+        .quiz-container-flow {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Stili per LaTeX MathJax */
+        .mjx-chtml {
+            font-size: 1.1rem !important;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>Quiz App</h1>
-        <div id="dataset-selection-container">
-            <label for="dataset-select">Select a dataset:</label>
-            <select id="dataset-select" onchange="changeDataset()">
-                <option value="https://ma77eoma770.github.io/Quiz/dataset/question.json">Economia Politica</option>
-                <option value="https://ma77eoma770.github.io/Quiz/dataset/BD1.json">Basi di Dati1</option>
-                <option value="https://ma77eoma770.github.io/Quiz/dataset/IUM.json">IUM</option>
-                <option value="https://ma77eoma770.github.io/Quiz/dataset/IUMhard.json">IUMhard</option>">
-            </select>
+        <!-- 1. Title Card -->
+        <div class="section-card title-card">
+            <h1>Interactive Quiz App</h1>
+            <p class="subtitle">Mettiti alla prova con test interattivi. Seleziona una materia e personalizza il numero di domande.</p>
         </div>
-        <div id="slider-container">
-            <label id="slider-label" for="slider">Number of questions: 10</label>
-            <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
+
+        <!-- 2. Dataset Selection Card -->
+        <div class="section-card selection-card">
+            <h2>Scegli un Dataset</h2>
+            
+            <div class="filter-tabs">
+                <button id="tab-all" class="filter-btn active" onclick="filterCategory('all')">Tutti</button>
+                <button id="tab-marketing" class="filter-btn" onclick="filterCategory('marketing')">Marketing</button>
+                <button id="tab-informatica" class="filter-btn" onclick="filterCategory('informatica')">Informatica</button>
+                <button id="tab-economia" class="filter-btn" onclick="filterCategory('economia')">Economia</button>
+            </div>
+            
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="dataset-search" placeholder="Cerca dataset per nome o capitolo..." oninput="filterSearch()">
+            </div>
+            
+            <div id="dataset-grid" class="dataset-grid">
+                <!-- Generato Dinamicamente -->
+            </div>
         </div>
-        <div id="quiz"></div>
-        <button id="submitBtn" onclick="submitQuiz()">Submit</button>
-        <button id="restartBtn" onclick="restartQuiz()">Restart</button>
+
+        <!-- 3. Configuration & Controller Card -->
+        <div class="section-card config-card" id="config-card">
+            <div class="selected-dataset-info">
+                <span id="selected-badge" class="category-tag tag-economia">Economia</span>
+                <h3 id="selected-title">Caricamento in corso...</h3>
+            </div>
+            
+            <div class="slider-wrapper">
+                <div class="slider-label-container">
+                    <span id="slider-label">Numero di domande: 10</span>
+                    <span id="slider-max-info">Max: 50</span>
+                </div>
+                <div class="slider-container">
+                    <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Quiz Flow Container -->
+        <div id="quiz" class="quiz-container-flow"></div>
+
+        <!-- 5. Action buttons -->
+        <div class="action-bar">
+            <button id="submitBtn" class="btn btn-primary" onclick="submitQuiz()">Invia Risposte</button>
+            <button id="restartBtn" class="btn btn-secondary" onclick="restartQuiz()">Ricomincia</button>
+        </div>
     </div>
 
+    <!-- MathJax per il rendering LaTeX -->
     <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <script>
+        // Registro centralizzato dei dataset
+        const DATASETS_REGISTRY = [
+            { id: "economia", title: "Economia Politica", path: "dataset/question.json", category: "economia", count: 71 },
+            { id: "bd1", title: "Basi di Dati 1", path: "dataset/BD1.json", category: "informatica", count: 26 },
+            { id: "ium", title: "Interazione Uomo-Macchina (IUM)", path: "dataset/IUM.json", category: "informatica", count: 100 },
+            { id: "ium_hard", title: "IUM (Difficile)", path: "dataset/IUMhard.json", category: "informatica", count: 131 },
+            { id: "m_generale", title: "Marketing - Generale (Tutti i capitoli)", path: "dataset/Marketing_Generale.json", category: "marketing", count: 297 }
+        ];
+
+        // Aggiungiamo dinamicamente i capitoli di Marketing da 1 a 23 con i loro esatti conteggi di domande
+        const marketingCounts = {
+            1: 17, 2: 17, 3: 24, 4: 15, 5: 15, 6: 15, 7: 11, 8: 10, 9: 15, 10: 15,
+            11: 10, 12: 9, 13: 12, 14: 13, 15: 12, 16: 10, 17: 7, 18: 10, 19: 10,
+            20: 14, 21: 15, 22: 11, 23: 10
+        };
+
+        for (let i = 1; i <= 23; i++) {
+            DATASETS_REGISTRY.push({
+                id: `m_cap_${i}`,
+                title: `Marketing - Capitolo ${i}`,
+                path: `dataset/Marketing_Capitolo_${i}.json`,
+                category: "marketing",
+                count: marketingCounts[i]
+            });
+        }
+
+        let currentDataset = DATASETS_REGISTRY[0]; // Economia Politica come default
         let allQuestions = [];
         let questions = [];
         let selectedAnswers = [];
         let numQuestions = 10;
+        let activeCategory = "all";
+        
+        // Cache client-side per evitare di scaricare più volte lo stesso JSON
+        const datasetsCache = {};
 
         const slider = document.getElementById("slider");
         const sliderLabel = document.getElementById("slider-label");
+        const sliderMaxInfo = document.getElementById("slider-max-info");
         const quizContainer = document.getElementById("quiz");
         const submitBtn = document.getElementById("submitBtn");
+        const restartBtn = document.getElementById("restartBtn");
 
+        // Risolve l'URL in modo dinamico per supportare sia l'hosting GitHub Pages che locale
+        function getDatasetUrl(path) {
+            if (window.location.hostname.includes("github.io")) {
+                return `https://ma77eoma770.github.io/Quiz/${path}`;
+            }
+            return path;
+        }
+
+        // Inizializza la griglia delle card
+        function renderDatasetGrid() {
+            const grid = document.getElementById("dataset-grid");
+            grid.innerHTML = "";
+            
+            const searchVal = document.getElementById("dataset-search").value.toLowerCase();
+            
+            DATASETS_REGISTRY.forEach(ds => {
+                // Filtro categoria
+                if (activeCategory !== "all" && ds.category !== activeCategory) {
+                    return;
+                }
+                
+                // Filtro ricerca
+                if (searchVal && !ds.title.toLowerCase().includes(searchVal)) {
+                    return;
+                }
+                
+                const isSelected = ds.id === currentDataset.id;
+                
+                const card = document.createElement("div");
+                card.className = `dataset-card ${isSelected ? 'selected' : ''}`;
+                card.onclick = () => selectDataset(ds.id);
+                
+                const tagClass = `tag-${ds.category}`;
+                
+                card.innerHTML = `
+                    <div class="dataset-card-header">
+                        <span class="category-tag ${tagClass}">${ds.category}</span>
+                        <div class="dataset-info">
+                            <span>📝</span> <span>${ds.count} domande</span>
+                        </div>
+                    </div>
+                    <h4 class="dataset-title">${ds.title}</h4>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+
+        // Filtra i dataset per categoria
+        function filterCategory(category) {
+            activeCategory = category;
+            
+            // Aggiorna classi attive sui tab dei filtri
+            document.querySelectorAll(".filter-btn").forEach(btn => {
+                btn.classList.remove("active");
+            });
+            document.getElementById(`tab-${category}`).classList.add("active");
+            
+            renderDatasetGrid();
+        }
+
+        // Filtra i dataset in tempo reale tramite ricerca testuale
+        function filterSearch() {
+            renderDatasetGrid();
+        }
+
+        // Seleziona un dataset dalla griglia
+        function selectDataset(id) {
+            const selectedDs = DATASETS_REGISTRY.find(ds => ds.id === id);
+            if (!selectedDs) return;
+            
+            currentDataset = selectedDs;
+            
+            // Aggiorna l'aspetto grafico della selezione
+            renderDatasetGrid();
+            
+            // Aggiorna l'area dei dettagli del dataset selezionato
+            const badge = document.getElementById("selected-badge");
+            badge.className = `category-tag tag-${currentDataset.category}`;
+            badge.textContent = currentDataset.category;
+            
+            document.getElementById("selected-title").textContent = currentDataset.title;
+            
+            // Configura il range dello slider in base al numero di domande del dataset
+            slider.max = currentDataset.count;
+            sliderMaxInfo.textContent = `Max: ${currentDataset.count}`;
+            
+            // Imposta un valore dello slider ragionevole
+            const defaultVal = Math.min(10, currentDataset.count);
+            slider.value = defaultVal;
+            numQuestions = defaultVal;
+            sliderLabel.textContent = `Numero di domande: ${numQuestions}`;
+            
+            // Carica le domande
+            loadQuestions(currentDataset);
+        }
+
+        // Shuffle di un array (Fisher-Yates)
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -203,19 +730,38 @@
             }
         }
 
+        // Aggiorna lo slider e ricarica/mostra le domande
         function updateSliderLabelAndQuestions() {
             numQuestions = parseInt(slider.value, 10);
-            sliderLabel.textContent = `Number of questions: ${numQuestions}`;
+            sliderLabel.textContent = `Numero di domande: ${numQuestions}`;
             if (allQuestions.length > 0) {
                 questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
                 displayQuestions();
             }
         }
 
-        function loadQuestionsFromFile(datasetUrl) {
+        // Caricamento dei dati con cache client-side
+        function loadQuestions(dataset) {
+            const datasetUrl = getDatasetUrl(dataset.path);
+            
+            if (datasetsCache[dataset.id]) {
+                allQuestions = datasetsCache[dataset.id];
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+                displayQuestions();
+                submitBtn.disabled = false;
+                return;
+            }
+            
+            // Mostra animazione di caricamento o testo temporaneo nel quiz container
+            quizContainer.innerHTML = "<div class='section-card' style='text-align:center;'>Caricamento domande in corso...</div>";
+            submitBtn.disabled = true;
+
             fetch(datasetUrl)
                 .then(response => response.json())
                 .then(data => {
+                    // Salva in cache
+                    datasetsCache[dataset.id] = data;
+                    
                     allQuestions = data;
                     questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
                     displayQuestions();
@@ -223,20 +769,27 @@
                 })
                 .catch(error => {
                     console.error("Errore durante il caricamento delle domande:", error);
+                    quizContainer.innerHTML = `
+                        <div class='section-card' style='text-align:center; border-left: 5px solid var(--incorrect-color);'>
+                            <h3 style='color: var(--incorrect-color); margin-top:0;'>Errore di caricamento</h3>
+                            <p>Impossibile caricare il dataset selezionato locale. Se stai aprendo il file HTML direttamente senza un server web (es. via file://), prova a utilizzare un server locale o a caricare i dataset da rete.</p>
+                        </div>
+                    `;
                     alert("Impossibile caricare le domande. Riprova più tardi.");
                 });
         }
 
+        // Mostra le domande nel contenitore del quiz
         function displayQuestions() {
             quizContainer.innerHTML = "";
             selectedAnswers = Array(questions.length).fill(null);
 
             questions.forEach((question, index) => {
-                const questionElement = document.createElement("div");
-                questionElement.classList.add("question-container");
+                const questionCard = document.createElement("div");
+                questionCard.className = "question-card";
 
                 const questionText = document.createElement("div");
-                questionText.classList.add("question");
+                questionText.className = "question-text";
 
                 if (containsLaTeX(question.question)) {
                     questionText.innerHTML = `$$${question.question}$$`;
@@ -244,9 +797,12 @@
                     questionText.textContent = question.question;
                 }
 
-                questionElement.appendChild(questionText);
+                questionCard.appendChild(questionText);
 
-                // Creiamo un array che mantiene l'indice originale della risposta
+                const optionsList = document.createElement("div");
+                optionsList.className = "options-list";
+
+                // Creiamo un array che mantiene l'indice originale della risposta per validarla post-scelta
                 let shuffledOptions = question.options.map((option, i) => ({
                     text: option,
                     originalIndex: i
@@ -255,123 +811,166 @@
                 shuffleArray(shuffledOptions); // Mescoliamo le opzioni
 
                 shuffledOptions.forEach((option, optionIndex) => {
-                    const optionElement = document.createElement("label");
-                    optionElement.classList.add("option");
+                    const optionLabel = document.createElement("label");
+                    optionLabel.className = "option-label";
+                    optionLabel.id = `label-${index}-${option.originalIndex}`;
 
+                    const radioInput = document.createElement("input");
+                    radioInput.type = "radio";
+                    radioInput.name = `question${index}`;
+                    radioInput.value = option.originalIndex;
+                    radioInput.onchange = () => selectAnswer(index, option.originalIndex);
+
+                    optionLabel.appendChild(radioInput);
+
+                    const textSpan = document.createElement("span");
                     if (containsLaTeX(option.text)) {
-                        optionElement.innerHTML = `
-                    <input type="radio" name="question${index}" value="${option.originalIndex}" onchange="selectAnswer(${index}, ${option.originalIndex})" />
-                    $$${option.text}$$
-                `;
+                        textSpan.innerHTML = `$$${option.text}$$`;
                     } else {
-                        optionElement.innerHTML = `
-                    <input type="radio" name="question${index}" value="${option.originalIndex}" onchange="selectAnswer(${index}, ${option.originalIndex})" />
-                    ${option.text}
-                `;
+                        textSpan.textContent = option.text;
                     }
+                    optionLabel.appendChild(textSpan);
 
-                    questionElement.appendChild(optionElement);
+                    optionsList.appendChild(optionLabel);
                 });
 
-                quizContainer.appendChild(questionElement);
+                questionCard.appendChild(optionsList);
+                quizContainer.appendChild(questionCard);
             });
 
-            MathJax.typeset();
+            // Avvia la formattazione di LaTeX tramite MathJax
+            if (window.MathJax && MathJax.typeset) {
+                MathJax.typeset();
+            }
         }
 
-        // Funzione per controllare se una stringa contiene LaTeX
+        // Controlla se la stringa contiene notazione LaTeX
         function containsLaTeX(text) {
             const latexPattern = /\\[a-zA-Z]+|(\^\{[^}]+\})|(_\{[^}]+\})|\\frac\{[^}]+\}\{[^}]+\}|\\sum|\\prod|\\int|\\lim|\\begin\{.*?\}|\\end\{.*?\}/;
             return latexPattern.test(text);
         }
 
-        function changeDataset() {
-            const selectedDatasetUrl = document.getElementById('dataset-select').value;
-            loadQuestionsFromFile(selectedDatasetUrl);
-        }
-
+        // Registra la risposta selezionata dall'utente
         function selectAnswer(questionIndex, optionIndex) {
             selectedAnswers[questionIndex] = optionIndex;
+            
+            // Rimuovi classe selezionata da tutte le etichette della domanda
+            document.querySelectorAll(`input[name="question${questionIndex}"]`).forEach(input => {
+                const label = input.closest(".option-label");
+                if (label) label.classList.remove("selected");
+            });
+            
+            // Aggiungi la classe selezionata alla risposta cliccata
+            const selectedLabel = document.getElementById(`label-${questionIndex}-${optionIndex}`);
+            if (selectedLabel) {
+                selectedLabel.classList.add("selected");
+            }
         }
 
+        // Invia il quiz e mostra le risposte e il punteggio
         function submitQuiz() {
-            quizContainer.innerHTML = ""; // Svuota il contenitore del quiz.
-
-            let correctAnswersCount = 0; // Contatore per le risposte corrette.
+            let correctAnswersCount = 0;
 
             questions.forEach((question, index) => {
-                const questionElement = document.createElement("div");
-                questionElement.classList.add("question-container");
-
-                const questionText = document.createElement("div");
-                questionText.classList.add("question");
-                questionText.textContent = question.question;
-
-                questionElement.appendChild(questionText);
-
-                question.options.forEach((option, optionIndex) => {
-                    const optionElement = document.createElement("label");
-                    optionElement.classList.add("option");
-
-                    let additionalClass = "";
-                    if (optionIndex === question.correctIndex) {
-                        additionalClass = "correct-answer"; // Evidenzia la risposta corretta.
-                    } else if (optionIndex === selectedAnswers[index]) {
-                        additionalClass = "selected-answer"; // Evidenzia la risposta selezionata (anche se errata).
-                    }
-
-                    optionElement.innerHTML = `
-                        <input type="radio" name="question${index}" value="${optionIndex}" disabled ${optionIndex === selectedAnswers[index] ? "checked" : ""} />
-                        <span class="${additionalClass}">${option}</span>
-                    `;
-
-                    questionElement.appendChild(optionElement);
-                });
-
-                quizContainer.appendChild(questionElement);
-
-                // Verifica se la risposta selezionata è corretta.
-                if (selectedAnswers[index] === question.correctIndex) {
-                    correctAnswersCount++; // Incrementa il contatore delle risposte corrette.
+                const isCorrect = selectedAnswers[index] === question.correctIndex;
+                if (isCorrect) {
+                    correctAnswersCount++;
                 }
 
+                // Disabilita tutte le opzioni di questa domanda
+                document.querySelectorAll(`input[name="question${index}"]`).forEach(input => {
+                    input.disabled = true;
+                    const val = parseInt(input.value, 10);
+                    const label = input.closest(".option-label");
+                    if (!label) return;
+
+                    // Rimuovi lo stato "selezionato" standard
+                    label.classList.remove("selected");
+
+                    // Applica le classi per risposte corrette ed errate
+                    if (val === question.correctIndex) {
+                        label.classList.add("correct");
+                    } else if (val === selectedAnswers[index]) {
+                        label.classList.add("incorrect");
+                    }
+                });
             });
 
-            submitBtn.disabled = true; // Disabilita il pulsante di invio.
+            submitBtn.disabled = true;
 
-            // Calcola il punteggio in percentuale.
+            // Calcola il punteggio percentuale
             const totalQuestions = questions.length;
             const percentage = (correctAnswersCount / totalQuestions) * 100;
 
-            // Mostra il punteggio.
-            const scoreElement = document.createElement("div");
-            scoreElement.classList.add("score");
-            scoreElement.textContent = `Punteggio: ${correctAnswersCount} / ${totalQuestions} (${Math.round(percentage)}%)`;
-            quizContainer.appendChild(scoreElement);
-
-            // Mostra la gif in base al punteggio.
-            const gifElement = document.createElement("img");
-            if (percentage === 100) {
-                gifElement.src = "src/cat-cat-jumping.gif"; // Inserisci il percorso per la gif con 100% corretto.
-            } else if (percentage >= 75) {
-                gifElement.src = "src/happy-cat-funny-smiling-grin-2cxp5723g93tahsv.gif"; // Inserisci il percorso per la gif con 75% corretto.
-            } else if (percentage >= 50) {
-                gifElement.src = "src/shocked-surprised.gif"; // Inserisci il percorso per la gif con 50% corretto.
-            } else if (percentage >= 25) {
-                gifElement.src = "src/cat-depressed.gif"; // Inserisci il percorso per la gif con 25% corretto.
+            // Rimuovi eventuali card punteggio precedenti
+            const oldScoreCard = document.getElementById("score-card-result");
+            if (oldScoreCard) {
+                oldScoreCard.remove();
             }
-            quizContainer.appendChild(gifElement);
+
+            // Crea la card dei Risultati in stile Google Forms
+            const scoreCard = document.createElement("div");
+            scoreCard.className = "section-card score-card";
+            scoreCard.id = "score-card-result";
+            
+            scoreCard.innerHTML = `
+                <h2>Risultati del Test</h2>
+                <p>Ecco il riepilogo delle tue risposte per il dataset <strong>${currentDataset.title}</strong>.</p>
+                <div class="score-circle">
+                    <span class="score-val">${correctAnswersCount}/${totalQuestions}</span>
+                    <span class="score-pct">${Math.round(percentage)}%</span>
+                </div>
+            `;
+
+            // Aggiunge la gif appropriata in base al punteggio ottenuto
+            const gifElement = document.createElement("img");
+            gifElement.className = "reaction-gif";
+            if (percentage === 100) {
+                gifElement.src = "src/cat-cat-jumping.gif";
+            } else if (percentage >= 75) {
+                gifElement.src = "src/happy-cat-funny-smiling-grin-2cxp5723g93tahsv.gif";
+            } else if (percentage >= 50) {
+                gifElement.src = "src/shocked-surprised.gif";
+            } else if (percentage >= 25) {
+                gifElement.src = "src/cat-depressed.gif";
+            } else {
+                gifElement.src = "src/cat-depressed.gif"; // Fallback sotto il 25%
+            }
+            scoreCard.appendChild(gifElement);
+            
+            // Posiziona i risultati all'inizio del quiz container per una migliore visibilità
+            quizContainer.insertBefore(scoreCard, quizContainer.firstChild);
+
+            // Ricarica LaTeX per i risultati
+            if (window.MathJax && MathJax.typeset) {
+                MathJax.typeset();
+            }
+            
+            // Scroll automatico fino ai risultati
+            scoreCard.scrollIntoView({ behavior: "smooth" });
         }
 
-
+        // Ricomincia il quiz con le stesse impostazioni
         function restartQuiz() {
             if (allQuestions.length > 0) {
                 questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
                 displayQuestions();
                 submitBtn.disabled = false;
+                
+                // Rimuovi la card dei risultati se presente
+                const scoreCard = document.getElementById("score-card-result");
+                if (scoreCard) scoreCard.remove();
+                
+                // Scroll in alto
+                document.getElementById("quiz").scrollIntoView({ behavior: "smooth" });
             }
         }
-        loadQuestionsFromFile('https://ma77eoma770.github.io/Quiz/dataset/question.json');;
+
+        // Avvio all'avvio della pagina
+        window.onload = () => {
+            renderDatasetGrid();
+            selectDataset("economia"); // Seleziona Economia Politica come default
+        };
     </script>
 </body>
 

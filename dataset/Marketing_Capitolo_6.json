@@ -1,0 +1,137 @@
+[
+    {
+        "question": "La società dei consumi è caratterizzata da:",
+        "options": [
+            "uno scarso interesse per i bisogni secondari e un crescente interesse per i bisogni primari",
+            "crescenti consumi legati al soddisfacimento di bisogni secondari",
+            "una carenza nella soddisfazione dei bisogni primari"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di acquisto:",
+        "options": [
+            "non è influenzato dall'ambiente di acquisto",
+            "sono le condizioni che permettono al compratore di entrare in contatto con l'offerta",
+            "comprende l'insieme delle attività elementari mediante le quali il compratore mira a soddisfare un'esigenza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I consumatori value-driven:",
+        "options": [
+            "sono interessati al ritorno di valore del denaro che spendono",
+            "sono disposti a pagare un premium price",
+            "trovano nella marca il principale punto di riferimento della scelta"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I consumatori brand-driven:",
+        "options": [
+            "vedono lo shopping come un atto necessario",
+            "si fidano della promessa della marca",
+            "sono molto sensibili al prezzo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di acquisto è estemporaneo e semplificato:",
+        "options": [
+            "nel caso di acquisto di un'automobile",
+            "negli acquisti d'impulso",
+            "nel caso di acquisto di beni problematici"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La routine di acquisto:",
+        "options": [
+            "è una tecnica che consente al compratore di risparmiare tempo ed energie in situazioni di alto coinvolgimento emotivo",
+            "prevede un processo di acquisto articolato",
+            "è una tecnica di acquisto che consente di rendere automatica la scelta della product offering"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella dimensione identitaria dell'io decisore troviamo le variabili:",
+        "options": [
+            "personali e sociali",
+            "demografiche, valoriali e affettive",
+            "ambiente di consumo e ricchezza disponibile"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il modello Engel, Kollat, Blackwell:",
+        "options": [
+            "è un modello utilizzato per spiegare il comportamento di acquisto",
+            "ha una struttura a matrice",
+            "non tiene conto del sistema percettivo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il modello del customer journey:",
+        "options": [
+            "prevede un processo lineare, con un numero limitato di interazioni con la marca e con gli altri",
+            "poggia sull'assunto che i punti di contatto con la marca sono continui e numerosi",
+            "descrive il percorso del cliente che termina con l'acquisto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell'approccio di mercato segmentato:",
+        "options": [
+            "il prodotto è standard e la gestione del brand è orientata alla notorietà",
+            "l'approccio dell'impresa è verso il singolo cliente potenziale",
+            "il prodotto è con lievi, ma significative, differenze e il price point è medio-alto"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'approccio di mercato focalizzato:",
+        "options": [
+            "il brand system esalta le differenze sostanziali presenti nel prodotto",
+            "i servizi accessori sono pressoché assenti",
+            "il brand system è poco rilevante e il prodotto è realizzato su misura"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per ipersegmentazione si intende:",
+        "options": [
+            "un sinonimo di contro-segmentazione",
+            "la segmentazione della domanda potenziale in un numero molto elevato di segmenti",
+            "l'unione di segmenti pù piccoli in aggregati di maggiori dimensioni"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Affinché un segmento possa essere considerato rilevante:",
+        "options": [
+            "deve essere composto da una quota prestabilita di domanda potenziale",
+            "deve garantire la generazione di un volume di reddito soddisfacente e in linea con gli obiettivi dell’impresa",
+            "deve garantire unicamente il soddisfacimento dei criteri di omogeneità interna ed eterogeneità esterna"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella scelta del target, la condizione denominata combiner prevede che:",
+        "options": [
+            "l'impresa decide di rivolgersi a tutta la domanda",
+            "l’impresa decide di eleggere uno o più segmenti a proprio target",
+            "l'impresa sceglie di eleggere a proprio target un magrosegmento composto da due o più dei segmenti individuati"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I criteri di segmentazione basati sui benefici ricercati:",
+        "options": [
+            "includono anche aspetti socio-relazionali, edonistici ed emozionali",
+            "possono essere studiati attraverso il modello AIO",
+            "riguardano in via esclusiva vantaggi pratici che il consumatore riceve dall’utilizzo del prodotto"
+        ],
+        "correctIndex": 0
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Nel modello SWOT, sono aree oggetto d'indagine dell'analisi interna:",
+        "options": [
+            "opportunità e minacce",
+            "punti di forza e debolezza",
+            "risorse, competenze, target clienti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il consumer surplus è:",
+        "options": [
+            "un vantaggio competitivo costruito su una combinazione originale di elementi di costo e di differenziazione",
+            "la differenza tra il beneficio percepito dal consumatore e il prezzo pagato",
+            "la differenza tra il beneficio percepito dal consumatore e i costi sostenuti dall'impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un'impresa detiene vantaggio competitivo:",
+        "options": [
+            "quando ottiene una profittabilità superiore rispetto ai concorrenti nel medio termine",
+            "quando innova più rapidamente dei competitor",
+            "quando raggiunge volumi di produzione corrispondenti alla scala minima efficiente"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La cost effective differentiation:",
+        "options": [
+            "costruisce il vantaggio competitivo su una combinazione originale di attributi di costo e differenziazione, nell'ambito di un sistema d'offerta basato su un'innovazione di valore",
+            "è fondata sulla detenzione in via esclusiva di competenze chiave specifiche di un determinato prodotto mercato, siano esse orientate sia all'efficienza (costo) che all'efficacia (differenziazione)",
+            "consente di massimizzare il consumer surplus, grazie al radicamento con la missione e con gli obiettivi di lungo termine dell'impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La value proposition:",
+        "options": [
+            "è costituita dal nucleo centrale della product offering, che si eprime nel prodotto",
+            "consiste nel set di \"attributi generici\" che caratterizzano l'offerta al mercato e che guidano la definizione della product offering",
+            "è la collocazione dell'offerta dell'impresa all'interno della fascia di valore prescelta"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La strategia competitiva di differenziazione:",
+        "options": [
+            "consiste nell'entrata in nuove aree di affari, per cogliere opportunità di mercato e/o ridurre i rischi",
+            "si fonda sulla superiorità dell’impresa nel definire product offering aventi caratteristiche uniche e distintive rispetto alla concorrenza",
+            "è la strategia di cambiamento e di superamento di una posizione competitiva precedente, non più adeguata"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il posizionamento è:",
+        "options": [
+            "il processo di collocazione spaziale di un prodotto nello scaffale, andando a costituindo così il display del punto vendita",
+            "la scelta del portafoglio di business nel quale operare, che qualifica la posizione dell'impresa sul mercato",
+            "il processo di concezione della product offering – incentrato sulla marca – volto a creare nella mente dei consumatori una posizione favorevole e distinta da quella dei concorrenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "È un framework analitico che consente di individuare opportunità e minacce dell'ambiente esterno, nonché punti di forza e di debolezza dell'impresa:",
+        "options": [
+            "SWOT",
+            "VRIO",
+            "PESTLE"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In un determinato business, possiamo identificare differenti posizioni competitive:",
+        "options": [
+            "segmented marketing, mass marketing, mass customization, one to one marketing",
+            "attacco, mantenimento, difesa",
+            "leader, sfidante, follower"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il posizionamento di Red Bull:",
+        "options": [
+            "è di tipo globale e fa leva in particiolare sul country of origin effect",
+            "è rivolto specificamente al segmento della generazione Z",
+            "è basato sulla differenziazione di prodotto, sia in termini di attributi tangibili che intangibili"
+        ],
+        "correctIndex": 2
+    }
+]

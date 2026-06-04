@@ -1,0 +1,92 @@
+[
+    {
+        "question": "La customer experience è:",
+        "options": [
+            "un nuovo tipo di mercato",
+            "una nuova categoria di offerta",
+            "una nuova modalità di comunicazione"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un prodotto o un servizio è esperenziale quando:",
+        "options": [
+            "crea una relazione con il consumatore",
+            "i suoi touch point sono gestiti dell'impresa",
+            "stimola il coinvolgimento delle dimensioni sensoriali ed emozionali del consumatore"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le dimensioni che consentono di identificare e classificare le esperieze secondo il modello di Pine e Gilomore sono:",
+        "options": [
+            "la partecipazione del cliente e il coinvolgimento intellettivo sensoriale",
+            "l'effetto wow e la tipologia di prodotto",
+            "la notorietà del brand e la value proposition"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L'esperienza di evasione:",
+        "options": [
+            "ha un grado di partecipazione limitato e un livello di coinvolgimento mentale e sensoriale di assorbimento",
+            "ha un grado di partecipazione limitato e un livello di coinvolgimento mentale e sensoriale di immersione",
+            "ha un grado di partecipazione e un livello di coinvolgimento mentale e sensoriale elevato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'esperienza di edutainmnet:",
+        "options": [
+            "si applica a quei prodotti e servizi il cui utilizzo necessita di un apprendimento",
+            "è l'esperienza propria dei musei e dei beni culturali",
+            "è un'esperienza specifica che si applica alla formazione e alla didattica"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le fasi in base alla quali viene disegnato il customer journey sono:",
+        "options": [
+            "scelta, acquisto e post acquisto",
+            "pre-esperienza, esperienza e post esperienza",
+            "touch point, mappa del customer journey e personas"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A seconda del grado di interazione con il consumatore i touch point:",
+        "options": [
+            "possono essere owned, partener owned ed esterni",
+            "hanno tutti lo stesso grado di interattività",
+            "possono essere statici, interattivi e umani"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'orienamento customer centric mette in relazione i costrutti di:",
+        "options": [
+            "customer journey, brand management e gestione dei touch point",
+            "customer journey, customer experience e customer satisfaction",
+            "customer experience e touch point"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il ruolo del cliente nella customer experience è:",
+        "options": [
+            "sempre attivo",
+            "sempre passivo",
+            "nessuna delle due risposte precedenti è corretta"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Quale tipo di esperienza offre L'Orèal?",
+        "options": [
+            "evasione",
+            "intrattenimento",
+            "edutainment"
+        ],
+        "correctIndex": 0
+    }
+]

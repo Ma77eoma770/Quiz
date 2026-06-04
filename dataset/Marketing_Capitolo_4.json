@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Un'impresa focalizzata su un unico prodotto o servizio viene definita:",
+        "options": [
+            "player monopolistico",
+            "pure player",
+            "player internazionale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il brand switching:",
+        "options": [
+            "è il comportamento tipico della fedeltà di marca",
+            "rappresenta una barriera al passaggio da una marca all'altra",
+            "è un concetto opposto a quello di fedeltà di marca"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel paradigma struttura-condotta-performance, l'intensità della concorrenza all'interno di un settore dipende da:",
+        "options": [
+            "leader del mercato, relazione tra le quote di mercato, innovazione di prodotto",
+            "differenziazione del prodotto, numero di imprese, concentrazione e distribuzione delle quote di mercato",
+            "grandezza delle imprese e differenziazione del prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell'oligopolio differenziato, la competizione delle imprese si basa su:",
+        "options": [
+            "convergenza di prodotto",
+            "differenziazione della product offering",
+            "monopolio naturale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un'impresa con una elevata quota di mercato:",
+        "options": [
+            "ha un fatturato pari a quello dell'intero settore",
+            "può considerare come imprese rivali solo quelle omogenee dal punto di vista settoriale",
+            "ha una maggiore capacità di imporre la propria strategia e di controllarne la sua corretta applicazione"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella concorrenza orizzontale:",
+        "options": [
+            "l'aumento della quota di mercato di un'impresa avviene a scapito delle altre imprese che operano sullo stesso mercato",
+            "le imprese forniscono beni o servizi a gruppi di clienti differenziati",
+            "le imprese offrono una product offering incentrata su un bene sostituto"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella concorrenza indiretta:",
+        "options": [
+            "la scelta del compratore avviene in condizioni di elevata disomogeneità dell'offerta",
+            "la scelta del compratore avviene in condizioni di elevata omogeneità dell'offerta",
+            "le alternative sono percepite come simili per obiettivi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Si ha concorrenza verticale quando:",
+        "options": [
+            "vi è la convergenza degli interessi dei due soggetti interessati nello scambio",
+            "si verifica una contrapposizione degli interessi dei due soggetti interessati nello scambio",
+            "il venditore pretende uno sconto che il compratore non è disposto a concedere"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nelle forme di concorrenza diretta:",
+        "options": [
+            "le product offering sono percepite dal consumatore come fortemente differenziate tra loro",
+            "le product offering sono percepite dal consumatore come uniche e insostituibili",
+            "le product offering sono percepite dal consumatore come simili e fortemente sostituibili tra di loro"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La differenziazione di prodotto:",
+        "options": [
+            "rappresenta una strategia corporate di impresa",
+            "mira a far percepire ai consumatori i punti di differenza della product offering",
+            "è un coportamento tipico di un regime di monopolio di mercato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella co-opetition le imprese concorrenti:",
+        "options": [
+            "stabiliscono cooperazioni durature che coinvolgono tutte le linee di business",
+            "attuano comportamenti caratterizzati da una forte rivalità",
+            "mettono in atto delle collaborazioni che sono limitate a specifiche iniziative"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I nuovi modelli di competizione includono:",
+        "options": [
+            "l'ipercompetizione, la convergenza, la co-petition e la concorrenza allargata",
+            "l'ipercompetizione, la co-petition e la convergenza",
+            "l'ipercompetizione, la concorrenza allargata, la convergenza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella concorrenza allargata:",
+        "options": [
+            "le minacce possono provenire anche da imprese che realizzano prodotti sostitutivi e da nuovi entranti",
+            "la pressione competitiva origina solo dai fornitori",
+            "si integra esclusivamente il modello della concorrenza orizzontale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La convergenza tecnologica determina:",
+        "options": [
+            "la creazione di forme di concorrenza inter-settoriale",
+            "determina una divergenza tra i settori che viene indotta dalla digitalizzazione",
+            "la creazione di forme di concorrenza intra-settoriale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il concetto di Ipercompetizione è stato definito da:",
+        "options": [
+            "Michael Porter",
+            "Richard D'Aveni",
+            "Nicholas Negroponte"
+        ],
+        "correctIndex": 1
+    }
+]

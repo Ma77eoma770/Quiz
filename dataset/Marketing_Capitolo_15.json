@@ -1,0 +1,110 @@
+[
+    {
+        "question": "La pubblicità:",
+        "options": [
+            "è una forma di comunicazione non personale, nella quale un inserzionista acquista uno spazio per trasmettere un messaggio a un pubblico definito",
+            "riguarda la gestione delle relazioni tra l’impresa e i suoi stakeholders allo scopo di sviluppare la sua credibilità nell’ambiente di riferimento",
+            "è uno strumento di comunicazione volto a interagire con il target definito in modo diretto, interattivo e personalizzato, ottenendo risposte misurabili"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le pubbliche relazioni:",
+        "options": [
+            "sono una forma di comunicazione non personale, nella quale un inserzionista ben identificato acquista uno spazio per trasmettere un messaggio a un pubblico definito attraverso uno o più media",
+            "riguardano la gestione delle relazioni tra l’impresa e i suoi stakeholders allo scopo di sviluppare la sua credibilità nell’ambiente di riferimento",
+            "sono uno strumento di comunicazione volto a interagire con il target definito in modo diretto, interattivo e personalizzato, ottenendo risposte misurabili"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le public relations hanno l'obiettivo di:",
+        "options": [
+            "aumentare le vendite nel breve periodo",
+            "consolidare l'immagine e la reputazione dell'impresa",
+            "interagire con il target definito in modo diretto e interattivo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il direct marketing:",
+        "options": [
+            "è una forma di comunicazione non personale, nella quale un inserzionista ben identificato acquista uno spazio per trasmettere un messaggio a un pubblico definito attraverso uno o più media",
+            "riguarda la gestione delle relazioni tra l’impresa e i suoi stakeholders allo scopo di sviluppare la sua credibilità nell’ambiente di riferimento",
+            "è uno strumento di comunicazione volto a interagire con il target definito in modo diretto, interattivo e personalizzato, ottenendo risposte misurabili"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La pubblicità informativa:",
+        "options": [
+            "ha l'obiettivo di generare conoscenza verso la marca/prodotto (notorietà), interesse, rilevanza, desiderio, nonché di orientare le preferenze, in modo da stimolare l’acquisto",
+            "è concentrata sulla costruzione di un particolare significato di marca sia a livello corporate che di prodotto",
+            "ha l'obiettivo di stimolare una risposta comportamentale da parte del destinatario: l’acquisto, l’adesione a iniziative promozionali ed eventi di marketing, il passaparola, il rilascio di informazioni"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La pubblicità d'immagine:",
+        "options": [
+            "ha l'obiettivo di generare conoscenza verso la marca/prodotto (notorietà), interesse, rilevanza, desiderio, nonché di orientare le preferenze, in modo da stimolare l’acquisto",
+            "è concentrata sulla costruzione di un particolare significato di marca sia a livello corporate che di prodotto",
+            "ha l'obiettivo di stimolare una risposta comportamentale da parte del destinatario: l’acquisto, l’adesione a iniziative promozionali ed eventi di marketing, il passaparola, il rilascio di informazioni"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La pubblicità promozionale:",
+        "options": [
+            "ha l'obiettivo di generare conoscenza verso la marca/prodotto (notorietà), interesse, rilevanza, desiderio, nonché di orientare le preferenze, in modo da stimolare l’acquisto",
+            "è concentrata sulla costruzione di un particolare significato di marca sia a livello corporate che di prodotto",
+            "ha l'obiettibo di stimolare una risposta comportamentale da parte del destinatario: l’acquisto, l’adesione a iniziative promozionali ed eventi di marketing, il passaparola, il rilascio di informazioni"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Gli eventi nelle pubbliche relazioni:",
+        "options": [
+            "consistono nel sostegno, spesso finanziario, fornito a una persona, un gruppo, un’organizzazione, una specifica manifestazione",
+            "consistono nella realizzazione di manifestazioni di carattere tematico, rivolte a uno specifico pubblico",
+            "forniscono ai media le informazioni relative all’attività dell’impresa in modo efficace, inducendo l’organo di stampa a farle proprie e a presentarle al pubblico"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le sponsorship nelle pubbliche relazioni:",
+        "options": [
+            "consistono nel sostegno, spesso finanziario, fornito a una persona, un gruppo, un’organizzazione, una specifica manifestazione",
+            "consistono nella realizzazione di manifestazioni di carattere tematico, rivolte a uno specifico pubblico",
+            "forniscono ai media le informazioni relative all’attività dell’impresa in modo efficace, inducendo l’organo di stampa a farle proprie e a presentarle al pubblico"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L'approccio \"RFM\" nella definizione delle campagne di direct marketing si basa sulle seguenti variabili:",
+        "options": [
+            "repositioning, frequency, marketing",
+            "recency, frequency, monetary",
+            "repost, financial, monetary"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il guerriglia marketing:",
+        "options": [
+            "fa leva su un messaggio di marca (“idea virus”) in grado di stimolare la partecipazione attiva delle persone soprattutto in termini di diffusione dello stesso",
+            "è basato su una serie di azioni realizzate dall’impresa per supportare la costituzione e lo sviluppo di gruppi di persone (tribù)",
+            "si basa sulla forza di un’idea creativa originale, sorprendente e veicolata in maniera sensazionale, ponendosi l'obiettivo di ottenere un’elevata visibilità attivando il passaparola"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il Search Engine Optimization (SEO):",
+        "options": [
+            "ottimizza i contenuti digitali inerenti alla marca (testi del sito web, video su Youtube ecc.) in modo che i motori di ricerca li indicizzino e, di conseguenza, li presentino tra i primi risultati “organici”",
+            "è la pubblicità veicolata tramite i motori di ricerca, che, tipicamente, prende la forma del keyword advertising",
+            "è una forma di comunicazione non convenzionale"
+        ],
+        "correctIndex": 0
+    }
+]

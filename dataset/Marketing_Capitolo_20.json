@@ -1,0 +1,131 @@
+[
+    {
+        "question": "Le 3V dei big data sono:",
+        "options": [
+            "vividità, velocità e vicinanza",
+            "velocità, volume e varietà",
+            "volume, vividità e varietà"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il sistema di pianificazione e controllo di marketing:",
+        "options": [
+            "è focalizzato su indicatori di risultato finali",
+            "è focalizzato su indicatori di tipo “intermedio”",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La marketing scorecard:",
+        "options": [
+            "è un indicatore sintetico che descrive i risultati complessivi di natura commerciale dell’impresa",
+            "è un sistema di indicatori che valuta le perfomance di marketing nelle sue dimensioni di mercato, competitive ed economiche",
+            "è il termine anglosassone utilizzato per il sistema di pianificazione e controllo di marketing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le tre dimensioni della marketing scorecard sono:",
+        "options": [
+            "segmentazione, posizionamento e target",
+            "mercato, competitiva ed economica",
+            "punti di forza, opportunità e minacce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili intermedie della dimensione di mercato sono:",
+        "options": [
+            "awareness, immagine e valore percepito",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili intermedie della dimensione competitiva sono:",
+        "options": [
+            "awareness, immagine e valore percepito",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili intermedie della dimensione economica sono:",
+        "options": [
+            "awareness, immagine e valore percepito",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili finali della dimensione di mercato sono:",
+        "options": [
+            "ricavi, margini e indici di rendimento",
+            "la quota di mercato, il grado di copertura e il grado di penetrazione",
+            "customer satisfaction, loyalty e brand equity"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili finali della dimensione competitiva sono:",
+        "options": [
+            "ricavi, margini e indici di rendimento",
+            "la quota di mercato, il grado di copertura e il grado di penetrazione",
+            "customer satisfaction, loyalty e brand equity Nella marketing scorecard, le variabili finali della dimensione economica sono:",
+            "ricavi, margini e indici di rendimento",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "Con riferimento a una specifica categoria di prodotto, la share of mind:",
+        "options": [
+            "rappresenta un determinato posizionamento di prezzo rispetto ai brand concorrenti",
+            "rappresenta l'inclusione di una marca nel set di marche che i consumatori conoscono e che prendono in considerazione per l'acquisto",
+            "consiste nella percentuale di consumatori che dichiarano che la marca in oggetto è la loro prima scelta nel mercato di riferimento"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La customer satisfaction può essere calcolata:",
+        "options": [
+            "eseguendo la differenza tra la percezione post-acquisto e l'aspettativa pre-acquisto",
+            "eseguendo il rapporto tra la percezione post-acquisto e l'aspettative pre-acquisto",
+            "eseguendo la differenza tra il prezzo pagato dal cliente e il costo sostenuto dall'impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La quota di mercato di un'impresa si ottiene eseguendo il rapporto tra…",
+        "options": [
+            "le vendite dell'impresa e le vendite totali del mercato di riferimento",
+            "il numero di clienti dell'impresa e la popolazione nel mercato di riferimento",
+            "le vendite totali del mercato di riferimento e le vendite dell'impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I costi di marketing:",
+        "options": [
+            "sono prevalentemente di natura variabile",
+            "sono mediamente equamente distribuiti tra costi fissi e costi variabili",
+            "sono prevalentemente di tipo fisso e discrezionale"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L’indice di Penetrazione…",
+        "options": [
+            "Si calcola come rapporto fra gli acquisti totali della categoria di prodotto effettuati dai clienti serviti dall'impresa i-esima (distributori o clienti finali) e le vendite totali della categoria di prodotto nel mercato di riferimento",
+            "Si calcola come rapporto tra le vendite della marca i-esima e gli acquisti totali nella categoria effettuat i dai client i dell’impresa i-esima presso tutti i loro fornitori",
+            "indica il numero di punti vendita presso i quali è possibile acquistare i prodotti dell'impresa"
+        ],
+        "correctIndex": 1
+    }
+]

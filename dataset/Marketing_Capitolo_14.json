@@ -1,0 +1,119 @@
+[
+    {
+        "question": "La comunicazione di marketing:",
+        "options": [
+            "si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "è indirizzata a tutti i pubblici dell’impresa, a tutti gli stakeholders, con la finalità di tenere alta la reputazione dell’impresa e di ottenere un atteggiamento favorevole",
+            "è riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La comunicazione di marketing:",
+        "options": [
+            "è rivolta a tutti i dipendenti dell'impresa",
+            "è rivolta ai clienti B2C e determina i suoi effetti su un piano informativo e valutativo",
+            "è rivolta ai clienti finali e intermedi e determina i suoi effetti su un piano cognitivo, affettivo e comportamentale"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La comunicazione istituzionale è la:",
+        "options": [
+            "comunicazione che si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "comunicazione indirizzata a tutti i pubblici dell’impresa, a tutti gli stakeholders, con la finalità ditenere alta la reputazione dell’impresa e di ottenere un atteggiamento favorevole",
+            "comunicazione riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La comunicazione economico-finanziaria è la:",
+        "options": [
+            "comunicazione che si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "comunicazione riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale",
+            "comunicazione diretta ai portatori di risorse, con lo scopo di esplicitare l’affidabilità dell’impresa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La comunicazione organizzativa è la:",
+        "options": [
+            "comunicazione che si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "comunicazione riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale",
+            "comunicazione diretta ai portatori di risorse, con lo scopo di esplicitare l’affidabilità dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di comunicazione lineare:",
+        "options": [
+            "viene utilizzato tipicamente nella mass-communication ed è un tipo di comunicazione one-to-may",
+            "prende in considerazione l’influenza che determinate categorie di persone possono avere nel processo comunicazionale (per esempio influencer)",
+            "può essere one-to-one, oppure many-to-many"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il processo di comunicazione a due input:",
+        "options": [
+            "viene utilizzato tipicamente nella mass-communication ed è un tipo di comunicazione one-to-may",
+            "prende in considerazione l’influenza che determinate categorie di persone possono avere nel processo comunicazionale (per esempio influencer)",
+            "può essere one-to-one, oppure many-to-many"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di comunicazione interattivo:",
+        "options": [
+            "viene utilizzato tipicamente nella mass-communication ed è un tipo di comunicazione one-to-may",
+            "prende in considerazione l’influenza che determinate categorie di persone possono avere nel processo comunicazionale (per esempio influencer)",
+            "può essere one-to-one, oppure many-to-many"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella comunicazione istituzionale (o corporate communication) gli strumenti utilizzati sono soprattutto:",
+        "options": [
+            "viral marketing e guerriglia marketing",
+            "pubbliche relazioni e pubblicità",
+            "product placement e promozioni"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella comunicazione di marketing, i social media sono utilizzati perlopiù per raggiungere obiettivi di:",
+        "options": [
+            "persuasione",
+            "reputazione",
+            "engagement"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I paid media sono:",
+        "options": [
+            "spazi pubblicitari acquistati da un inserzionista presso l'editore o un suo concessionario",
+            "sono mezzi proprietari dell'impresa, da essa detenuti e gestiti in piena autonomia",
+            "sono quegli ambienti di comunicazione many-to-many all’interno dei quali l’impresa/la marca viene citata, commentata, recensita dagli utenti, come i social network"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I sold media sono:",
+        "options": [
+            "spazi pubblicitari acquistati da un inserzionista presso l'editore o un suo concessionario",
+            "sono parte degli owned media che, eventualmente, un’impresa può vendere a terze parti",
+            "sono quegli ambienti di comunicazione many-to-many all’interno dei quali l’impresa/la marca viene citata, commentata, recensita dagli utenti, come i social network"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Gli earned media sono:",
+        "options": [
+            "spazi pubblicitari acquistati da un'inserzionista presso l'editore o un suo concessionario",
+            "sono mezzi proprietari dell'impresa, da essa detenuti e gestiti in piena autonomia",
+            "sono quegli ambienti di comunicazione many-to-many all’interno dei quali l’impresa/la marca viene citata, commentata, recensita dagli utenti, come i social network"
+        ],
+        "correctIndex": 2
+    }
+]

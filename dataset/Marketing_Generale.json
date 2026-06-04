@@ -1,0 +1,2678 @@
+[
+    {
+        "question": "I benefici totali derivanti da un prodotto sono:",
+        "options": [
+            "sia pratico-funzionali e sociali",
+            "sia tecnici ed emozionali",
+            "sia pratico-funzionali e simbolico-emozionali"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Un bundle è:",
+        "options": [
+            "un attributo riferito alla performance di prodotto",
+            "un aggregato di attributi che compongono le caratteristiche funzionali di un prodotto",
+            "un aggregato di elementi organicamente composto a formare un unicum dotato di valore"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il core benefit esprime:",
+        "options": [
+            "il beneficio essenziale che il brand produce per il prodotto",
+            "il beneficio essenziale che una product offering esprime per lo user",
+            "il beneficio essenziale che una product offering promette allo shopper"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In uno scambio one-shot:",
+        "options": [
+            "le parti convengono che lo scambio che stanno per avviare sia solo il primo di una serie futura",
+            "ciascuna delle due parti cerca di ottenere il massimo, cercando di non concedere alla controparte null’altro se non il dovuto",
+            "si instaura una connessione fondata sulla fiducia reciproca e sulla considerazione dei rispettivi interessi soggettivi"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Secondo il modello del prodotto come paniere di attributi:",
+        "options": [
+            "il bene è composto come un insieme di funzioni di base",
+            "il bene è percepito da un valore funzionale, di servizio di base, di utilità secondaria, di servizi supplementari",
+            "il bene è costituito da un insieme di beni elementari: materiale, confezione, formato, design"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Con il termine yield management si intende:",
+        "options": [
+            "un modello automatizzato per la gestione del pricing finalizzato a ottenere il miglior ritorno finanziario in un servizio",
+            "insieme delle attività di gestione del ciclo dove viene massimizzato il servizio",
+            "insieme di modelli matematici per calcolare la gestione della logistica"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Amazon.com è un esempio di market place:",
+        "options": [
+            "orizzontale",
+            "verticale",
+            "specializzato"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il volume di sell out rappresenta:",
+        "options": [
+            "quantità complessiva di prodotto che transita dal produttore al distributore",
+            "la contropartita riconosciuta dagli acquirenti finali nei punti vendita",
+            "quantità di prodotto acquistata dagli acquirenti finali presso i punti vendita al dettaglio"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Lo shopper:",
+        "options": [
+            "è il compratore e l’utilizzatore finale del prodotto, bene o servizio, ovvero la persona che, a valle della scelta di acquisto, effettivamente poi compie l’atto di consumo",
+            "è la persona che materialmente effettua la decisione del punto vendita nel quale recarsi e scegliere le product offering presenti",
+            "è l’azione umana con la quale le persone si approvvigionano, nello spazio e nel tempo, dei beni e servizi necessari alla loro esistenza, e ne fanno uso"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le strutture di relazione:",
+        "options": [
+            "sono global-specific, strutturate e mutevoli",
+            "sono local-specific o category-specific, formali o informali, pro tempore costanti",
+            "sono local-specific, strutturate e mutevoli"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La fascia di valore dove le motivazioni aspirazionali sono preminenti è:",
+        "options": [
+            "value",
+            "premium",
+            "luxury"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'era della disciplina:",
+        "options": [
+            "lo scambio viene esercitato in maniera sostanzialmente immutata dall’antichità",
+            "lo scambio muta in continuazione, per effetto d’importanti novità storiche e culturali",
+            "lo scambio è statico per effetto d'importanti novità storiche e culturali"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nei mercati liquidi, il mutamento di forma:",
+        "options": [
+            "è un mutamento dato da ì pressioni straordinarie per intensità e incidenza",
+            "è un mutamento quali-quantitativo dei propri profili",
+            "a seguito delle pressioni provenienti dall’esterno è più rapido delle capacità degli attori del mercato di seguirlo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La sostenibilità, richiede di porre il focus su:",
+        "options": [
+            "una società locale",
+            "un'economia nazionale",
+            "l'ambiente terrestre"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La possibilità di generare un piano di realtà esistenziale trasversale è la risultante:",
+        "options": [
+            "della globalizzazione",
+            "della rivoluzione digitale",
+            "dei mercati liquidi"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La marketing automation",
+        "options": [
+            "Insieme di attività, gestite attraverso piattaforme tecnologiche specializzate, che permettono di automatizzare e monitorare la strategia e le operations di marketing.",
+            "Applicazione delle conoscenze e delle pratiche neuroscientifiche al marketing, per analizzare i processi inconsapevoli che avvengono nella mente del consumatore e che influiscono sulle decisioni di acquisto o sul coinvolgimento emotivo nei confronti di un brand.",
+            "Modello economico basato prevalentemente sull’utilizzo e l’erogazione di servizi tecnologici ai brand"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Un posizionamento tipico della product offering nel value market è:",
+        "options": [
+            "Un prezzo elevato ed un valore del prodotto molto alto",
+            "Un'offerta di valore good value for money",
+            "Delle product offering dall’alto valore funzionale assoluto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Alcuni degli elementi di qualificazione del mercato sono:",
+        "options": [
+            "prodotto di riferimento, domanda potenziale obiettivo, fascia di valore e tempo considerato",
+            "area geografica di riferimento, prodotto di riferimento, domanda potenziale obiettivo, fascia di valore, tempo considerato, player concorrenti e misure di grandezza",
+            "prodotto di riferimento, domanda potenziale obiettivo, fascia di valore, player concorrenti e misure di grandezza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La domanda potenziale:",
+        "options": [
+            "il numero dei potenziali acquirenti di un prodotto, o dei fruitori di un messaggio pubblicitario",
+            "numerosità dei compratori della categoria all’interno di una determinata area geografica",
+            "la stratificazione delle offerte di prodotto/brand su numerosi livelli di prezzo differenti è un tratto caratteristico dei mercati aggregati contemporanei"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda potenziale:",
+        "options": [
+            "è la domanda potenzialmente esprimibile da un determinato cliente a fronte di un’iniziativa promozionale",
+            "è la quantità domandata da coloro che potrebbero essere interessati al prodotto all’interno di un certo mercato geograficamente definito in un dato periodo",
+            "è la domanda potenzialmente proveniente da un nuovo cliente da acquisire"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I volumi, i valori e i consumi sono:",
+        "options": [
+            "elementi di qualificazione dei player",
+            "elementi di qualificazione del prodotto",
+            "elementi di qualificazione del mercato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le tre aree del metodo manageriale sono:",
+        "options": [
+            "analitica, decisionale, implementativa",
+            "analitica, strategica, operativa",
+            "analitica, strategica, processuale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il concetto di mercato-prodotto è un/una:",
+        "options": [
+            "espressione del mercato che utilizza la categoria come riferimento essenziale",
+            "espressione del mercato che utilizza una medesima funzione d’uso come riferimento aggregatore",
+            "processo di adattamento di un prodotto o servizio alle esigenze di un singolo cliente/utente"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La product offering si compone di:",
+        "options": [
+            "un product system, un valore funzionale e un valore semantico",
+            "un brand system, un valore socio-funzionale e un product system",
+            "un brand system, un product system e un price positioning"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il management di mercato è:",
+        "options": [
+            "reticolare, interattivo, dinamico e collaborativo",
+            "strutturante, vincolante, incisivo e creativo",
+            "strutturante, vincolante, incisivo e collaborativo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le promozioni di valore (value-adding):",
+        "options": [
+            "vengono realizzate per perseguire differenti obiettivi: stimolo alla prova, engagement, fidelizzazione, posizionamento",
+            "vengono utilizzate allo scopo di incrementare le vendite nel breve periodo",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La configurazione funzionale di uno staff interno di marketing può essere organizzata per:",
+        "options": [
+            "area geografica, per linee di prodotto e brand e per categorie",
+            "matrice, area geografica e per categorie",
+            "per competenze professionali, per linee di prodotto e brand e per categorie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'espressione make-or-buy:",
+        "options": [
+            "espressione idiomatica che rappresenta il trade off esistente fra la realizzazione di un’attività con interne o esterne",
+            "espressione idiomatica che rappresenta il trade off esistente fra costi e benefici",
+            "espressione idiomatica che rappresenta il trade off esistente fra attività e costi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per orientamento alla vendita s’intende:",
+        "options": [
+            "un criterio guida di gestione adatto ai value market",
+            "un criterio guida di gestione adatto ai premium market",
+            "un criterio guida di gestione che punta a una customer satisfaction elevata"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il marketing strategico si articola in:",
+        "options": [
+            "definizione della strategia di marketing e gestione della product offering",
+            "definizione della strategia di marketing e progettazione della product offering",
+            "progettazione della product offering e gestione della product offering"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un modello di business:",
+        "options": [
+            "è il quantitativo di risorse destinato all'impresa",
+            "è la formula operativa con la quale l’imprenditore immagina di operare nello spazio competitivo prescelto",
+            "è il quantitativo di risorse destinato al brand"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel marketing operativo, la fase di controllo coinvolge:",
+        "options": [
+            "Il monitoraggio degli ambienti e delle risorse",
+            "Il monitoraggio degli ambienti e delle performance economiche",
+            "Il monitoraggio delle metriche di mercato, delle performance economiche e finanziarie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nei premium market competono:",
+        "options": [
+            "Le marche più aspirazionali, con offerte selettive",
+            "Le marche di caratura simbolica e qualitativa più modesta, sebbene spesso leader",
+            "Le marche di caratura simbolica e qualitativa più elevata, sebbene spesso leader"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Un'innovazione radicale",
+        "options": [
+            "Si verifica quando un prodotto/ servizio è in grado di offrire performance e possibilità di utilizzo completamente impensabili rispetto alle precedenti soluzioni",
+            "Si verifica quando un prodotto che si distingue per alcuni caratteri particolari dagli altri della stessa categoria",
+            "L’attitudine di un bene ad assumere differenti modalità quali-quantitative"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Una ricerca di marketing:",
+        "options": [
+            "offre certezza di successo",
+            "consente di individuare la soluzione a un problema",
+            "diminuisce il rischio d’errore relativo all’assunzione di una determinata decisione"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L’approccio induttivo:",
+        "options": [
+            "parte dalla regola generale per identificare l’osservazione specifica",
+            "parte dall’osservazione specifica per arrivare alla regola generale",
+            "parte dalla teoria per arrivare alla misurazione empirica"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Quando si parte dalla regola generale per arrivare alla misura empirica di un fenomeno si adotta:",
+        "options": [
+            "l’approccio induttivo",
+            "l’approccio desuntivo",
+            "l'approccio deduttivo"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I dati del censimento Istat sono:",
+        "options": [
+            "dati primari per l'impresa",
+            "dati secondari per l'impresa",
+            "dati primari per l'impresa, secondari per Istat"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I dati secondari:",
+        "options": [
+            "sono prodotti ad hoc per lo specifico problema di marketing da affrontare",
+            "sono dati raccolti per scopi diversi da quelli della ricerca in atto",
+            "sono meno importanti dei dati primari"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I dati primari:",
+        "options": [
+            "sono prodotti ad hoc per lo specifico problema di marketing da affrontare",
+            "sono dati raccolti per scopi diversi da quelli della ricerca in atto",
+            "sono meno costosi dei dati secondari"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’approccio induttivo è tipico della:",
+        "options": [
+            "ricerca causale",
+            "ricerca descrittiva",
+            "ricerca esplorativa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell’ambito della ricerca descrittiva, le osservazioni trasversali:",
+        "options": [
+            "rappresentano l’evoluzione diacronica di un certo fenomeno, attraverso una misurazione ripetuta a intervalli regolari",
+            "descrivono un fenomeno in un particolare momento, comparandolo con altri eventi",
+            "si basano tipicamente su panel di consumatori"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell’ambito della ricerca descrittiva, le osservazioni longitudinali:",
+        "options": [
+            "si utilizzano quando si vogliono definire le variabili che descrivono determinati segmenti",
+            "consentono di descrivere un fenomeno in un dato momento, ma in comparazione con altri eventi",
+            "consentono di rappresentare l’evoluzione diacronica di un fenomeno, attraverso una misurazione ripetuta nel tempo delle variabili che lo caratterizzano"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le ricerche su panel:",
+        "options": [
+            "sono particolarmente adatte a implementare studi di natura longitudinale, che forniscono informazioni comparabili nel tempo",
+            "si svolgono a intervalli di tempo regolari e consentono di implementare studi di natura trasversale",
+            "consentono di comparare più eventi tra loro correlati in un orizzonte temporale ben definito a priori"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il briefing contiene:",
+        "options": [
+            "la formalizzazione del problema di ricerca",
+            "la formalizzazione del metodo di ricerca",
+            "la definizione della formula di ricerca"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I principali risultati di una ricerca di marketing sono contenuti nel:",
+        "options": [
+            "report di ricerca",
+            "progetto di ricerca",
+            "briefing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il progetto di ricerca:",
+        "options": [
+            "Contiene la descrizione del fabbisogno informativo del cliente e gli obiettivi dello studio",
+            "Contiene la definizione della formula di ricerca, con l’indicazione dei tempi e dell’investimento richiesto",
+            "Contiene i principali risultati di una ricerca ad hoc"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le ricerche sul consumer insight supportano:",
+        "options": [
+            "la definizione del mercato servito dall’impresa",
+            "la progettazione strategica della product offering dell’impresa",
+            "le attività di misurazione dei risultati ottenuti grazie alle iniziative sul consumatore"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le market research supportano:",
+        "options": [
+            "la definizione del mercato servito dall’impresa",
+            "la progettazione strategica della product offering dell’impresa",
+            "la gestione della product offering sul mercato, nel momento in cui si è deciso di rivolgersi a un determinato consumatore"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le misure di mercato (market measurement):",
+        "options": [
+            "consentono di definire al meglio ex-ante il mercato di riferimento dell'impresa",
+            "monitorano il progresso delle marche nel mercato con continuità spazio-temporale",
+            "supportano il management nella comprensione profonda delle motivazioni e dei comportamenti d'acquisto del consumatore"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il neuromarketing rientra nelle:",
+        "options": [
+            "market research",
+            "consumer research",
+            "market measurement"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nelle ricerche qualitative:",
+        "options": [
+            "si utilizza un campione stratificato sulla base di variabili demografiche",
+            "si utilizza il campione statistico che consente di testare al meglio le ipotesi di partenza",
+            "si utilizza un piccolo campione ragionato, senza alcun tipo di rappresentatività statistica"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La ricerca qualitativa:",
+        "options": [
+            "consente di stimare a priori la soddisfazione della clientela",
+            "permette di misurare l’impatto di un prodotto su un campione rappresentativo di clienti potenziali effettivi",
+            "produce indicazioni che consentono di descrivere a 360° un fenomeno"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La scaletta d’intervista è:",
+        "options": [
+            "usata principalmente nelle ricerche quantitative, quando si deve descrivere a fondo un certo aspetto del comportamento del consumatore",
+            "lo strumento principale della ricerca qualitativa",
+            "lo strumento principale della ricerca quantitativa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il questionario:",
+        "options": [
+            "è lo strumento principale della ricerca esplorativa, ma non di quella causale",
+            "serve a indagare qual è la natura di un problema quando questo è di media complessità",
+            "è lo strumento principale di raccolta informazioni quando si conosce il contesto da indagare"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell’ambito delle ricerche quantitative, il questionario si basa tipicamente su:",
+        "options": [
+            "una traccia d’intervista destrutturata",
+            "una scaletta con diverse domande aperte",
+            "un percorso d’intervista strutturato o semi-strutturato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il fieldwork è:",
+        "options": [
+            "l’attività di ricerca pura su dati primari e secondari dell’impresa",
+            "l’attività di ricerca sul campo",
+            "l’attività di ricerca sui dati secondari"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Con l’espressione single source si definisce:",
+        "options": [
+            "un sistema di osservazioni plurime condotte su un singolo soggetto",
+            "un sistema di misurazioni qualitative condotte su un singolo soggetto",
+            "una rilevazione singola condotta su una fonte unica"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Un'impresa focalizzata su un unico prodotto o servizio viene definita:",
+        "options": [
+            "player monopolistico",
+            "pure player",
+            "player internazionale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il brand switching:",
+        "options": [
+            "è il comportamento tipico della fedeltà di marca",
+            "rappresenta una barriera al passaggio da una marca all'altra",
+            "è un concetto opposto a quello di fedeltà di marca"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel paradigma struttura-condotta-performance, l'intensità della concorrenza all'interno di un settore dipende da:",
+        "options": [
+            "leader del mercato, relazione tra le quote di mercato, innovazione di prodotto",
+            "differenziazione del prodotto, numero di imprese, concentrazione e distribuzione delle quote di mercato",
+            "grandezza delle imprese e differenziazione del prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell'oligopolio differenziato, la competizione delle imprese si basa su:",
+        "options": [
+            "convergenza di prodotto",
+            "differenziazione della product offering",
+            "monopolio naturale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un'impresa con una elevata quota di mercato:",
+        "options": [
+            "ha un fatturato pari a quello dell'intero settore",
+            "può considerare come imprese rivali solo quelle omogenee dal punto di vista settoriale",
+            "ha una maggiore capacità di imporre la propria strategia e di controllarne la sua corretta applicazione"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella concorrenza orizzontale:",
+        "options": [
+            "l'aumento della quota di mercato di un'impresa avviene a scapito delle altre imprese che operano sullo stesso mercato",
+            "le imprese forniscono beni o servizi a gruppi di clienti differenziati",
+            "le imprese offrono una product offering incentrata su un bene sostituto"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella concorrenza indiretta:",
+        "options": [
+            "la scelta del compratore avviene in condizioni di elevata disomogeneità dell'offerta",
+            "la scelta del compratore avviene in condizioni di elevata omogeneità dell'offerta",
+            "le alternative sono percepite come simili per obiettivi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Si ha concorrenza verticale quando:",
+        "options": [
+            "vi è la convergenza degli interessi dei due soggetti interessati nello scambio",
+            "si verifica una contrapposizione degli interessi dei due soggetti interessati nello scambio",
+            "il venditore pretende uno sconto che il compratore non è disposto a concedere"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nelle forme di concorrenza diretta:",
+        "options": [
+            "le product offering sono percepite dal consumatore come fortemente differenziate tra loro",
+            "le product offering sono percepite dal consumatore come uniche e insostituibili",
+            "le product offering sono percepite dal consumatore come simili e fortemente sostituibili tra di loro"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La differenziazione di prodotto:",
+        "options": [
+            "rappresenta una strategia corporate di impresa",
+            "mira a far percepire ai consumatori i punti di differenza della product offering",
+            "è un coportamento tipico di un regime di monopolio di mercato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella co-opetition le imprese concorrenti:",
+        "options": [
+            "stabiliscono cooperazioni durature che coinvolgono tutte le linee di business",
+            "attuano comportamenti caratterizzati da una forte rivalità",
+            "mettono in atto delle collaborazioni che sono limitate a specifiche iniziative"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I nuovi modelli di competizione includono:",
+        "options": [
+            "l'ipercompetizione, la convergenza, la co-petition e la concorrenza allargata",
+            "l'ipercompetizione, la co-petition e la convergenza",
+            "l'ipercompetizione, la concorrenza allargata, la convergenza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella concorrenza allargata:",
+        "options": [
+            "le minacce possono provenire anche da imprese che realizzano prodotti sostitutivi e da nuovi entranti",
+            "la pressione competitiva origina solo dai fornitori",
+            "si integra esclusivamente il modello della concorrenza orizzontale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La convergenza tecnologica determina:",
+        "options": [
+            "la creazione di forme di concorrenza inter-settoriale",
+            "determina una divergenza tra i settori che viene indotta dalla digitalizzazione",
+            "la creazione di forme di concorrenza intra-settoriale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il concetto di Ipercompetizione è stato definito da:",
+        "options": [
+            "Michael Porter",
+            "Richard D'Aveni",
+            "Nicholas Negroponte"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda aggregata è la somma delle spese effettuate nell'anno per:",
+        "options": [
+            "consumi finali, spesa pubblica, investimenti pubblici, export",
+            "consumi finali, spesa pubblica, investimenti privati, saldo import-export",
+            "consumi intermedi, investimenti finali, spesa pubblica, import"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I metodi qualitativi per la stima della domanda potenziale si basano su:",
+        "options": [
+            "dati sperimentali, opinioni della forza di vendita, simulazione",
+            "intenzioni di acquisto, opinioni della forza di vendita, stime degli esperti indipendenti",
+            "stime degli esperti indipendenti, simulazione, dati sperimentali"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda effettivamente espressa per una categoria di prodotto è:",
+        "options": [
+            "la domanda potenziale",
+            "la domanda secondaria",
+            "la domanda primaria"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il compratore consumer è definito:",
+        "options": [
+            "user",
+            "shopper",
+            "influencer"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il modello generale di acquisto si articola nelle seguenti fasi:",
+        "options": [
+            "percezione del bisogno, valutazione delle alternative, consideration set, acquisto, post acquisto",
+            "percezione del bisogno, ricerca delle alternative, valutazione delle alternative, acquisto, post",
+            "percezione del bisogno, ricerca delle alternative, valutazione delle alternative, acquisto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'insieme delle marche tra cui il consumatore effettua la sua scelta di acquisto rappresenta:",
+        "options": [
+            "il brand switching",
+            "il benchmark",
+            "il consideration set"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel modello di acquisto ROPO:",
+        "options": [
+            "il consumatore ricerca informazioni sul prodotto nel negozio fisico e lo acquista online",
+            "il consumatore ricerca informazioni sul prodotto online e lo acquista in un negozio fisico",
+            "il consumatore acquista il prodotto online e lo ritira in un negozio fisico"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel modello di acquisto \"try and buy\":",
+        "options": [
+            "il prodotto viene acquistato online e si procede al ritiro nello store fisico",
+            "la prova del prodotto avviene nel negozio fisico e l'acquisto online",
+            "la prova del prodotto avviene virtualmente online e l acquisto si perfeziona tramite e-commerce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel processo di acquisto di beni e servizi da parte del consumatore assumono rilevanza:",
+        "options": [
+            "l'unità fisica del prodotto, la frequenza di consumo e l'influenza",
+            "il rischio percepito, la frequenza di consumo e di riacquisto, la familiarità e l'unità del bene",
+            "il rischio percepito, la frequenza di acquisto e di consumo, la familiarità e il valore unitario"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Negli acquisti di beni e servizi in ambito B2B assumono rilevanza:",
+        "options": [
+            "il rischio percepito, la dimensione funzionale del bisogno, la familiarita e il portafoglio clienti",
+            "la dimensione funzionale del bisogno, la frequenza di consumo, il portafoglio clienti e la natura della domanda",
+            "la dimensione funzionale del bisogno, la presenza di ruoli decisionali, il portafoglio clienti e la natura della domanda"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il gatekeeper è:",
+        "options": [
+            "il soggetto che dà inizio al processo di acquisto del bene o servizio",
+            "il soggetto che interviene nel processo di identificazione e di scelta del bene o del servizio",
+            "il soggetto che effettivamente utilizzarà il bene o servizio acquistato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La propensione al rischio dipende da:",
+        "options": [
+            "tipo di prodotto, natura del bisogno, fascia di valore e condizioni di servizio accessorie",
+            "esclusivamente da familiarità con il prodotto e condizioni di servizio accessorie",
+            "prezzo, tipologia di prodotto, notorietà della marca, condizioni di servizio acccessorie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La domanda derivata esprime:",
+        "options": [
+            "una domanda tipica dei mercati B2C",
+            "una domanda che dipende dall'andamento della domanda finale di beni a cui si riferisce",
+            "una domanda che dipende dall'andamento dei settori a monte a cui si riferisce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'acquisto d'impulso è:",
+        "options": [
+            "un acquisto pianificato dal soggetto che si manifesta in presenza di uno stimolo esterno",
+            "un acquisto che corrisponde ad una attività programmata del soggetto in risposta ad un bisogno",
+            "un acquisto non pianificato dal soggetto e che si manifesta in presenza di un oggetto - stimolo"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La brand loyalty rappresenta:",
+        "options": [
+            "la ripetizione durevole di acquisto dello stesso prodotto",
+            "la condivisione durevole dei contenuti della marca",
+            "la ripetizione duratura dell'acquisto della stessa marca"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La società dei consumi è caratterizzata da:",
+        "options": [
+            "uno scarso interesse per i bisogni secondari e un crescente interesse per i bisogni primari",
+            "crescenti consumi legati al soddisfacimento di bisogni secondari",
+            "una carenza nella soddisfazione dei bisogni primari"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di acquisto:",
+        "options": [
+            "non è influenzato dall'ambiente di acquisto",
+            "sono le condizioni che permettono al compratore di entrare in contatto con l'offerta",
+            "comprende l'insieme delle attività elementari mediante le quali il compratore mira a soddisfare un'esigenza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I consumatori value-driven:",
+        "options": [
+            "sono interessati al ritorno di valore del denaro che spendono",
+            "sono disposti a pagare un premium price",
+            "trovano nella marca il principale punto di riferimento della scelta"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I consumatori brand-driven:",
+        "options": [
+            "vedono lo shopping come un atto necessario",
+            "si fidano della promessa della marca",
+            "sono molto sensibili al prezzo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di acquisto è estemporaneo e semplificato:",
+        "options": [
+            "nel caso di acquisto di un'automobile",
+            "negli acquisti d'impulso",
+            "nel caso di acquisto di beni problematici"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La routine di acquisto:",
+        "options": [
+            "è una tecnica che consente al compratore di risparmiare tempo ed energie in situazioni di alto coinvolgimento emotivo",
+            "prevede un processo di acquisto articolato",
+            "è una tecnica di acquisto che consente di rendere automatica la scelta della product offering"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella dimensione identitaria dell'io decisore troviamo le variabili:",
+        "options": [
+            "personali e sociali",
+            "demografiche, valoriali e affettive",
+            "ambiente di consumo e ricchezza disponibile"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il modello Engel, Kollat, Blackwell:",
+        "options": [
+            "è un modello utilizzato per spiegare il comportamento di acquisto",
+            "ha una struttura a matrice",
+            "non tiene conto del sistema percettivo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il modello del customer journey:",
+        "options": [
+            "prevede un processo lineare, con un numero limitato di interazioni con la marca e con gli altri",
+            "poggia sull'assunto che i punti di contatto con la marca sono continui e numerosi",
+            "descrive il percorso del cliente che termina con l'acquisto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell'approccio di mercato segmentato:",
+        "options": [
+            "il prodotto è standard e la gestione del brand è orientata alla notorietà",
+            "l'approccio dell'impresa è verso il singolo cliente potenziale",
+            "il prodotto è con lievi, ma significative, differenze e il price point è medio-alto"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'approccio di mercato focalizzato:",
+        "options": [
+            "il brand system esalta le differenze sostanziali presenti nel prodotto",
+            "i servizi accessori sono pressoché assenti",
+            "il brand system è poco rilevante e il prodotto è realizzato su misura"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per ipersegmentazione si intende:",
+        "options": [
+            "un sinonimo di contro-segmentazione",
+            "la segmentazione della domanda potenziale in un numero molto elevato di segmenti",
+            "l'unione di segmenti pù piccoli in aggregati di maggiori dimensioni"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Affinché un segmento possa essere considerato rilevante:",
+        "options": [
+            "deve essere composto da una quota prestabilita di domanda potenziale",
+            "deve garantire la generazione di un volume di reddito soddisfacente e in linea con gli obiettivi dell’impresa",
+            "deve garantire unicamente il soddisfacimento dei criteri di omogeneità interna ed eterogeneità esterna"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella scelta del target, la condizione denominata combiner prevede che:",
+        "options": [
+            "l'impresa decide di rivolgersi a tutta la domanda",
+            "l’impresa decide di eleggere uno o più segmenti a proprio target",
+            "l'impresa sceglie di eleggere a proprio target un magrosegmento composto da due o più dei segmenti individuati"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I criteri di segmentazione basati sui benefici ricercati:",
+        "options": [
+            "includono anche aspetti socio-relazionali, edonistici ed emozionali",
+            "possono essere studiati attraverso il modello AIO",
+            "riguardano in via esclusiva vantaggi pratici che il consumatore riceve dall’utilizzo del prodotto"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il baricentro strategico:",
+        "options": [
+            "coincide con la missione, che fissa il contesto all’interno del quale le strategie devono essere formulate",
+            "è l’insieme di fattori che ispirano e guidano l’esistenza, le dinamiche evolutive e l’approccio al mercato dell’impresa",
+            "è costituito dalle risultanze dell’analisi esterna e dell’analisi interna, sintetizzate nell’analisi SWOT"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un'impresa \"brick and mortar\":",
+        "options": [
+            "è focalizzata sul mercato fisico e utilizza le piattaforme digitali in misura marginale e in chiave tattica",
+            "nasce nel mercato fisico e successivamente affianca al business tradizionale quello online, coniugando le due dimensioni",
+            "è un'impresa che opera seguendo una strategia omnicanale, con una forte integrazione delle attività online e offline"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strategia di innovazione del valore:",
+        "options": [
+            "mira a sviluppare il grado di differenziazione dell'offerta in un mercato altamente competitivo",
+            "punta a modificare il set di attributi della product offering in modo originale, proponendo un'offerta di valore nuova",
+            "consiste in una innovazione di prodotto finalizzata a incrementare la sua \"premiumness\""
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'analisi dell'ambiente competitivo concerne:",
+        "options": [
+            "mercato, clienti, sistema d'offerta, concorrenza",
+            "i fattori politici, economici, sociali, tecnologici, legali, ecologici",
+            "analisi esterna (a livello macro e micro) e analisi interna"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’analisi dell’ambiente esogeno rilevante:",
+        "options": [
+            "viene svolta utilizzando il modello SWOT",
+            "viene svolta analizzando il mercato, i consumatori, la concorrenza",
+            "viene svolta utilizzando il modello PESTLE"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L’analisi di portafoglio:",
+        "options": [
+            "è finalizzata a valutare la corretta corrispondenza tra portafoglio di investimenti e coperture finanziarie",
+            "intende valutare l’adeguatezza del portafoglio di risorse finanziarie dell’impresa nel business di riferimento",
+            "ha lo scopo di valutare la struttura e il posizionamento competitivo di un gruppo di aree di business"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La strategia di concentrazione può essere realizzata attraverso le seguenti modalità:",
+        "options": [
+            "innovazione di prodotto e branding",
+            "coopetizione con i concorrenti e fidellizzazione della clientela",
+            "ampliamento della domanda, incremento della quota di mercato, acquisizione di mercato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il caso Disney è emblematico di un'impresa che ha perseguito la sua crescita prevalentemente attraverso una strategia di:",
+        "options": [
+            "integrazione verticale",
+            "concentrazione",
+            "diversificazione correlata"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il termine core competencies si riferisce a:",
+        "options": [
+            "competenze aventi rilevanza strategica",
+            "insieme delle risorse e competenze detenute dall'impresa",
+            "asset intangibili (brevetti, marchi registrati e segreti industriali)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strutturazione del mercato, secondo il modello di Abell, prevede la scelta dei prodotti mercati, considerando le seguenti variabili",
+        "options": [
+            "clienti, bisogni, tecnologie",
+            "aree di business, mercati geografici, segmenti",
+            "concorrenti diretti, concorrenti indiretti, prodotti sostitutivi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le strategie di sviluppo, secondo la matrice di Ansoff, sono:",
+        "options": [
+            "concentrazione, integrazione verticale, svilupo del mercato, sviluppo del prodotto, diversificazione",
+            "espansione internazionale, innovazione di prodotto e/o di processo, digital transformation",
+            "integrazione verticale, alleanze strategiche, acquisizioni, joint ventures"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nel modello SWOT, sono aree oggetto d'indagine dell'analisi interna:",
+        "options": [
+            "opportunità e minacce",
+            "punti di forza e debolezza",
+            "risorse, competenze, target clienti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il consumer surplus è:",
+        "options": [
+            "un vantaggio competitivo costruito su una combinazione originale di elementi di costo e di differenziazione",
+            "la differenza tra il beneficio percepito dal consumatore e il prezzo pagato",
+            "la differenza tra il beneficio percepito dal consumatore e i costi sostenuti dall'impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un'impresa detiene vantaggio competitivo:",
+        "options": [
+            "quando ottiene una profittabilità superiore rispetto ai concorrenti nel medio termine",
+            "quando innova più rapidamente dei competitor",
+            "quando raggiunge volumi di produzione corrispondenti alla scala minima efficiente"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La cost effective differentiation:",
+        "options": [
+            "costruisce il vantaggio competitivo su una combinazione originale di attributi di costo e differenziazione, nell'ambito di un sistema d'offerta basato su un'innovazione di valore",
+            "è fondata sulla detenzione in via esclusiva di competenze chiave specifiche di un determinato prodotto mercato, siano esse orientate sia all'efficienza (costo) che all'efficacia (differenziazione)",
+            "consente di massimizzare il consumer surplus, grazie al radicamento con la missione e con gli obiettivi di lungo termine dell'impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La value proposition:",
+        "options": [
+            "è costituita dal nucleo centrale della product offering, che si eprime nel prodotto",
+            "consiste nel set di \"attributi generici\" che caratterizzano l'offerta al mercato e che guidano la definizione della product offering",
+            "è la collocazione dell'offerta dell'impresa all'interno della fascia di valore prescelta"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La strategia competitiva di differenziazione:",
+        "options": [
+            "consiste nell'entrata in nuove aree di affari, per cogliere opportunità di mercato e/o ridurre i rischi",
+            "si fonda sulla superiorità dell’impresa nel definire product offering aventi caratteristiche uniche e distintive rispetto alla concorrenza",
+            "è la strategia di cambiamento e di superamento di una posizione competitiva precedente, non più adeguata"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il posizionamento è:",
+        "options": [
+            "il processo di collocazione spaziale di un prodotto nello scaffale, andando a costituindo così il display del punto vendita",
+            "la scelta del portafoglio di business nel quale operare, che qualifica la posizione dell'impresa sul mercato",
+            "il processo di concezione della product offering – incentrato sulla marca – volto a creare nella mente dei consumatori una posizione favorevole e distinta da quella dei concorrenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "È un framework analitico che consente di individuare opportunità e minacce dell'ambiente esterno, nonché punti di forza e di debolezza dell'impresa:",
+        "options": [
+            "SWOT",
+            "VRIO",
+            "PESTLE"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In un determinato business, possiamo identificare differenti posizioni competitive:",
+        "options": [
+            "segmented marketing, mass marketing, mass customization, one to one marketing",
+            "attacco, mantenimento, difesa",
+            "leader, sfidante, follower"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il posizionamento di Red Bull:",
+        "options": [
+            "è di tipo globale e fa leva in particiolare sul country of origin effect",
+            "è rivolto specificamente al segmento della generazione Z",
+            "è basato sulla differenziazione di prodotto, sia in termini di attributi tangibili che intangibili"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il generico output di un processo di trasformazione è detto:",
+        "options": [
+            "product offering",
+            "product category",
+            "brand system"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un prodotto è spesso prevenduto rispetto alla sua realizzazione nella:",
+        "options": [
+            "produzione a progetto",
+            "produzione su modello",
+            "produzione continua"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La produzione intermittente su grandi lotti è caratterizzata da:",
+        "options": [
+            "basso grado di standardizzazione di prodotto e bassa ampiezza di gamma",
+            "elevato grado di differenziazione e bassa standardizzazione dei prodotti",
+            "elevato grado di differenziazione e standardizzazione dei prodotti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il ruolo delle economie di scala è cruciale nella:",
+        "options": [
+            "produzione a progetto",
+            "produzione continua",
+            "produzione su modello"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un elevato grado di copertura del mercato:",
+        "options": [
+            "è tipico nei business model a volumi",
+            "è tipico nei business model a valori",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Grandi volumi di produzione, standardizzati o poco differenziati si ritrovano nel:",
+        "options": [
+            "segmented market",
+            "one to one market",
+            "mass market"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'approccio di mercato one to one:",
+        "options": [
+            "riguarda la personalizzazione del prodotto",
+            "si realizza quando l'impresa ha un solo cliente",
+            "si basa su produzioni sperimentali su piccoli lotti realizzati con impianti specifici"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per gerarchia di prodotto si intende:",
+        "options": [
+            "l'insieme delle product offerings offerte da un'impresa",
+            "il complesso delle varianti di prodotto che una tecnologia consente di realizzare",
+            "l'insieme delle varianti di prodotto messe in ordine d'importanza"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le varianti di primo livello di una product category è detta:",
+        "options": [
+            "product form",
+            "product class",
+            "variations of class"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per ampiezza di categoria si intende:",
+        "options": [
+            "il numero di varianti di primo livello nelle quali una categoria si articola",
+            "il numero di livelli nei quali una categoria si declina",
+            "la dimensione verticale della product category"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il wrap up:",
+        "options": [
+            "è l'immagine a computer del prodotto",
+            "è un riassunto che rafforza la promessa",
+            "accresce la funzionalità del prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La riformulazione di prodotti esistenti finalizzata ad accrescerne la performance:",
+        "options": [
+            "è anche definita breakthrough",
+            "è una line extension",
+            "è un'innovazione new improved"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il breakthrough è caratterizzato da:",
+        "options": [
+            "un basso grado di innovazione sia per l'impresa che per il mercato",
+            "un elevato grado di innovazione sia per l'impresa che per il mercato",
+            "un elevato grado di innovazione per l'impresa ma non per il mercato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In quale fase del ciclo di vita del prodotto la curva assume un andamento a plateau?",
+        "options": [
+            "declino",
+            "crescita",
+            "maturità"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In quale fase del ciclo di vita del prodotto la costruzione dei canali è una priorità per il marketing?",
+        "options": [
+            "introduzione",
+            "declino",
+            "maturità"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il portafoglio brand è:",
+        "options": [
+            "un insieme dei brand di cui un’impresa è proprietaria",
+            "il brand sotto la quale si addensano delle altre marche",
+            "il numero di brand lanciati da un’impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il termine M&A si riferisce a:",
+        "options": [
+            "operazioni di trasferimento del controllo di un’attività mediante acquisto di proprietà o fusione",
+            "creazione di sinergie fra diversi brand, per presidiare al meglio i canali",
+            "gestione da parte della stessa azienda di tutti i canali online e ofline"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Quali di questi NON è un esempio di funzione di produzione del tangibile:",
+        "options": [
+            "product packaging",
+            "estetica del product design",
+            "passaparola del brand"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'area della specificazione del processo di scelta dello shopper NON rientra:",
+        "options": [
+            "valutazione delle alternative",
+            "percezione del bisogno",
+            "scelta del prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel modello di acquisto brand-gain oriented la variabile driver è:",
+        "options": [
+            "il prezzo strumentale ribassato e il brand system",
+            "il concept di prodotto",
+            "il punto vendita"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le tessere proprietarie NON rientra:",
+        "options": [
+            "brand name",
+            "brand logo",
+            "brand testimonial"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le tessere cognitive servono a stimolare:",
+        "options": [
+            "conoscenza e ricordo del brand",
+            "valori del brand",
+            "identità grafica del brand"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le funzioni di produzione del tangibile non è presente:",
+        "options": [
+            "screening delle idee",
+            "sviluppo progettuale",
+            "gestione ordinaria"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "“L’insieme di elementi espressivi utilizzati dall’azienda per veicolare le credenziali di una marca” viene definito come:",
+        "options": [
+            "immagine del brand o brand image",
+            "identità del brand o brand identity",
+            "posizionamento"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Secondo lo schema organizzativo di Aaker e Joachimstaller per branded house si intedono:",
+        "options": [
+            "più prodotti organizzati intorno a un brand principale",
+            "più marche esplicitamente garantite da un medesimo brand principale",
+            "più marche linearmente connesse ad un brand principale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Fra gli scopi della progettazione della brand identity rientra:",
+        "options": [
+            "fissare la posizione del brand system nella ideale mappa di categoria presente nella mente del target",
+            "verificare l’assonanza fra il brand system e il livello di forza di un brand",
+            "misurare la fiducia nella capacità di promessa della marca"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Secondo il modello di Aaker, il livello massimo di awareness si raggiunge quando:",
+        "options": [
+            "un brand diviene top of mind",
+            "un brand è presente sul mercato da diversi anni",
+            "un brand ha una quota di mercato rilevante"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nel modello di acquisto preference oriented tra le varibili driver di scelta sono presenti:",
+        "options": [
+            "concept di prodotto e brand system",
+            "prezzo e punto vendita",
+            "arbitraggio sul tempo e sul punto vendita"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Con il termine family brand si identificano",
+        "options": [
+            "più prodotti organizzati intorno a un brand principale",
+            "più marche esplicitamente garantite da un medesimo brand principale",
+            "più marche linearmente connesse a un brand principale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’attore George Clooney nelle pubblicità di Nespresso può essere identificato",
+        "options": [
+            "brand testimonial",
+            "brand character",
+            "brand supporter"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La concorrenza verticale nella definizione dei prezzi:",
+        "options": [
+            "è un elemento esogeno",
+            "è un elemento competitivo",
+            "rientra nella sfera decisionale dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Dal punto di vista del venditore il sell in price:",
+        "options": [
+            "regola le relazioni di scambio tra lo shopper e il venditore",
+            "rappresenta una voce di costo di approvvigionamento da parte del retailer",
+            "regola le relazioni di scambio tra produttore e distributore"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Quando il prezzo sorge dal gioco di domanda e offerta senza che l’impresa abbia margine di libertà nel definirlo si ha in un regime concorrenziale di:",
+        "options": [
+            "monopolio",
+            "concorrenza perfetta",
+            "oligopolio indifferenziato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell’oligopolio differenziato:",
+        "options": [
+            "l’impresa ha ampi margini di libertà nel fissare il prezzo",
+            "il prezzo può determinare lo spostamento di domanda fra brand concorrenti",
+            "la competizione si sposta dal versante prezzo a quello della differenziazione percepita"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda anelastica si ha:",
+        "options": [
+            "quando la variazione percentuale della domanda in relazione a un incremento del prezzo è debole",
+            "quando la variazione percentuale della quantità domandata è pari a quella del prezzo",
+            "quando la variazione percentuale della domanda in risposta a un incremento di prezzo è forte"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I prodotti nella fascia mainstram:",
+        "options": [
+            "promettono la massima convenienza al prezzo più basso di mercato",
+            "costituiscono la fascia più importante in termini di volumi di venduto",
+            "sono una sorta di spartiacque tra la fascia value e la fascia premium"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il prezzo di penetrazione:",
+        "options": [
+            "prevede l’abbattimento ricorsivo dei prezzi da parte di tutti i contendenti",
+            "punta a selezionare i clienti creando una barriera alla quota maggiore di clienti potenziali",
+            "ha il fine di ottenere alti volumi di vendita"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il prezzo dispari:",
+        "options": [
+            "sfrutta la natura fotografica della mente umana, che prevale su quella matematica",
+            "fonda la sua efficacia sulla propensione al risparmio di energie che porta l’acquirente ad evitare di fare i conti",
+            "fa leva sulla disponibilità economico-finanziaria individuale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella strategia di cost-innovation:",
+        "options": [
+            "il prezzo viene fissato in modo omogeneo ai concorrenti di riferimento a fronte di un beneficio maggiore",
+            "prezzo e beneficio sono sostanzialmente gli stessi proposti dal concorrente di più diretto riferimento",
+            "si combinano prezzi più bassi della concorrenza e product offering innovative"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il marketer che non vuole rompere gli equilibri raggiunti con i competitor persegue:",
+        "options": [
+            "obiettivi di redditività",
+            "obiettivi di confronto competitivo",
+            "obiettivi di volume"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La strategia distributiva omnichannel:",
+        "options": [
+            "prevede una distribuzione intensiva, allo scopo di massimizzare il potenziale di vendita",
+            "prevede l'utilizzo di più canali distributivi, per offrire al mercato diverse configurazioni di servizio commerciale",
+            "mira a veicolare una product offering e a costruire una customer experience organica e coerente tra tutti i canali utilizzati"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel franchising:",
+        "options": [
+            "il franchisor mette a disposizione del franchisee la propria formula commerciale",
+            "il franchisee svolge per conto del franchisor l'attività di vendita",
+            "franchisor e franchisee collaborano nella definizione delle strategie di marketing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella fase di lancio del prodotto i prezzi sono:",
+        "options": [
+            "allineati ai competitor diretti",
+            "dipende dalla strategia (scrematura o penetrazione)",
+            "differenziati per fasce (value vs premium)"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le imprese che vogliono acquisire una reputazione “ecologica” senza incidere realmente sui processi e sui prodotti:",
+        "options": [
+            "devono realizzare delle partnership con i consumatori",
+            "utilizzano frequentemente campagne di cause-related marketing",
+            "fanno un’operazione di greenwashing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La distribuzione diretta può essere svolta:",
+        "options": [
+            "attraverso l’e-commerce",
+            "attraverso punti vendita di proprietà",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Tra i format distributivi della distribuzione diretta troviamo:",
+        "options": [
+            "negozio monomarca, e-commerce, flagship store, corner",
+            "grossista, dettagliante, agente",
+            "grande superficie specializzata (GSS), srande magazzino, concept store"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il social commerce:",
+        "options": [
+            "è una forma di e-commerce svolta su piattaforme di dialogo e di cooperazione tra utenti",
+            "è la commercializzazione di prodotti provenienti da produzioni equo-solidali",
+            "è una particolare applicazione del marketing contestuale o proximity marketing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La distribuzione selettiva:",
+        "options": [
+            "si ha quando il produttore concede a un distributore l'esclusiva per la commercializzazione in un dato mercato",
+            "è attuata da produttori che selezionano un numero limitato di intermediari per la commercializzazione dei loro prodotti",
+            "si ha quando un distributore applica condizioni commerciali differenti ai diversi target di acquirenti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La strategia distributiva di Zara:",
+        "options": [
+            "è basata su una rete mista diretta-franchising, caratterizzata da una forte integrazione",
+            "è di tipo multicanale e utilizza canali indiretti corti e lunghi",
+            "la rete distributiva è gestita in outsourcing da un partner strategico"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’uso del termine “Prosumer” vuole sottolineare che il cliente nei servizi:",
+        "options": [
+            "Svolge un ruolo propositivo nel processo di innovazione",
+            "Può contribuire in modo sostanziale ai risultati economici dell’azienda",
+            "Contribuisce attivamente alla produzione di un servizio"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Quale di queste affermazioni è errata in riferimento ai servizi:",
+        "options": [
+            "i servizi non possono essere brevettati",
+            "comunicare i benefici relativi ai servizi è complesso",
+            "i servizi sono omogenei per tutti i clienti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Per contestualità si intende:",
+        "options": [
+            "la caratteristica per cui luogo e il momento della produzione dei servizi coincidano con quelli del consumo",
+            "la caratteristica per cui è impossibile conservarli, immagazzinarli, rivenderli o restituirli dopo la vendita",
+            "la caratteristica per cui è impossibile garantire che l'erogazione del servizio coincide con la sua progettazione"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La qualità del servizio:",
+        "options": [
+            "si riferisce alla percezione del servizio nel suo complesso",
+            "si riferisce al confronto tra aspettative e percezioni del cliente",
+            "si riferisce all'insieme di attività attraverso le quali un servizio viene prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La qualità del servizio può essere valutata:",
+        "options": [
+            "durante l’erogazione",
+            "prima dell'erogazione",
+            "dopo l'erogazione"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le macro-fasi del processo di marketing dei servizi non rientra:",
+        "options": [
+            "la distribuzione",
+            "l'erogazione",
+            "il customer care"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La service offering del distributore include:",
+        "options": [
+            "il processo di vendita",
+            "la marca individuale",
+            "il sistema di erogazione del servizio"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il concept di Eataly è articolato intorno a tre aree:",
+        "options": [
+            "vendita, ristorazione e didattica",
+            "qualità, prezzi alti, servizi di qualità",
+            "personale, made in Italy, vendita online"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In una gestione della service offering, quando l'erogazione e la distribuzione sono indirette si parla di strategia:",
+        "options": [
+            "concept based",
+            "process centered",
+            "product centered"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per eterogeneità dei servizi si intende:",
+        "options": [
+            "la possibilità per l’azienda di adattare sempre l’output del processo alle esigenze del cliente",
+            "il fatto che non esiste un output progettato, ma che questo cambia di volta in volta",
+            "l’impossibilità per l’azienda di controllare pienamente l’output del processo"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il service mix del produttore comprende:",
+        "options": [
+            "concept, networking, brand system",
+            "supporto fisico, customer service, sistema di erogazione",
+            "entrambi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Fra gli elementi delle tessere proprietarie va considerato:",
+        "options": [
+            "il brand name",
+            "il brand heritage",
+            "nessuno di essi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La comunicazione di marketing:",
+        "options": [
+            "si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "è indirizzata a tutti i pubblici dell’impresa, a tutti gli stakeholders, con la finalità di tenere alta la reputazione dell’impresa e di ottenere un atteggiamento favorevole",
+            "è riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La comunicazione di marketing:",
+        "options": [
+            "è rivolta a tutti i dipendenti dell'impresa",
+            "è rivolta ai clienti B2C e determina i suoi effetti su un piano informativo e valutativo",
+            "è rivolta ai clienti finali e intermedi e determina i suoi effetti su un piano cognitivo, affettivo e comportamentale"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La comunicazione istituzionale è la:",
+        "options": [
+            "comunicazione che si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "comunicazione indirizzata a tutti i pubblici dell’impresa, a tutti gli stakeholders, con la finalità ditenere alta la reputazione dell’impresa e di ottenere un atteggiamento favorevole",
+            "comunicazione riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La comunicazione economico-finanziaria è la:",
+        "options": [
+            "comunicazione che si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "comunicazione riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale",
+            "comunicazione diretta ai portatori di risorse, con lo scopo di esplicitare l’affidabilità dell’impresa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La comunicazione organizzativa è la:",
+        "options": [
+            "comunicazione che si rivolge ai clienti attuali e potenziali, intermedi e finali, con l’obiettivo di strutturare e potenziare le relazioni con il mercato nonché di sostenere e diffondere il valore dell’offerta aziendale",
+            "comunicazione riferita a tutti i soggetti che sono coinvolti direttamente o indirettamente nella gestione dell’impresa, con l’obiettivo di consolidare e diffondere i valori guida e la cultura aziendale",
+            "comunicazione diretta ai portatori di risorse, con lo scopo di esplicitare l’affidabilità dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di comunicazione lineare:",
+        "options": [
+            "viene utilizzato tipicamente nella mass-communication ed è un tipo di comunicazione one-to-may",
+            "prende in considerazione l’influenza che determinate categorie di persone possono avere nel processo comunicazionale (per esempio influencer)",
+            "può essere one-to-one, oppure many-to-many"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il processo di comunicazione a due input:",
+        "options": [
+            "viene utilizzato tipicamente nella mass-communication ed è un tipo di comunicazione one-to-may",
+            "prende in considerazione l’influenza che determinate categorie di persone possono avere nel processo comunicazionale (per esempio influencer)",
+            "può essere one-to-one, oppure many-to-many"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il processo di comunicazione interattivo:",
+        "options": [
+            "viene utilizzato tipicamente nella mass-communication ed è un tipo di comunicazione one-to-may",
+            "prende in considerazione l’influenza che determinate categorie di persone possono avere nel processo comunicazionale (per esempio influencer)",
+            "può essere one-to-one, oppure many-to-many"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella comunicazione istituzionale (o corporate communication) gli strumenti utilizzati sono soprattutto:",
+        "options": [
+            "viral marketing e guerriglia marketing",
+            "pubbliche relazioni e pubblicità",
+            "product placement e promozioni"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella comunicazione di marketing, i social media sono utilizzati perlopiù per raggiungere obiettivi di:",
+        "options": [
+            "persuasione",
+            "reputazione",
+            "engagement"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I paid media sono:",
+        "options": [
+            "spazi pubblicitari acquistati da un inserzionista presso l'editore o un suo concessionario",
+            "sono mezzi proprietari dell'impresa, da essa detenuti e gestiti in piena autonomia",
+            "sono quegli ambienti di comunicazione many-to-many all’interno dei quali l’impresa/la marca viene citata, commentata, recensita dagli utenti, come i social network"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I sold media sono:",
+        "options": [
+            "spazi pubblicitari acquistati da un inserzionista presso l'editore o un suo concessionario",
+            "sono parte degli owned media che, eventualmente, un’impresa può vendere a terze parti",
+            "sono quegli ambienti di comunicazione many-to-many all’interno dei quali l’impresa/la marca viene citata, commentata, recensita dagli utenti, come i social network"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Gli earned media sono:",
+        "options": [
+            "spazi pubblicitari acquistati da un'inserzionista presso l'editore o un suo concessionario",
+            "sono mezzi proprietari dell'impresa, da essa detenuti e gestiti in piena autonomia",
+            "sono quegli ambienti di comunicazione many-to-many all’interno dei quali l’impresa/la marca viene citata, commentata, recensita dagli utenti, come i social network"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La pubblicità:",
+        "options": [
+            "è una forma di comunicazione non personale, nella quale un inserzionista acquista uno spazio per trasmettere un messaggio a un pubblico definito",
+            "riguarda la gestione delle relazioni tra l’impresa e i suoi stakeholders allo scopo di sviluppare la sua credibilità nell’ambiente di riferimento",
+            "è uno strumento di comunicazione volto a interagire con il target definito in modo diretto, interattivo e personalizzato, ottenendo risposte misurabili"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le pubbliche relazioni:",
+        "options": [
+            "sono una forma di comunicazione non personale, nella quale un inserzionista ben identificato acquista uno spazio per trasmettere un messaggio a un pubblico definito attraverso uno o più media",
+            "riguardano la gestione delle relazioni tra l’impresa e i suoi stakeholders allo scopo di sviluppare la sua credibilità nell’ambiente di riferimento",
+            "sono uno strumento di comunicazione volto a interagire con il target definito in modo diretto, interattivo e personalizzato, ottenendo risposte misurabili"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le public relations hanno l'obiettivo di:",
+        "options": [
+            "aumentare le vendite nel breve periodo",
+            "consolidare l'immagine e la reputazione dell'impresa",
+            "interagire con il target definito in modo diretto e interattivo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il direct marketing:",
+        "options": [
+            "è una forma di comunicazione non personale, nella quale un inserzionista ben identificato acquista uno spazio per trasmettere un messaggio a un pubblico definito attraverso uno o più media",
+            "riguarda la gestione delle relazioni tra l’impresa e i suoi stakeholders allo scopo di sviluppare la sua credibilità nell’ambiente di riferimento",
+            "è uno strumento di comunicazione volto a interagire con il target definito in modo diretto, interattivo e personalizzato, ottenendo risposte misurabili"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La pubblicità informativa:",
+        "options": [
+            "ha l'obiettivo di generare conoscenza verso la marca/prodotto (notorietà), interesse, rilevanza, desiderio, nonché di orientare le preferenze, in modo da stimolare l’acquisto",
+            "è concentrata sulla costruzione di un particolare significato di marca sia a livello corporate che di prodotto",
+            "ha l'obiettivo di stimolare una risposta comportamentale da parte del destinatario: l’acquisto, l’adesione a iniziative promozionali ed eventi di marketing, il passaparola, il rilascio di informazioni"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La pubblicità d'immagine:",
+        "options": [
+            "ha l'obiettivo di generare conoscenza verso la marca/prodotto (notorietà), interesse, rilevanza, desiderio, nonché di orientare le preferenze, in modo da stimolare l’acquisto",
+            "è concentrata sulla costruzione di un particolare significato di marca sia a livello corporate che di prodotto",
+            "ha l'obiettivo di stimolare una risposta comportamentale da parte del destinatario: l’acquisto, l’adesione a iniziative promozionali ed eventi di marketing, il passaparola, il rilascio di informazioni"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La pubblicità promozionale:",
+        "options": [
+            "ha l'obiettivo di generare conoscenza verso la marca/prodotto (notorietà), interesse, rilevanza, desiderio, nonché di orientare le preferenze, in modo da stimolare l’acquisto",
+            "è concentrata sulla costruzione di un particolare significato di marca sia a livello corporate che di prodotto",
+            "ha l'obiettibo di stimolare una risposta comportamentale da parte del destinatario: l’acquisto, l’adesione a iniziative promozionali ed eventi di marketing, il passaparola, il rilascio di informazioni"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Gli eventi nelle pubbliche relazioni:",
+        "options": [
+            "consistono nel sostegno, spesso finanziario, fornito a una persona, un gruppo, un’organizzazione, una specifica manifestazione",
+            "consistono nella realizzazione di manifestazioni di carattere tematico, rivolte a uno specifico pubblico",
+            "forniscono ai media le informazioni relative all’attività dell’impresa in modo efficace, inducendo l’organo di stampa a farle proprie e a presentarle al pubblico"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le sponsorship nelle pubbliche relazioni:",
+        "options": [
+            "consistono nel sostegno, spesso finanziario, fornito a una persona, un gruppo, un’organizzazione, una specifica manifestazione",
+            "consistono nella realizzazione di manifestazioni di carattere tematico, rivolte a uno specifico pubblico",
+            "forniscono ai media le informazioni relative all’attività dell’impresa in modo efficace, inducendo l’organo di stampa a farle proprie e a presentarle al pubblico"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L'approccio \"RFM\" nella definizione delle campagne di direct marketing si basa sulle seguenti variabili:",
+        "options": [
+            "repositioning, frequency, marketing",
+            "recency, frequency, monetary",
+            "repost, financial, monetary"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il guerriglia marketing:",
+        "options": [
+            "fa leva su un messaggio di marca (“idea virus”) in grado di stimolare la partecipazione attiva delle persone soprattutto in termini di diffusione dello stesso",
+            "è basato su una serie di azioni realizzate dall’impresa per supportare la costituzione e lo sviluppo di gruppi di persone (tribù)",
+            "si basa sulla forza di un’idea creativa originale, sorprendente e veicolata in maniera sensazionale, ponendosi l'obiettivo di ottenere un’elevata visibilità attivando il passaparola"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il Search Engine Optimization (SEO):",
+        "options": [
+            "ottimizza i contenuti digitali inerenti alla marca (testi del sito web, video su Youtube ecc.) in modo che i motori di ricerca li indicizzino e, di conseguenza, li presentino tra i primi risultati “organici”",
+            "è la pubblicità veicolata tramite i motori di ricerca, che, tipicamente, prende la forma del keyword advertising",
+            "è una forma di comunicazione non convenzionale"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strategia di penetrazione risulta efficace quando:",
+        "options": [
+            "la domanda è poco sensibile al prezzo e quando i costi unitari di produzione e di commercializzazione diminuiscono all'aumentare del volume di attività",
+            "la domanda è molto sensibile al prezzo e quando i costi unitari di produzione e di commercializzazione diminuiscono all'aumentare del volume di attività",
+            "la domanda è molto sensibile al prezzo e quando i costi unitari di produzione e di commercializzazione aumentano al diminuire del volume di attività"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le promozioni di prezzo (value-increasing):",
+        "options": [
+            "vengono realizzate per perseguire differenti obiettivi: stimolo alla prova, engagement, fidelizzazione, posizionamento",
+            "vengono utilizzate allo scopo di incrementare le vendite nel breve periodo",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La stretegia di scrematura:",
+        "options": [
+            "riguarda product offering innovative che vengono indirizzate inizialmente ai segmenti dei pionieri e/o degli innovatori, disposti a pagare un prezzo elevato per accedere a tale proposta",
+            "è finalizzata ad ampliare rapidamente la base clienti, sviluppare il mercato, occupare una quota di mercato elevata",
+            "punta alla massimizzazione del rendimento, ovvero del margine complessivo a valore"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le principali modalità operative delle promozioni di prezzo sono:",
+        "options": [
+            "offerta speciale, buoni sconto, N x M, formati speciali, cash back e premi",
+            "offerta speciale, buoni sconto, N x M, formati speciali, concorsi e vendite straordinarie",
+            "offerta speciale, buoni sconto, N x M, formati speciali, cash back e vendite straordinarie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il dynamic pricing:",
+        "options": [
+            "mette in competizione gli acquirenti, consentendo al venditore di cogliere l’offerta d’acquisto corrispondente al più elevato livello di disponibilità a pagare",
+            "si pone l’obiettivo di massimizzare il rendimento di una determinata capacità produttiva",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L’aumento del prezzo può essere dovuto:",
+        "options": [
+            "all'incremento del costo di produzione",
+            "alla riduzione dei margini di redditività",
+            "a un calo della domanda"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Lo yield management",
+        "options": [
+            "ha l’obiettivo di massimizzare le vendite",
+            "è un sistema per la determinazione del prezzo automatizzato",
+            "riguarda product offering innovative"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La definizione del price point viene fatta considerando anzitutto:",
+        "options": [
+            "domanda, offerta, concorrenza",
+            "domanda, costi, offerta",
+            "domanda, costi, concorrenza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il prezzo consigliato dal produttore e definito dal distributore:",
+        "options": [
+            "si riscontra nei canali non integrati quando il produttore ha un potere di mercato elevato, trovandosi in una posizione di leadership e/o avendo una marca forte",
+            "si riscontra nei sistemi verticali integrati, dove la collaborazione tra produttori e distributori è piena",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le aste possono assumere differenti configurazioni a seconda:",
+        "options": [
+            "della numerosità di venditori e di acquirenti",
+            "della varietà di venditori e di acquirenti",
+            "della relazione tra venditori e acquirenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il trade marketing è:",
+        "options": [
+            "un insieme di tecniche commerciali finalizzate a favorire l’internazionalizzazione dell’impresa",
+            "il marketing sviluppato dalle imprese commerciali, ovvero dal trade",
+            "il marketing che le imprese industriali rivolgono ai clienti commerciali, ovvero ai distributori"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nei rapporti di canale, la strategia \"push\":",
+        "options": [
+            "utilizza in modo massiccio lo strumento promozionale",
+            "privilegia gli investimenti di marketing rivolti ai conumatori finali",
+            "prevede l'allocazione prioritaria degli investimenti di marketing al trade"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le supercentrali d'acquisto:",
+        "options": [
+            "sono delle alleanze tra distributori attuate a livelli superiori rispetto ai gruppi d'acquisto",
+            "sono dei gruppi di consumatori che si aggregano per svolgere delle attività d'acquisto in comune",
+            "sono delle alleanze tra produttori, che in una logica di co-opetition negoziano in comune le d'acquisto di materie prime e componenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le leve del trade marketing troviamo:",
+        "options": [
+            "marca commerciale, display, category management, DGG",
+            "prezzi e condizioni di vendita, attività promozionale, lancio nuovi prodotti, merchandising industriale",
+            "merchandising, utilizzo delle condizioni di vendita, comunicazione, assortimento"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I gruppi d'acquisto:",
+        "options": [
+            "sono dei gruppi di imprese che collaborano nei processi negoziali di acquisizione delle risorse materiali, umane e finanziarie",
+            "nell'impresa, sono dei centri di servizio interfunzionali che stipulano i contratti di fornitura e organizzano la logistica",
+            "sono associazioni di dettaglianti volte a ottenere delle sinergie gestionali negli acquisti e nel marketing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel franchising:",
+        "options": [
+            "il franchisor mette a disposizione del franchisee la propria formula commerciale",
+            "il franchisee svolge per conto del franchisor l'attività di vendita",
+            "il franchisor e franchisee collaborano nella definizione delle strategie di marketing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La rivoluzione commerciale è:",
+        "options": [
+            "il processo di modernizzazione e di concentrazione tecnica del sistema distributivo",
+            "il cambiamento strutturale del commercio dovuto all'ibridazione dei formati",
+            "la profonda modificazione della domanda di servizi commerciali dovuta all’evoluzione del ruolo del consumatore"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Una corretta strategia commerciale deve prevedere:",
+        "options": [
+            "la prevalenza dell’ottica relazionale su quella transazionale",
+            "una leadership strategica di tipo top-down",
+            "una pianificazione basata sulle risorse e sulle capacità"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il sistema informativo di vendita è volto a supportare l’attività di sales management in diversi modi:",
+        "options": [
+            "nelle previsioni e proiezioni di vendita, nelle attività di controllo e analisi dei risultati",
+            "nella pianificazione delle vendite",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Gli agenti o rappresentanti sono:",
+        "options": [
+            "dipendenti diretti dell’azienda ai quali vengono affidati compiti di relazione con i clienti",
+            "responsabili delle relazioni commerciali con uno o più importanti clienti",
+            "professionisti indipendenti o organizzati in società che hanno una relazione contrattuale con l’impresa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Gli agenti monomandatari:",
+        "options": [
+            "gestiscono un solo brand",
+            "si occupano in esclusiva di un determinato cliente",
+            "operano in esclusiva per l’impresa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La scelta della tipologia di venditori è basata su criteri:",
+        "options": [
+            "economici, di adattamento, di controllo, di potenziale",
+            "finanziari, di competenza, di flessibilità, di assortimento",
+            "strutturali, strategici, di servizio, di conoscenza"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I criteri per l’organizzazione della forza vendita sono:",
+        "options": [
+            "di clientela, di prodotto",
+            "geografici, di mercato, misti",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il marketing relazionale:",
+        "options": [
+            "è volto alla costruzione, sviluppo e mantenimento di una base di clienti fedeli che siano in grado di incrementare la redditività nel medio-lungo",
+            "è un orientamento rivolto prevalentemente all’acquisizione di nuovi clienti",
+            "è un complesso di attività, processi e strumenti di marketing finalizzato alla massimizzazione delle singole transazioni"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per up-selling si intende:",
+        "options": [
+            "la maggiore disponibilità dei clienti a indirizzare il proprio portafoglio verso offerte a più alto valore o prezzo",
+            "la maggiore disponibilità dei clienti ad acquistare soluzioni a più alto margine per l’impresa",
+            "la maggiore disponibilità dei clienti ad acquistare un mix di prodotti/servizi aggiuntivi rispetto a quelli già acquistati"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella matrice Size of wallet-Share of wallet, il quadrante “lasciare con passaparola positivo” è caratterizzato da:",
+        "options": [
+            "elevato size of wallet-bassa share of wallet",
+            "ridotto size of wallet-bassa share of wallet",
+            "ridotto size of wallet-elevata share of wallet"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella valutazione della clientela, l’analisi ABC:",
+        "options": [
+            "si sofferma sugli elementi principali del rapporto tra il cliente e l’impresa, rimandando a un’analisi separata la valutazione delle performance economico finanziarie",
+            "clusterizza la clientela in tre classi di importanza, in relazione a variabili come fatturato e marginalità",
+            "è finalizzata a individuare le tre azioni (a, b, c) prioritarie da realizzare per migliorare la performance del cliente"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La customer experience è:",
+        "options": [
+            "un nuovo tipo di mercato",
+            "una nuova categoria di offerta",
+            "una nuova modalità di comunicazione"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un prodotto o un servizio è esperenziale quando:",
+        "options": [
+            "crea una relazione con il consumatore",
+            "i suoi touch point sono gestiti dell'impresa",
+            "stimola il coinvolgimento delle dimensioni sensoriali ed emozionali del consumatore"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le dimensioni che consentono di identificare e classificare le esperieze secondo il modello di Pine e Gilomore sono:",
+        "options": [
+            "la partecipazione del cliente e il coinvolgimento intellettivo sensoriale",
+            "l'effetto wow e la tipologia di prodotto",
+            "la notorietà del brand e la value proposition"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L'esperienza di evasione:",
+        "options": [
+            "ha un grado di partecipazione limitato e un livello di coinvolgimento mentale e sensoriale di assorbimento",
+            "ha un grado di partecipazione limitato e un livello di coinvolgimento mentale e sensoriale di immersione",
+            "ha un grado di partecipazione e un livello di coinvolgimento mentale e sensoriale elevato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'esperienza di edutainmnet:",
+        "options": [
+            "si applica a quei prodotti e servizi il cui utilizzo necessita di un apprendimento",
+            "è l'esperienza propria dei musei e dei beni culturali",
+            "è un'esperienza specifica che si applica alla formazione e alla didattica"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le fasi in base alla quali viene disegnato il customer journey sono:",
+        "options": [
+            "scelta, acquisto e post acquisto",
+            "pre-esperienza, esperienza e post esperienza",
+            "touch point, mappa del customer journey e personas"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A seconda del grado di interazione con il consumatore i touch point:",
+        "options": [
+            "possono essere owned, partener owned ed esterni",
+            "hanno tutti lo stesso grado di interattività",
+            "possono essere statici, interattivi e umani"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'orienamento customer centric mette in relazione i costrutti di:",
+        "options": [
+            "customer journey, brand management e gestione dei touch point",
+            "customer journey, customer experience e customer satisfaction",
+            "customer experience e touch point"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il ruolo del cliente nella customer experience è:",
+        "options": [
+            "sempre attivo",
+            "sempre passivo",
+            "nessuna delle due risposte precedenti è corretta"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Quale tipo di esperienza offre L'Orèal?",
+        "options": [
+            "evasione",
+            "intrattenimento",
+            "edutainment"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le 3V dei big data sono:",
+        "options": [
+            "vividità, velocità e vicinanza",
+            "velocità, volume e varietà",
+            "volume, vividità e varietà"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il sistema di pianificazione e controllo di marketing:",
+        "options": [
+            "è focalizzato su indicatori di risultato finali",
+            "è focalizzato su indicatori di tipo “intermedio”",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La marketing scorecard:",
+        "options": [
+            "è un indicatore sintetico che descrive i risultati complessivi di natura commerciale dell’impresa",
+            "è un sistema di indicatori che valuta le perfomance di marketing nelle sue dimensioni di mercato, competitive ed economiche",
+            "è il termine anglosassone utilizzato per il sistema di pianificazione e controllo di marketing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le tre dimensioni della marketing scorecard sono:",
+        "options": [
+            "segmentazione, posizionamento e target",
+            "mercato, competitiva ed economica",
+            "punti di forza, opportunità e minacce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili intermedie della dimensione di mercato sono:",
+        "options": [
+            "awareness, immagine e valore percepito",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili intermedie della dimensione competitiva sono:",
+        "options": [
+            "awareness, immagine e valore percepito",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili intermedie della dimensione economica sono:",
+        "options": [
+            "awareness, immagine e valore percepito",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili finali della dimensione di mercato sono:",
+        "options": [
+            "ricavi, margini e indici di rendimento",
+            "la quota di mercato, il grado di copertura e il grado di penetrazione",
+            "customer satisfaction, loyalty e brand equity"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella marketing scorecard, le variabili finali della dimensione competitiva sono:",
+        "options": [
+            "ricavi, margini e indici di rendimento",
+            "la quota di mercato, il grado di copertura e il grado di penetrazione",
+            "customer satisfaction, loyalty e brand equity Nella marketing scorecard, le variabili finali della dimensione economica sono:",
+            "ricavi, margini e indici di rendimento",
+            "consideration, price positioning e share of mind",
+            "costi di marketing e costi commerciali"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "question": "Con riferimento a una specifica categoria di prodotto, la share of mind:",
+        "options": [
+            "rappresenta un determinato posizionamento di prezzo rispetto ai brand concorrenti",
+            "rappresenta l'inclusione di una marca nel set di marche che i consumatori conoscono e che prendono in considerazione per l'acquisto",
+            "consiste nella percentuale di consumatori che dichiarano che la marca in oggetto è la loro prima scelta nel mercato di riferimento"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La customer satisfaction può essere calcolata:",
+        "options": [
+            "eseguendo la differenza tra la percezione post-acquisto e l'aspettativa pre-acquisto",
+            "eseguendo il rapporto tra la percezione post-acquisto e l'aspettative pre-acquisto",
+            "eseguendo la differenza tra il prezzo pagato dal cliente e il costo sostenuto dall'impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La quota di mercato di un'impresa si ottiene eseguendo il rapporto tra…",
+        "options": [
+            "le vendite dell'impresa e le vendite totali del mercato di riferimento",
+            "il numero di clienti dell'impresa e la popolazione nel mercato di riferimento",
+            "le vendite totali del mercato di riferimento e le vendite dell'impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I costi di marketing:",
+        "options": [
+            "sono prevalentemente di natura variabile",
+            "sono mediamente equamente distribuiti tra costi fissi e costi variabili",
+            "sono prevalentemente di tipo fisso e discrezionale"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L’indice di Penetrazione…",
+        "options": [
+            "Si calcola come rapporto fra gli acquisti totali della categoria di prodotto effettuati dai clienti serviti dall'impresa i-esima (distributori o clienti finali) e le vendite totali della categoria di prodotto nel mercato di riferimento",
+            "Si calcola come rapporto tra le vendite della marca i-esima e gli acquisti totali nella categoria effettuat i dai client i dell’impresa i-esima presso tutti i loro fornitori",
+            "indica il numero di punti vendita presso i quali è possibile acquistare i prodotti dell'impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il piano di marketing strategico:",
+        "options": [
+            "contiene le decisioni operative necessarie per perseguire la strategia individuata a livello corporate",
+            "si focalizza sulle decisioni di business e deve raccordarsi con la pianificazione a livello corporate",
+            "contiene le decisioni in merito alla diversificazione di business dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il piano di marketing strategico:",
+        "options": [
+            "viene redatto dal top management perché prevede l’assunzione di decisioni che hanno un forte impatto sulle altre funzioni aziendali e coinvolgono risorse nel lungo termine",
+            "viene redatto dal direttore commerciale perché contiene decisioni che hanno un impatto limitato sulle altre funzioni aziendali, in un orizzonte temporale di medio termine",
+            "viene redatto dal brand manager perché prevede l’assunzione di decisioni relative al prodotto- mercato presidiato dalla marca dell’impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nell’ambito della pianificazione di marketing, deve essere sempre garantita:",
+        "options": [
+            "la rilevanza delle decisioni strategiche assunte",
+            "la coerenza tra analisi, obiettivi, strategie, operation e budget",
+            "la persistenza di un certo livello prestabilito di contribuzione di marketing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Quando il piano di marketing riguarda il lancio di un nuovo prodotto è di tipo:",
+        "options": [
+            "tattico",
+            "operativo",
+            "strategico"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il piano commerciale di alcuni prodotti dell'impresa è di tipo:",
+        "options": [
+            "operativo",
+            "tattico",
+            "strategico"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nell'ambito del piano strategico, la sezione di background comprende:",
+        "options": [
+            "il richiamo alla pianificazione corporate e alla mission aziendale",
+            "le assunzioni del piano",
+            "l'analisi di scenario che ha fatto emergere l'esigenza di pianificare – sotto il profilo strategico – le decisioni del triennio successivo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il benchmarking:",
+        "options": [
+            "è utile nella fase di analisi dell’ambiente esterno per capire le opportunità e le minacce esistenti nel settore in cui opera l’impresa",
+            "consente di individuare la posizione competitiva dell’impresa rispetto ai competitor nel prodotto- mercato di riferimento",
+            "consente di individuare le risorse da acquisire per implementare una determinata strategia di mercato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La matrice SWOT:",
+        "options": [
+            "sintetizza le risultanze dell’analisi esterna di marketing",
+            "è il ponte logico tra analisi e decisioni di marketing",
+            "presenta i punti di forza e di debolezza dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La definizione del \"so what?\":",
+        "options": [
+            "consente all'impresa di passare dalla strategia alle operation",
+            "è il punto di partenza per le riflessioni strategiche, una volta considerate le assunzioni del piano",
+            "consente di strutturare al meglio la matrice SWOT"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La fase di analisi:",
+        "options": [
+            "si concentra sull'ambiente esogeno rilevante",
+            "prevede l'approfondimento dell'ambiente competitivo di riferimento",
+            "comprende sia l'audit esterno che interno"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La matrice SWOT:",
+        "options": [
+            "sintetizza le risultanze dell'audit esterno",
+            "sintetizza le risultanze dell'audit interno",
+            "sintetizza le risultanze dell'audit interno ed esterno"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'ambito delle operation, rientrano tra le attività per l'accession:",
+        "options": [
+            "le trade promotion, il merchandising, la gestione dell'e-shop aziendale e su piattaforme terze, la branded app e le fiere",
+            "la pubblicità di natura informativa, le relazioni con i media, il social media marketing, il product placement e le sponsorizzazioni",
+            "la pubblicità d'immagine, il direct e-mail marketing, le iniziative di unconventional communication"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le 4 variabili risultato delle attività di marketing sono:",
+        "options": [
+            "awareness, accession, appeal e affection",
+            "engagement, reach, accession e appeal",
+            "appeal, affection, reputation e purpose"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella predisposizione del budget, la contribuzione netta è data da:",
+        "options": [
+            "ricavi netti – spese di marketing",
+            "ricavi lordi – costi diretti di produzione – spese di marketing",
+            "ricavi netti – costi diretti di produzione – spese di marketing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il controllo di marketing:",
+        "options": [
+            "è utile per verificare il grado di raggiungimento degli obiettivi di marketing",
+            "è necessario soprattutto in ambienti di mercato stabili e maturi",
+            "si basa sull’analisi dei costi e degli scostamenti delle vendite"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’attività distributiva va a colmare i gap tra produttori e consumatori negli aspetti:",
+        "options": [
+            "temporale, spaziale, quantitativo, qualitativo",
+            "produttivo, logistico, di servizio",
+            "stoccaggio, assortimento e consegna"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il servizio di prossimità:",
+        "options": [
+            "concerne tutte le attività di customer care che rispondono in modo tempestivo ed efficace ai bisogni di sevizio, funzionali e simbolici del cliente",
+            "riguarda l’offerta di un assortimento profondo, con molte alternative di scelta nella categoria",
+            "consente al consumatore di minimizzare il tempo e gli oneri necessari per raggiungere il punto vendita"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Una formula distributiva è costituita da:",
+        "options": [
+            "le strategie e politiche distributive adottate da un produttore in uno specifico mercato",
+            "l’insieme di soggetti che operano all’interno del canale distributivo",
+            "un mix di servizi commerciali configurato in modo organico in un punto vendita"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il merchandising nel retail:",
+        "options": [
+            "è l’insieme di gadget che vengono utilizzati per rappresentare il brand in occasione di eventi di comunicazione",
+            "è il marketing del punto vendita, basato anzitutto sulle gestione dello spazio espositivo",
+            "consiste nelle scelte di allocazione dello spazio ai singoli prodotti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un punto vendita specializzato è caratterizzato da un assortimento:",
+        "options": [
+            "molto ampio e poco profondo",
+            "poco ampio e molto profondo",
+            "poco ampio e poco profondo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L’Every Day Low Price (EDLP):",
+        "options": [
+            "prevede un intensivo ricorso a iniziative promozionali, tale da garantire un incisivo posizionamento basato sulla convenienza",
+            "prevede l'adozione di un prezzo ribassato continuativo, risparmiando sui costi di pianificazione e gestione delle promozioni",
+            "prevede una politica di approvvigionamento fortemente basata sulla convenienza di prezzo, a discapito della componente di servizio della fornitura"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le tecniche del merchandising per la gestione dello spazio espositivo:",
+        "options": [
+            "hanno una rilevanza fondamentale nei punti vendita a libero servizio (self service)",
+            "sono di ausilio per definire la struttura dell’offerta, in particolare nei punti vendita con assortimenti eterogenei",
+            "consentono di massimizzare la produttività del personale di vendita"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In linea generale il posizionamento di un ipermercato è basato su:",
+        "options": [
+            "il servizio e la vendita personale",
+            "il servizio assortimentale e l’immagine di convenienza",
+            "il servizio promozionale e i primi prezzi"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La marca commerciale:",
+        "options": [
+            "è una marca esclusiva del distributore",
+            "è una marca che si posiziona su una fascia di mercato molto accessibile",
+            "è una marca che in virtù della sua elevata notorietà trova un facile accesso ai canali distributivi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per ampiezza dell'assortimento si intende:",
+        "options": [
+            "numero di categorie merceologiche trattate",
+            "numero di marche trattate",
+            "numero di reparti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La strategia di sviluppo delle marche commerciali è di fondamentale importanza per i retailer in quanto impatta su:",
+        "options": [
+            "Servizio, Price positioning, format distributivo",
+            "differenziazione dell’insegna, marginalità, rapporti con i produttori",
+            "controllo del processo di marketing, competitività, reputazione"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il modello CAGE per l'ingresso nei mercati internazionali:",
+        "options": [
+            "esamina variabili di tipo strategico e operativo",
+            "esamina variabili di tipo culturale, amministrativo, geografico, economico",
+            "esamina variabili di tipo politico, economico, sociale, territoriale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le imprese multinazionali:",
+        "options": [
+            "utilizzano criteri di segmentazione che consentono di individuare segmenti omogenei a livello internazionale",
+            "tendono a rivolgersi a segmenti di clienti esteri simili al target al quale si rivolgono nel contesto nazionale",
+            "adottano un approccio policentrico che considera ogni paese come una realtà a sé stante, generalmente lasciano che la segmentazione venga fatta paese per paese, anche utilizzando criteri diversi"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nelle strategie di marketing internazionale la fissazione del prezzo:",
+        "options": [
+            "è basata sul potere d’acquisto del mercato locale al netto dei differenziali di inflazione",
+            "è differenziata per ciascun canale di importazione",
+            "è influenzata dagli incoterms"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nella vendita all’estero è importante considerare:",
+        "options": [
+            "le leggi e i regolamenti locali, gli attributi tangibili del prodotto, il packaging, il made in, i servizi",
+            "le leggi e i regolamenti locali, il posizionamento, la domanda potenziale, il made in, i servizi",
+            "le leggi e i regolamenti locali, i concorrenti , le risorse disponibili, il made in, i servizi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I fattori che influenzano la fissazione del prezzo nei mercati esteri sono:",
+        "options": [
+            "concorrenza, consumatore, potere d'acquisto, canali di distribuzione",
+            "concorrenza, offerta, know-how, canali di distribuzione",
+            "concorrenza, consumatore, fornitori, canali di distribuzione"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le modalità di entrata su un mercato estero prevedono:",
+        "options": [
+            "l’utilizzo di intermediari dotati di infrastrutture logistiche all’interno del mercato obiettivo",
+            "l’impiego di modalità esportative, collaborative o di investimenti diretti",
+            "l’impiego di canali mass market o di canali specializzati"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "L'importazione parallela:",
+        "options": [
+            "si ha quando l’azienda sviluppa le attività di importazione assieme a un partner estero indipendente",
+            "si attua quando un importatore acquista un prodotto da un distributore estero per immetterlo con un prezzo più alto in canali non autorizzati nel mercato nazionale",
+            "ha l’obiettivo di acquisire rapidamente quote di mercato significative"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il dumping si ha quando:",
+        "options": [
+            "un prodotto è venduto nel paese estero a un prezzo inferiore a quello definito per il mercato domestico",
+            "un prodotto è venduto nel paese estero a un prezzo superiore a quello definito per il mercato domestico",
+            "nessuna delle precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le scelte distributive nei mercati esteri sono condizionate da:",
+        "options": [
+            "modalità d'entrata, strategia distributiva e complessità del prodotto",
+            "caratteristiche del sistema distributivo e le abitudini di acquisto, leggi e regolamenti, ciclo di vita del prodotto, dimensione e struttura del mercato target",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nelle strategie di marketing internazionale, la comunicazione:",
+        "options": [
+            "è la leva la cui gestione viene generalmente accentrata a livello di headquarter",
+            "è la leva che generalmente presenta il maggior grado di adattamento",
+            "è la leva che generalmente presenta il minor grado di adattamento"
+        ],
+        "correctIndex": 1
+    }
+]

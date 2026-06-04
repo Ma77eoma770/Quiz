@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Una corretta strategia commerciale deve prevedere:",
+        "options": [
+            "la prevalenza dell’ottica relazionale su quella transazionale",
+            "una leadership strategica di tipo top-down",
+            "una pianificazione basata sulle risorse e sulle capacità"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il sistema informativo di vendita è volto a supportare l’attività di sales management in diversi modi:",
+        "options": [
+            "nelle previsioni e proiezioni di vendita, nelle attività di controllo e analisi dei risultati",
+            "nella pianificazione delle vendite",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Gli agenti o rappresentanti sono:",
+        "options": [
+            "dipendenti diretti dell’azienda ai quali vengono affidati compiti di relazione con i clienti",
+            "responsabili delle relazioni commerciali con uno o più importanti clienti",
+            "professionisti indipendenti o organizzati in società che hanno una relazione contrattuale con l’impresa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Gli agenti monomandatari:",
+        "options": [
+            "gestiscono un solo brand",
+            "si occupano in esclusiva di un determinato cliente",
+            "operano in esclusiva per l’impresa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La scelta della tipologia di venditori è basata su criteri:",
+        "options": [
+            "economici, di adattamento, di controllo, di potenziale",
+            "finanziari, di competenza, di flessibilità, di assortimento",
+            "strutturali, strategici, di servizio, di conoscenza"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I criteri per l’organizzazione della forza vendita sono:",
+        "options": [
+            "di clientela, di prodotto",
+            "geografici, di mercato, misti",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il marketing relazionale:",
+        "options": [
+            "è volto alla costruzione, sviluppo e mantenimento di una base di clienti fedeli che siano in grado di incrementare la redditività nel medio-lungo",
+            "è un orientamento rivolto prevalentemente all’acquisizione di nuovi clienti",
+            "è un complesso di attività, processi e strumenti di marketing finalizzato alla massimizzazione delle singole transazioni"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per up-selling si intende:",
+        "options": [
+            "la maggiore disponibilità dei clienti a indirizzare il proprio portafoglio verso offerte a più alto valore o prezzo",
+            "la maggiore disponibilità dei clienti ad acquistare soluzioni a più alto margine per l’impresa",
+            "la maggiore disponibilità dei clienti ad acquistare un mix di prodotti/servizi aggiuntivi rispetto a quelli già acquistati"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella matrice Size of wallet-Share of wallet, il quadrante “lasciare con passaparola positivo” è caratterizzato da:",
+        "options": [
+            "elevato size of wallet-bassa share of wallet",
+            "ridotto size of wallet-bassa share of wallet",
+            "ridotto size of wallet-elevata share of wallet"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nella valutazione della clientela, l’analisi ABC:",
+        "options": [
+            "si sofferma sugli elementi principali del rapporto tra il cliente e l’impresa, rimandando a un’analisi separata la valutazione delle performance economico finanziarie",
+            "clusterizza la clientela in tre classi di importanza, in relazione a variabili come fatturato e marginalità",
+            "è finalizzata a individuare le tre azioni (a, b, c) prioritarie da realizzare per migliorare la performance del cliente"
+        ],
+        "correctIndex": 1
+    }
+]

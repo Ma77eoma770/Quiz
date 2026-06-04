@@ -1,0 +1,218 @@
+[
+    {
+        "question": "Una ricerca di marketing:",
+        "options": [
+            "offre certezza di successo",
+            "consente di individuare la soluzione a un problema",
+            "diminuisce il rischio d’errore relativo all’assunzione di una determinata decisione"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L’approccio induttivo:",
+        "options": [
+            "parte dalla regola generale per identificare l’osservazione specifica",
+            "parte dall’osservazione specifica per arrivare alla regola generale",
+            "parte dalla teoria per arrivare alla misurazione empirica"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Quando si parte dalla regola generale per arrivare alla misura empirica di un fenomeno si adotta:",
+        "options": [
+            "l’approccio induttivo",
+            "l’approccio desuntivo",
+            "l'approccio deduttivo"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "I dati del censimento Istat sono:",
+        "options": [
+            "dati primari per l'impresa",
+            "dati secondari per l'impresa",
+            "dati primari per l'impresa, secondari per Istat"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I dati secondari:",
+        "options": [
+            "sono prodotti ad hoc per lo specifico problema di marketing da affrontare",
+            "sono dati raccolti per scopi diversi da quelli della ricerca in atto",
+            "sono meno importanti dei dati primari"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I dati primari:",
+        "options": [
+            "sono prodotti ad hoc per lo specifico problema di marketing da affrontare",
+            "sono dati raccolti per scopi diversi da quelli della ricerca in atto",
+            "sono meno costosi dei dati secondari"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "L’approccio induttivo è tipico della:",
+        "options": [
+            "ricerca causale",
+            "ricerca descrittiva",
+            "ricerca esplorativa"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell’ambito della ricerca descrittiva, le osservazioni trasversali:",
+        "options": [
+            "rappresentano l’evoluzione diacronica di un certo fenomeno, attraverso una misurazione ripetuta a intervalli regolari",
+            "descrivono un fenomeno in un particolare momento, comparandolo con altri eventi",
+            "si basano tipicamente su panel di consumatori"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nell’ambito della ricerca descrittiva, le osservazioni longitudinali:",
+        "options": [
+            "si utilizzano quando si vogliono definire le variabili che descrivono determinati segmenti",
+            "consentono di descrivere un fenomeno in un dato momento, ma in comparazione con altri eventi",
+            "consentono di rappresentare l’evoluzione diacronica di un fenomeno, attraverso una misurazione ripetuta nel tempo delle variabili che lo caratterizzano"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le ricerche su panel:",
+        "options": [
+            "sono particolarmente adatte a implementare studi di natura longitudinale, che forniscono informazioni comparabili nel tempo",
+            "si svolgono a intervalli di tempo regolari e consentono di implementare studi di natura trasversale",
+            "consentono di comparare più eventi tra loro correlati in un orizzonte temporale ben definito a priori"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il briefing contiene:",
+        "options": [
+            "la formalizzazione del problema di ricerca",
+            "la formalizzazione del metodo di ricerca",
+            "la definizione della formula di ricerca"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "I principali risultati di una ricerca di marketing sono contenuti nel:",
+        "options": [
+            "report di ricerca",
+            "progetto di ricerca",
+            "briefing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il progetto di ricerca:",
+        "options": [
+            "Contiene la descrizione del fabbisogno informativo del cliente e gli obiettivi dello studio",
+            "Contiene la definizione della formula di ricerca, con l’indicazione dei tempi e dell’investimento richiesto",
+            "Contiene i principali risultati di una ricerca ad hoc"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le ricerche sul consumer insight supportano:",
+        "options": [
+            "la definizione del mercato servito dall’impresa",
+            "la progettazione strategica della product offering dell’impresa",
+            "le attività di misurazione dei risultati ottenuti grazie alle iniziative sul consumatore"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le market research supportano:",
+        "options": [
+            "la definizione del mercato servito dall’impresa",
+            "la progettazione strategica della product offering dell’impresa",
+            "la gestione della product offering sul mercato, nel momento in cui si è deciso di rivolgersi a un determinato consumatore"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le misure di mercato (market measurement):",
+        "options": [
+            "consentono di definire al meglio ex-ante il mercato di riferimento dell'impresa",
+            "monitorano il progresso delle marche nel mercato con continuità spazio-temporale",
+            "supportano il management nella comprensione profonda delle motivazioni e dei comportamenti d'acquisto del consumatore"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il neuromarketing rientra nelle:",
+        "options": [
+            "market research",
+            "consumer research",
+            "market measurement"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nelle ricerche qualitative:",
+        "options": [
+            "si utilizza un campione stratificato sulla base di variabili demografiche",
+            "si utilizza il campione statistico che consente di testare al meglio le ipotesi di partenza",
+            "si utilizza un piccolo campione ragionato, senza alcun tipo di rappresentatività statistica"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La ricerca qualitativa:",
+        "options": [
+            "consente di stimare a priori la soddisfazione della clientela",
+            "permette di misurare l’impatto di un prodotto su un campione rappresentativo di clienti potenziali effettivi",
+            "produce indicazioni che consentono di descrivere a 360° un fenomeno"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La scaletta d’intervista è:",
+        "options": [
+            "usata principalmente nelle ricerche quantitative, quando si deve descrivere a fondo un certo aspetto del comportamento del consumatore",
+            "lo strumento principale della ricerca qualitativa",
+            "lo strumento principale della ricerca quantitativa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il questionario:",
+        "options": [
+            "è lo strumento principale della ricerca esplorativa, ma non di quella causale",
+            "serve a indagare qual è la natura di un problema quando questo è di media complessità",
+            "è lo strumento principale di raccolta informazioni quando si conosce il contesto da indagare"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell’ambito delle ricerche quantitative, il questionario si basa tipicamente su:",
+        "options": [
+            "una traccia d’intervista destrutturata",
+            "una scaletta con diverse domande aperte",
+            "un percorso d’intervista strutturato o semi-strutturato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il fieldwork è:",
+        "options": [
+            "l’attività di ricerca pura su dati primari e secondari dell’impresa",
+            "l’attività di ricerca sul campo",
+            "l’attività di ricerca sui dati secondari"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Con l’espressione single source si definisce:",
+        "options": [
+            "un sistema di osservazioni plurime condotte su un singolo soggetto",
+            "un sistema di misurazioni qualitative condotte su un singolo soggetto",
+            "una rilevazione singola condotta su una fonte unica"
+        ],
+        "correctIndex": 0
+    }
+]

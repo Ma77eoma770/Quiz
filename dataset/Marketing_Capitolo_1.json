@@ -1,0 +1,155 @@
+[
+    {
+        "question": "I benefici totali derivanti da un prodotto sono:",
+        "options": [
+            "sia pratico-funzionali e sociali",
+            "sia tecnici ed emozionali",
+            "sia pratico-funzionali e simbolico-emozionali"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Un bundle è:",
+        "options": [
+            "un attributo riferito alla performance di prodotto",
+            "un aggregato di attributi che compongono le caratteristiche funzionali di un prodotto",
+            "un aggregato di elementi organicamente composto a formare un unicum dotato di valore"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il core benefit esprime:",
+        "options": [
+            "il beneficio essenziale che il brand produce per il prodotto",
+            "il beneficio essenziale che una product offering esprime per lo user",
+            "il beneficio essenziale che una product offering promette allo shopper"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In uno scambio one-shot:",
+        "options": [
+            "le parti convengono che lo scambio che stanno per avviare sia solo il primo di una serie futura",
+            "ciascuna delle due parti cerca di ottenere il massimo, cercando di non concedere alla controparte null’altro se non il dovuto",
+            "si instaura una connessione fondata sulla fiducia reciproca e sulla considerazione dei rispettivi interessi soggettivi"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Secondo il modello del prodotto come paniere di attributi:",
+        "options": [
+            "il bene è composto come un insieme di funzioni di base",
+            "il bene è percepito da un valore funzionale, di servizio di base, di utilità secondaria, di servizi supplementari",
+            "il bene è costituito da un insieme di beni elementari: materiale, confezione, formato, design"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Con il termine yield management si intende:",
+        "options": [
+            "un modello automatizzato per la gestione del pricing finalizzato a ottenere il miglior ritorno finanziario in un servizio",
+            "insieme delle attività di gestione del ciclo dove viene massimizzato il servizio",
+            "insieme di modelli matematici per calcolare la gestione della logistica"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Amazon.com è un esempio di market place:",
+        "options": [
+            "orizzontale",
+            "verticale",
+            "specializzato"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il volume di sell out rappresenta:",
+        "options": [
+            "quantità complessiva di prodotto che transita dal produttore al distributore",
+            "la contropartita riconosciuta dagli acquirenti finali nei punti vendita",
+            "quantità di prodotto acquistata dagli acquirenti finali presso i punti vendita al dettaglio"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Lo shopper:",
+        "options": [
+            "è il compratore e l’utilizzatore finale del prodotto, bene o servizio, ovvero la persona che, a valle della scelta di acquisto, effettivamente poi compie l’atto di consumo",
+            "è la persona che materialmente effettua la decisione del punto vendita nel quale recarsi e scegliere le product offering presenti",
+            "è l’azione umana con la quale le persone si approvvigionano, nello spazio e nel tempo, dei beni e servizi necessari alla loro esistenza, e ne fanno uso"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le strutture di relazione:",
+        "options": [
+            "sono global-specific, strutturate e mutevoli",
+            "sono local-specific o category-specific, formali o informali, pro tempore costanti",
+            "sono local-specific, strutturate e mutevoli"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La fascia di valore dove le motivazioni aspirazionali sono preminenti è:",
+        "options": [
+            "value",
+            "premium",
+            "luxury"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'era della disciplina:",
+        "options": [
+            "lo scambio viene esercitato in maniera sostanzialmente immutata dall’antichità",
+            "lo scambio muta in continuazione, per effetto d’importanti novità storiche e culturali",
+            "lo scambio è statico per effetto d'importanti novità storiche e culturali"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nei mercati liquidi, il mutamento di forma:",
+        "options": [
+            "è un mutamento dato da ì pressioni straordinarie per intensità e incidenza",
+            "è un mutamento quali-quantitativo dei propri profili",
+            "a seguito delle pressioni provenienti dall’esterno è più rapido delle capacità degli attori del mercato di seguirlo"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La sostenibilità, richiede di porre il focus su:",
+        "options": [
+            "una società locale",
+            "un'economia nazionale",
+            "l'ambiente terrestre"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La possibilità di generare un piano di realtà esistenziale trasversale è la risultante:",
+        "options": [
+            "della globalizzazione",
+            "della rivoluzione digitale",
+            "dei mercati liquidi"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La marketing automation",
+        "options": [
+            "Insieme di attività, gestite attraverso piattaforme tecnologiche specializzate, che permettono di automatizzare e monitorare la strategia e le operations di marketing.",
+            "Applicazione delle conoscenze e delle pratiche neuroscientifiche al marketing, per analizzare i processi inconsapevoli che avvengono nella mente del consumatore e che influiscono sulle decisioni di acquisto o sul coinvolgimento emotivo nei confronti di un brand.",
+            "Modello economico basato prevalentemente sull’utilizzo e l’erogazione di servizi tecnologici ai brand"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Un posizionamento tipico della product offering nel value market è:",
+        "options": [
+            "Un prezzo elevato ed un valore del prodotto molto alto",
+            "Un'offerta di valore good value for money",
+            "Delle product offering dall’alto valore funzionale assoluto"
+        ],
+        "correctIndex": 1
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Il piano di marketing strategico:",
+        "options": [
+            "contiene le decisioni operative necessarie per perseguire la strategia individuata a livello corporate",
+            "si focalizza sulle decisioni di business e deve raccordarsi con la pianificazione a livello corporate",
+            "contiene le decisioni in merito alla diversificazione di business dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il piano di marketing strategico:",
+        "options": [
+            "viene redatto dal top management perché prevede l’assunzione di decisioni che hanno un forte impatto sulle altre funzioni aziendali e coinvolgono risorse nel lungo termine",
+            "viene redatto dal direttore commerciale perché contiene decisioni che hanno un impatto limitato sulle altre funzioni aziendali, in un orizzonte temporale di medio termine",
+            "viene redatto dal brand manager perché prevede l’assunzione di decisioni relative al prodotto- mercato presidiato dalla marca dell’impresa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nell’ambito della pianificazione di marketing, deve essere sempre garantita:",
+        "options": [
+            "la rilevanza delle decisioni strategiche assunte",
+            "la coerenza tra analisi, obiettivi, strategie, operation e budget",
+            "la persistenza di un certo livello prestabilito di contribuzione di marketing"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Quando il piano di marketing riguarda il lancio di un nuovo prodotto è di tipo:",
+        "options": [
+            "tattico",
+            "operativo",
+            "strategico"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il piano commerciale di alcuni prodotti dell'impresa è di tipo:",
+        "options": [
+            "operativo",
+            "tattico",
+            "strategico"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nell'ambito del piano strategico, la sezione di background comprende:",
+        "options": [
+            "il richiamo alla pianificazione corporate e alla mission aziendale",
+            "le assunzioni del piano",
+            "l'analisi di scenario che ha fatto emergere l'esigenza di pianificare – sotto il profilo strategico – le decisioni del triennio successivo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il benchmarking:",
+        "options": [
+            "è utile nella fase di analisi dell’ambiente esterno per capire le opportunità e le minacce esistenti nel settore in cui opera l’impresa",
+            "consente di individuare la posizione competitiva dell’impresa rispetto ai competitor nel prodotto- mercato di riferimento",
+            "consente di individuare le risorse da acquisire per implementare una determinata strategia di mercato"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La matrice SWOT:",
+        "options": [
+            "sintetizza le risultanze dell’analisi esterna di marketing",
+            "è il ponte logico tra analisi e decisioni di marketing",
+            "presenta i punti di forza e di debolezza dell’impresa"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La definizione del \"so what?\":",
+        "options": [
+            "consente all'impresa di passare dalla strategia alle operation",
+            "è il punto di partenza per le riflessioni strategiche, una volta considerate le assunzioni del piano",
+            "consente di strutturare al meglio la matrice SWOT"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La fase di analisi:",
+        "options": [
+            "si concentra sull'ambiente esogeno rilevante",
+            "prevede l'approfondimento dell'ambiente competitivo di riferimento",
+            "comprende sia l'audit esterno che interno"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La matrice SWOT:",
+        "options": [
+            "sintetizza le risultanze dell'audit esterno",
+            "sintetizza le risultanze dell'audit interno",
+            "sintetizza le risultanze dell'audit interno ed esterno"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nell'ambito delle operation, rientrano tra le attività per l'accession:",
+        "options": [
+            "le trade promotion, il merchandising, la gestione dell'e-shop aziendale e su piattaforme terze, la branded app e le fiere",
+            "la pubblicità di natura informativa, le relazioni con i media, il social media marketing, il product placement e le sponsorizzazioni",
+            "la pubblicità d'immagine, il direct e-mail marketing, le iniziative di unconventional communication"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le 4 variabili risultato delle attività di marketing sono:",
+        "options": [
+            "awareness, accession, appeal e affection",
+            "engagement, reach, accession e appeal",
+            "appeal, affection, reputation e purpose"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella predisposizione del budget, la contribuzione netta è data da:",
+        "options": [
+            "ricavi netti – spese di marketing",
+            "ricavi lordi – costi diretti di produzione – spese di marketing",
+            "ricavi netti – costi diretti di produzione – spese di marketing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il controllo di marketing:",
+        "options": [
+            "è utile per verificare il grado di raggiungimento degli obiettivi di marketing",
+            "è necessario soprattutto in ambienti di mercato stabili e maturi",
+            "si basa sull’analisi dei costi e degli scostamenti delle vendite"
+        ],
+        "correctIndex": 0
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "L’uso del termine “Prosumer” vuole sottolineare che il cliente nei servizi:",
+        "options": [
+            "Svolge un ruolo propositivo nel processo di innovazione",
+            "Può contribuire in modo sostanziale ai risultati economici dell’azienda",
+            "Contribuisce attivamente alla produzione di un servizio"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Quale di queste affermazioni è errata in riferimento ai servizi:",
+        "options": [
+            "i servizi non possono essere brevettati",
+            "comunicare i benefici relativi ai servizi è complesso",
+            "i servizi sono omogenei per tutti i clienti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Per contestualità si intende:",
+        "options": [
+            "la caratteristica per cui luogo e il momento della produzione dei servizi coincidano con quelli del consumo",
+            "la caratteristica per cui è impossibile conservarli, immagazzinarli, rivenderli o restituirli dopo la vendita",
+            "la caratteristica per cui è impossibile garantire che l'erogazione del servizio coincide con la sua progettazione"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La qualità del servizio:",
+        "options": [
+            "si riferisce alla percezione del servizio nel suo complesso",
+            "si riferisce al confronto tra aspettative e percezioni del cliente",
+            "si riferisce all'insieme di attività attraverso le quali un servizio viene prodotto"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La qualità del servizio può essere valutata:",
+        "options": [
+            "durante l’erogazione",
+            "prima dell'erogazione",
+            "dopo l'erogazione"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Tra le macro-fasi del processo di marketing dei servizi non rientra:",
+        "options": [
+            "la distribuzione",
+            "l'erogazione",
+            "il customer care"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La service offering del distributore include:",
+        "options": [
+            "il processo di vendita",
+            "la marca individuale",
+            "il sistema di erogazione del servizio"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il concept di Eataly è articolato intorno a tre aree:",
+        "options": [
+            "vendita, ristorazione e didattica",
+            "qualità, prezzi alti, servizi di qualità",
+            "personale, made in Italy, vendita online"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "In una gestione della service offering, quando l'erogazione e la distribuzione sono indirette si parla di strategia:",
+        "options": [
+            "concept based",
+            "process centered",
+            "product centered"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per eterogeneità dei servizi si intende:",
+        "options": [
+            "la possibilità per l’azienda di adattare sempre l’output del processo alle esigenze del cliente",
+            "il fatto che non esiste un output progettato, ma che questo cambia di volta in volta",
+            "l’impossibilità per l’azienda di controllare pienamente l’output del processo"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il service mix del produttore comprende:",
+        "options": [
+            "concept, networking, brand system",
+            "supporto fisico, customer service, sistema di erogazione",
+            "entrambi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Fra gli elementi delle tessere proprietarie va considerato:",
+        "options": [
+            "il brand name",
+            "il brand heritage",
+            "nessuno di essi"
+        ],
+        "correctIndex": 0
+    }
+]

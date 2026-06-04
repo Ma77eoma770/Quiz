@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Alcuni degli elementi di qualificazione del mercato sono:",
+        "options": [
+            "prodotto di riferimento, domanda potenziale obiettivo, fascia di valore e tempo considerato",
+            "area geografica di riferimento, prodotto di riferimento, domanda potenziale obiettivo, fascia di valore, tempo considerato, player concorrenti e misure di grandezza",
+            "prodotto di riferimento, domanda potenziale obiettivo, fascia di valore, player concorrenti e misure di grandezza"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La domanda potenziale:",
+        "options": [
+            "il numero dei potenziali acquirenti di un prodotto, o dei fruitori di un messaggio pubblicitario",
+            "numerosità dei compratori della categoria all’interno di una determinata area geografica",
+            "la stratificazione delle offerte di prodotto/brand su numerosi livelli di prezzo differenti è un tratto caratteristico dei mercati aggregati contemporanei"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La domanda potenziale:",
+        "options": [
+            "è la domanda potenzialmente esprimibile da un determinato cliente a fronte di un’iniziativa promozionale",
+            "è la quantità domandata da coloro che potrebbero essere interessati al prodotto all’interno di un certo mercato geograficamente definito in un dato periodo",
+            "è la domanda potenzialmente proveniente da un nuovo cliente da acquisire"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "I volumi, i valori e i consumi sono:",
+        "options": [
+            "elementi di qualificazione dei player",
+            "elementi di qualificazione del prodotto",
+            "elementi di qualificazione del mercato"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Le tre aree del metodo manageriale sono:",
+        "options": [
+            "analitica, decisionale, implementativa",
+            "analitica, strategica, operativa",
+            "analitica, strategica, processuale"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Il concetto di mercato-prodotto è un/una:",
+        "options": [
+            "espressione del mercato che utilizza la categoria come riferimento essenziale",
+            "espressione del mercato che utilizza una medesima funzione d’uso come riferimento aggregatore",
+            "processo di adattamento di un prodotto o servizio alle esigenze di un singolo cliente/utente"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La product offering si compone di:",
+        "options": [
+            "un product system, un valore funzionale e un valore semantico",
+            "un brand system, un valore socio-funzionale e un product system",
+            "un brand system, un product system e un price positioning"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Il management di mercato è:",
+        "options": [
+            "reticolare, interattivo, dinamico e collaborativo",
+            "strutturante, vincolante, incisivo e creativo",
+            "strutturante, vincolante, incisivo e collaborativo"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Le promozioni di valore (value-adding):",
+        "options": [
+            "vengono realizzate per perseguire differenti obiettivi: stimolo alla prova, engagement, fidelizzazione, posizionamento",
+            "vengono utilizzate allo scopo di incrementare le vendite nel breve periodo",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La configurazione funzionale di uno staff interno di marketing può essere organizzata per:",
+        "options": [
+            "area geografica, per linee di prodotto e brand e per categorie",
+            "matrice, area geografica e per categorie",
+            "per competenze professionali, per linee di prodotto e brand e per categorie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "L'espressione make-or-buy:",
+        "options": [
+            "espressione idiomatica che rappresenta il trade off esistente fra la realizzazione di un’attività con interne o esterne",
+            "espressione idiomatica che rappresenta il trade off esistente fra costi e benefici",
+            "espressione idiomatica che rappresenta il trade off esistente fra attività e costi"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Per orientamento alla vendita s’intende:",
+        "options": [
+            "un criterio guida di gestione adatto ai value market",
+            "un criterio guida di gestione adatto ai premium market",
+            "un criterio guida di gestione che punta a una customer satisfaction elevata"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il marketing strategico si articola in:",
+        "options": [
+            "definizione della strategia di marketing e gestione della product offering",
+            "definizione della strategia di marketing e progettazione della product offering",
+            "progettazione della product offering e gestione della product offering"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Un modello di business:",
+        "options": [
+            "è il quantitativo di risorse destinato all'impresa",
+            "è la formula operativa con la quale l’imprenditore immagina di operare nello spazio competitivo prescelto",
+            "è il quantitativo di risorse destinato al brand"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Nel marketing operativo, la fase di controllo coinvolge:",
+        "options": [
+            "Il monitoraggio degli ambienti e delle risorse",
+            "Il monitoraggio degli ambienti e delle performance economiche",
+            "Il monitoraggio delle metriche di mercato, delle performance economiche e finanziarie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nei premium market competono:",
+        "options": [
+            "Le marche più aspirazionali, con offerte selettive",
+            "Le marche di caratura simbolica e qualitativa più modesta, sebbene spesso leader",
+            "Le marche di caratura simbolica e qualitativa più elevata, sebbene spesso leader"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Un'innovazione radicale",
+        "options": [
+            "Si verifica quando un prodotto/ servizio è in grado di offrire performance e possibilità di utilizzo completamente impensabili rispetto alle precedenti soluzioni",
+            "Si verifica quando un prodotto che si distingue per alcuni caratteri particolari dagli altri della stessa categoria",
+            "L’attitudine di un bene ad assumere differenti modalità quali-quantitative"
+        ],
+        "correctIndex": 0
+    }
+]

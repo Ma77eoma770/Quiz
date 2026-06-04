@@ -1,0 +1,83 @@
+[
+    {
+        "question": "La strategia distributiva omnichannel:",
+        "options": [
+            "prevede una distribuzione intensiva, allo scopo di massimizzare il potenziale di vendita",
+            "prevede l'utilizzo di più canali distributivi, per offrire al mercato diverse configurazioni di servizio commerciale",
+            "mira a veicolare una product offering e a costruire una customer experience organica e coerente tra tutti i canali utilizzati"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Nel franchising:",
+        "options": [
+            "il franchisor mette a disposizione del franchisee la propria formula commerciale",
+            "il franchisee svolge per conto del franchisor l'attività di vendita",
+            "franchisor e franchisee collaborano nella definizione delle strategie di marketing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Nella fase di lancio del prodotto i prezzi sono:",
+        "options": [
+            "allineati ai competitor diretti",
+            "dipende dalla strategia (scrematura o penetrazione)",
+            "differenziati per fasce (value vs premium)"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Le imprese che vogliono acquisire una reputazione “ecologica” senza incidere realmente sui processi e sui prodotti:",
+        "options": [
+            "devono realizzare delle partnership con i consumatori",
+            "utilizzano frequentemente campagne di cause-related marketing",
+            "fanno un’operazione di greenwashing"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "La distribuzione diretta può essere svolta:",
+        "options": [
+            "attraverso l’e-commerce",
+            "attraverso punti vendita di proprietà",
+            "entrambe le precedenti"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Tra i format distributivi della distribuzione diretta troviamo:",
+        "options": [
+            "negozio monomarca, e-commerce, flagship store, corner",
+            "grossista, dettagliante, agente",
+            "grande superficie specializzata (GSS), srande magazzino, concept store"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Il social commerce:",
+        "options": [
+            "è una forma di e-commerce svolta su piattaforme di dialogo e di cooperazione tra utenti",
+            "è la commercializzazione di prodotti provenienti da produzioni equo-solidali",
+            "è una particolare applicazione del marketing contestuale o proximity marketing"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "La distribuzione selettiva:",
+        "options": [
+            "si ha quando il produttore concede a un distributore l'esclusiva per la commercializzazione in un dato mercato",
+            "è attuata da produttori che selezionano un numero limitato di intermediari per la commercializzazione dei loro prodotti",
+            "si ha quando un distributore applica condizioni commerciali differenti ai diversi target di acquirenti"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "La strategia distributiva di Zara:",
+        "options": [
+            "è basata su una rete mista diretta-franchising, caratterizzata da una forte integrazione",
+            "è di tipo multicanale e utilizza canali indiretti corti e lunghi",
+            "la rete distributiva è gestita in outsourcing da un partner strategico"
+        ],
+        "correctIndex": 0
+    }
+]
