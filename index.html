@@ -107,10 +107,10 @@
             background-color: transparent;
             border: 1px solid var(--border-color);
             color: var(--text-secondary);
-            padding: 8px 16px;
+            padding: 10px 20px;
             border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 500;
+            font-size: 0.95rem;
+            font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
         }
@@ -228,9 +228,8 @@
             letter-spacing: 0.5px;
         }
 
-        .tag-economia { background-color: #e8f0fe; color: #1a73e8; }
-        .tag-informatica { background-color: #e6f4ea; color: #137333; }
-        .tag-marketing { background-color: #fce8e6; color: #c5221f; }
+        .tag-capitoli { background-color: #fce8e6; color: #c5221f; }
+        .tag-simulazione { background-color: #e8f0fe; color: #1a73e8; }
 
         .dataset-title {
             font-size: 0.95rem;
@@ -292,6 +291,18 @@
             -webkit-appearance: none;
             cursor: pointer;
             accent-color: var(--primary-color);
+        }
+
+        .complete-mode-info {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            background-color: #f8f9fa;
+            padding: 12px 16px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         /* Singola card domanda nel quiz */
@@ -525,23 +536,21 @@
         <!-- 1. Title Card -->
         <div class="section-card title-card">
             <h1>Interactive Quiz App</h1>
-            <p class="subtitle">Mettiti alla prova con test interattivi. Seleziona una materia e personalizza il numero di domande.</p>
+            <p class="subtitle">Mettiti alla prova con i test di studio. Scegli tra lo studio completo per capitoli o una simulazione d'esame con domande personalizzate.</p>
         </div>
 
         <!-- 2. Dataset Selection Card -->
         <div class="section-card selection-card">
-            <h2>Scegli un Dataset</h2>
+            <h2>Scegli la modalità</h2>
             
             <div class="filter-tabs">
-                <button id="tab-all" class="filter-btn active" onclick="filterCategory('all')">Tutti</button>
-                <button id="tab-marketing" class="filter-btn" onclick="filterCategory('marketing')">Marketing</button>
-                <button id="tab-informatica" class="filter-btn" onclick="filterCategory('informatica')">Informatica</button>
-                <button id="tab-economia" class="filter-btn" onclick="filterCategory('economia')">Economia</button>
+                <button id="tab-capitoli" class="filter-btn active" onclick="filterCategory('capitoli')">📖 Studio per Capitolo</button>
+                <button id="tab-simulazione" class="filter-btn" onclick="filterCategory('simulazione')">⚡ Simulazione & Test Generali</button>
             </div>
             
             <div class="search-container">
                 <span class="search-icon">🔍</span>
-                <input type="text" id="dataset-search" placeholder="Cerca dataset per nome o capitolo..." oninput="filterSearch()">
+                <input type="text" id="dataset-search" placeholder="Cerca capitolo o materia..." oninput="filterSearch()">
             </div>
             
             <div id="dataset-grid" class="dataset-grid">
@@ -552,11 +561,12 @@
         <!-- 3. Configuration & Controller Card -->
         <div class="section-card config-card" id="config-card">
             <div class="selected-dataset-info">
-                <span id="selected-badge" class="category-tag tag-economia">Economia</span>
+                <span id="selected-badge" class="category-tag tag-capitoli">Capitoli</span>
                 <h3 id="selected-title">Caricamento in corso...</h3>
             </div>
             
-            <div class="slider-wrapper">
+            <!-- Modalità standard con slider -->
+            <div class="slider-wrapper" id="slider-wrapper">
                 <div class="slider-label-container">
                     <span id="slider-label">Numero di domande: 10</span>
                     <span id="slider-max-info">Max: 50</span>
@@ -564,6 +574,12 @@
                 <div class="slider-container">
                     <input id="slider" type="range" min="1" max="50" value="10" oninput="updateSliderLabelAndQuestions()" />
                 </div>
+            </div>
+
+            <!-- Modalità completa senza slider -->
+            <div class="complete-mode-info" id="complete-mode-info" style="display:none;">
+                <span>ℹ️</span>
+                <span id="complete-mode-text">Verranno mostrate tutte le domande del capitolo (nessun limite).</span>
             </div>
         </div>
 
@@ -583,15 +599,17 @@
 
     <script>
         // Registro centralizzato dei dataset
+        // Categoria "capitoli" -> mostra tutte le domande (senza slider)
+        // Categoria "simulazione" -> permette di regolare il numero tramite lo slider
         const DATASETS_REGISTRY = [
-            { id: "economia", title: "Economia Politica", path: "dataset/question.json", category: "economia", count: 71 },
-            { id: "bd1", title: "Basi di Dati 1", path: "dataset/BD1.json", category: "informatica", count: 26 },
-            { id: "ium", title: "Interazione Uomo-Macchina (IUM)", path: "dataset/IUM.json", category: "informatica", count: 100 },
-            { id: "ium_hard", title: "IUM (Difficile)", path: "dataset/IUMhard.json", category: "informatica", count: 131 },
-            { id: "m_generale", title: "Marketing - Generale (Tutti i capitoli)", path: "dataset/Marketing_Generale.json", category: "marketing", count: 297 }
+            { id: "economia", title: "Economia Politica", path: "dataset/question.json", category: "simulazione", mode: "slider", count: 71 },
+            { id: "bd1", title: "Basi di Dati 1", path: "dataset/BD1.json", category: "simulazione", mode: "slider", count: 26 },
+            { id: "ium", title: "Interazione Uomo-Macchina (IUM)", path: "dataset/IUM.json", category: "simulazione", mode: "slider", count: 100 },
+            { id: "ium_hard", title: "IUM (Difficile)", path: "dataset/IUMhard.json", category: "simulazione", mode: "slider", count: 131 },
+            { id: "m_generale", title: "Marketing - Generale (Tutti i capitoli)", path: "dataset/Marketing_Generale.json", category: "simulazione", mode: "slider", count: 297 }
         ];
 
-        // Aggiungiamo dinamicamente i capitoli di Marketing da 1 a 23 con i loro esatti conteggi di domande
+        // Aggiungiamo i capitoli di Marketing (1 a 23) come prima categoria: "capitoli" con modalità "complete" (senza slider)
         const marketingCounts = {
             1: 17, 2: 17, 3: 24, 4: 15, 5: 15, 6: 15, 7: 11, 8: 10, 9: 15, 10: 15,
             11: 10, 12: 9, 13: 12, 14: 13, 15: 12, 16: 10, 17: 7, 18: 10, 19: 10,
@@ -603,17 +621,20 @@
                 id: `m_cap_${i}`,
                 title: `Marketing - Capitolo ${i}`,
                 path: `dataset/Marketing_Capitolo_${i}.json`,
-                category: "marketing",
+                category: "capitoli",
+                mode: "complete",
                 count: marketingCounts[i]
             });
         }
 
-        let currentDataset = DATASETS_REGISTRY[0]; // Economia Politica come default
+        // Categoria attiva di default: capitoli (Marketing Capitolo 1-23)
+        let activeCategory = "capitoli";
+        let currentDataset = DATASETS_REGISTRY.find(ds => ds.category === activeCategory); // Trova il primo capitolo
+        
         let allQuestions = [];
         let questions = [];
         let selectedAnswers = [];
         let numQuestions = 10;
-        let activeCategory = "all";
         
         // Cache client-side per evitare di scaricare più volte lo stesso JSON
         const datasetsCache = {};
@@ -624,6 +645,9 @@
         const quizContainer = document.getElementById("quiz");
         const submitBtn = document.getElementById("submitBtn");
         const restartBtn = document.getElementById("restartBtn");
+        const sliderWrapper = document.getElementById("slider-wrapper");
+        const completeModeInfo = document.getElementById("complete-mode-info");
+        const completeModeText = document.getElementById("complete-mode-text");
 
         // Risolve l'URL in modo dinamico per supportare sia l'hosting GitHub Pages che locale
         function getDatasetUrl(path) {
@@ -642,7 +666,7 @@
             
             DATASETS_REGISTRY.forEach(ds => {
                 // Filtro categoria
-                if (activeCategory !== "all" && ds.category !== activeCategory) {
+                if (ds.category !== activeCategory) {
                     return;
                 }
                 
@@ -657,11 +681,12 @@
                 card.className = `dataset-card ${isSelected ? 'selected' : ''}`;
                 card.onclick = () => selectDataset(ds.id);
                 
+                const badgeText = ds.category === "capitoli" ? "Capitolo" : "Simulazione";
                 const tagClass = `tag-${ds.category}`;
                 
                 card.innerHTML = `
                     <div class="dataset-card-header">
-                        <span class="category-tag ${tagClass}">${ds.category}</span>
+                        <span class="category-tag ${tagClass}">${badgeText}</span>
                         <div class="dataset-info">
                             <span>📝</span> <span>${ds.count} domande</span>
                         </div>
@@ -673,7 +698,7 @@
             });
         }
 
-        // Filtra i dataset per categoria
+        // Filtra i dataset per categoria (tab)
         function filterCategory(category) {
             activeCategory = category;
             
@@ -683,7 +708,13 @@
             });
             document.getElementById(`tab-${category}`).classList.add("active");
             
-            renderDatasetGrid();
+            // Trova il primo dataset disponibile nella categoria per autoselezionarlo
+            const firstInCat = DATASETS_REGISTRY.find(ds => ds.category === activeCategory);
+            if (firstInCat) {
+                selectDataset(firstInCat.id);
+            } else {
+                renderDatasetGrid();
+            }
         }
 
         // Filtra i dataset in tempo reale tramite ricerca testuale
@@ -704,19 +735,31 @@
             // Aggiorna l'area dei dettagli del dataset selezionato
             const badge = document.getElementById("selected-badge");
             badge.className = `category-tag tag-${currentDataset.category}`;
-            badge.textContent = currentDataset.category;
+            badge.textContent = currentDataset.category === "capitoli" ? "Capitolo" : "Simulazione";
             
             document.getElementById("selected-title").textContent = currentDataset.title;
             
-            // Configura il range dello slider in base al numero di domande del dataset
-            slider.max = currentDataset.count;
-            sliderMaxInfo.textContent = `Max: ${currentDataset.count}`;
-            
-            // Imposta un valore dello slider ragionevole
-            const defaultVal = Math.min(10, currentDataset.count);
-            slider.value = defaultVal;
-            numQuestions = defaultVal;
-            sliderLabel.textContent = `Numero di domande: ${numQuestions}`;
+            // Gestione dei controlli in base alla modalità (complete vs slider)
+            if (currentDataset.mode === "complete") {
+                // Nasconde lo slider e mostra l'avviso che saranno caricate tutte le domande
+                sliderWrapper.style.display = "none";
+                completeModeInfo.style.display = "flex";
+                completeModeText.textContent = `Studio completo: verranno visualizzate tutte le ${currentDataset.count} domande del capitolo.`;
+                numQuestions = currentDataset.count;
+            } else {
+                // Mostra lo slider per personalizzare
+                sliderWrapper.style.display = "block";
+                completeModeInfo.style.display = "none";
+                
+                // Configura il range dello slider
+                slider.max = currentDataset.count;
+                sliderMaxInfo.textContent = `Max: ${currentDataset.count}`;
+                
+                const defaultVal = Math.min(10, currentDataset.count);
+                slider.value = defaultVal;
+                numQuestions = defaultVal;
+                sliderLabel.textContent = `Numero di domande: ${numQuestions}`;
+            }
             
             // Carica le domande
             loadQuestions(currentDataset);
@@ -746,9 +789,7 @@
             
             if (datasetsCache[dataset.id]) {
                 allQuestions = datasetsCache[dataset.id];
-                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
-                displayQuestions();
-                submitBtn.disabled = false;
+                setupQuestionsToShow();
                 return;
             }
             
@@ -761,22 +802,32 @@
                 .then(data => {
                     // Salva in cache
                     datasetsCache[dataset.id] = data;
-                    
                     allQuestions = data;
-                    questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
-                    displayQuestions();
-                    submitBtn.disabled = false;
+                    setupQuestionsToShow();
                 })
                 .catch(error => {
                     console.error("Errore durante il caricamento delle domande:", error);
                     quizContainer.innerHTML = `
                         <div class='section-card' style='text-align:center; border-left: 5px solid var(--incorrect-color);'>
                             <h3 style='color: var(--incorrect-color); margin-top:0;'>Errore di caricamento</h3>
-                            <p>Impossibile caricare il dataset selezionato locale. Se stai aprendo il file HTML direttamente senza un server web (es. via file://), prova a utilizzare un server locale o a caricare i dataset da rete.</p>
+                            <p>Impossibile caricare il dataset selezionato. Se stai aprendo il file HTML direttamente senza un server web (es. via file://), prova a utilizzare un server locale o a caricare i dataset da rete.</p>
                         </div>
                     `;
                     alert("Impossibile caricare le domande. Riprova più tardi.");
                 });
+        }
+
+        // Imposta le domande da visualizzare in base alla modalità selezionata
+        function setupQuestionsToShow() {
+            if (currentDataset.mode === "complete") {
+                // Carica tutte le domande in ordine casuale
+                questions = [...allQuestions].sort(() => Math.random() - 0.5);
+            } else {
+                // Carica solo la fetta selezionata dallo slider
+                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
+            }
+            displayQuestions();
+            submitBtn.disabled = false;
         }
 
         // Mostra le domande nel contenitore del quiz
@@ -953,9 +1004,7 @@
         // Ricomincia il quiz con le stesse impostazioni
         function restartQuiz() {
             if (allQuestions.length > 0) {
-                questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, numQuestions);
-                displayQuestions();
-                submitBtn.disabled = false;
+                setupQuestionsToShow();
                 
                 // Rimuovi la card dei risultati se presente
                 const scoreCard = document.getElementById("score-card-result");
@@ -968,8 +1017,7 @@
 
         // Avvio all'avvio della pagina
         window.onload = () => {
-            renderDatasetGrid();
-            selectDataset("economia"); // Seleziona Economia Politica come default
+            filterCategory("capitoli"); // Seleziona la modalità Capitoli di default
         };
     </script>
 </body>
